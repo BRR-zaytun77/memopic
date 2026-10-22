@@ -23,7 +23,7 @@
     "androidSub": "Google Play",
     "ios": "iPhone",
     "iosSub": "App Store",
-    "note": "Ücretsiz plan · 7 gün ücretsiz denemeli MemoPic Pro · Hesap gerekmez",
+    "note": "Ücretsiz plan · MemoPic Pro · yeni abonelere ücretsiz deneme · Hesap gerekmez",
     "mockLabel": "İllüstrasyon: MemoPic, Jobcenter'dan gelen kurgusal bir mektubu açıklıyor",
     "mockCaption": "Kurgusal örnek mektuplu illüstrasyon"
   },
@@ -172,7 +172,7 @@
       },
       {
         "q": "MemoPic ücretsiz mi?",
-        "a": "Evet, ücretsiz bir plan var. MemoPic Pro, 7 günlük ücretsiz denemesi olan isteğe bağlı bir aboneliktir. Fiyatlar ülkenize göre App Store veya Google Play'de gösterilir; aboneliği istediğiniz zaman mağaza hesabı ayarlarınızdan iptal edebilirsiniz."
+        "a": "Evet, ücretsiz bir plan var. MemoPic Pro isteğe bağlı bir aboneliktir; mağaza sunduğunda yeni aboneler ücretsiz deneme alabilir. Fiyatlar ülkenize göre App Store veya Google Play'de gösterilir; aboneliği istediğiniz zaman mağaza hesabı ayarlarınızdan iptal edebilirsiniz."
       },
       {
         "q": "Açıklamaya güvenebilir miyim?",

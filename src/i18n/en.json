@@ -23,7 +23,7 @@
     "androidSub": "Google Play",
     "ios": "iPhone",
     "iosSub": "App Store",
-    "note": "Free plan · MemoPic Pro with a 7-day free trial · No account needed",
+    "note": "Free plan · MemoPic Pro · free trial for new subscribers · No account needed",
     "mockLabel": "Illustration: MemoPic explaining a fictional letter from a Jobcenter",
     "mockCaption": "Illustration with a fictional sample letter"
   },
@@ -172,7 +172,7 @@
       },
       {
         "q": "Is MemoPic free?",
-        "a": "Yes, there is a free plan. MemoPic Pro is an optional subscription with a 7-day free trial. Prices are shown in the App Store or Google Play for your country, and you can cancel at any time in your store account settings."
+        "a": "Yes, there is a free plan. MemoPic Pro is an optional subscription ; new subscribers can get a free trial where the store offers it. Prices are shown in the App Store or Google Play for your country, and you can cancel at any time in your store account settings."
       },
       {
         "q": "Can I rely on the explanation?",

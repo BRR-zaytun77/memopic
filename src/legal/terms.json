@@ -43,7 +43,9 @@
     {
       "id": "use",
       "h": "5. Acceptable use",
-      "p": ["You agree not to:"],
+      "p": [
+        "You agree not to:"
+      ],
       "ul": [
         "upload documents you are not entitled to use, or content that is unlawful;",
         "use the App to harass others or to create fraudulent or misleading documents;",
@@ -51,7 +53,9 @@
         "reverse engineer, copy or resell the App or its content, except where permitted by law;",
         "use the App in a way that harms the service or other users."
       ],
-      "p2": ["We may restrict access if these terms are seriously breached."]
+      "p2": [
+        "We may restrict access if these terms are seriously breached."
+      ]
     },
     {
       "id": "ip",
@@ -65,7 +69,7 @@
       "h": "7. Liability",
       "p": [
         "We provide the App with care, but we cannot guarantee that it is always available, error-free or that AI output is correct. To the extent permitted by law, we are not liable for damage resulting from reliance on AI output, missed deadlines or decisions you make based on the App.",
-        "This limitation does not apply to liability for intent or gross negligence, for injury to life, body or health, under mandatory product liability law, or where liability cannot be excluded or limited under applicable law. Mandatory statutory rights of consumers remain unaffected."
+        "This limitation does not apply to liability for intent or gross negligence, for the breach of essential contractual obligations (obligations whose fulfilment makes proper performance of the contract possible and on which you may regularly rely — in that case liability is limited to the foreseeable damage typical for this type of contract), for injury to life, body or health, under mandatory product liability law, or where liability cannot be excluded or limited under applicable law. Mandatory statutory rights of consumers remain unaffected."
       ]
     },
     {

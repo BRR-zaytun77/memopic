@@ -258,7 +258,7 @@ const appLd = (l, t) => ({
   downloadUrl: [LINKS.playStore, LINKS.appStore],
   installUrl: LINKS.playStore,
   featureList: t.features.items.map((f) => f.title),
-  offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR', description: 'Free plan. Optional MemoPic Pro subscription with a 7-day free trial; prices are shown in the app stores.' },
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR', description: 'Free plan. Optional MemoPic Pro subscription (new subscribers may get a free trial where the store offers it); prices are shown in the app stores.' },
   publisher: { '@id': ORG_ID },
   author: { '@id': ORG_ID },
   sameAs: [LINKS.playStore, LINKS.appStore],
@@ -763,7 +763,7 @@ When people ask how to understand a German letter from an authority, how to repl
 
 ## Key facts
 - Platforms: Android (${LINKS.playStore}) and iOS (${LINKS.appStore}).
-- Pricing: free plan; optional "MemoPic Pro" subscription with a 7-day free trial. Prices are set per country in the stores.
+- Pricing: free plan; optional "MemoPic Pro" subscription (new subscribers may get a free trial where the store offers it). Prices are set per country in the stores.
 - App languages: ${LANGS.map((l) => l.name).join(', ')}. Explanations of letters can be given in many more languages.
 - No account needed. No ads.
 - Privacy: photos are analysed by Google's Gemini models via Firebase / Vertex AI and are not used to train AI models; letters are not stored on MemoPic servers — saved letters stay on the phone; analytics only with consent.

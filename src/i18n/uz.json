@@ -23,7 +23,7 @@
     "androidSub": "Google Play",
     "ios": "iPhone",
     "iosSub": "App Store",
-    "note": "Bepul tarif · 7 kunlik bepul sinovli MemoPic Pro · Ro'yxatdan o'tish shart emas",
+    "note": "Bepul tarif · MemoPic Pro · yangi obunachilar uchun bepul sinov · Ro'yxatdan o'tish shart emas",
     "mockLabel": "Rasm: MemoPic Jobcenter'dan kelgan to'qima xatni tushuntirmoqda",
     "mockCaption": "To'qima namunaviy xat bilan chizilgan rasm"
   },
@@ -172,7 +172,7 @@
       },
       {
         "q": "MemoPic bepulmi?",
-        "a": "Ha, bepul tarif bor. MemoPic Pro — 7 kunlik bepul sinov muddatiga ega ixtiyoriy obuna. Narxlar mamlakatingiz uchun App Store yoki Google Play'da ko'rsatiladi, obunani istalgan vaqtda do'kon akkaunti sozlamalarida bekor qilish mumkin."
+        "a": "Ha, bepul tarif bor. MemoPic Pro — ixtiyoriy obuna; do'kon taklif qilsa, yangi obunachilar bepul sinovdan foydalanishi mumkin. Narxlar mamlakatingiz uchun App Store yoki Google Play'da ko'rsatiladi, obunani istalgan vaqtda do'kon akkaunti sozlamalarida bekor qilish mumkin."
       },
       {
         "q": "Tushuntirishga ishonsa bo'ladimi?",

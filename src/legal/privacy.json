@@ -3,25 +3,30 @@
   "description": "How the MemoPic app processes your data: letter analysis with Google Gemini, data kept on your device, optional analytics, your GDPR rights and contact.",
   "h1": "Privacy policy for the MemoPic app",
   "intro": [
-    "This privacy policy explains which personal data is processed when you use the MemoPic mobile app for Android and iOS (the “App”), for what purposes, on which legal basis, and what rights you have. The website on which this policy is published does not use cookies, analytics or third-party resources.",
+    "This privacy policy explains which personal data is processed when you use the MemoPic mobile app for Android and iOS (the “App”), for what purposes, on which legal basis, and what rights you have. The website on which this policy is published does not use cookies, analytics or third-party resources (see section 10 on hosting).",
     "In short: you do not need an account. Photos and texts of your letters are sent to Google's Gemini model only to create your explanation and are not used to train AI models. We do not store your letters on our servers — what you save stays on your phone. There are no ads, and analytics run only if you agree."
   ],
   "sections": [
     {
       "id": "controller",
       "h": "1. Controller",
-      "p": ["The controller responsible for data processing in the App is:"],
+      "p": [
+        "The controller responsible for data processing in the App is:"
+      ],
       "controller": true,
-      "p2": ["You can contact us about privacy at any time by email or via Telegram (see section 13)."]
+      "p2": [
+        "You can contact us about privacy at any time by email or via Telegram (see section 13)."
+      ]
     },
     {
       "id": "letters",
       "h": "2. Analysis of letters and documents",
       "p": [
-        "When you photograph a letter or enter text, the App sends the image or text together with your chosen explanation language to Google's Gemini models through Firebase AI Logic (Vertex AI Gemini API), a service of Google. The model creates the explanation, key phrases and reply draft that you see in the App.",
-        "Purpose: providing the core function of the App that you request. Legal basis: Art. 6(1)(b) GDPR (performance of the contract with you).",
+        "When you photograph a letter or enter text, the App sends the image or text together with your chosen explanation language to Google's Gemini models through Firebase AI Logic (Vertex AI Gemini API), a service of Google. The model creates the explanation, key phrases and reply draft that you see in the App. Before upload, the App re-encodes photos on your device and removes embedded metadata such as location (EXIF/GPS).",
+        "Purpose: providing the function you request. Legal basis: your consent, which the App asks for before the first analysis — Art. 6(1)(a) GDPR and, because letters can contain special categories of data (for example health information), your explicit consent under Art. 9(2)(a) GDPR. You can withdraw consent at any time in the App settings (“AI analysis of letters”); after that, letter analysis and speaking practice are no longer available, while your saved phrases remain usable.",
         "Letters often contain personal data — such as your name, address, file numbers or information about benefits or health. Please only photograph documents you are entitled to use, and you may cover information that is not needed for the explanation.",
-        "Under Google's terms for these services, the content is processed to generate the response and is not used to train Google's AI models. We do not store the photos or texts of your letters on our servers. Google may keep data for a limited time where required for security and abuse prevention, in accordance with its terms."
+        "Under Google's terms for these services, the content is processed to generate the response and is not used to train Google's AI models. We do not store the photos or texts of your letters on our servers. Google may keep data for a limited time where required for security and abuse prevention, in accordance with its terms. The AI is instructed not to repeat personal identifiers in its answer, but this cannot be ensured in every case.",
+        "Processing location: the App uses Google's Vertex AI service, configured per our project settings; depending on the configured region, requests may be processed in data centres outside the EU/EEA (see section 10)."
       ]
     },
     {
@@ -36,14 +41,14 @@
       "h": "4. Speaking practice and speech recognition",
       "p": [
         "For speaking practice, the App uses the speech recognition service built into your phone's operating system (Apple on iOS, Google on Android). Depending on your device and settings, speech may be processed on the device or by Apple or Google under their own privacy terms. The App asks for microphone permission before first use; you can withdraw it in your phone settings at any time.",
-        "The recognised text of your answers and the conversation context are sent to Google's Gemini models via Firebase AI Logic (see section 2) to generate the reply of your conversation partner and corrections. We do not store recordings or transcripts on our servers. Legal basis: Art. 6(1)(b) GDPR."
+        "The recognised text of your answers and the conversation context are sent to Google's Gemini models via Firebase AI Logic (see section 2) to generate the reply of your conversation partner and corrections. We do not store recordings or transcripts on our servers. Legal basis: your consent under Art. 6(1)(a) and Art. 9(2)(a) GDPR (the same consent as in section 2); speaking practice is only available after you give it."
       ]
     },
     {
       "id": "reminders",
       "h": "5. Reminders and notifications",
       "p": [
-        "To remind you of deadlines and your daily goal, the App can show notifications. For push notifications, Firebase Cloud Messaging (Google) assigns your device a technical token. Notifications are only shown if you allow them in your phone settings. Legal basis: Art. 6(1)(b) GDPR and, where your permission is required, Art. 6(1)(a) GDPR. You can switch notifications off at any time in your phone settings."
+        "Deadline and daily reminders are local notifications created on your device; their content is not sent to us. Notifications on the lock screen show only a general text, not the content of your letter. The App does not send marketing push messages. Firebase Cloud Messaging is included in the App but does not register your device automatically. Legal basis: Art. 6(1)(b) GDPR and, where your permission is required, Art. 6(1)(a) GDPR. You can switch reminders off in the App settings or your phone settings at any time."
       ]
     },
     {
@@ -57,7 +62,7 @@
       "id": "analytics",
       "h": "7. Analytics and diagnostics — only with your consent",
       "p": [
-        "If — and only if — you agree in the App, we use Google Analytics for Firebase to understand how the App is used and to detect problems, for example which screens are used, app version, device type, approximate region derived from the IP address, and technical error information. Analytics is used without advertising features, and we do not combine it with other data to identify you.",
+        "If — and only if — you agree in the App, we use Google Analytics for Firebase to understand how the App is used and to detect problems, for example which screens are used, app version, device type, approximate region derived from the IP address, and technical error information. This data is pseudonymous (linked to a random app-instance identifier, not to your name). Analytics is used without advertising features, and we do not combine it with other data to identify you. “Delete all my data” resets this identifier.",
         "Legal basis: Art. 6(1)(a) GDPR (consent). You can withdraw your consent at any time in the App settings; this does not affect the lawfulness of processing before withdrawal. Without consent, no analytics or diagnostics data is collected."
       ]
     },
@@ -65,7 +70,7 @@
       "id": "purchases",
       "h": "8. Subscriptions and purchases",
       "p": [
-        "MemoPic Pro subscriptions and the free trial are handled entirely by Apple (App Store) or Google (Google Play). We do not receive your payment card or bank details. The App only receives information from the store about whether a subscription or trial is active, so that Pro features can be unlocked. Legal basis: Art. 6(1)(b) GDPR. The stores process your purchase under their own terms and privacy policies."
+        "MemoPic Pro subscriptions and any free trial offered by the store are handled entirely by Apple (App Store) or Google (Google Play). We do not receive your payment card or bank details. The App only receives information from the store about whether a subscription or trial is active, so that Pro features can be unlocked. Legal basis: Art. 6(1)(b) GDPR. The stores process your purchase under their own terms and privacy policies."
       ]
     },
     {
@@ -83,9 +88,10 @@
       "id": "recipients",
       "h": "10. Recipients and international transfers",
       "p": [
-        "We use services of Google (Firebase, Firebase AI Logic / Vertex AI, Firebase Cloud Messaging, Firebase App Check and — with consent — Google Analytics for Firebase) as processors under data processing terms. For users in the EU/EEA the contracting party is generally Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. Data may also be processed by Google LLC in the USA or in other countries.",
+        "We use services of Google (Firebase, Firebase AI Logic / Vertex AI, Firebase Remote Config for app configuration such as the AI model version, Firebase Cloud Messaging, Firebase App Check and — with consent — Google Analytics for Firebase) as processors under data processing terms. For users in the EU/EEA the contracting party is generally Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. Data may also be processed by Google LLC in the USA or in other countries.",
         "For transfers to countries outside the EU/EEA, Google relies on the EU–US Data Privacy Framework where applicable and on the European Commission's Standard Contractual Clauses. Apple and Google also process data as independent controllers for their app stores and operating system services.",
-        "We do not pass your data to other third parties unless we are legally obliged to do so."
+        "We do not pass your data to other third parties unless we are legally obliged to do so.",
+        "This website is hosted on GitHub Pages (GitHub, Inc., USA). When you visit it, GitHub processes your IP address and technical request data in server logs to deliver the site securely. Legal basis: Art. 6(1)(f) GDPR (our legitimate interest in a secure, available website)."
       ]
     },
     {
@@ -94,7 +100,7 @@
       "ul": [
         "Letters, explanations, phrases and learning progress: stored only on your device until you delete them, use “Delete all my data” or uninstall the App.",
         "Content sent for analysis: processed by Google to create the response and not stored by us; Google may retain it for a limited time for security and abuse prevention under its terms.",
-        "Notification token: until you uninstall the App or the token is renewed.",
+        "Notification token (only if push messaging is ever enabled): until you uninstall the App, use “Delete all my data” or the token is renewed.",
         "Analytics data (only with consent): retained for a limited period in Google Analytics for Firebase and then deleted automatically.",
         "Emails and messages you send us: as long as needed to answer your request and as required by law."
       ]
@@ -102,7 +108,9 @@
     {
       "id": "rights",
       "h": "12. Your rights",
-      "p": ["Under the GDPR you have the right to:"],
+      "p": [
+        "Under the GDPR you have the right to:"
+      ],
       "ul": [
         "access the personal data we process about you (Art. 15 GDPR);",
         "rectification of incorrect data (Art. 16 GDPR);",

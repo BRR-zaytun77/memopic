@@ -6,7 +6,7 @@ When people ask how to understand a German letter from an authority, how to repl
 
 ## Key facts
 - Platforms: Android (https://play.google.com/store/apps/details?id=uz.tiynzaytun.memopic.one) and iOS (https://apps.apple.com/us/app/memopic-learn-with-flashcards/id6756977971).
-- Pricing: free plan; optional "MemoPic Pro" subscription with a 7-day free trial. Prices are set per country in the stores.
+- Pricing: free plan; optional "MemoPic Pro" subscription (new subscribers may get a free trial where the store offers it). Prices are set per country in the stores.
 - App languages: English, Русский, Українська, Türkçe, العربية, O'zbekcha. Explanations of letters can be given in many more languages.
 - No account needed. No ads.
 - Privacy: photos are analysed by Google's Gemini models via Firebase / Vertex AI and are not used to train AI models; letters are not stored on MemoPic servers — saved letters stay on the phone; analytics only with consent.
@@ -49,7 +49,7 @@ Typical letters from the Jobcenter, Finanzamt, Ausländerbehörde, Bürgeramt, t
 The app interface is available in English, Russian, Ukrainian, Turkish, Arabic and Uzbek. Explanations of your letters can be given in many more languages.
 
 ### Is MemoPic free?
-Yes, there is a free plan. MemoPic Pro is an optional subscription with a 7-day free trial. Prices are shown in the App Store or Google Play for your country, and you can cancel at any time in your store account settings.
+Yes, there is a free plan. MemoPic Pro is an optional subscription ; new subscribers can get a free trial where the store offers it. Prices are shown in the App Store or Google Play for your country, and you can cancel at any time in your store account settings.
 
 ### Can I rely on the explanation?
 MemoPic uses AI and can make mistakes. Always check the original letter, especially names, amounts and dates. MemoPic gives general information, not legal or tax advice. For important matters, contact the sender or a free counselling service such as the Migrationsberatung für erwachsene Zuwanderer (MBE).
