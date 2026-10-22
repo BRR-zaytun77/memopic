@@ -1,0 +1,76 @@
+{
+  "title": "Kündigung from your landlord explained — MemoPic",
+  "description": "Received a Kündigung (termination) from your landlord in Germany? Form rules, notice periods, reasons, hardship objection and why you should get advice fast.",
+  "h1": "Kündigung from your landlord: what a termination letter means",
+  "kicker": "Vermieter",
+  "summary": "A Kündigung is a notice terminating your rental contract. In Germany tenants of residential flats are well protected: the termination must be in writing and signed, the landlord usually needs a legally recognised reason, and statutory notice periods apply. You do not have to move out on the day stated if the termination is invalid — but you must act quickly. Get advice from a tenants' association or a lawyer right away.",
+  "sections": [
+    {
+      "h": "Form: in writing and signed",
+      "p": [
+        "A landlord's termination of a residential lease must be in written form with a handwritten signature (§ 568 BGB). A termination by email, text message or messenger is generally not valid. The letter should state the reasons for the termination. Check who signed it: the landlord, all landlords if there are several, or a property manager with authority."
+      ]
+    },
+    {
+      "h": "Ordinary termination: reason and notice period",
+      "p": [
+        "For an ordinary termination (ordentliche Kündigung) of a standard rental contract, the landlord needs a legitimate interest (berechtigtes Interesse, § 573 BGB). Common reasons are personal need (Eigenbedarf — the landlord or a family member wants to live in the flat) or a significant breach of the contract by the tenant. A higher rent from a new tenant is not a valid reason.",
+        "The statutory notice period for landlords depends on how long you have lived in the flat (§ 573c BGB): generally three months; six months after five years; nine months after eight years. The notice must reach you no later than the third working day of a month to count for that month."
+      ]
+    },
+    {
+      "h": "Termination without notice",
+      "p": [
+        "A fristlose Kündigung (termination without notice) is only possible for serious reasons, for example significant rent arrears. In cases of rent arrears, paying the full arrears within a certain period can in some cases make such a termination invalid — the rules are complex, so get advice immediately. If you receive benefits, ask your Jobcenter or Sozialamt whether rent arrears can be covered."
+      ]
+    },
+    {
+      "h": "Hardship objection",
+      "p": [
+        "Even if the termination is valid, you can object to it if moving out would mean unjustifiable hardship (Härte) for you or your family — for example because of serious illness, old age, pregnancy or a lack of suitable replacement housing (§ 574 BGB). The objection (Widerspruch) must be in writing and generally has to reach the landlord no later than two months before the end of the tenancy."
+      ]
+    },
+    {
+      "h": "What the landlord may not do",
+      "p": [
+        "The landlord may not simply change the locks, remove your belongings or cut off water or electricity to force you out. If you do not move out, the landlord has to file an eviction lawsuit (Räumungsklage) in court. Only a court decision allows an eviction. Court letters always need an immediate response — get help."
+      ]
+    }
+  ],
+  "terms": [
+    ["Kündigung", "termination (notice)"],
+    ["Mietvertrag", "rental contract"],
+    ["Schriftform", "written form (signed)"],
+    ["ordentliche / fristlose Kündigung", "ordinary / without-notice termination"],
+    ["Kündigungsfrist", "notice period"],
+    ["Eigenbedarf", "landlord's personal need"],
+    ["berechtigtes Interesse", "legitimate interest"],
+    ["Mietrückstand", "rent arrears"],
+    ["Härte / Härtefall", "hardship"],
+    ["Widerspruch", "objection"],
+    ["Räumungsklage", "eviction lawsuit"],
+    ["Mieterverein", "tenants' association"]
+  ],
+  "steps": [
+    { "name": "Note the date you received the letter", "text": "Keep the envelope. Write down the end date stated in the letter." },
+    { "name": "Check form and reasons", "text": "Is it signed on paper? Are reasons stated? Which notice period applies to you?" },
+    { "name": "Get advice immediately", "text": "Contact a tenants' association or a lawyer. With low income, ask about Beratungshilfe." },
+    { "name": "Do not sign anything quickly", "text": "Do not sign a termination agreement (Aufhebungsvertrag) or confirmation before getting advice." },
+    { "name": "Respond in writing", "text": "Reply, object or raise hardship in writing and keep proof of sending." }
+  ],
+  "phrases": [
+    ["Ich habe Ihre Kündigung vom … am … erhalten.", "I received your termination dated … on …"],
+    ["Ich widerspreche der Kündigung.", "I object to the termination."],
+    ["Bitte teilen Sie mir die Gründe für die Kündigung ausführlich mit.", "Please explain the reasons for the termination in detail."],
+    ["Ich berufe mich auf einen Härtefall gemäß § 574 BGB.", "I invoke hardship under § 574 of the Civil Code."],
+    ["Ich lasse die Kündigung rechtlich prüfen.", "I am having the termination legally checked."]
+  ],
+  "help": ["mieterverein", "beratungshilfe", "mbe"],
+  "sources": [
+    { "label": "German Civil Code, § 568 — form of termination", "url": "https://www.gesetze-im-internet.de/bgb/__568.html" },
+    { "label": "German Civil Code, § 573c — notice periods", "url": "https://www.gesetze-im-internet.de/bgb/__573c.html" },
+    { "label": "German Civil Code, § 574b — form and deadline of the hardship objection", "url": "https://www.gesetze-im-internet.de/bgb/__574b.html" },
+    { "label": "Deutscher Mieterbund (mieterbund.de)", "url": "https://www.mieterbund.de/" }
+  ],
+  "practice": "MemoPic helps you understand the letter and prepare for the conversation at the tenants' association — but for a Kündigung, always get personal advice."
+}

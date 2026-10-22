@@ -1,0 +1,74 @@
+{
+  "title": "Ausländerbehörde appointment letter explained — MemoPic",
+  "description": "Got a Termin letter from the Ausländerbehörde? What it means, which documents to bring, the Fiktionsbescheinigung, and how to reschedule politely in German.",
+  "h1": "Ausländerbehörde appointment letter (Termin): what it means and how to prepare",
+  "kicker": "Ausländerbehörde",
+  "summary": "A letter from the Ausländerbehörde (immigration office) about a Termin invites you to an appointment — often to apply for, extend or collect a residence permit. Bring every document on the list, arrive on time, and contact the office in advance if you cannot attend. Apply for an extension before your current permit expires.",
+  "sections": [
+    {
+      "h": "Who sends this letter?",
+      "p": [
+        "The Ausländerbehörde is the local immigration office responsible for residence matters of non-EU citizens. Its name differs from city to city — for example Ausländeramt, Amt für Migration, Welcome Center or, in Berlin, Landesamt für Einwanderung (LEA). Asylum procedures themselves are handled by the Federal Office for Migration and Refugees (BAMF), not by the local Ausländerbehörde.",
+        "An appointment letter may be an Einladung (invitation), a Terminbestätigung (confirmation of an appointment you booked) or a request to come in person (Vorsprache) to submit documents, give fingerprints, or collect your electronic residence permit (elektronischer Aufenthaltstitel, eAT)."
+      ]
+    },
+    {
+      "h": "What the letter usually contains",
+      "ul": [
+        "Date, time, address and room — and often a file number (Aktenzeichen). Quote it whenever you write.",
+        "The purpose, for example Verlängerung (extension) of your Aufenthaltserlaubnis (residence permit), a first permit, or the handover of the eAT card.",
+        "A list of required documents (Unterlagen). Typical items: valid passport, biometric photo, current residence permit, application form, proof of health insurance, proof of income (employment contract, payslips) and your rental contract or Meldebescheinigung.",
+        "Information about fees (Gebühren) and how to pay them.",
+        "Sometimes a deadline by which you must send documents."
+      ]
+    },
+    {
+      "h": "Fiktionsbescheinigung: if your permit expires during the procedure",
+      "p": [
+        "If you apply for an extension before your current residence permit expires, your residence status generally continues while the office decides. To prove this, the office may issue a Fiktionsbescheinigung (provisional certificate). This is why it is so important to apply on time. If you notice that your permit will expire soon and you have no appointment, contact the office in writing right away and keep proof that you applied."
+      ]
+    },
+    {
+      "h": "Letters that need special attention",
+      "p": [
+        "Some letters are more than an invitation: an Anhörung (hearing) means the office is considering a decision against you and gives you the chance to comment first. A Bescheid (decision) may come with a deadline for legal remedies. In immigration matters some deadlines can be shorter than one month — read the Rechtsbehelfsbelehrung carefully and get advice quickly from a counselling service or a lawyer."
+      ]
+    }
+  ],
+  "terms": [
+    ["Ausländerbehörde", "immigration office"],
+    ["Termin / Vorsprache", "appointment / appearing in person"],
+    ["Aufenthaltstitel", "residence title (general term)"],
+    ["Aufenthaltserlaubnis", "residence permit"],
+    ["Niederlassungserlaubnis", "settlement (permanent residence) permit"],
+    ["elektronischer Aufenthaltstitel (eAT)", "residence permit card"],
+    ["Verlängerung", "extension"],
+    ["Fiktionsbescheinigung", "provisional certificate while your application is processed"],
+    ["Aktenzeichen", "file number"],
+    ["Gebühr", "fee"],
+    ["Anhörung", "hearing (chance to comment before a decision)"],
+    ["Mitwirkungspflicht", "duty to cooperate"]
+  ],
+  "steps": [
+    { "name": "Check date, place and file number", "text": "Put the appointment in your calendar with a reminder a few days before." },
+    { "name": "Collect every document on the list", "text": "Bring originals and copies. Make sure your passport is valid." },
+    { "name": "Check your permit's expiry date", "text": "Apply for an extension before it expires and keep proof of your application." },
+    { "name": "Reschedule early if necessary", "text": "Write to the office before the appointment, give your file number and ask for a new date." },
+    { "name": "Get advice for hearings and negative decisions", "text": "Contact a counselling service or a lawyer quickly — deadlines can be short." }
+  ],
+  "phrases": [
+    ["Ich habe einen Termin um … Uhr. Mein Aktenzeichen ist …", "I have an appointment at …. My file number is …"],
+    ["Ich möchte meine Aufenthaltserlaubnis verlängern.", "I would like to extend my residence permit."],
+    ["Mein Aufenthaltstitel läuft am … ab.", "My residence permit expires on …"],
+    ["Leider kann ich den Termin nicht wahrnehmen. Bitte nennen Sie mir einen neuen Termin.", "Unfortunately I cannot attend the appointment. Please give me a new date."],
+    ["Welche Unterlagen fehlen noch?", "Which documents are still missing?"],
+    ["Könnte ich bitte eine Fiktionsbescheinigung bekommen?", "Could I please get a Fiktionsbescheinigung?"]
+  ],
+  "help": ["mbe", "jmd", "fluechtling", "beratungshilfe"],
+  "sources": [
+    { "label": "Federal Office for Migration and Refugees (bamf.de)", "url": "https://www.bamf.de/" },
+    { "label": "Residence Act, § 81 — application for a residence title", "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__81.html" },
+    { "label": "Make it in Germany — official portal on visas and residence", "url": "https://www.make-it-in-germany.com/" }
+  ],
+  "practice": "With MemoPic's speaking practice you can rehearse the appointment at the Ausländerbehörde — explaining why you are there and asking which documents are missing."
+}

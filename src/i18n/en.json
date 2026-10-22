@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "homeTitle": "Understand German letters — MemoPic",
+    "homeDesc": "Photograph a letter from the Jobcenter, Finanzamt or your landlord. MemoPic explains it in your language, reminds you of the deadline and helps you reply.",
+    "ogAlt": "MemoPic — understand German letters in your language"
+  },
+  "nav": {
+    "how": "How it works",
+    "features": "Features",
+    "letters": "Letters",
+    "privacy": "Privacy",
+    "faq": "FAQ",
+    "download": "Get the app",
+    "language": "Language",
+    "menu": "Menu",
+    "skip": "Skip to content"
+  },
+  "hero": {
+    "kicker": "Survival German for life in Germany",
+    "title": "Understand German letters — and reply with confidence",
+    "sub": "Take a photo of a letter from the Jobcenter, Finanzamt, Ausländerbehörde or your landlord. MemoPic tells you in your language what it is, what you have to do and by when — then helps you learn the German you need for your answer.",
+    "android": "Android",
+    "androidSub": "Google Play",
+    "ios": "iPhone",
+    "iosSub": "App Store",
+    "note": "Free plan · MemoPic Pro with a 7-day free trial · No account needed",
+    "mockLabel": "Illustration: MemoPic explaining a fictional letter from a Jobcenter",
+    "mockCaption": "Illustration with a fictional sample letter"
+  },
+  "mock": {
+    "scanned": "Your letter",
+    "what": "What it is",
+    "whatV": "An invitation to an appointment at the Jobcenter",
+    "deadline": "Deadline",
+    "deadlineV": "12 Nov · 9:30",
+    "todo": "What to do",
+    "todoV": "Go to the appointment and bring your ID and the listed documents.",
+    "reply": "Polite reply in German",
+    "remind": "Reminder set",
+    "added": "3 phrases added to review"
+  },
+  "how": {
+    "kicker": "How it works",
+    "title": "From a confusing letter to a calm reply",
+    "steps": [
+      {
+        "title": "Take a photo",
+        "text": "Snap the letter — from an authority, your health insurance, your landlord or a company asking for money."
+      },
+      {
+        "title": "Understand it in your language",
+        "text": "You get a plain explanation: what it is, who sent it, what you must do and the deadline — plus a polite German reply you can adapt."
+      },
+      {
+        "title": "Never miss the deadline",
+        "text": "Save the letter and MemoPic reminds you on your phone before the date — your saved letters stay on your device."
+      },
+      {
+        "title": "Learn the German behind it",
+        "text": "The key phrases from your letter become your daily review, and you can practise the follow-up call or appointment by speaking."
+      }
+    ]
+  },
+  "features": {
+    "kicker": "Features",
+    "title": "Everything you need to handle German paperwork",
+    "sub": "MemoPic is built for real situations newcomers face in Germany — not textbook dialogues.",
+    "items": [
+      {
+        "icon": "letter",
+        "title": "Letter explainer",
+        "text": "Official wording translated into plain language: sender, purpose, required action, deadline and the important German terms."
+      },
+      {
+        "icon": "reply",
+        "title": "Polite reply drafts",
+        "text": "A short, correct German reply — to confirm an appointment, ask for more time or send documents. You check and send it yourself."
+      },
+      {
+        "icon": "bell",
+        "title": "Deadline reminders",
+        "text": "Deadlines go into a reminder on your phone, so an important date does not get lost in a pile of paper."
+      },
+      {
+        "icon": "repeat",
+        "title": "Your letter becomes your lesson",
+        "text": "Key phrases from your own letters go into spaced-repetition review — you learn exactly the words your life in Germany needs."
+      },
+      {
+        "icon": "mic",
+        "title": "Speaking practice",
+        "text": "Role-play the next step with an AI partner: calling the Jobcenter, an appointment at the Ausländerbehörde, the doctor or your landlord — with corrections."
+      },
+      {
+        "icon": "flame",
+        "title": "Daily goal and streak",
+        "text": "A few minutes a day add up. Set a daily goal and keep your streak going."
+      }
+    ]
+  },
+  "langs": {
+    "title": "In your language",
+    "text": "The app is available in English, Русский, Українська, Türkçe, العربية and O'zbekcha. Explanations of letters can be given in many more languages."
+  },
+  "letters": {
+    "kicker": "Letters we explain",
+    "title": "Typical letters MemoPic helps with",
+    "sub": "Read our free guides to the most common letters — what they mean, typical deadlines and what to do.",
+    "note": "",
+    "more": "Read the guide",
+    "all": "All guides",
+    "items": {
+      "jobcenter-einladung": "Jobcenter — invitation to an appointment (Einladung)",
+      "rundfunkbeitrag-letter": "Rundfunkbeitrag — broadcasting contribution letter",
+      "mahnung-payment-reminder": "Mahnung — payment reminder and Inkasso warning",
+      "steuerbescheid-finanzamt": "Finanzamt — tax assessment (Steuerbescheid)",
+      "anmeldung-meldebescheinigung": "Anmeldung — address registration and Meldebescheinigung",
+      "auslaenderbehoerde-termin": "Ausländerbehörde — appointment letter (Termin)",
+      "krankenkasse-letter": "Krankenkasse — letter from your health insurance",
+      "nebenkostenabrechnung": "Nebenkostenabrechnung — utility cost statement",
+      "kuendigung-vermieter": "Kündigung — termination letter from your landlord",
+      "bussgeldbescheid-anhoerung": "Bußgeldbescheid / Anhörung — traffic fine"
+    }
+  },
+  "privacy": {
+    "kicker": "Privacy",
+    "title": "Your letters are personal. We treat them that way.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "Analysed, not used for training",
+        "text": "Photos are analysed by Google's Gemini model via Firebase / Vertex AI to create your explanation. They are not used to train AI models."
+      },
+      {
+        "icon": "phone",
+        "title": "Saved letters stay on your phone",
+        "text": "We do not store your letters on our servers. What you save in the app is kept on your device."
+      },
+      {
+        "icon": "user",
+        "title": "No account needed",
+        "text": "Start right away — no sign-up, no password, no email address."
+      },
+      {
+        "icon": "noads",
+        "title": "No ads",
+        "text": "MemoPic shows no advertising and does not sell your data."
+      },
+      {
+        "icon": "chart",
+        "title": "Analytics only with consent",
+        "text": "Usage analytics are switched on only if you agree in the app. You can change this at any time."
+      }
+    ],
+    "link": "Read the privacy policy"
+  },
+  "faq": {
+    "kicker": "FAQ",
+    "title": "Questions and answers",
+    "items": [
+      {
+        "q": "What is MemoPic?",
+        "a": "MemoPic is a mobile app for newcomers in Germany. You photograph a German letter, and the app explains in your language what it is, who sent it, what you have to do and by when. It suggests a polite reply in German, reminds you of the deadline and turns the key phrases into short daily lessons and speaking practice."
+      },
+      {
+        "q": "Which letters can MemoPic explain?",
+        "a": "Typical letters from the Jobcenter, Finanzamt, Ausländerbehörde, Bürgeramt, the Rundfunkbeitrag (Beitragsservice), your Krankenkasse, your landlord, as well as payment reminders (Mahnung) and Inkasso letters. You can also photograph other everyday German documents."
+      },
+      {
+        "q": "Which languages does MemoPic support?",
+        "a": "The app interface is available in English, Russian, Ukrainian, Turkish, Arabic and Uzbek. Explanations of your letters can be given in many more languages."
+      },
+      {
+        "q": "Is MemoPic free?",
+        "a": "Yes, there is a free plan. MemoPic Pro is an optional subscription with a 7-day free trial. Prices are shown in the App Store or Google Play for your country, and you can cancel at any time in your store account settings."
+      },
+      {
+        "q": "Can I rely on the explanation?",
+        "a": "MemoPic uses AI and can make mistakes. Always check the original letter, especially names, amounts and dates. MemoPic gives general information, not legal or tax advice. For important matters, contact the sender or a free counselling service such as the Migrationsberatung für erwachsene Zuwanderer (MBE)."
+      },
+      {
+        "q": "What happens to the photos of my letters?",
+        "a": "The photo is sent to Google's Gemini model via Firebase / Vertex AI only to create your explanation. It is not used to train AI models. We do not store your letters on our servers — letters you save stay on your phone."
+      },
+      {
+        "q": "Do I need an account?",
+        "a": "No. You can use MemoPic without registering, without a password and without giving us your email address."
+      },
+      {
+        "q": "How does the speaking practice work?",
+        "a": "You choose a situation — for example calling the Jobcenter, an appointment at the Ausländerbehörde, the doctor or your landlord — and talk to an AI partner. You get corrections and better phrasing. Speech recognition uses your phone's built-in speech service."
+      },
+      {
+        "q": "How do I learn the German from my letters?",
+        "a": "Key phrases from your letters are added to a spaced-repetition review, so you see them again just before you would forget them. A daily goal and streak help you keep going."
+      },
+      {
+        "q": "Is MemoPic connected to the Jobcenter or other authorities?",
+        "a": "No. MemoPic is an independent app by TIYN ZAYTUN LLC and is not affiliated with any German authority, insurer or company."
+      }
+    ]
+  },
+  "cta": {
+    "title": "The next letter will not scare you",
+    "text": "Install MemoPic and understand your next German letter in minutes."
+  },
+  "footer": {
+    "tagline": "Survival German for newcomers in Germany: understand letters, meet deadlines, speak with confidence.",
+    "app": "App",
+    "legal": "Legal",
+    "contact": "Contact",
+    "guides": "Guides",
+    "privacy": "Privacy policy",
+    "terms": "Terms of use",
+    "impressum": "Legal notice (Impressum)",
+    "disclaimer": "MemoPic provides general information, not legal advice. MemoPic is not affiliated with any German authority.",
+    "englishOnly": "in English"
+  }
+}

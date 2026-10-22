@@ -1,0 +1,71 @@
+{
+  "title": "Bußgeldbescheid and Anhörung explained — MemoPic",
+  "description": "Traffic fine letter in Germany? The difference between Verwarnung, Anhörungsbogen, Zeugenfragebogen and Bußgeldbescheid — and the two-week Einspruch deadline.",
+  "h1": "Bußgeldbescheid and Anhörung: German traffic fine letters explained",
+  "kicker": "Bußgeldstelle",
+  "summary": "Traffic offences in Germany are handled in steps. For small offences you may get a warning fine (Verwarnungsgeld). For others you first receive a hearing form (Anhörungsbogen) or a witness form (Zeugenfragebogen), then possibly a formal fine notice (Bußgeldbescheid). Against a Bußgeldbescheid you can file an Einspruch within two weeks after delivery.",
+  "sections": [
+    {
+      "h": "Who sends these letters?",
+      "p": [
+        "Traffic fines are issued by the fine office (Bußgeldstelle) of the city, district or police authority where the offence happened — for example for speeding, parking or running a red light. The letter is addressed to the driver if known, otherwise usually to the registered keeper of the vehicle (Halter)."
+      ]
+    },
+    {
+      "h": "The different letters",
+      "ul": [
+        "Verwarnung mit Verwarnungsgeld: a warning with a small fine for minor offences. If you pay within the stated period, the matter is usually closed. If you do not pay, the authority can start formal fine proceedings.",
+        "Anhörungsbogen: a hearing form. You are accused of an offence and may comment. You must give correct personal details (Angaben zur Person), but you do not have to comment on the accusation itself.",
+        "Zeugenfragebogen: a witness form sent to the vehicle keeper if someone else may have been driving. Close relatives may have the right to refuse to testify (Zeugnisverweigerungsrecht) — the form usually explains this.",
+        "Bußgeldbescheid: the formal fine notice. It states the offence, the fine, fees and expenses, and possibly points or a driving ban. It is officially delivered, often in a yellow envelope with the delivery date noted."
+      ]
+    },
+    {
+      "h": "The two-week deadline",
+      "p": [
+        "Against a Bußgeldbescheid, you can file an Einspruch (objection) within two weeks after delivery (Zustellung) — § 67 of the Administrative Offences Act (OWiG). The objection must be made in writing or recorded at the authority. If you do not object, the notice becomes final and you have to pay. Write down the delivery date from the envelope.",
+        "Higher fines can also bring points in the driving aptitude register in Flensburg (Fahreignungsregister), kept by the Federal Motor Transport Authority (Kraftfahrt-Bundesamt). Serious offences can lead to a driving ban (Fahrverbot)."
+      ]
+    },
+    {
+      "h": "Beware of fake fines",
+      "p": [
+        "Be cautious with emails or text messages that ask you to pay a traffic fine via a link. Official German fine letters normally arrive by post and name the authority, a file number (Aktenzeichen) and bank details of a public authority. If in doubt, contact the authority using contact details you found yourself, not those in the message."
+      ]
+    }
+  ],
+  "terms": [
+    ["Bußgeldstelle", "fine office"],
+    ["Verwarnungsgeld", "warning fine (minor offences)"],
+    ["Anhörungsbogen", "hearing form"],
+    ["Zeugenfragebogen", "witness form"],
+    ["Bußgeldbescheid", "formal fine notice"],
+    ["Halter / Fahrer", "vehicle keeper / driver"],
+    ["Ordnungswidrigkeit", "administrative offence"],
+    ["Zustellung", "official delivery"],
+    ["Einspruch", "objection"],
+    ["Aktenzeichen", "file number"],
+    ["Fahrverbot", "driving ban"],
+    ["Punkte in Flensburg", "penalty points"]
+  ],
+  "steps": [
+    { "name": "Identify the type of letter", "text": "Warning, hearing form, witness form or Bußgeldbescheid — the next step depends on it." },
+    { "name": "Note the date", "text": "For a Bußgeldbescheid, write down the delivery date from the yellow envelope. The two-week period starts then." },
+    { "name": "Check the details", "text": "Date, time, place, vehicle and photo. Were you really the driver?" },
+    { "name": "Decide: pay or object", "text": "If everything is correct, pay by the date stated. If not, file an Einspruch in time, ideally after advice." },
+    { "name": "Get advice for points or a driving ban", "text": "A lawyer specialising in traffic law can check the case. Ask whether you have legal expenses insurance." }
+  ],
+  "phrases": [
+    ["Aktenzeichen: …", "File number: …"],
+    ["Hiermit lege ich Einspruch gegen den Bußgeldbescheid vom … ein.", "I hereby object to the fine notice dated …."],
+    ["Ich bitte um Akteneinsicht.", "I request access to the file."],
+    ["Zur Sache mache ich keine Angaben.", "I will not comment on the matter."],
+    ["Ich habe das Fahrzeug zu diesem Zeitpunkt nicht gefahren.", "I was not driving the vehicle at that time."]
+  ],
+  "help": ["beratungshilfe", "vz"],
+  "sources": [
+    { "label": "Administrative Offences Act (OWiG), § 67 — form and deadline of the objection", "url": "https://www.gesetze-im-internet.de/owig_1968/__67.html" },
+    { "label": "Federal Motor Transport Authority (kba.de) — driving aptitude register", "url": "https://www.kba.de/" }
+  ],
+  "practice": "MemoPic explains which type of traffic letter you have, shows the deadline and adds it to your reminders."
+}

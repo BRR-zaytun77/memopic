@@ -1,0 +1,75 @@
+{
+  "title": "Krankenkasse letter explained — MemoPic",
+  "description": "Letter from your German health insurance (Krankenkasse)? Common letters — questionnaires, contributions, arrears, health card photo — and how to answer them.",
+  "h1": "Letter from your Krankenkasse: what health insurance letters mean",
+  "kicker": "Krankenkasse",
+  "summary": "Health insurance is mandatory in Germany, and your Krankenkasse (statutory health insurer) writes to you regularly: questionnaires, contribution notices, requests for a photo for your health card, information about changes. Most letters ask you to send information or documents by a certain date. Answer on time — missing information can lead to higher contributions or gaps in your cover.",
+  "sections": [
+    {
+      "h": "Who writes to you?",
+      "p": [
+        "Most people in Germany are insured with a statutory health insurer (gesetzliche Krankenkasse). The Krankenkasse pays for doctors, hospital and many medicines, and it collects contributions (Beiträge). If you are employed, your employer usually pays the contributions together with your salary; if you are self-employed, a student, voluntarily insured or have no income, you may pay yourself.",
+        "Every letter contains your insurance number (Krankenversichertennummer or Versichertennummer). Quote it whenever you reply."
+      ]
+    },
+    {
+      "h": "Common types of letters",
+      "ul": [
+        "Fragebogen zur Familienversicherung: a questionnaire to check whether family members (spouse, children) can stay insured free of charge. The insurer asks about their income.",
+        "Request for a photo (Lichtbild) for your electronic health card (elektronische Gesundheitskarte, eGK).",
+        "Mitgliedsbescheinigung: a membership certificate — for example for your employer, university or the Ausländerbehörde.",
+        "Beitragsbescheid: a decision about the contributions you pay yourself, often based on your income. You may be asked to send proof of income (Einkommensnachweis), such as a tax assessment.",
+        "Information about a higher Zusatzbeitrag (additional contribution). When your insurer raises it, you generally have a special right to switch to another insurer (Sonderkündigungsrecht) — the letter must tell you about this.",
+        "Beitragsrückstand / Mahnung: you owe contributions. Arrears can lead to surcharges and, in some cases, limited benefits until you pay.",
+        "Letters about sick pay (Krankengeld) if you have been unable to work for a long period.",
+        "Information about the electronic patient record (elektronische Patientenakte, ePA). You can object (widersprechen) if you do not want one."
+      ]
+    },
+    {
+      "h": "Deadlines and decisions",
+      "p": [
+        "Questionnaires and requests usually give a date by which you should reply. If you need more time, ask for it before the date. A Bescheid (decision) — for example about contributions or sick pay — comes with a Rechtsbehelfsbelehrung. As a general rule, you can file a Widerspruch within one month after you received it. Check your letter for the exact deadline."
+      ]
+    },
+    {
+      "h": "If you have contribution arrears",
+      "p": [
+        "Do not wait. Contact your Krankenkasse, explain your situation and ask for instalments (Ratenzahlung) or a deferral (Stundung). If your income has dropped, send proof — your contribution may be recalculated. Debt counselling services can help if you have several debts."
+      ]
+    }
+  ],
+  "terms": [
+    ["Krankenkasse", "statutory health insurer"],
+    ["Krankenversichertennummer", "health insurance number"],
+    ["Beitrag / Zusatzbeitrag", "contribution / additional contribution"],
+    ["Familienversicherung", "free family insurance"],
+    ["Fragebogen", "questionnaire"],
+    ["Mitgliedsbescheinigung", "membership certificate"],
+    ["Einkommensnachweis", "proof of income"],
+    ["Beitragsrückstand", "contribution arrears"],
+    ["Krankengeld", "sick pay from the insurer"],
+    ["Arbeitsunfähigkeit", "inability to work"],
+    ["elektronische Gesundheitskarte (eGK)", "health insurance card"],
+    ["Sonderkündigungsrecht", "special right to cancel / switch"]
+  ],
+  "steps": [
+    { "name": "Find out what the letter asks for", "text": "Information, a document, a photo, a payment — and by which date." },
+    { "name": "Collect the documents", "text": "For example payslips, a tax assessment, a student certificate or a photo." },
+    { "name": "Reply on time", "text": "Use the insurer's online portal or app, or reply by post with your insurance number. Keep copies." },
+    { "name": "Ask for more time if needed", "text": "Write before the deadline and say when you can send the documents." },
+    { "name": "Check decisions", "text": "If you disagree with a Bescheid, file a Widerspruch within the period stated in the letter." }
+  ],
+  "phrases": [
+    ["Meine Versichertennummer lautet …", "My insurance number is …"],
+    ["Anbei sende ich Ihnen den ausgefüllten Fragebogen.", "Please find enclosed the completed questionnaire."],
+    ["Ich benötige eine Mitgliedsbescheinigung.", "I need a membership certificate."],
+    ["Bitte gewähren Sie mir eine Fristverlängerung bis zum …", "Please grant me an extension until …"],
+    ["Ich bitte um Ratenzahlung für den Beitragsrückstand.", "I request instalments for the contribution arrears."]
+  ],
+  "help": ["upd", "mbe", "schuldner"],
+  "sources": [
+    { "label": "Federal Ministry of Health (bundesgesundheitsministerium.de) — statutory health insurance", "url": "https://www.bundesgesundheitsministerium.de/" },
+    { "label": "Unabhängige Patientenberatung Deutschland — free advice", "url": "https://www.patientenberatung.de/" }
+  ],
+  "practice": "MemoPic explains your Krankenkasse letter in your language and helps you write a short reply, for example to ask for more time."
+}

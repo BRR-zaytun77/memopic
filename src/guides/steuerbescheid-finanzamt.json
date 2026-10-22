@@ -1,0 +1,76 @@
+{
+  "title": "Finanzamt Steuerbescheid explained — MemoPic",
+  "description": "How to read a German tax assessment (Steuerbescheid) from the Finanzamt: refund or back payment, key terms, and the one-month deadline for an Einspruch.",
+  "h1": "Steuerbescheid from the Finanzamt explained: refund, back payment and Einspruch",
+  "kicker": "Finanzamt",
+  "summary": "A Steuerbescheid is the Finanzamt's official decision about your tax. It shows whether you get money back (Erstattung) or have to pay more (Nachzahlung). Compare it with your tax return. If you think it is wrong, you can file an Einspruch within one month — and an Einspruch does not by itself stop a payment from being due.",
+  "sections": [
+    {
+      "h": "What is a Steuerbescheid?",
+      "p": [
+        "After you submit a tax return (Steuererklärung) — for example the income tax return (Einkommensteuererklärung) — the Finanzamt (tax office) checks it and sends you a decision: the Steuerbescheid. For income tax it is called Einkommensteuerbescheid. It may arrive by post or, if you use ELSTER, electronically.",
+        "The first page shows the most important result: the amount of tax that has been set (festgesetzt), how much you have already paid (for example via wage tax deducted by your employer), and the difference — either a refund (Erstattung) or a back payment (Nachzahlung) with a due date."
+      ]
+    },
+    {
+      "h": "How to read it",
+      "ul": [
+        "Steuernummer: your tax number at this Finanzamt. Quote it in every letter. It is different from your personal tax identification number (Steuer-ID, 11 digits).",
+        "Festsetzung: the tax that has been set for the year.",
+        "Abrechnung: the calculation of what has already been paid and what remains.",
+        "Erläuterungen: explanations — read them carefully. Here the Finanzamt says where it deviated from your return, for example if it did not accept certain costs.",
+        "Vorbehalt der Nachprüfung or vorläufig: the decision (or parts of it) can still be changed later.",
+        "Vorauszahlungen: advance payments the Finanzamt may set for the coming quarters.",
+        "Rechtsbehelfsbelehrung: information about how and by when you can object."
+      ]
+    },
+    {
+      "h": "Deadline for an Einspruch",
+      "p": [
+        "If you disagree with the decision, you can file an Einspruch (objection) within one month after the decision was notified to you (Bekanntgabe). A letter sent by post is generally treated as delivered on the fourth day after it was posted — the exact rule is explained in the Rechtsbehelfsbelehrung. An Einspruch is free of charge. You can file it in writing, or electronically via ELSTER. Give your tax number and the reasons, or say that you will send the reasons later.",
+        "Important: an Einspruch alone does not postpone a back payment. If you do not want to pay a disputed amount yet, you have to apply separately for Aussetzung der Vollziehung (suspension of enforcement). Pay attention to the due date (fällig am) on the first page to avoid late payment surcharges."
+      ]
+    },
+    {
+      "h": "If you need more time to pay",
+      "p": [
+        "If a back payment is correct but you cannot pay it in one go, contact the Finanzamt before the due date and ask for a Stundung (deferral) or Ratenzahlung (instalments). Explain your situation briefly."
+      ]
+    }
+  ],
+  "terms": [
+    ["Steuerbescheid", "tax assessment notice"],
+    ["Steuererklärung", "tax return"],
+    ["Erstattung", "refund"],
+    ["Nachzahlung", "back payment"],
+    ["festgesetzt", "set / assessed"],
+    ["Steuernummer", "tax number (at the tax office)"],
+    ["Steuer-ID", "personal tax identification number"],
+    ["Erläuterungen", "explanations"],
+    ["Einspruch", "objection"],
+    ["Bekanntgabe", "notification (deemed delivery)"],
+    ["Aussetzung der Vollziehung", "suspension of enforcement"],
+    ["fällig am", "due on"]
+  ],
+  "steps": [
+    { "name": "Compare it with your tax return", "text": "Check income, costs and personal details. Read the Erläuterungen to see what the Finanzamt changed." },
+    { "name": "Note the deadlines", "text": "The one-month objection period and the due date for a back payment." },
+    { "name": "File an Einspruch if something is wrong", "text": "In writing or via ELSTER, with your tax number and reasons. Keep a copy." },
+    { "name": "Pay or arrange payment", "text": "Pay a back payment by the due date, or ask in advance for deferral or instalments." },
+    { "name": "Get help if it is complex", "text": "An income tax help association or a tax adviser can check the decision." }
+  ],
+  "phrases": [
+    ["Hiermit lege ich Einspruch gegen den Einkommensteuerbescheid für … vom … ein.", "I hereby object to the income tax assessment for … dated …."],
+    ["Steuernummer: …", "Tax number: …"],
+    ["Die Begründung reiche ich nach.", "I will send the reasons later."],
+    ["Ich beantrage die Aussetzung der Vollziehung.", "I apply for suspension of enforcement."],
+    ["Ich bitte um Ratenzahlung.", "I request payment in instalments."]
+  ],
+  "help": ["lohnsteuer", "mbe"],
+  "sources": [
+    { "label": "ELSTER — the tax administration's official online portal", "url": "https://www.elster.de/" },
+    { "label": "Federal Ministry of Finance (bundesfinanzministerium.de)", "url": "https://www.bundesfinanzministerium.de/" },
+    { "label": "Fiscal Code (Abgabenordnung), § 355 — objection period", "url": "https://www.gesetze-im-internet.de/ao_1977/__355.html" }
+  ],
+  "practice": "MemoPic can explain each line of your Steuerbescheid in your language and set a reminder for the objection deadline."
+}

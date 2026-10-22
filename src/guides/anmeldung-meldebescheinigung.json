@@ -1,0 +1,80 @@
+{
+  "title": "Anmeldung and Meldebescheinigung explained — MemoPic",
+  "description": "How address registration (Anmeldung) works in Germany: the two-week rule, the landlord confirmation, what to bring to the Bürgeramt and the Meldebescheinigung.",
+  "h1": "Anmeldung and Meldebescheinigung: registering your address in Germany",
+  "kicker": "Bürgeramt",
+  "summary": "When you move into a flat in Germany, you must register your address at the registration office (Bürgeramt, Einwohnermeldeamt or Bürgerbüro) within two weeks. You need your passport or ID and a confirmation from your landlord (Wohnungsgeberbestätigung). You receive a registration certificate (Meldebescheinigung), which you will need for many other steps.",
+  "sections": [
+    {
+      "h": "What is the Anmeldung?",
+      "p": [
+        "The Anmeldung is the registration of your residential address with the local registration authority (Meldebehörde). Under the Federal Registration Act (Bundesmeldegesetz), anyone who moves into a home in Germany must register within two weeks of moving in. The office has different names depending on the city: Bürgeramt, Bürgerbüro, Einwohnermeldeamt or Bürgerservice.",
+        "Registration is a key first step: you need the Meldebescheinigung (registration certificate) for opening many bank accounts, for the Ausländerbehörde, for family benefits, for your employer and more. After your first registration in Germany, the Federal Central Tax Office (Bundeszentralamt für Steuern) sends your tax identification number (Steuer-ID) by post."
+      ]
+    },
+    {
+      "h": "What to bring",
+      "ul": [
+        "Your passport or national ID card (and those of family members you register).",
+        "The Wohnungsgeberbestätigung — a confirmation from your landlord or the person who gives you the home that you moved in. The landlord is legally required to provide it.",
+        "The registration form (Anmeldeformular), if your city asks you to fill it in beforehand.",
+        "For family members: documents such as marriage or birth certificates may be requested — sometimes with an official translation. Check your city's website.",
+        "Your appointment confirmation (Terminbestätigung), if you booked online."
+      ]
+    },
+    {
+      "h": "Appointments and letters",
+      "p": [
+        "In many cities you need to book an appointment (Termin) online. You usually receive an email or letter with a Terminbestätigung (appointment confirmation) and sometimes a booking number (Vorgangsnummer). If you cannot get an appointment within two weeks, keep proof of your attempts — many offices understand this situation, but rules differ between cities.",
+        "At the appointment, you receive the Meldebescheinigung, usually printed on the spot. Check that names, date of birth and address are spelled correctly before you leave."
+      ]
+    },
+    {
+      "h": "Letters that often follow",
+      "ul": [
+        "Your Steuer-ID from the Bundeszentralamt für Steuern — keep this letter safe.",
+        "A letter from the Beitragsservice about the broadcasting contribution (Rundfunkbeitrag).",
+        "If you move within Germany, you register at the new address (Ummeldung). If you leave Germany, you deregister (Abmeldung)."
+      ]
+    },
+    {
+      "h": "Not registering in time",
+      "p": [
+        "Late registration is an administrative offence and can lead to a fine. More importantly, without a registration you may get stuck with other important steps. Book the appointment as soon as you have your landlord's confirmation."
+      ]
+    }
+  ],
+  "terms": [
+    ["Anmeldung", "registration (of your address)"],
+    ["Ummeldung / Abmeldung", "change of address / deregistration"],
+    ["Meldebescheinigung", "registration certificate"],
+    ["Meldebehörde / Bürgeramt", "registration office"],
+    ["Wohnungsgeberbestätigung", "landlord's confirmation of moving in"],
+    ["Einzugsdatum", "date of moving in"],
+    ["Termin / Terminbestätigung", "appointment / appointment confirmation"],
+    ["Reisepass / Personalausweis", "passport / ID card"],
+    ["Hauptwohnung / Nebenwohnung", "main residence / secondary residence"],
+    ["Steuer-ID", "tax identification number"]
+  ],
+  "steps": [
+    { "name": "Get the Wohnungsgeberbestätigung", "text": "Ask your landlord for the confirmation as soon as you move in." },
+    { "name": "Book an appointment", "text": "Use your city's online booking or call the office. Save the confirmation." },
+    { "name": "Prepare documents", "text": "Passport or ID, landlord confirmation, form, and documents for family members." },
+    { "name": "Attend and check the certificate", "text": "Make sure all details on the Meldebescheinigung are correct." },
+    { "name": "Keep the letters that follow", "text": "Especially the Steuer-ID letter — you will need it for work and taxes." }
+  ],
+  "phrases": [
+    ["Ich möchte meinen Wohnsitz anmelden.", "I would like to register my address."],
+    ["Ich bin am … eingezogen.", "I moved in on …"],
+    ["Hier ist die Wohnungsgeberbestätigung.", "Here is the landlord's confirmation."],
+    ["Ich habe leider keinen früheren Termin bekommen.", "Unfortunately I could not get an earlier appointment."],
+    ["Könnten Sie mir bitte eine Meldebescheinigung ausdrucken?", "Could you please print a registration certificate for me?"]
+  ],
+  "help": ["mbe", "jmd"],
+  "sources": [
+    { "label": "Example: Berlin service portal — registering an apartment (service.berlin.de)", "url": "https://service.berlin.de/dienstleistung/120686/" },
+    { "label": "Federal Registration Act, § 17 — duty to register", "url": "https://www.gesetze-im-internet.de/bmg/__17.html" },
+    { "label": "Make it in Germany — official portal for international professionals", "url": "https://www.make-it-in-germany.com/" }
+  ],
+  "practice": "Practise the short conversation at the Bürgeramt with MemoPic's speaking practice before your appointment."
+}

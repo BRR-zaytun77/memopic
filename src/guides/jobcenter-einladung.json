@@ -1,0 +1,83 @@
+{
+  "title": "Jobcenter Einladung letter explained — MemoPic",
+  "description": "Got an Einladung from the Jobcenter? What the invitation means, why the appointment matters, what to bring and how to reschedule politely in German.",
+  "h1": "Letter from the Jobcenter (Einladung): what it means and what to do",
+  "kicker": "Jobcenter",
+  "summary": "An Einladung from the Jobcenter is an official invitation to a personal appointment. If you receive basic income support, you are generally required to attend. Note the date, time and room, prepare the documents listed in the letter, and contact the Jobcenter before the appointment if you cannot come for an important reason.",
+  "sections": [
+    {
+      "h": "What is this letter?",
+      "p": [
+        "Jobcenters handle the basic income support for jobseekers under the German Social Code, Book II (SGB II). This benefit was known as Bürgergeld; since 1 July 2026 it has been reformed and is now called Grundsicherung. Whichever name your letter uses, an Einladung (invitation) asks you to come to a personal meeting — usually with your personal advisor (persönliche Ansprechpartnerin / persönlicher Ansprechpartner) or a specialist team.",
+        "Typical reasons for the meeting are: talking about your job search or training, your current situation, a job offer, a language or integration course, or missing documents for your application. The purpose is usually written near the top of the letter, for example „Ich möchte mit Ihnen über Ihre berufliche Situation sprechen“ (I would like to talk to you about your professional situation)."
+      ]
+    },
+    {
+      "h": "Why the appointment matters",
+      "p": [
+        "Attending appointments is part of your duties as a benefit recipient (Meldepflicht). The letter contains a section called Rechtsfolgenbelehrung — an explanation of the legal consequences. It tells you what can happen if you do not attend without an important reason (wichtiger Grund): your benefit can be reduced. The rules on these reductions became stricter with the reform in July 2026, so read this section carefully and take every invitation seriously.",
+        "An important reason can be, for example, an illness that makes it impossible for you to attend, a job interview at the same time, or a family emergency. A regular sick note does not always count as proof that you could not come to the appointment — ask your Jobcenter which proof they need."
+      ]
+    },
+    {
+      "h": "What the letter usually contains",
+      "ul": [
+        "Date (Datum), time (Uhrzeit) and place: address, floor (Etage) and room (Zimmer).",
+        "Your customer number (Kundennummer) and often the number of your household (Nummer der Bedarfsgemeinschaft) — mention these whenever you contact the Jobcenter.",
+        "The name of the person you will meet and a phone number or email for questions.",
+        "A list of documents to bring (Unterlagen), for example your ID, payslips, bank statements, a rental contract or certificates.",
+        "Sometimes the option to have the meeting by phone or video — this is stated explicitly if it is possible.",
+        "The Rechtsfolgenbelehrung (legal consequences) at the end."
+      ]
+    },
+    {
+      "h": "If you cannot come",
+      "p": [
+        "Contact the Jobcenter as early as possible — before the appointment, not afterwards. Call the number in the letter, write through the online portal (jobcenter.digital) if your Jobcenter uses it, or send a short letter or email with your customer number. Explain the reason, attach proof, and ask for a new appointment (neuer Termin). Keep a copy or a screenshot of what you sent."
+      ]
+    },
+    {
+      "h": "Disagreeing with a decision",
+      "p": [
+        "An invitation itself is usually not a decision about money. If you later receive a decision (Bescheid) — for example about a reduction of your benefit — you can generally file an objection (Widerspruch) within one month after you received it. The exact deadline and address are in the section Rechtsbehelfsbelehrung of that decision. Check your letter."
+      ]
+    }
+  ],
+  "terms": [
+    ["Einladung", "invitation (to an appointment)"],
+    ["Termin", "appointment"],
+    ["persönliche Ansprechpartnerin / persönlicher Ansprechpartner", "your personal advisor"],
+    ["Kundennummer", "customer number"],
+    ["Unterlagen", "documents"],
+    ["Meldepflicht", "duty to attend / report"],
+    ["wichtiger Grund", "important (valid) reason"],
+    ["Rechtsfolgenbelehrung", "information about legal consequences"],
+    ["Leistungsminderung", "reduction of benefits"],
+    ["Bescheid", "official decision"],
+    ["Widerspruch", "objection (against a decision)"],
+    ["Fahrkosten", "travel costs"]
+  ],
+  "steps": [
+    { "name": "Check date, time and place", "text": "Write the appointment into your calendar or set a reminder. Check the address, floor and room." },
+    { "name": "Read the purpose and the document list", "text": "Prepare every document the letter mentions, plus your ID and the letter itself." },
+    { "name": "Read the Rechtsfolgenbelehrung", "text": "Understand what happens if you do not attend. If something is unclear, ask a counselling service." },
+    { "name": "Contact the Jobcenter early if you cannot come", "text": "Explain the important reason, send proof and ask for a new appointment. Keep a copy." },
+    { "name": "Ask about travel costs", "text": "You can ask the Jobcenter whether your travel costs to the appointment can be reimbursed." },
+    { "name": "Take notes during the meeting", "text": "Write down what was agreed and ask for a copy of any document you are asked to sign." }
+  ],
+  "phrases": [
+    ["Ich bestätige den Termin am … um … Uhr.", "I confirm the appointment on … at …."],
+    ["Leider kann ich den Termin am … nicht wahrnehmen, weil …", "Unfortunately I cannot attend the appointment on … because …"],
+    ["Bitte geben Sie mir einen neuen Termin.", "Please give me a new appointment."],
+    ["Meine Kundennummer lautet …", "My customer number is …"],
+    ["Eine Bescheinigung lege ich bei.", "I am enclosing a certificate."],
+    ["Können Sie das bitte langsamer wiederholen?", "Could you please repeat that more slowly?"],
+    ["Ich brauche einen Dolmetscher.", "I need an interpreter."]
+  ],
+  "help": ["mbe", "jmd"],
+  "sources": [
+    { "label": "Federal Employment Agency (arbeitsagentur.de) — basic income support and Jobcenter information", "url": "https://www.arbeitsagentur.de/" },
+    { "label": "Jobcenter portal of the joint Jobcenters (jobcenter-ge.de)", "url": "https://www.jobcenter-ge.de/" }
+  ],
+  "practice": "In MemoPic you can rehearse the phone call „Ich möchte meinen Termin verschieben“ with the AI partner before you call."
+}

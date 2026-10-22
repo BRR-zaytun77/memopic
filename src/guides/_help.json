@@ -1,0 +1,47 @@
+{
+  "mbe": {
+    "name": "Migrationsberatung für erwachsene Zuwanderer (MBE)",
+    "text": "Free, confidential counselling for immigrants aged 27 and over, offered by welfare organisations with federal funding. Counsellors help you understand letters, fill in forms and contact authorities. Find an office near you with the BAMF-NAvI search.",
+    "url": "https://bamf-navi.bamf.de/"
+  },
+  "jmd": {
+    "name": "Jugendmigrationsdienste (JMD)",
+    "text": "Free counselling for young people with a migration background, generally aged 12 to 27 — school, training, work and dealing with authorities.",
+    "url": "https://www.jugendmigrationsdienste.de/"
+  },
+  "vz": {
+    "name": "Verbraucherzentrale (consumer advice centre)",
+    "text": "Consumer advice centres exist in every federal state. They help with bills, contracts, payment reminders and Inkasso letters. Some information is free; individual advice may cost a small fee.",
+    "url": "https://www.verbraucherzentrale.de/"
+  },
+  "mieterverein": {
+    "name": "Mieterverein (tenants' association)",
+    "text": "Local tenants' associations give legal advice on rent, utility bills and terminations to their members for a membership fee. Many are members of the Deutscher Mieterbund.",
+    "url": "https://www.mieterbund.de/"
+  },
+  "lohnsteuer": {
+    "name": "Lohnsteuerhilfeverein (income tax help association)",
+    "text": "Membership-based associations that may help employees, pensioners and some other groups with their income tax return and with objections — within the limits set by law. They cannot advise on business income from self-employment.",
+    "url": ""
+  },
+  "schuldner": {
+    "name": "Schuldnerberatung (debt counselling)",
+    "text": "Recognised debt counselling services run by municipalities and welfare organisations are usually free. They help you check claims, talk to creditors and plan repayments.",
+    "url": ""
+  },
+  "beratungshilfe": {
+    "name": "Beratungshilfe (legal advice aid)",
+    "text": "If your income is low, you can apply at your local Amtsgericht (district court) for a Beratungshilfeschein. With it, a lawyer can advise you for a small fixed fee.",
+    "url": ""
+  },
+  "upd": {
+    "name": "Unabhängige Patientenberatung Deutschland (UPD)",
+    "text": "Independent, free advice for patients and insured people on health insurance and patient rights.",
+    "url": "https://www.patientenberatung.de/"
+  },
+  "fluechtling": {
+    "name": "Refugee and asylum counselling",
+    "text": "If you have an asylum case or a residence permit on humanitarian grounds, local refugee counselling services (often run by welfare organisations or refugee councils) can help — usually free of charge.",
+    "url": ""
+  }
+}

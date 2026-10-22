@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "homeTitle": "Almanca resmi mektupları anlayın — MemoPic",
+    "homeDesc": "Jobcenter, Finanzamt veya ev sahibinden gelen mektubu fotoğraflayın. MemoPic onu kendi dilinizde açıklar, son tarihi hatırlatır ve yanıtlamanıza yardım eder.",
+    "ogAlt": "MemoPic — Almanca mektupları kendi dilinizde anlayın"
+  },
+  "nav": {
+    "how": "Nasıl çalışır",
+    "features": "Özellikler",
+    "letters": "Mektuplar",
+    "privacy": "Gizlilik",
+    "faq": "SSS",
+    "download": "Uygulamayı indir",
+    "language": "Dil",
+    "menu": "Menü",
+    "skip": "İçeriğe geç"
+  },
+  "hero": {
+    "kicker": "Almanya'da hayat için gerekli Almanca",
+    "title": "Almanca mektupları anlayın — ve güvenle yanıtlayın",
+    "sub": "Jobcenter, Finanzamt, Ausländerbehörde veya ev sahibinizden gelen mektubun fotoğrafını çekin. MemoPic size kendi dilinizde bunun ne olduğunu, ne yapmanız gerektiğini ve son tarihi söyler — ardından yanıtınız için gereken Almancayı öğrenmenize yardım eder.",
+    "android": "Android",
+    "androidSub": "Google Play",
+    "ios": "iPhone",
+    "iosSub": "App Store",
+    "note": "Ücretsiz plan · 7 gün ücretsiz denemeli MemoPic Pro · Hesap gerekmez",
+    "mockLabel": "İllüstrasyon: MemoPic, Jobcenter'dan gelen kurgusal bir mektubu açıklıyor",
+    "mockCaption": "Kurgusal örnek mektuplu illüstrasyon"
+  },
+  "mock": {
+    "scanned": "Mektubunuz",
+    "what": "Bu nedir",
+    "whatV": "Jobcenter'da bir randevuya davet",
+    "deadline": "Son tarih",
+    "deadlineV": "12 Kas · 9:30",
+    "todo": "Ne yapmalı",
+    "todoV": "Randevuya gidin; kimliğinizi ve listedeki belgeleri götürün.",
+    "reply": "Almanca kibar yanıt",
+    "remind": "Hatırlatıcı kuruldu",
+    "added": "3 ifade tekrara eklendi"
+  },
+  "how": {
+    "kicker": "Nasıl çalışır",
+    "title": "Kafa karıştıran mektuptan sakin bir yanıta",
+    "steps": [
+      {
+        "title": "Fotoğrafını çekin",
+        "text": "Mektubu çekin — bir resmi daireden, sağlık sigortanızdan, ev sahibinizden ya da ödeme isteyen bir şirketten."
+      },
+      {
+        "title": "Kendi dilinizde anlayın",
+        "text": "Sade bir açıklama alırsınız: ne olduğu, kimin gönderdiği, ne yapmanız gerektiği ve son tarih — üstelik uyarlayabileceğiniz kibar bir Almanca yanıt."
+      },
+      {
+        "title": "Son tarihi kaçırmayın",
+        "text": "Mektubu kaydedin; MemoPic tarihten önce telefonunuzda hatırlatır. Kaydedilen mektuplar cihazınızda kalır."
+      },
+      {
+        "title": "Arkasındaki Almancayı öğrenin",
+        "text": "Mektubunuzdaki önemli ifadeler günlük tekrarınız olur; sonraki telefon görüşmesini veya randevuyu konuşarak prova edebilirsiniz."
+      }
+    ]
+  },
+  "features": {
+    "kicker": "Özellikler",
+    "title": "Almanca evrak işleri için ihtiyacınız olan her şey",
+    "sub": "MemoPic, Almanya'ya yeni gelenlerin yaşadığı gerçek durumlar için tasarlandı — ders kitabı diyalogları için değil.",
+    "items": [
+      {
+        "icon": "letter",
+        "title": "Mektup açıklayıcı",
+        "text": "Resmi dil sade bir dile çevrilir: gönderen, amaç, yapılması gereken, son tarih ve önemli Almanca terimler."
+      },
+      {
+        "icon": "reply",
+        "title": "Kibar yanıt taslakları",
+        "text": "Kısa ve doğru bir Almanca yanıt — randevuyu onaylamak, ek süre istemek veya belge göndermek için. Kontrol edip kendiniz gönderirsiniz."
+      },
+      {
+        "icon": "bell",
+        "title": "Son tarih hatırlatıcıları",
+        "text": "Son tarihler telefonunuzda bir hatırlatıcıya dönüşür; önemli bir tarih kâğıt yığını arasında kaybolmaz."
+      },
+      {
+        "icon": "repeat",
+        "title": "Mektubunuz dersiniz olur",
+        "text": "Kendi mektuplarınızdaki önemli ifadeler aralıklı tekrara eklenir — Almanya'daki hayatınızın tam olarak ihtiyaç duyduğu kelimeleri öğrenirsiniz."
+      },
+      {
+        "icon": "mic",
+        "title": "Konuşma pratiği",
+        "text": "Sonraki adımı bir yapay zekâ partneriyle canlandırın: Jobcenter'ı aramak, Ausländerbehörde randevusu, doktor ya da ev sahibi — düzeltmelerle birlikte."
+      },
+      {
+        "icon": "flame",
+        "title": "Günlük hedef ve seri",
+        "text": "Günde birkaç dakika birikir. Günlük bir hedef belirleyin ve serinizi sürdürün."
+      }
+    ]
+  },
+  "langs": {
+    "title": "Kendi dilinizde",
+    "text": "Uygulama English, Русский, Українська, Türkçe, العربية ve O'zbekcha dillerinde kullanılabilir. Mektupların açıklamaları çok daha fazla dilde alınabilir."
+  },
+  "letters": {
+    "kicker": "Açıkladığımız mektuplar",
+    "title": "MemoPic'in yardımcı olduğu tipik mektuplar",
+    "sub": "En sık gelen mektuplar için ücretsiz rehberlerimizi okuyun: ne anlama geldikleri, olağan süreler ve ne yapmanız gerektiği.",
+    "note": "Rehberler şimdilik İngilizce.",
+    "more": "Rehberi oku",
+    "all": "Tüm rehberler",
+    "items": {
+      "jobcenter-einladung": "Jobcenter — randevuya davet (Einladung)",
+      "rundfunkbeitrag-letter": "Rundfunkbeitrag — yayın katkı payı mektubu",
+      "mahnung-payment-reminder": "Mahnung — ödeme hatırlatması ve Inkasso uyarısı",
+      "steuerbescheid-finanzamt": "Finanzamt — vergi tarhiyatı (Steuerbescheid)",
+      "anmeldung-meldebescheinigung": "Anmeldung — adres kaydı ve Meldebescheinigung",
+      "auslaenderbehoerde-termin": "Ausländerbehörde — randevu mektubu (Termin)",
+      "krankenkasse-letter": "Krankenkasse — sağlık sigortanızdan mektup",
+      "nebenkostenabrechnung": "Nebenkostenabrechnung — yan gider hesabı",
+      "kuendigung-vermieter": "Kündigung — ev sahibinden fesih mektubu",
+      "bussgeldbescheid-anhoerung": "Bußgeldbescheid / Anhörung — trafik cezası"
+    }
+  },
+  "privacy": {
+    "kicker": "Gizlilik",
+    "title": "Mektuplarınız kişiseldir. Onlara öyle davranıyoruz.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "Analiz edilir, eğitimde kullanılmaz",
+        "text": "Fotoğraflar, açıklamanızı oluşturmak için Firebase / Vertex AI üzerinden Google'ın Gemini modeliyle analiz edilir. Yapay zekâ modellerini eğitmek için kullanılmaz."
+      },
+      {
+        "icon": "phone",
+        "title": "Kaydedilen mektuplar telefonunuzda kalır",
+        "text": "Mektuplarınızı sunucularımızda saklamayız. Uygulamada kaydettikleriniz cihazınızda tutulur."
+      },
+      {
+        "icon": "user",
+        "title": "Hesap gerekmez",
+        "text": "Hemen başlayın — kayıt, şifre veya e-posta adresi olmadan."
+      },
+      {
+        "icon": "noads",
+        "title": "Reklam yok",
+        "text": "MemoPic reklam göstermez ve verilerinizi satmaz."
+      },
+      {
+        "icon": "chart",
+        "title": "Analiz yalnızca onayla",
+        "text": "Kullanım analizi yalnızca uygulamada onay verirseniz açılır. Bunu istediğiniz zaman değiştirebilirsiniz."
+      }
+    ],
+    "link": "Gizlilik politikasını okuyun"
+  },
+  "faq": {
+    "kicker": "SSS",
+    "title": "Sorular ve yanıtlar",
+    "items": [
+      {
+        "q": "MemoPic nedir?",
+        "a": "MemoPic, Almanya'ya yeni gelenler için bir mobil uygulamadır. Almanca bir mektubun fotoğrafını çekersiniz; uygulama kendi dilinizde bunun ne olduğunu, kimin gönderdiğini, ne yapmanız gerektiğini ve son tarihi açıklar. Almanca kibar bir yanıt önerir, son tarihi hatırlatır ve önemli ifadeleri kısa günlük derslere ve konuşma pratiğine dönüştürür."
+      },
+      {
+        "q": "MemoPic hangi mektupları açıklayabilir?",
+        "a": "Jobcenter, Finanzamt, Ausländerbehörde, Bürgeramt, Beitragsservice (Rundfunkbeitrag), sağlık sigortanız (Krankenkasse) ve ev sahibinizden gelen tipik mektupların yanı sıra ödeme hatırlatmaları (Mahnung) ve Inkasso mektupları. Diğer günlük Almanca belgelerin fotoğrafını da çekebilirsiniz."
+      },
+      {
+        "q": "MemoPic hangi dilleri destekliyor?",
+        "a": "Uygulama arayüzü İngilizce, Rusça, Ukraynaca, Türkçe, Arapça ve Özbekçe olarak sunulur. Mektuplarınızın açıklamaları çok daha fazla dilde alınabilir."
+      },
+      {
+        "q": "MemoPic ücretsiz mi?",
+        "a": "Evet, ücretsiz bir plan var. MemoPic Pro, 7 günlük ücretsiz denemesi olan isteğe bağlı bir aboneliktir. Fiyatlar ülkenize göre App Store veya Google Play'de gösterilir; aboneliği istediğiniz zaman mağaza hesabı ayarlarınızdan iptal edebilirsiniz."
+      },
+      {
+        "q": "Açıklamaya güvenebilir miyim?",
+        "a": "MemoPic yapay zekâ kullanır ve hata yapabilir. Özellikle isimleri, tutarları ve tarihleri her zaman orijinal mektuptan kontrol edin. MemoPic genel bilgi verir; hukuki veya vergi danışmanlığı değildir. Önemli konularda gönderenle ya da Migrationsberatung für erwachsene Zuwanderer (MBE) gibi ücretsiz bir danışma hizmetiyle iletişime geçin."
+      },
+      {
+        "q": "Mektuplarımın fotoğraflarına ne oluyor?",
+        "a": "Fotoğraf yalnızca açıklamanızı oluşturmak için Firebase / Vertex AI üzerinden Google'ın Gemini modeline gönderilir. Yapay zekâ modellerini eğitmek için kullanılmaz. Mektuplarınızı sunucularımızda saklamayız — kaydettiğiniz mektuplar telefonunuzda kalır."
+      },
+      {
+        "q": "Hesap açmam gerekiyor mu?",
+        "a": "Hayır. MemoPic'i kayıt olmadan, şifre olmadan ve bize e-posta adresinizi vermeden kullanabilirsiniz."
+      },
+      {
+        "q": "Konuşma pratiği nasıl çalışır?",
+        "a": "Bir durum seçersiniz — örneğin Jobcenter'ı aramak, Ausländerbehörde randevusu, doktor ya da ev sahibiniz — ve bir yapay zekâ partneriyle konuşursunuz. Düzeltmeler ve daha iyi ifadeler alırsınız. Konuşma tanıma için telefonunuzun yerleşik konuşma hizmeti kullanılır."
+      },
+      {
+        "q": "Mektuplarımdan Almancayı nasıl öğrenirim?",
+        "a": "Mektuplarınızdaki önemli ifadeler aralıklı tekrara eklenir; böylece onları tam unutmak üzereyken yeniden görürsünüz. Günlük hedef ve seri, devam etmenize yardımcı olur."
+      },
+      {
+        "q": "MemoPic'in Jobcenter veya diğer resmi dairelerle bir bağlantısı var mı?",
+        "a": "Hayır. MemoPic, TIYN ZAYTUN LLC'nin bağımsız bir uygulamasıdır ve hiçbir Alman resmi kurumu, sigorta şirketi ya da firmayla bağlantılı değildir."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bir sonraki mektup sizi korkutmayacak",
+    "text": "MemoPic'i yükleyin ve bir sonraki Almanca mektubunuzu dakikalar içinde anlayın."
+  },
+  "footer": {
+    "tagline": "Almanya'ya yeni gelenler için hayatta kalma Almancası: mektupları anlayın, süreleri kaçırmayın, güvenle konuşun.",
+    "app": "Uygulama",
+    "legal": "Yasal",
+    "contact": "İletişim",
+    "guides": "Rehberler",
+    "privacy": "Gizlilik politikası",
+    "terms": "Kullanım koşulları",
+    "impressum": "Künye (Impressum)",
+    "disclaimer": "MemoPic genel bilgi verir, hukuki danışmanlık değildir. MemoPic hiçbir Alman resmi kurumuyla bağlantılı değildir.",
+    "englishOnly": "İngilizce"
+  }
+}

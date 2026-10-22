@@ -1,0 +1,155 @@
+{
+  "title": "Nebenkostenabrechnung explained — MemoPic",
+  "description": "How to read a German utility cost statement (Nebenkostenabrechnung): back payment or credit, the 12-month rules, checking receipts, replying to the landlord.",
+  "h1": "Nebenkostenabrechnung explained: your annual utility cost statement",
+  "kicker": "Vermieter",
+  "summary": "Once a year your landlord settles the operating costs (Betriebskosten) you paid in advance with your rent. The result is either a back payment (Nachzahlung) or a credit (Guthaben). You have the right to check the statement and the receipts. As a general rule, the landlord must send it within 12 months after the end of the billing period, and you have 12 months after receiving it to raise objections.",
+  "sections": [
+    {
+      "h": "What is a Nebenkostenabrechnung?",
+      "p": [
+        "In most rental contracts in Germany you pay the basic rent (Kaltmiete or Grundmiete) plus a monthly advance payment for operating costs (Nebenkostenvorauszahlung or Betriebskostenvorauszahlung). These costs include, for example, heating, water, waste collection, cleaning of stairs, caretaker, garden, property tax and building insurance — but only if your contract allows the landlord to pass them on.",
+        "Once a year, the landlord compares what you paid in advance with the actual costs: the Nebenkostenabrechnung or Betriebskostenabrechnung (utility or operating cost statement). Heating and hot water are often billed by a separate metering company and appear as a separate page (Heizkostenabrechnung)."
+      ]
+    },
+    {
+      "h": "How to read it",
+      "ul": [
+        "Abrechnungszeitraum: the billing period, usually twelve months (for example a calendar year).",
+        "Gesamtkosten: the total costs for the whole building for each type of cost.",
+        "Umlageschlüssel or Verteilerschlüssel: how costs are divided between flats — for example by floor area (Wohnfläche), number of persons or consumption (Verbrauch).",
+        "Ihr Anteil: your share of each cost.",
+        "Vorauszahlungen: what you already paid during the period.",
+        "Nachzahlung or Guthaben: the difference — you pay extra, or you get money back.",
+        "Often: new monthly advance payments from now on (Anpassung der Vorauszahlungen)."
+      ]
+    },
+    {
+      "h": "Important rules and deadlines",
+      "p": [
+        "Under the German Civil Code (§ 556 BGB), the landlord generally has to deliver the statement within 12 months after the end of the billing period. If it arrives later, the landlord can usually no longer demand a back payment — unless the delay was not the landlord's fault. A credit in your favour must still be paid out.",
+        "You, as the tenant, generally have 12 months after receiving the statement to raise objections (Einwände). You also have the right to inspect the original receipts and invoices (Belegeinsicht). It is sensible to check before you pay — but do not simply ignore the payment date stated in the letter; if you disagree, tell the landlord in writing."
+      ]
+    },
+    {
+      "h": "If you receive social benefits",
+      "p": [
+        "If you receive basic income support from the Jobcenter or social assistance, send a copy of the statement to your Jobcenter or Sozialamt as soon as you receive it. Back payments for heating and operating costs can, under certain conditions, be covered as part of housing costs (Kosten der Unterkunft und Heizung). A credit may also have to be reported."
+      ]
+    }
+  ],
+  "terms": [
+    [
+      "Nebenkosten / Betriebskosten",
+      "utility / operating costs"
+    ],
+    [
+      "Abrechnung",
+      "statement / settlement"
+    ],
+    [
+      "Abrechnungszeitraum",
+      "billing period"
+    ],
+    [
+      "Vorauszahlung",
+      "advance payment"
+    ],
+    [
+      "Nachzahlung",
+      "back payment"
+    ],
+    [
+      "Guthaben",
+      "credit"
+    ],
+    [
+      "Umlageschlüssel",
+      "cost allocation key"
+    ],
+    [
+      "Wohnfläche",
+      "living area"
+    ],
+    [
+      "Heizkosten",
+      "heating costs"
+    ],
+    [
+      "Belegeinsicht",
+      "inspection of receipts"
+    ],
+    [
+      "Einwand / Widerspruch",
+      "objection"
+    ],
+    [
+      "Vermieter / Hausverwaltung",
+      "landlord / property management"
+    ]
+  ],
+  "steps": [
+    {
+      "name": "Check the dates",
+      "text": "Which billing period, and when did you receive the statement? Is it within 12 months after the period ended?"
+    },
+    {
+      "name": "Compare with your contract",
+      "text": "Are all listed costs allowed by your rental contract? Is the living area correct?"
+    },
+    {
+      "name": "Check your advance payments",
+      "text": "Do the advance payments listed match what you actually paid?"
+    },
+    {
+      "name": "Ask for receipts if something looks wrong",
+      "text": "Request Belegeinsicht in writing and explain which items you want to check."
+    },
+    {
+      "name": "Pay or object in writing",
+      "text": "Pay the back payment, or explain your objections in writing. Keep copies."
+    },
+    {
+      "name": "Inform the Jobcenter or Sozialamt if relevant",
+      "text": "Send them the statement promptly if you receive benefits."
+    }
+  ],
+  "phrases": [
+    [
+      "Ich bitte um Einsicht in die Belege zur Betriebskostenabrechnung für …",
+      "I request to inspect the receipts for the operating cost statement for …"
+    ],
+    [
+      "Gegen die Abrechnung erhebe ich folgende Einwände: …",
+      "I raise the following objections to the statement: …"
+    ],
+    [
+      "Die Wohnfläche in der Abrechnung stimmt nicht.",
+      "The living area in the statement is not correct."
+    ],
+    [
+      "Bitte überweisen Sie das Guthaben auf mein Konto: …",
+      "Please transfer the credit to my account: …"
+    ],
+    [
+      "Ich bitte um Ratenzahlung der Nachzahlung.",
+      "I request to pay the back payment in instalments."
+    ]
+  ],
+  "help": [
+    "mieterverein",
+    "vz",
+    "mbe"
+  ],
+  "sources": [
+    {
+      "label": "German Civil Code, § 556 — agreements on operating costs and deadlines",
+      "url": "https://www.gesetze-im-internet.de/bgb/__556.html"
+    },
+    {
+      "label": "Deutscher Mieterbund (mieterbund.de) — tenants' associations",
+      "url": "https://www.mieterbund.de/"
+    }
+  ],
+  "practice": "MemoPic can explain each line of the statement and draft a polite request to inspect receipts, which you check and send yourself."
+}

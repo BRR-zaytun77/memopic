@@ -1,0 +1,91 @@
+{
+  "title": "Terms of use — MemoPic",
+  "description": "Terms of use for the MemoPic app: what the service does, limits of AI explanations, subscriptions via App Store and Google Play, acceptable use and liability.",
+  "h1": "Terms of use for the MemoPic app",
+  "intro": [
+    "These terms of use govern your use of the MemoPic mobile app (the “App”) provided by TIYN ZAYTUN LLC (“we”, “us”). By using the App you agree to these terms. Please also read our privacy policy."
+  ],
+  "sections": [
+    {
+      "id": "service",
+      "h": "1. The service",
+      "p": [
+        "MemoPic helps you understand everyday German letters and learn practical German. You can photograph a letter or enter text, receive an explanation in your chosen language (what the letter is, who sent it, what you may need to do and possible deadlines), key German phrases and a draft reply. The App also offers deadline reminders, spaced-repetition review of phrases, AI role-play speaking practice and a daily goal.",
+        "We may develop, change or discontinue features. Some features are only available with a MemoPic Pro subscription."
+      ]
+    },
+    {
+      "id": "ai",
+      "h": "2. AI explanations can be wrong",
+      "p": [
+        "Explanations, translations, deadlines, phrases and reply drafts are generated automatically by artificial intelligence. They can be incomplete, outdated or wrong — for example a date or amount may be misread.",
+        "Always check the original letter, in particular names, amounts, dates and deadlines. Deadlines in German letters often depend on the date of delivery, which the App cannot know. A reminder in the App does not replace your own check of the deadline. You are responsible for any reply you send; check drafts before using them."
+      ]
+    },
+    {
+      "id": "advice",
+      "h": "3. No legal or tax advice",
+      "p": [
+        "MemoPic provides general information and language help. It is not legal, tax, immigration, medical or financial advice and does not replace a lawyer, tax adviser, a counselling service such as the Migrationsberatung für erwachsene Zuwanderer (MBE), or the authority that sent the letter. For important or urgent matters, contact the sender or a qualified adviser.",
+        "MemoPic is an independent app and is not affiliated with, endorsed by or acting on behalf of any German authority, insurer or company."
+      ]
+    },
+    {
+      "id": "subscriptions",
+      "h": "4. Free plan, MemoPic Pro and free trial",
+      "p": [
+        "The App can be used with a free plan with limited features. MemoPic Pro is an optional paid subscription, purchased through the Apple App Store or Google Play. The price, billing period and currency are shown in the store before you buy and may differ by country.",
+        "Subscriptions renew automatically at the end of each billing period unless you cancel at least 24 hours before the end of the current period (or as otherwise stated by the store). You can manage and cancel your subscription at any time in your App Store or Google Play account settings. Uninstalling the App does not cancel a subscription.",
+        "New subscribers may be offered a 7-day free trial. Unless you cancel before the trial ends, it converts into a paid subscription. The exact trial conditions, eligibility and timing are shown in the store and governed by the store's terms.",
+        "Payments, refunds and statutory withdrawal rights are handled by Apple or Google according to their terms. Mandatory consumer rights remain unaffected."
+      ]
+    },
+    {
+      "id": "use",
+      "h": "5. Acceptable use",
+      "p": ["You agree not to:"],
+      "ul": [
+        "upload documents you are not entitled to use, or content that is unlawful;",
+        "use the App to harass others or to create fraudulent or misleading documents;",
+        "attempt to bypass usage limits, security measures or App Check, or access the service with automated tools;",
+        "reverse engineer, copy or resell the App or its content, except where permitted by law;",
+        "use the App in a way that harms the service or other users."
+      ],
+      "p2": ["We may restrict access if these terms are seriously breached."]
+    },
+    {
+      "id": "ip",
+      "h": "6. Content and rights",
+      "p": [
+        "You keep all rights to the letters and texts you use in the App. You give us and our service providers the permission necessary to process this content solely to provide the App's functions to you. The App, its design, texts and software are protected; you receive a personal, non-transferable right to use the App for private, non-commercial purposes under these terms and the terms of the app store."
+      ]
+    },
+    {
+      "id": "liability",
+      "h": "7. Liability",
+      "p": [
+        "We provide the App with care, but we cannot guarantee that it is always available, error-free or that AI output is correct. To the extent permitted by law, we are not liable for damage resulting from reliance on AI output, missed deadlines or decisions you make based on the App.",
+        "This limitation does not apply to liability for intent or gross negligence, for injury to life, body or health, under mandatory product liability law, or where liability cannot be excluded or limited under applicable law. Mandatory statutory rights of consumers remain unaffected."
+      ]
+    },
+    {
+      "id": "law",
+      "h": "8. Governing law",
+      "p": [
+        "These terms are governed by the laws of the Republic of Uzbekistan. If you are a consumer, this choice of law does not deprive you of the protection of mandatory provisions of the law of the country in which you have your habitual residence (for example, for consumers in the European Union). Statutory rules on jurisdiction for consumers remain unaffected."
+      ]
+    },
+    {
+      "id": "changes",
+      "h": "9. Changes to these terms",
+      "p": [
+        "We may update these terms, for example when features or legal requirements change. We will inform you of material changes in the App or on this page. Last updated: 22 October 2026."
+      ]
+    },
+    {
+      "id": "contact",
+      "h": "10. Contact",
+      "contact": true
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "homeTitle": "Nemis idoralari xatlarini tushuning — MemoPic",
+    "homeDesc": "Jobcenter, Finanzamt yoki uy egasidan kelgan xatni suratga oling. MemoPic uni o'z tilingizda tushuntiradi, muddatni eslatadi va javob yozishga yordam beradi.",
+    "ogAlt": "MemoPic — nemis xatlarini o'z tilingizda tushuning"
+  },
+  "nav": {
+    "how": "Qanday ishlaydi",
+    "features": "Imkoniyatlar",
+    "letters": "Xatlar",
+    "privacy": "Maxfiylik",
+    "faq": "Savollar",
+    "download": "Yuklab olish",
+    "language": "Til",
+    "menu": "Menyu",
+    "skip": "Asosiy qismga o'tish"
+  },
+  "hero": {
+    "kicker": "Germaniyada yashash uchun kerakli nemis tili",
+    "title": "Nemischa xatlarni tushuning — va ishonch bilan javob bering",
+    "sub": "Jobcenter, Finanzamt, Ausländerbehörde yoki uy egasidan kelgan xatni suratga oling. MemoPic o'z tilingizda bu qanday xat ekanini, nima qilishingiz kerakligini va qaysi muddatgacha ekanini aytib beradi — so'ng javob uchun kerakli nemis tilini o'rganishga yordam beradi.",
+    "android": "Android",
+    "androidSub": "Google Play",
+    "ios": "iPhone",
+    "iosSub": "App Store",
+    "note": "Bepul tarif · 7 kunlik bepul sinovli MemoPic Pro · Ro'yxatdan o'tish shart emas",
+    "mockLabel": "Rasm: MemoPic Jobcenter'dan kelgan to'qima xatni tushuntirmoqda",
+    "mockCaption": "To'qima namunaviy xat bilan chizilgan rasm"
+  },
+  "mock": {
+    "scanned": "Sizning xatingiz",
+    "what": "Bu nima",
+    "whatV": "Jobcenter'ga qabulga taklifnoma",
+    "deadline": "Muddat",
+    "deadlineV": "12-noyabr · 9:30",
+    "todo": "Nima qilish kerak",
+    "todoV": "Qabulga boring, shaxsingizni tasdiqlovchi hujjat va ro'yxatdagi hujjatlarni oling.",
+    "reply": "Nemischa xushmuomala javob",
+    "remind": "Eslatma qo'yildi",
+    "added": "3 ta ibora takrorlashga qo'shildi"
+  },
+  "how": {
+    "kicker": "Qanday ishlaydi",
+    "title": "Tushunarsiz xatdan — xotirjam javobgacha",
+    "steps": [
+      {
+        "title": "Suratga oling",
+        "text": "Xatni suratga oling — davlat idorasidan, tibbiy sug'urtangizdan, uy egasidan yoki to'lov talab qilayotgan kompaniyadan."
+      },
+      {
+        "title": "O'z tilingizda tushuning",
+        "text": "Sodda tushuntirish olasiz: bu nima, kim yuborgan, nima qilish kerak va muddat qachon — hamda o'zingizga moslab olsa bo'ladigan xushmuomala nemischa javob."
+      },
+      {
+        "title": "Muddatni o'tkazib yubormang",
+        "text": "Xatni saqlang — MemoPic sanadan oldin telefoningizda eslatadi. Saqlangan xatlar qurilmangizda qoladi."
+      },
+      {
+        "title": "Kerakli nemis tilini o'rganing",
+        "text": "Xatingizdagi asosiy iboralar kundalik takrorlashingizga aylanadi, keyingi qo'ng'iroq yoki qabulni esa ovoz bilan mashq qilish mumkin."
+      }
+    ]
+  },
+  "features": {
+    "kicker": "Imkoniyatlar",
+    "title": "Nemis qog'ozbozligini yengish uchun hammasi bir joyda",
+    "sub": "MemoPic Germaniyaga yangi kelganlar duch keladigan haqiqiy vaziyatlar uchun yaratilgan — darslikdagi dialoglar uchun emas.",
+    "items": [
+      {
+        "icon": "letter",
+        "title": "Xatlarni tushuntirish",
+        "text": "Rasmiy til — oddiy so'zlar bilan: kim yuborgan, maqsadi, nima qilish kerak, muddat va muhim nemischa atamalar."
+      },
+      {
+        "icon": "reply",
+        "title": "Xushmuomala javob qoralamalari",
+        "text": "Qisqa va to'g'ri nemischa javob — qabulni tasdiqlash, qo'shimcha muddat so'rash yoki hujjat yuborish uchun. Tekshirib, o'zingiz yuborasiz."
+      },
+      {
+        "icon": "bell",
+        "title": "Muddat eslatmalari",
+        "text": "Xatdagi muddat telefoningizda eslatmaga aylanadi — muhim sana qog'ozlar orasida yo'qolib ketmaydi."
+      },
+      {
+        "icon": "repeat",
+        "title": "Xatingiz — darsingiz",
+        "text": "O'z xatlaringizdagi asosiy iboralar oraliqli takrorlashga qo'shiladi — Germaniyadagi hayotingizga aynan kerak so'zlarni o'rganasiz."
+      },
+      {
+        "icon": "mic",
+        "title": "Gapirish mashqi",
+        "text": "Keyingi qadamni sun'iy intellekt suhbatdosh bilan mashq qiling: Jobcenter'ga qo'ng'iroq, Ausländerbehörde'da qabul, shifokor yoki uy egasi bilan suhbat — xatolar tuzatiladi."
+      },
+      {
+        "icon": "flame",
+        "title": "Kunlik maqsad va seriya",
+        "text": "Kuniga bir necha daqiqa ham natija beradi. Kunlik maqsad qo'ying va seriyani uzmang."
+      }
+    ]
+  },
+  "langs": {
+    "title": "O'z tilingizda",
+    "text": "Ilova English, Русский, Українська, Türkçe, العربية va O'zbekcha tillarida mavjud. Xatlar tushuntirishini yana ko'plab boshqa tillarda olish mumkin."
+  },
+  "letters": {
+    "kicker": "Qaysi xatlarni tushuntiramiz",
+    "title": "MemoPic yordam beradigan odatiy xatlar",
+    "sub": "Eng ko'p keladigan xatlar bo'yicha bepul qo'llanmalarimizni o'qing: ular nimani anglatadi, odatiy muddatlar va nima qilish kerak.",
+    "note": "Qo'llanmalar hozircha ingliz tilida.",
+    "more": "Qo'llanmani o'qish",
+    "all": "Barcha qo'llanmalar",
+    "items": {
+      "jobcenter-einladung": "Jobcenter — qabulga taklifnoma (Einladung)",
+      "rundfunkbeitrag-letter": "Rundfunkbeitrag — radio va TV badali xati",
+      "mahnung-payment-reminder": "Mahnung — to'lov eslatmasi va Inkasso ogohlantirishi",
+      "steuerbescheid-finanzamt": "Finanzamt — soliq hisob-xabarnomasi (Steuerbescheid)",
+      "anmeldung-meldebescheinigung": "Anmeldung — yashash joyini ro'yxatdan o'tkazish",
+      "auslaenderbehoerde-termin": "Ausländerbehörde — qabul haqida xat (Termin)",
+      "krankenkasse-letter": "Krankenkasse — tibbiy sug'urtadan xat",
+      "nebenkostenabrechnung": "Nebenkostenabrechnung — kommunal xarajatlar hisob-kitobi",
+      "kuendigung-vermieter": "Kündigung — uy egasidan ijarani bekor qilish xati",
+      "bussgeldbescheid-anhoerung": "Bußgeldbescheid / Anhörung — yo'l harakati jarimasi"
+    }
+  },
+  "privacy": {
+    "kicker": "Maxfiylik",
+    "title": "Xatlaringiz — shaxsiy. Biz ularga shunday munosabatda bo'lamiz.",
+    "points": [
+      {
+        "icon": "shield",
+        "title": "Tahlil qilinadi, o'qitishga ishlatilmaydi",
+        "text": "Suratlar tushuntirish tayyorlash uchun Firebase / Vertex AI orqali Google'ning Gemini modeli tomonidan tahlil qilinadi. Ular sun'iy intellekt modellarini o'qitishga ishlatilmaydi."
+      },
+      {
+        "icon": "phone",
+        "title": "Saqlangan xatlar telefoningizda",
+        "text": "Xatlaringizni o'z serverlarimizda saqlamaymiz. Ilovada saqlaganlaringiz qurilmangizda turadi."
+      },
+      {
+        "icon": "user",
+        "title": "Akkaunt shart emas",
+        "text": "Darhol boshlang — ro'yxatdan o'tish, parol va email kerak emas."
+      },
+      {
+        "icon": "noads",
+        "title": "Reklamasiz",
+        "text": "MemoPic reklama ko'rsatmaydi va ma'lumotlaringizni sotmaydi."
+      },
+      {
+        "icon": "chart",
+        "title": "Analitika — faqat roziligingiz bilan",
+        "text": "Foydalanish statistikasi faqat ilovada rozilik bersangiz yoqiladi. Buni istalgan vaqtda o'zgartirishingiz mumkin."
+      }
+    ],
+    "link": "Maxfiylik siyosatini o'qish"
+  },
+  "faq": {
+    "kicker": "Savollar",
+    "title": "Savol va javoblar",
+    "items": [
+      {
+        "q": "MemoPic nima?",
+        "a": "MemoPic — Germaniyaga yangi kelganlar uchun mobil ilova. Nemischa xatni suratga olasiz, ilova esa o'z tilingizda bu nima ekanini, kim yuborganini, nima qilishingiz kerakligini va qaysi muddatgacha ekanini tushuntiradi. U nemischa xushmuomala javob taklif qiladi, muddatni eslatadi va asosiy iboralarni qisqa kundalik darslar va gapirish mashqiga aylantiradi."
+      },
+      {
+        "q": "MemoPic qaysi xatlarni tushuntira oladi?",
+        "a": "Jobcenter, Finanzamt, Ausländerbehörde, Bürgeramt, Beitragsservice (Rundfunkbeitrag), tibbiy sug'urta (Krankenkasse) va uy egasidan keladigan odatiy xatlar, shuningdek to'lov eslatmalari (Mahnung) va Inkasso xatlari. Boshqa kundalik nemischa hujjatlarni ham suratga olishingiz mumkin."
+      },
+      {
+        "q": "MemoPic qaysi tillarni qo'llab-quvvatlaydi?",
+        "a": "Ilova interfeysi ingliz, rus, ukrain, turk, arab va o'zbek tillarida. Xatlaringiz tushuntirishini yana ko'plab boshqa tillarda olish mumkin."
+      },
+      {
+        "q": "MemoPic bepulmi?",
+        "a": "Ha, bepul tarif bor. MemoPic Pro — 7 kunlik bepul sinov muddatiga ega ixtiyoriy obuna. Narxlar mamlakatingiz uchun App Store yoki Google Play'da ko'rsatiladi, obunani istalgan vaqtda do'kon akkaunti sozlamalarida bekor qilish mumkin."
+      },
+      {
+        "q": "Tushuntirishga ishonsa bo'ladimi?",
+        "a": "MemoPic sun'iy intellektdan foydalanadi va xato qilishi mumkin. Har doim asl xatni, ayniqsa ismlar, summalar va sanalarni tekshiring. MemoPic umumiy ma'lumot beradi, yuridik yoki soliq maslahati emas. Muhim masalalarda xat yuboruvchiga yoki Migrationsberatung für erwachsene Zuwanderer (MBE) kabi bepul maslahat xizmatiga murojaat qiling."
+      },
+      {
+        "q": "Xatlarim suratlari bilan nima bo'ladi?",
+        "a": "Surat faqat tushuntirish tayyorlash uchun Firebase / Vertex AI orqali Google'ning Gemini modeliga yuboriladi. U sun'iy intellekt modellarini o'qitishga ishlatilmaydi. Xatlaringizni o'z serverlarimizda saqlamaymiz — saqlagan xatlaringiz telefoningizda qoladi."
+      },
+      {
+        "q": "Akkaunt ochish kerakmi?",
+        "a": "Yo'q. MemoPic'dan ro'yxatdan o'tmasdan, parolsiz va bizga email bermasdan foydalanishingiz mumkin."
+      },
+      {
+        "q": "Gapirish mashqi qanday ishlaydi?",
+        "a": "Vaziyatni tanlaysiz — masalan, Jobcenter'ga qo'ng'iroq, Ausländerbehörde'da qabul, shifokor yoki uy egasi bilan suhbat — va sun'iy intellekt suhbatdosh bilan gaplashasiz. Tuzatishlar va yaxshiroq iboralar olasiz. Nutqni tanish uchun telefoningizning o'rnatilgan nutq xizmati ishlatiladi."
+      },
+      {
+        "q": "Xatlarimdan nemis tilini qanday o'rganaman?",
+        "a": "Xatlaringizdagi asosiy iboralar oraliqli takrorlashga qo'shiladi: ularni unutishingizdan sal oldin yana ko'rasiz. Kunlik maqsad va seriya to'xtab qolmaslikka yordam beradi."
+      },
+      {
+        "q": "MemoPic Jobcenter yoki boshqa idoralar bilan bog'liqmi?",
+        "a": "Yo'q. MemoPic — TIYN ZAYTUN LLC kompaniyasining mustaqil ilovasi. U hech qanday nemis davlat idorasi, sug'urta kompaniyasi yoki firma bilan bog'liq emas."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Keyingi xat sizni qo'rqitmaydi",
+    "text": "MemoPic'ni o'rnating va keyingi nemischa xatingizni bir necha daqiqada tushunib oling."
+  },
+  "footer": {
+    "tagline": "Germaniyaga yangi kelganlar uchun «omon qolish» nemis tili: xatlarni tushuning, muddatlarga rioya qiling, ishonch bilan gapiring.",
+    "app": "Ilova",
+    "legal": "Huquqiy ma'lumot",
+    "contact": "Aloqa",
+    "guides": "Qo'llanmalar",
+    "privacy": "Maxfiylik siyosati",
+    "terms": "Foydalanish shartlari",
+    "impressum": "Huquqiy ma'lumotlar (Impressum)",
+    "disclaimer": "MemoPic umumiy ma'lumot beradi, yuridik maslahat emas. MemoPic hech qanday nemis davlat idorasi bilan bog'liq emas.",
+    "englishOnly": "ingliz tilida"
+  }
+}

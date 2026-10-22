@@ -1,0 +1,74 @@
+{
+  "title": "Mahnung (payment reminder) explained — MemoPic",
+  "description": "Received a Mahnung or an Inkasso letter in Germany? How reminders, collection agencies and the court Mahnbescheid work — and what to do before deadlines pass.",
+  "h1": "Mahnung explained: payment reminders, Inkasso letters and the Mahnbescheid",
+  "kicker": "Mahnung",
+  "summary": "A Mahnung is a reminder that a payment is overdue. Do not ignore it: check whether the claim is correct, then pay, ask for an instalment plan or object in writing. Be especially careful with a Mahnbescheid from a court — you generally have only two weeks to respond.",
+  "sections": [
+    {
+      "h": "What is a Mahnung?",
+      "p": [
+        "A Mahnung (reminder) is sent when a bill was not paid on time — for example for a phone contract, an online order, electricity, a gym or a doctor's bill. The first letter is often called Zahlungserinnerung (payment reminder). Further letters may say 1. Mahnung, 2. Mahnung or letzte Mahnung (final reminder). The company may add reminder fees (Mahngebühren) and default interest (Verzugszinsen).",
+        "A reminder does not automatically mean you owe the money. Mistakes happen: a payment was already made, a contract was cancelled, or the amount is wrong. Check before you pay — but act quickly."
+      ]
+    },
+    {
+      "h": "Inkasso: when a collection agency writes",
+      "p": [
+        "If a bill stays unpaid, the company can hand the claim to a collection agency (Inkassounternehmen or Inkassobüro). Inkasso letters often sound threatening, but an Inkasso company cannot seize your property or wages by itself — that requires a court decision.",
+        "Legitimate collection agencies in Germany must be registered. You can check this in the official legal services register (Rechtsdienstleistungsregister). Be careful with emails or text messages that ask you to pay via a link — fake Inkasso messages are common. If you do not recognise the original creditor or the claim, do not pay before checking."
+      ]
+    },
+    {
+      "h": "Mahnbescheid: a letter from the court",
+      "p": [
+        "The creditor can apply to a court for a Mahnbescheid (court payment order) in the gerichtliches Mahnverfahren (court dunning procedure). It arrives as an official delivery, often in a yellow envelope, and comes from an Amtsgericht (district court). The court does not check whether the claim is justified.",
+        "This is the moment to act: you can file a Widerspruch (objection) within two weeks after delivery, using the form that comes with it. If you do nothing, the creditor can obtain a Vollstreckungsbescheid (enforcement order). Against that, you can file an Einspruch (objection), again generally within two weeks. After that, enforcement through a bailiff (Gerichtsvollzieher) becomes possible."
+      ]
+    },
+    {
+      "h": "Your options",
+      "ul": [
+        "The claim is correct: pay the amount, or ask in writing for an instalment plan (Ratenzahlung).",
+        "The claim is wrong: object in writing, explain why, and attach proof (for example a bank statement or a cancellation confirmation).",
+        "You are not sure: ask a consumer advice centre or a debt counselling service before you pay or sign anything.",
+        "You have several debts: free debt counselling (Schuldnerberatung) can help you make a plan."
+      ]
+    }
+  ],
+  "terms": [
+    ["Rechnung", "invoice / bill"],
+    ["Zahlungserinnerung", "payment reminder"],
+    ["Mahnung / letzte Mahnung", "reminder / final reminder"],
+    ["Mahngebühren", "reminder fees"],
+    ["Verzugszinsen", "default interest"],
+    ["Forderung", "claim (money owed)"],
+    ["Gläubiger", "creditor"],
+    ["Inkassounternehmen", "collection agency"],
+    ["Ratenzahlung", "payment in instalments"],
+    ["Mahnbescheid", "court payment order"],
+    ["Widerspruch / Einspruch", "objection"],
+    ["Vollstreckungsbescheid", "enforcement order"]
+  ],
+  "steps": [
+    { "name": "Find the original bill", "text": "Compare the reminder with the invoice, your contract and your bank statements." },
+    { "name": "Check who is writing", "text": "Is it the company itself, a registered collection agency or a court? Check Inkasso companies in the official register." },
+    { "name": "Respond in writing", "text": "Pay, ask for instalments or object — always in writing, with your customer or file number. Keep copies." },
+    { "name": "React to a Mahnbescheid within two weeks", "text": "If you disagree with a court payment order, send the objection form back in time." },
+    { "name": "Get help early", "text": "Consumer advice centres and debt counselling services can check the claim with you." }
+  ],
+  "phrases": [
+    ["Die Rechnung habe ich am … bezahlt. Einen Nachweis füge ich bei.", "I paid the invoice on …. I am enclosing proof."],
+    ["Ich widerspreche der Forderung, weil …", "I object to the claim because …"],
+    ["Bitte senden Sie mir eine Aufstellung der Forderung.", "Please send me a breakdown of the claim."],
+    ["Ich bitte um Ratenzahlung in Höhe von … Euro monatlich.", "I request payment in instalments of … euros per month."],
+    ["Den Vertrag habe ich am … gekündigt.", "I cancelled the contract on …"]
+  ],
+  "help": ["vz", "schuldner", "mbe"],
+  "sources": [
+    { "label": "Consumer advice centres (verbraucherzentrale.de) — Inkasso and reminders", "url": "https://www.verbraucherzentrale.de/" },
+    { "label": "Official legal services register — check if an Inkasso company is registered", "url": "https://www.rechtsdienstleistungsregister.de/" },
+    { "label": "German Code of Civil Procedure, § 692 (content of the Mahnbescheid)", "url": "https://www.gesetze-im-internet.de/zpo/__692.html" }
+  ],
+  "practice": "MemoPic drafts a short, polite German letter — for example asking for a breakdown of the claim — which you check and send yourself."
+}

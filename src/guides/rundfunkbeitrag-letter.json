@@ -1,0 +1,73 @@
+{
+  "title": "Rundfunkbeitrag letter explained — MemoPic",
+  "description": "Letter from the ARD ZDF Deutschlandradio Beitragsservice? What the Rundfunkbeitrag is, who pays, exemptions, shared flats and how to respond in time.",
+  "h1": "Rundfunkbeitrag letter explained: what the Beitragsservice wants from you",
+  "kicker": "Rundfunkbeitrag",
+  "summary": "The Rundfunkbeitrag is the broadcasting contribution that finances public radio and TV in Germany. One contribution is due per home (Wohnung), no matter how many people live there or whether you own a TV. After you register your address, the Beitragsservice usually writes to you. Reply — either register, tell them who in your home already pays, or apply for an exemption if you qualify.",
+  "sections": [
+    {
+      "h": "Who sends this letter?",
+      "p": [
+        "The letter comes from the ARD ZDF Deutschlandradio Beitragsservice in Cologne, which collects the contribution on behalf of the public broadcasters. It is a legal obligation based on the State Treaty on the Broadcasting Contribution (Rundfunkbeitragsstaatsvertrag) — not an advertising letter and not a subscription you can simply ignore.",
+        "When you register your address at the Bürgeramt (Anmeldung), the registration office passes your details to the Beitragsservice. That is why many newcomers receive a letter a few weeks after moving in."
+      ]
+    },
+    {
+      "h": "The basic rule: one contribution per home",
+      "p": [
+        "The contribution is charged per Wohnung (flat or house), not per person and not per device. If you live alone, you pay. If you live with a partner, family or flatmates (WG), only one person in the home has to pay — the others can tell the Beitragsservice the contribution number (Beitragsnummer) of the person who already pays.",
+        "The amount is a fixed monthly sum set by the federal states; it is usually paid every three months. Check the current amount on the official website rather than relying on older articles."
+      ]
+    },
+    {
+      "h": "Typical letters you may receive",
+      "ul": [
+        "A first letter asking you to register (anmelden) or to tell them whether someone else already pays for your home.",
+        "A confirmation with your Beitragsnummer and the payment dates.",
+        "A payment reminder (Zahlungserinnerung) if a payment is missing.",
+        "A Festsetzungsbescheid — an official decision fixing the unpaid amount, usually with a late payment surcharge (Säumniszuschlag). You can generally file a Widerspruch within one month after you received it; the deadline is stated in the letter.",
+        "If unpaid amounts remain, the case can be passed on for enforcement (Vollstreckung). Do not let it get that far — reply early."
+      ]
+    },
+    {
+      "h": "Exemption and reduction",
+      "p": [
+        "People who receive certain social benefits can apply for an exemption (Befreiung) — for example recipients of basic income support from the Jobcenter, social assistance (Sozialhilfe), or BAföG if they do not live with their parents. Some people with disabilities can apply for a reduced contribution (Ermäßigung). An exemption is not automatic: you need to apply and send proof, such as a copy of your benefit decision. The forms are on rundfunkbeitrag.de.",
+        "If you move out, move abroad or move in with someone who already pays, you can deregister or change your details (Abmeldung / Änderung) online."
+      ]
+    }
+  ],
+  "terms": [
+    ["Rundfunkbeitrag", "broadcasting contribution"],
+    ["Beitragsservice", "the office that collects the contribution"],
+    ["Beitragsnummer", "contribution number"],
+    ["Wohnung", "home / flat"],
+    ["anmelden / abmelden", "register / deregister"],
+    ["Befreiung", "exemption"],
+    ["Ermäßigung", "reduction"],
+    ["Zahlungserinnerung", "payment reminder"],
+    ["Festsetzungsbescheid", "official decision fixing the amount owed"],
+    ["Säumniszuschlag", "late payment surcharge"],
+    ["Vollstreckung", "enforcement"],
+    ["Lastschrift", "direct debit"]
+  ],
+  "steps": [
+    { "name": "Check whether someone in your home already pays", "text": "Ask your flatmates or partner for their Beitragsnummer. If they pay, report it — then you do not pay twice." },
+    { "name": "Register if you are the one who pays", "text": "Register online or with the reply form. You will receive a Beitragsnummer." },
+    { "name": "Check whether you qualify for an exemption", "text": "If you receive certain social benefits, apply for Befreiung and attach your benefit decision." },
+    { "name": "Set up payment", "text": "A direct debit (Lastschrift) helps you avoid missed payments and surcharges." },
+    { "name": "Keep every letter", "text": "Note your Beitragsnummer — you will need it for every change and every reply." }
+  ],
+  "phrases": [
+    ["Für meine Wohnung zahlt bereits …, Beitragsnummer …", "… already pays for my home, contribution number …"],
+    ["Ich beantrage die Befreiung vom Rundfunkbeitrag.", "I am applying for exemption from the broadcasting contribution."],
+    ["Den Bescheid füge ich als Kopie bei.", "I am enclosing a copy of the decision."],
+    ["Ich bin am … umgezogen.", "I moved on …"],
+    ["Bitte bestätigen Sie mir die Änderung schriftlich.", "Please confirm the change to me in writing."]
+  ],
+  "help": ["vz", "mbe"],
+  "sources": [
+    { "label": "Official website of the Beitragsservice (rundfunkbeitrag.de) — amount, forms, exemptions", "url": "https://www.rundfunkbeitrag.de/" }
+  ],
+  "practice": "In MemoPic, save the letter to get a reminder for the reply date, and learn the phrase „Für meine Wohnung zahlt bereits …“ for your shared flat."
+}

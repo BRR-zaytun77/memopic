@@ -1,0 +1,14 @@
+{
+  "name": "memopic-landing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "images": "node scripts/images.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "indexnow": "node scripts/indexnow.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.0"
+  }
+}
