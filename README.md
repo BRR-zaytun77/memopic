@@ -1,6 +1,6 @@
-# memopic — https://brr-zaytun77.github.io/memopic/
+# klarineo — https://klarineo.com/
 
-MemoPic ilovasining statik landing sayti (GitHub Pages, `main` branch ildizi).
+Klarineo ilovasining statik landing sayti (GitHub Pages, `main` branch ildizi).
 Framework yo'q: Node skripti `src/` dan HTML generatsiya qiladi.
 
 ## Tuzilma

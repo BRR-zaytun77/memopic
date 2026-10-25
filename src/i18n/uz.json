@@ -1,8 +1,8 @@
 {
   "meta": {
-    "homeTitle": "Nemis idoralari xatlarini tushuning — MemoPic",
-    "homeDesc": "Jobcenter, Finanzamt yoki uy egasidan kelgan xatni suratga oling. MemoPic uni o'z tilingizda tushuntiradi, muddatni eslatadi va javob yozishga yordam beradi.",
-    "ogAlt": "MemoPic — nemis xatlarini o'z tilingizda tushuning"
+    "homeTitle": "Nemis idoralari xatlarini tushuning — Klarineo",
+    "homeDesc": "Jobcenter, Finanzamt yoki uy egasidan kelgan xatni suratga oling. Klarineo uni o'z tilingizda tushuntiradi, muddatni eslatadi va javob yozishga yordam beradi.",
+    "ogAlt": "Klarineo — nemis xatlarini o'z tilingizda tushuning"
   },
   "nav": {
     "how": "Qanday ishlaydi",
@@ -18,13 +18,13 @@
   "hero": {
     "kicker": "Germaniyada yashash uchun kerakli nemis tili",
     "title": "Nemischa xatlarni tushuning — va ishonch bilan javob bering",
-    "sub": "Jobcenter, Finanzamt, Ausländerbehörde yoki uy egasidan kelgan xatni suratga oling. MemoPic o'z tilingizda bu qanday xat ekanini, nima qilishingiz kerakligini va qaysi muddatgacha ekanini aytib beradi — so'ng javob uchun kerakli nemis tilini o'rganishga yordam beradi.",
+    "sub": "Jobcenter, Finanzamt, Ausländerbehörde yoki uy egasidan kelgan xatni suratga oling. Klarineo o'z tilingizda bu qanday xat ekanini, nima qilishingiz kerakligini va qaysi muddatgacha ekanini aytib beradi — so'ng javob uchun kerakli nemis tilini o'rganishga yordam beradi.",
     "android": "Android",
     "androidSub": "Google Play",
     "ios": "iPhone",
     "iosSub": "App Store",
-    "note": "Bepul tarif · MemoPic Pro · yangi obunachilar uchun bepul sinov · Ro'yxatdan o'tish shart emas",
-    "mockLabel": "Rasm: MemoPic Jobcenter'dan kelgan to'qima xatni tushuntirmoqda",
+    "note": "Bepul tarif · Klarineo Pro · yangi obunachilar uchun bepul sinov · Ro'yxatdan o'tish shart emas",
+    "mockLabel": "Rasm: Klarineo Jobcenter'dan kelgan to'qima xatni tushuntirmoqda",
     "mockCaption": "To'qima namunaviy xat bilan chizilgan rasm"
   },
   "mock": {
@@ -53,7 +53,7 @@
       },
       {
         "title": "Muddatni o'tkazib yubormang",
-        "text": "Xatni saqlang — MemoPic sanadan oldin telefoningizda eslatadi. Saqlangan xatlar qurilmangizda qoladi."
+        "text": "Xatni saqlang — Klarineo sanadan oldin telefoningizda eslatadi. Saqlangan xatlar qurilmangizda qoladi."
       },
       {
         "title": "Kerakli nemis tilini o'rganing",
@@ -64,7 +64,7 @@
   "features": {
     "kicker": "Imkoniyatlar",
     "title": "Nemis qog'ozbozligini yengish uchun hammasi bir joyda",
-    "sub": "MemoPic Germaniyaga yangi kelganlar duch keladigan haqiqiy vaziyatlar uchun yaratilgan — darslikdagi dialoglar uchun emas.",
+    "sub": "Klarineo Germaniyaga yangi kelganlar duch keladigan haqiqiy vaziyatlar uchun yaratilgan — darslikdagi dialoglar uchun emas.",
     "items": [
       {
         "icon": "letter",
@@ -104,7 +104,7 @@
   },
   "letters": {
     "kicker": "Qaysi xatlarni tushuntiramiz",
-    "title": "MemoPic yordam beradigan odatiy xatlar",
+    "title": "Klarineo yordam beradigan odatiy xatlar",
     "sub": "Eng ko'p keladigan xatlar bo'yicha bepul qo'llanmalarimizni o'qing: ular nimani anglatadi, odatiy muddatlar va nima qilish kerak.",
     "note": "Qo'llanmalar hozircha ingliz tilida.",
     "more": "Qo'llanmani o'qish",
@@ -144,7 +144,7 @@
       {
         "icon": "noads",
         "title": "Reklamasiz",
-        "text": "MemoPic reklama ko'rsatmaydi va ma'lumotlaringizni sotmaydi."
+        "text": "Klarineo reklama ko'rsatmaydi va ma'lumotlaringizni sotmaydi."
       },
       {
         "icon": "chart",
@@ -159,24 +159,24 @@
     "title": "Savol va javoblar",
     "items": [
       {
-        "q": "MemoPic nima?",
-        "a": "MemoPic — Germaniyaga yangi kelganlar uchun mobil ilova. Nemischa xatni suratga olasiz, ilova esa o'z tilingizda bu nima ekanini, kim yuborganini, nima qilishingiz kerakligini va qaysi muddatgacha ekanini tushuntiradi. U nemischa xushmuomala javob taklif qiladi, muddatni eslatadi va asosiy iboralarni qisqa kundalik darslar va gapirish mashqiga aylantiradi."
+        "q": "Klarineo nima?",
+        "a": "Klarineo — Germaniyaga yangi kelganlar uchun mobil ilova. Nemischa xatni suratga olasiz, ilova esa o'z tilingizda bu nima ekanini, kim yuborganini, nima qilishingiz kerakligini va qaysi muddatgacha ekanini tushuntiradi. U nemischa xushmuomala javob taklif qiladi, muddatni eslatadi va asosiy iboralarni qisqa kundalik darslar va gapirish mashqiga aylantiradi."
       },
       {
-        "q": "MemoPic qaysi xatlarni tushuntira oladi?",
+        "q": "Klarineo qaysi xatlarni tushuntira oladi?",
         "a": "Jobcenter, Finanzamt, Ausländerbehörde, Bürgeramt, Beitragsservice (Rundfunkbeitrag), tibbiy sug'urta (Krankenkasse) va uy egasidan keladigan odatiy xatlar, shuningdek to'lov eslatmalari (Mahnung) va Inkasso xatlari. Boshqa kundalik nemischa hujjatlarni ham suratga olishingiz mumkin."
       },
       {
-        "q": "MemoPic qaysi tillarni qo'llab-quvvatlaydi?",
+        "q": "Klarineo qaysi tillarni qo'llab-quvvatlaydi?",
         "a": "Ilova interfeysi ingliz, rus, ukrain, turk, arab va o'zbek tillarida. Xatlaringiz tushuntirishini yana ko'plab boshqa tillarda olish mumkin."
       },
       {
-        "q": "MemoPic bepulmi?",
-        "a": "Ha, bepul tarif bor. MemoPic Pro — ixtiyoriy obuna; do'kon taklif qilsa, yangi obunachilar bepul sinovdan foydalanishi mumkin. Narxlar mamlakatingiz uchun App Store yoki Google Play'da ko'rsatiladi, obunani istalgan vaqtda do'kon akkaunti sozlamalarida bekor qilish mumkin."
+        "q": "Klarineo bepulmi?",
+        "a": "Ha, bepul tarif bor. Klarineo Pro — ixtiyoriy obuna; do'kon taklif qilsa, yangi obunachilar bepul sinovdan foydalanishi mumkin. Narxlar mamlakatingiz uchun App Store yoki Google Play'da ko'rsatiladi, obunani istalgan vaqtda do'kon akkaunti sozlamalarida bekor qilish mumkin."
       },
       {
         "q": "Tushuntirishga ishonsa bo'ladimi?",
-        "a": "MemoPic sun'iy intellektdan foydalanadi va xato qilishi mumkin. Har doim asl xatni, ayniqsa ismlar, summalar va sanalarni tekshiring. MemoPic umumiy ma'lumot beradi, yuridik yoki soliq maslahati emas. Muhim masalalarda xat yuboruvchiga yoki Migrationsberatung für erwachsene Zuwanderer (MBE) kabi bepul maslahat xizmatiga murojaat qiling."
+        "a": "Klarineo sun'iy intellektdan foydalanadi va xato qilishi mumkin. Har doim asl xatni, ayniqsa ismlar, summalar va sanalarni tekshiring. Klarineo umumiy ma'lumot beradi, yuridik yoki soliq maslahati emas. Muhim masalalarda xat yuboruvchiga yoki Migrationsberatung für erwachsene Zuwanderer (MBE) kabi bepul maslahat xizmatiga murojaat qiling."
       },
       {
         "q": "Xatlarim suratlari bilan nima bo'ladi?",
@@ -184,7 +184,7 @@
       },
       {
         "q": "Akkaunt ochish kerakmi?",
-        "a": "Yo'q. MemoPic'dan ro'yxatdan o'tmasdan, parolsiz va bizga email bermasdan foydalanishingiz mumkin."
+        "a": "Yo'q. Klarineo'dan ro'yxatdan o'tmasdan, parolsiz va bizga email bermasdan foydalanishingiz mumkin."
       },
       {
         "q": "Gapirish mashqi qanday ishlaydi?",
@@ -195,14 +195,14 @@
         "a": "Xatlaringizdagi asosiy iboralar oraliqli takrorlashga qo'shiladi: ularni unutishingizdan sal oldin yana ko'rasiz. Kunlik maqsad va seriya to'xtab qolmaslikka yordam beradi."
       },
       {
-        "q": "MemoPic Jobcenter yoki boshqa idoralar bilan bog'liqmi?",
-        "a": "Yo'q. MemoPic — TIYN ZAYTUN LLC kompaniyasining mustaqil ilovasi. U hech qanday nemis davlat idorasi, sug'urta kompaniyasi yoki firma bilan bog'liq emas."
+        "q": "Klarineo Jobcenter yoki boshqa idoralar bilan bog'liqmi?",
+        "a": "Yo'q. Klarineo — TIYN ZAYTUN LLC kompaniyasining mustaqil ilovasi. U hech qanday nemis davlat idorasi, sug'urta kompaniyasi yoki firma bilan bog'liq emas."
       }
     ]
   },
   "cta": {
     "title": "Keyingi xat sizni qo'rqitmaydi",
-    "text": "MemoPic'ni o'rnating va keyingi nemischa xatingizni bir necha daqiqada tushunib oling."
+    "text": "Klarineo'ni o'rnating va keyingi nemischa xatingizni bir necha daqiqada tushunib oling."
   },
   "footer": {
     "tagline": "Germaniyaga yangi kelganlar uchun «omon qolish» nemis tili: xatlarni tushuning, muddatlarga rioya qiling, ishonch bilan gapiring.",
@@ -213,7 +213,7 @@
     "privacy": "Maxfiylik siyosati",
     "terms": "Foydalanish shartlari",
     "impressum": "Huquqiy ma'lumotlar (Impressum)",
-    "disclaimer": "MemoPic umumiy ma'lumot beradi, yuridik maslahat emas. MemoPic hech qanday nemis davlat idorasi bilan bog'liq emas.",
+    "disclaimer": "Klarineo umumiy ma'lumot beradi, yuridik maslahat emas. Klarineo hech qanday nemis davlat idorasi bilan bog'liq emas.",
     "englishOnly": "ingliz tilida"
   }
 }

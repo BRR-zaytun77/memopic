@@ -1,10 +1,10 @@
-# MemoPic — https://brr-zaytun77.github.io/memopic/
+# Klarineo — https://klarineo.com/
 # Note: crawlers read robots.txt only at the host root. For the root file see SEO.md.
 
 User-agent: *
 Allow: /
-Disallow: /memopic/src/
-Disallow: /memopic/scripts/
+Disallow: /src/
+Disallow: /scripts/
 
 User-agent: Googlebot
 Allow: /
@@ -60,4 +60,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://brr-zaytun77.github.io/memopic/sitemap.xml
+Sitemap: https://klarineo.com/sitemap.xml

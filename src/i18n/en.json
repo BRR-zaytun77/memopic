@@ -1,8 +1,8 @@
 {
   "meta": {
-    "homeTitle": "Understand German letters — MemoPic",
-    "homeDesc": "Photograph a letter from the Jobcenter, Finanzamt or your landlord. MemoPic explains it in your language, reminds you of the deadline and helps you reply.",
-    "ogAlt": "MemoPic — understand German letters in your language"
+    "homeTitle": "Understand German letters — Klarineo",
+    "homeDesc": "Photograph a letter from the Jobcenter, Finanzamt or your landlord. Klarineo explains it in your language, reminds you of the deadline and helps you reply.",
+    "ogAlt": "Klarineo — understand German letters in your language"
   },
   "nav": {
     "how": "How it works",
@@ -18,13 +18,13 @@
   "hero": {
     "kicker": "Survival German for life in Germany",
     "title": "Understand German letters — and reply with confidence",
-    "sub": "Take a photo of a letter from the Jobcenter, Finanzamt, Ausländerbehörde or your landlord. MemoPic tells you in your language what it is, what you have to do and by when — then helps you learn the German you need for your answer.",
+    "sub": "Take a photo of a letter from the Jobcenter, Finanzamt, Ausländerbehörde or your landlord. Klarineo tells you in your language what it is, what you have to do and by when — then helps you learn the German you need for your answer.",
     "android": "Android",
     "androidSub": "Google Play",
     "ios": "iPhone",
     "iosSub": "App Store",
-    "note": "Free plan · MemoPic Pro · free trial for new subscribers · No account needed",
-    "mockLabel": "Illustration: MemoPic explaining a fictional letter from a Jobcenter",
+    "note": "Free plan · Klarineo Pro · free trial for new subscribers · No account needed",
+    "mockLabel": "Illustration: Klarineo explaining a fictional letter from a Jobcenter",
     "mockCaption": "Illustration with a fictional sample letter"
   },
   "mock": {
@@ -53,7 +53,7 @@
       },
       {
         "title": "Never miss the deadline",
-        "text": "Save the letter and MemoPic reminds you on your phone before the date — your saved letters stay on your device."
+        "text": "Save the letter and Klarineo reminds you on your phone before the date — your saved letters stay on your device."
       },
       {
         "title": "Learn the German behind it",
@@ -64,7 +64,7 @@
   "features": {
     "kicker": "Features",
     "title": "Everything you need to handle German paperwork",
-    "sub": "MemoPic is built for real situations newcomers face in Germany — not textbook dialogues.",
+    "sub": "Klarineo is built for real situations newcomers face in Germany — not textbook dialogues.",
     "items": [
       {
         "icon": "letter",
@@ -104,7 +104,7 @@
   },
   "letters": {
     "kicker": "Letters we explain",
-    "title": "Typical letters MemoPic helps with",
+    "title": "Typical letters Klarineo helps with",
     "sub": "Read our free guides to the most common letters — what they mean, typical deadlines and what to do.",
     "note": "",
     "more": "Read the guide",
@@ -144,7 +144,7 @@
       {
         "icon": "noads",
         "title": "No ads",
-        "text": "MemoPic shows no advertising and does not sell your data."
+        "text": "Klarineo shows no advertising and does not sell your data."
       },
       {
         "icon": "chart",
@@ -159,24 +159,24 @@
     "title": "Questions and answers",
     "items": [
       {
-        "q": "What is MemoPic?",
-        "a": "MemoPic is a mobile app for newcomers in Germany. You photograph a German letter, and the app explains in your language what it is, who sent it, what you have to do and by when. It suggests a polite reply in German, reminds you of the deadline and turns the key phrases into short daily lessons and speaking practice."
+        "q": "What is Klarineo?",
+        "a": "Klarineo is a mobile app for newcomers in Germany. You photograph a German letter, and the app explains in your language what it is, who sent it, what you have to do and by when. It suggests a polite reply in German, reminds you of the deadline and turns the key phrases into short daily lessons and speaking practice."
       },
       {
-        "q": "Which letters can MemoPic explain?",
+        "q": "Which letters can Klarineo explain?",
         "a": "Typical letters from the Jobcenter, Finanzamt, Ausländerbehörde, Bürgeramt, the Rundfunkbeitrag (Beitragsservice), your Krankenkasse, your landlord, as well as payment reminders (Mahnung) and Inkasso letters. You can also photograph other everyday German documents."
       },
       {
-        "q": "Which languages does MemoPic support?",
+        "q": "Which languages does Klarineo support?",
         "a": "The app interface is available in English, Russian, Ukrainian, Turkish, Arabic and Uzbek. Explanations of your letters can be given in many more languages."
       },
       {
-        "q": "Is MemoPic free?",
-        "a": "Yes, there is a free plan. MemoPic Pro is an optional subscription ; new subscribers can get a free trial where the store offers it. Prices are shown in the App Store or Google Play for your country, and you can cancel at any time in your store account settings."
+        "q": "Is Klarineo free?",
+        "a": "Yes, there is a free plan. Klarineo Pro is an optional subscription ; new subscribers can get a free trial where the store offers it. Prices are shown in the App Store or Google Play for your country, and you can cancel at any time in your store account settings."
       },
       {
         "q": "Can I rely on the explanation?",
-        "a": "MemoPic uses AI and can make mistakes. Always check the original letter, especially names, amounts and dates. MemoPic gives general information, not legal or tax advice. For important matters, contact the sender or a free counselling service such as the Migrationsberatung für erwachsene Zuwanderer (MBE)."
+        "a": "Klarineo uses AI and can make mistakes. Always check the original letter, especially names, amounts and dates. Klarineo gives general information, not legal or tax advice. For important matters, contact the sender or a free counselling service such as the Migrationsberatung für erwachsene Zuwanderer (MBE)."
       },
       {
         "q": "What happens to the photos of my letters?",
@@ -184,7 +184,7 @@
       },
       {
         "q": "Do I need an account?",
-        "a": "No. You can use MemoPic without registering, without a password and without giving us your email address."
+        "a": "No. You can use Klarineo without registering, without a password and without giving us your email address."
       },
       {
         "q": "How does the speaking practice work?",
@@ -195,14 +195,14 @@
         "a": "Key phrases from your letters are added to a spaced-repetition review, so you see them again just before you would forget them. A daily goal and streak help you keep going."
       },
       {
-        "q": "Is MemoPic connected to the Jobcenter or other authorities?",
-        "a": "No. MemoPic is an independent app by TIYN ZAYTUN LLC and is not affiliated with any German authority, insurer or company."
+        "q": "Is Klarineo connected to the Jobcenter or other authorities?",
+        "a": "No. Klarineo is an independent app by TIYN ZAYTUN LLC and is not affiliated with any German authority, insurer or company."
       }
     ]
   },
   "cta": {
     "title": "The next letter will not scare you",
-    "text": "Install MemoPic and understand your next German letter in minutes."
+    "text": "Install Klarineo and understand your next German letter in minutes."
   },
   "footer": {
     "tagline": "Survival German for newcomers in Germany: understand letters, meet deadlines, speak with confidence.",
@@ -213,7 +213,7 @@
     "privacy": "Privacy policy",
     "terms": "Terms of use",
     "impressum": "Legal notice (Impressum)",
-    "disclaimer": "MemoPic provides general information, not legal advice. MemoPic is not affiliated with any German authority.",
+    "disclaimer": "Klarineo provides general information, not legal advice. Klarineo is not affiliated with any German authority.",
     "englishOnly": "in English"
   }
 }

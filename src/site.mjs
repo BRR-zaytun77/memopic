@@ -6,8 +6,8 @@
 //  Barcha ichki havolalar, canonical, hreflang, sitemap, llms.txt shundan olinadi.
 // =============================================================================
 
-/** Saytning to'liq manzili (oxirida `/` bilan). GitHub Pages: /memopic/ ichida. */
-export const SITE_URL = 'https://brr-zaytun77.github.io/memopic/';
+/** Saytning to'liq manzili (oxirida `/` bilan). Custom domain: klarineo.com (ildiz). */
+export const SITE_URL = 'https://klarineo.com/';
 
 const u = new URL(SITE_URL);
 /** Host ildizi, masalan `https://brr-zaytun77.github.io`. */
@@ -16,8 +16,8 @@ export const ORIGIN = u.origin;
 export const BASE = u.pathname.endsWith('/') ? u.pathname : `${u.pathname}/`;
 
 /** Kontent oxirgi ko'rib chiqilgan sana (sitemap lastmod, «Last reviewed»). */
-export const UPDATED = '2026-10-22';
-export const UPDATED_HUMAN = '22 October 2026';
+export const UPDATED = '2026-10-25';
+export const UPDATED_HUMAN = '25 October 2026';
 
 /**
  * Bosh sahifa tillari. `path` — URL prefiksi ('' — asosiy til, ingliz; x-default).
