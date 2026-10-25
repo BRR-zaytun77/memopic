@@ -37,8 +37,8 @@ export const LINKS = {
   appStore: 'https://apps.apple.com/us/app/memopic-learn-with-flashcards/id6756977971',
   appStoreId: '6756977971',
   email: 'appnews.uz@gmail.com',
-  telegram: 'https://t.me/inquiryuz',
-  telegramHandle: '@inquiryuz',
+  telegram: 'https://t.me/klarineo_support_bot',
+  telegramHandle: '@klarineo_support_bot',
 };
 
 /**
