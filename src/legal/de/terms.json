@@ -1,0 +1,95 @@
+{
+  "title": "Nutzungsbedingungen — Klarineo",
+  "description": "Nutzungsbedingungen der Klarineo-App: Leistungsumfang, Grenzen der KI-Erklärungen, Abonnements über App Store und Google Play, zulässige Nutzung und Haftung.",
+  "h1": "Nutzungsbedingungen für die Klarineo-App",
+  "intro": [
+    "Diese Nutzungsbedingungen regeln Ihre Nutzung der mobilen Klarineo-App (die „App“), die von TIYN ZAYTUN LLC („wir“, „uns“) bereitgestellt wird. Mit der Nutzung der App erklären Sie sich mit diesen Bedingungen einverstanden. Bitte lesen Sie auch unsere Datenschutzerklärung."
+  ],
+  "sections": [
+    {
+      "id": "service",
+      "h": "1. Der Dienst",
+      "p": [
+        "Klarineo hilft Ihnen, alltägliche deutsche Briefe zu verstehen und praktisches Deutsch zu lernen. Sie können einen Brief fotografieren oder einen Text eingeben und erhalten eine Erklärung in Ihrer gewählten Sprache (was für ein Brief es ist, wer ihn gesendet hat, was Sie möglicherweise tun müssen und mögliche Fristen), wichtige deutsche Phrasen und einen Antwortentwurf. Die App bietet außerdem Fristerinnerungen, Wiederholung von Phrasen nach dem Prinzip der verteilten Wiederholung (Spaced Repetition), eine KI-gestützte Sprechübung im Rollenspiel sowie ein Tagesziel.",
+        "Wir können Funktionen weiterentwickeln, ändern oder einstellen. Einige Funktionen stehen nur mit einem Klarineo-Pro-Abonnement zur Verfügung."
+      ]
+    },
+    {
+      "id": "ai",
+      "h": "2. KI-Erklärungen können falsch sein",
+      "p": [
+        "Erklärungen, Übersetzungen, Fristen, Phrasen und Antwortentwürfe werden automatisch von künstlicher Intelligenz erzeugt. Sie können unvollständig, veraltet oder falsch sein — zum Beispiel kann ein Datum oder ein Betrag falsch gelesen werden.",
+        "Prüfen Sie stets den Originalbrief, insbesondere Namen, Beträge, Daten und Fristen. Fristen in deutschen Briefen hängen häufig vom Zustellungsdatum ab, das die App nicht kennen kann. Eine Erinnerung in der App ersetzt nicht Ihre eigene Prüfung der Frist. Für jede Antwort, die Sie versenden, sind Sie selbst verantwortlich; prüfen Sie Entwürfe, bevor Sie sie verwenden."
+      ]
+    },
+    {
+      "id": "advice",
+      "h": "3. Keine Rechts- oder Steuerberatung",
+      "p": [
+        "Klarineo bietet allgemeine Informationen und Sprachhilfe. Es handelt sich weder um Rechts-, Steuer-, Aufenthalts-, medizinische noch um Finanzberatung, und Klarineo ersetzt weder eine Rechtsanwältin oder einen Rechtsanwalt, eine Steuerberaterin oder einen Steuerberater, eine Beratungsstelle wie die Migrationsberatung für erwachsene Zuwanderer (MBE) noch die Behörde, die den Brief versandt hat. Wenden Sie sich bei wichtigen oder eiligen Angelegenheiten an den Absender oder an eine qualifizierte Beratung.",
+        "Klarineo ist eine unabhängige App und steht in keiner Verbindung zu deutschen Behörden, Versicherungen oder Unternehmen, wird von diesen nicht empfohlen und handelt nicht in deren Namen."
+      ]
+    },
+    {
+      "id": "subscriptions",
+      "h": "4. Kostenloser Tarif, Klarineo Pro und kostenlose Testphase",
+      "p": [
+        "Die App kann mit einem kostenlosen Tarif mit eingeschränkten Funktionen genutzt werden. Klarineo Pro ist ein optionales kostenpflichtiges Abonnement, das über den Apple App Store oder Google Play erworben wird. Preis, Abrechnungszeitraum und Währung werden vor dem Kauf im Store angezeigt und können je nach Land abweichen.",
+        "Abonnements verlängern sich am Ende jedes Abrechnungszeitraums automatisch, sofern Sie nicht mindestens 24 Stunden vor Ablauf des laufenden Zeitraums kündigen (oder soweit der Store etwas anderes vorsieht). Sie können Ihr Abonnement jederzeit in den Kontoeinstellungen Ihres App Store oder Google Play verwalten und kündigen. Das Deinstallieren der App kündigt ein Abonnement nicht.",
+        "Neuen Abonnenten kann eine 7-tägige kostenlose Testphase angeboten werden. Wenn Sie nicht vor Ende der Testphase kündigen, geht sie in ein kostenpflichtiges Abonnement über. Die genauen Bedingungen, die Berechtigung und der Zeitablauf der Testphase werden im Store angezeigt und richten sich nach den Bedingungen des Stores.",
+        "Zahlungen, Erstattungen und gesetzliche Widerrufsrechte werden von Apple oder Google nach deren Bedingungen abgewickelt. Zwingende Verbraucherrechte bleiben unberührt."
+      ]
+    },
+    {
+      "id": "use",
+      "h": "5. Zulässige Nutzung",
+      "p": [
+        "Sie verpflichten sich, Folgendes zu unterlassen:"
+      ],
+      "ul": [
+        "Dokumente hochzuladen, die Sie nicht verwenden dürfen, oder rechtswidrige Inhalte hochzuladen;",
+        "die App zu nutzen, um andere zu belästigen oder um betrügerische oder irreführende Dokumente zu erstellen;",
+        "zu versuchen, Nutzungsbeschränkungen, Sicherheitsmaßnahmen oder App Check zu umgehen oder mit automatisierten Werkzeugen auf den Dienst zuzugreifen;",
+        "die App oder ihre Inhalte zurückzuentwickeln (Reverse Engineering), zu kopieren oder weiterzuverkaufen, soweit dies nicht gesetzlich erlaubt ist;",
+        "die App in einer Weise zu nutzen, die dem Dienst oder anderen Nutzern schadet."
+      ],
+      "p2": [
+        "Wir können den Zugang beschränken, wenn diese Bedingungen schwerwiegend verletzt werden."
+      ]
+    },
+    {
+      "id": "ip",
+      "h": "6. Inhalte und Rechte",
+      "p": [
+        "Sie behalten sämtliche Rechte an den Briefen und Texten, die Sie in der App verwenden. Sie erteilen uns und unseren Dienstleistern die Erlaubnis, die zur Verarbeitung dieser Inhalte erforderlich ist, ausschließlich um Ihnen die Funktionen der App bereitzustellen. Die App, ihr Design, ihre Texte und ihre Software sind geschützt; Sie erhalten ein persönliches, nicht übertragbares Recht, die App nach diesen Bedingungen und den Bedingungen des App-Stores für private, nichtkommerzielle Zwecke zu nutzen."
+      ]
+    },
+    {
+      "id": "liability",
+      "h": "7. Haftung",
+      "p": [
+        "Wir stellen die App mit Sorgfalt bereit, können aber nicht garantieren, dass sie stets verfügbar und fehlerfrei ist oder dass die Ausgaben der KI korrekt sind. Soweit gesetzlich zulässig, haften wir nicht für Schäden, die aus dem Vertrauen auf KI-Ausgaben, aus versäumten Fristen oder aus Entscheidungen entstehen, die Sie auf Grundlage der App treffen.",
+        "Diese Beschränkung gilt nicht für die Haftung bei Vorsatz oder grober Fahrlässigkeit, bei Verletzung wesentlicher Vertragspflichten (Pflichten, deren Erfüllung die ordnungsgemäße Durchführung des Vertrags überhaupt erst ermöglicht und auf deren Einhaltung Sie regelmäßig vertrauen dürfen — in diesem Fall ist die Haftung auf den vorhersehbaren, vertragstypischen Schaden begrenzt), bei Verletzung von Leben, Körper oder Gesundheit, nach zwingendem Produkthaftungsrecht oder wenn die Haftung nach geltendem Recht nicht ausgeschlossen oder beschränkt werden kann. Zwingende gesetzliche Rechte von Verbrauchern bleiben unberührt."
+      ]
+    },
+    {
+      "id": "law",
+      "h": "8. Anwendbares Recht",
+      "p": [
+        "Diese Bedingungen unterliegen dem Recht der Republik Usbekistan. Sind Sie Verbraucher, so entzieht Ihnen diese Rechtswahl nicht den Schutz der zwingenden Bestimmungen des Rechts des Landes, in dem Sie Ihren gewöhnlichen Aufenthalt haben (zum Beispiel für Verbraucher in der Europäischen Union). Gesetzliche Regelungen zur Zuständigkeit für Verbraucher bleiben unberührt."
+      ]
+    },
+    {
+      "id": "changes",
+      "h": "9. Änderungen dieser Bedingungen",
+      "p": [
+        "Wir können diese Bedingungen aktualisieren, zum Beispiel wenn sich Funktionen oder rechtliche Anforderungen ändern. Über wesentliche Änderungen informieren wir Sie in der App oder auf dieser Seite. Zuletzt aktualisiert: 22. Oktober 2026."
+      ]
+    },
+    {
+      "id": "contact",
+      "h": "10. Kontakt",
+      "contact": true
+    }
+  ]
+}

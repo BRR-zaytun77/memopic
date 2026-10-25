@@ -1,0 +1,95 @@
+{
+  "title": "Kullanım şartları — Klarineo",
+  "description": "Klarineo uygulaması kullanım şartları: hizmetin ne yaptığı, yapay zekâ açıklamalarının sınırları, App Store ve Google Play üzerinden abonelikler, kabul edilebilir kullanım ve sorumluluk.",
+  "h1": "Klarineo uygulaması kullanım şartları",
+  "intro": [
+    "Bu kullanım şartları, TIYN ZAYTUN LLC (“biz”) tarafından sunulan Klarineo mobil uygulamasını (“Uygulama”) kullanımınızı düzenler. Uygulamayı kullanarak bu şartları kabul etmiş olursunuz. Lütfen gizlilik politikamızı da okuyun."
+  ],
+  "sections": [
+    {
+      "id": "service",
+      "h": "1. Hizmet",
+      "p": [
+        "Klarineo, günlük Almanca mektupları anlamanıza ve pratik Almanca öğrenmenize yardımcı olur. Bir mektubun fotoğrafını çekebilir veya metin girebilir, seçtiğiniz dilde bir açıklama (mektubun ne olduğu, kimden geldiği, ne yapmanız gerekebileceği ve olası son tarihler), önemli Almanca ifadeler ve bir yanıt taslağı alabilirsiniz. Uygulama ayrıca son tarih hatırlatıcıları, ifadelerin aralıklı tekrarla gözden geçirilmesi, yapay zekâ ile rol yapma tarzında konuşma pratiği ve günlük hedef sunar.",
+        "Özellikleri geliştirebilir, değiştirebilir veya sonlandırabiliriz. Bazı özellikler yalnızca Klarineo Pro aboneliğiyle kullanılabilir."
+      ]
+    },
+    {
+      "id": "ai",
+      "h": "2. Yapay zekâ açıklamaları yanlış olabilir",
+      "p": [
+        "Açıklamalar, çeviriler, son tarihler, ifadeler ve yanıt taslakları yapay zekâ tarafından otomatik olarak oluşturulur. Eksik, güncel olmayan veya yanlış olabilirler — örneğin bir tarih ya da tutar yanlış okunmuş olabilir.",
+        "Özellikle adları, tutarları, tarihleri ve son tarihleri her zaman asıl mektuptan kontrol edin. Almanca mektuplardaki son tarihler çoğunlukla Uygulamanın bilemeyeceği teslim tarihine bağlıdır. Uygulamadaki bir hatırlatıcı, son tarihi kendiniz kontrol etmenin yerini tutmaz. Göndereceğiniz her yanıttan siz sorumlusunuz; taslakları kullanmadan önce kontrol edin."
+      ]
+    },
+    {
+      "id": "advice",
+      "h": "3. Hukuki veya vergi danışmanlığı değildir",
+      "p": [
+        "Klarineo genel bilgi ve dil yardımı sağlar. Hukuki, vergi, göçmenlik, tıbbi veya mali danışmanlık değildir ve bir avukatın, vergi danışmanının, Migrationsberatung für erwachsene Zuwanderer (MBE) gibi bir danışmanlık hizmetinin veya mektubu gönderen makamın yerini tutmaz. Önemli veya acil konularda göndericiyle veya nitelikli bir danışmanla iletişime geçin.",
+        "Klarineo bağımsız bir uygulamadır; hiçbir Alman makamı, sigorta şirketi veya şirketle bağlantılı değildir, onlar tarafından onaylanmamıştır ve onlar adına hareket etmez."
+      ]
+    },
+    {
+      "id": "subscriptions",
+      "h": "4. Ücretsiz plan, Klarineo Pro ve ücretsiz deneme",
+      "p": [
+        "Uygulama, sınırlı özelliklere sahip ücretsiz bir planla kullanılabilir. Klarineo Pro, Apple App Store veya Google Play üzerinden satın alınan isteğe bağlı ücretli bir aboneliktir. Fiyat, faturalama dönemi ve para birimi satın almadan önce mağazada gösterilir ve ülkeye göre farklılık gösterebilir.",
+        "Mevcut dönemin bitiminden en az 24 saat önce (veya mağazanın belirttiği başka bir süre içinde) iptal etmediğiniz sürece abonelikler her faturalama döneminin sonunda otomatik olarak yenilenir. Aboneliğinizi istediğiniz zaman App Store veya Google Play hesap ayarlarınızdan yönetebilir ve iptal edebilirsiniz. Uygulamayı kaldırmak aboneliği iptal etmez.",
+        "Yeni abonelere 7 günlük ücretsiz deneme sunulabilir. Deneme sona ermeden iptal etmezseniz ücretli aboneliğe dönüşür. Deneme koşulları, uygunluk ve zamanlama mağazada gösterilir ve mağazanın şartlarına tabidir.",
+        "Ödemeler, iadeler ve yasal cayma hakları Apple veya Google tarafından kendi şartlarına göre yürütülür. Zorunlu tüketici hakları etkilenmez."
+      ]
+    },
+    {
+      "id": "use",
+      "h": "5. Kabul edilebilir kullanım",
+      "p": [
+        "Aşağıdakileri yapmamayı kabul edersiniz:"
+      ],
+      "ul": [
+        "kullanma hakkınız olmayan belgeleri veya hukuka aykırı içeriği yüklemek;",
+        "Uygulamayı başkalarını taciz etmek veya sahte ya da yanıltıcı belgeler oluşturmak için kullanmak;",
+        "kullanım sınırlarını, güvenlik önlemlerini veya App Check'i aşmaya çalışmak ya da hizmete otomatik araçlarla erişmek;",
+        "yasalarca izin verilen durumlar dışında Uygulamayı veya içeriğini tersine mühendislikle incelemek, kopyalamak veya yeniden satmak;",
+        "Uygulamayı hizmete veya diğer kullanıcılara zarar verecek şekilde kullanmak."
+      ],
+      "p2": [
+        "Bu şartların ciddi biçimde ihlal edilmesi halinde erişimi kısıtlayabiliriz."
+      ]
+    },
+    {
+      "id": "ip",
+      "h": "6. İçerik ve haklar",
+      "p": [
+        "Uygulamada kullandığınız mektuplar ve metinler üzerindeki tüm haklar size aittir. Bu içeriği yalnızca Uygulamanın işlevlerini size sunmak amacıyla işlemek için gerekli izni bize ve hizmet sağlayıcılarımıza verirsiniz. Uygulama, tasarımı, metinleri ve yazılımı korunmaktadır; bu şartlar ve uygulama mağazasının şartları uyarınca Uygulamayı özel ve ticari olmayan amaçlarla kullanmak için kişisel ve devredilemez bir hak elde edersiniz."
+      ]
+    },
+    {
+      "id": "liability",
+      "h": "7. Sorumluluk",
+      "p": [
+        "Uygulamayı özenle sunarız, ancak her zaman erişilebilir veya hatasız olacağını ya da yapay zekâ çıktısının doğru olacağını garanti edemeyiz. Yasaların izin verdiği ölçüde, yapay zekâ çıktısına güvenilmesinden, kaçırılan son tarihlerden veya Uygulamaya dayanarak verdiğiniz kararlardan kaynaklanan zararlardan sorumlu değiliz.",
+        "Bu sınırlama; kasıt veya ağır ihmalden doğan sorumluluk, esaslı sözleşme yükümlülüklerinin ihlali (yerine getirilmesi sözleşmenin usulüne uygun ifasını mümkün kılan ve sizin düzenli olarak güvenebileceğiniz yükümlülükler — bu durumda sorumluluk, bu tür sözleşme için tipik ve öngörülebilir zararla sınırlıdır), yaşam, beden veya sağlığa zarar, zorunlu ürün sorumluluğu hukuku kapsamındaki sorumluluk veya uygulanabilir hukuk uyarınca sorumluluğun hariç tutulamadığı ya da sınırlandırılamadığı durumlar için geçerli değildir. Tüketicilerin zorunlu yasal hakları etkilenmez."
+      ]
+    },
+    {
+      "id": "law",
+      "h": "8. Uygulanacak hukuk",
+      "p": [
+        "Bu şartlar Özbekistan Cumhuriyeti hukukuna tabidir. Tüketiciyseniz, bu hukuk seçimi sizi mutat meskeninizin bulunduğu ülkenin hukukundaki zorunlu hükümlerin sağladığı korumadan yoksun bırakmaz (örneğin Avrupa Birliği'ndeki tüketiciler için). Tüketiciler için yetkiye ilişkin yasal kurallar etkilenmez."
+      ]
+    },
+    {
+      "id": "changes",
+      "h": "9. Bu şartlardaki değişiklikler",
+      "p": [
+        "Bu şartları, örneğin özellikler veya yasal gereklilikler değiştiğinde güncelleyebiliriz. Önemli değişiklikleri Uygulamada veya bu sayfada size bildiririz. Son güncelleme: 22 Ekim 2026."
+      ]
+    },
+    {
+      "id": "contact",
+      "h": "10. İletişim",
+      "contact": true
+    }
+  ]
+}

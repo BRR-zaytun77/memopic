@@ -1,0 +1,23 @@
+{
+  "title": "Impressum — Klarineo",
+  "description": "Impressum der Klarineo-App und Website, bereitgestellt von TIYN ZAYTUN LLC: Unternehmensangaben und Kontakt.",
+  "h1": "Impressum",
+  "lead": "Angaben zum Anbieter der Klarineo-App und dieser Website.",
+  "provider": "Anbieter",
+  "labels": {
+    "company": "Unternehmen",
+    "legalForm": "Rechtsform",
+    "address": "Anschrift",
+    "director": "Geschäftsführer",
+    "regNo": "Registernummer",
+    "email": "E-Mail"
+  },
+  "euRep": "Vertreter in der EU (Art. 27 GDPR)",
+  "euRepInline": "Vertreter in der Europäischen Union (Art. 27 GDPR):",
+  "responsible": "Verantwortlich für den Inhalt",
+  "responsibleText": "Anschrift wie oben",
+  "dispute": "Verbraucherstreitbeilegung",
+  "disputeText": "Wir sind weder bereit noch verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
+  "disclaimer": "Haftungsausschluss",
+  "disclaimerText": "Allgemeine Informationen, keine Rechtsberatung. Klarineo steht in keiner Verbindung zu deutschen Behörden. Die Ratgeber auf dieser Website werden sorgfältig erstellt, ersetzen aber keine individuelle Beratung. Links zu offiziellen Websites führen zu Inhalten, für die deren Betreiber verantwortlich sind."
+}

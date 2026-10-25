@@ -1,0 +1,23 @@
+{
+  "title": "Huquqiy ma'lumot (Impressum) — Klarineo",
+  "description": "Klarineo ilovasi va veb-sayti uchun huquqiy ma'lumot (Impressum), TIYN ZAYTUN LLC tomonidan taqdim etiladi: kompaniya ma'lumotlari va aloqa.",
+  "h1": "Huquqiy ma'lumot (Impressum)",
+  "lead": "Klarineo ilovasi va ushbu veb-sayt provayderi haqida ma'lumot.",
+  "provider": "Provayder",
+  "labels": {
+    "company": "Kompaniya",
+    "legalForm": "Huquqiy shakli",
+    "address": "Manzil",
+    "director": "Direktor",
+    "regNo": "Ro'yxatdan o'tish raqami",
+    "email": "Elektron pochta"
+  },
+  "euRep": "Yevropa Ittifoqidagi vakil (Art. 27 GDPR)",
+  "euRepInline": "Yevropa Ittifoqidagi vakil (Art. 27 GDPR):",
+  "responsible": "Kontent uchun mas'ul shaxs",
+  "responsibleText": "manzil yuqoridagidek",
+  "dispute": "Iste'molchilar nizolarini hal qilish",
+  "disputeText": "Biz iste'molchilar arbitraj komissiyasi huzuridagi nizolarni hal qilish jarayonlarida ishtirok etishga na tayyormiz, na majburmiz.",
+  "disclaimer": "Mas'uliyatni rad etish",
+  "disclaimerText": "Umumiy ma'lumot, yuridik maslahat emas. Klarineo hech qanday Germaniya idorasi bilan bog'liq emas. Ushbu veb-saytdagi qo'llanmalar sinchkovlik bilan tayyorlangan, lekin individual maslahat o'rnini bosmaydi. Rasmiy veb-saytlarga havolalar o'sha saytlar egalari mas'ul bo'lgan kontentga olib boradi."
+}

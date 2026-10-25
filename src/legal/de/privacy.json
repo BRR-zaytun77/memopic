@@ -1,0 +1,147 @@
+{
+  "title": "Datenschutzerklärung — Klarineo",
+  "description": "Wie die Klarineo-App Ihre Daten verarbeitet: Briefanalyse mit Google Gemini, Daten auf Ihrem Gerät, optionale Analyse, Ihre Rechte nach der DSGVO und Kontakt.",
+  "h1": "Datenschutzerklärung für die Klarineo-App",
+  "intro": [
+    "Diese Datenschutzerklärung erläutert, welche personenbezogenen Daten bei der Nutzung der mobilen Klarineo-App für Android und iOS (die „App“) verarbeitet werden, zu welchen Zwecken, auf welcher Rechtsgrundlage und welche Rechte Ihnen zustehen. Die Website, auf der diese Erklärung veröffentlicht ist, verwendet keine Cookies, keine Analysedienste und keine Ressourcen Dritter (siehe Abschnitt 10 zum Hosting).",
+    "Kurz gesagt: Sie benötigen kein Konto. Fotos und Texte Ihrer Briefe werden nur an das Gemini-Modell von Google gesendet, um Ihre Erklärung zu erstellen, und nicht zum Training von KI-Modellen verwendet. Wir speichern Ihre Briefe nicht auf unseren Servern — was Sie speichern, bleibt auf Ihrem Smartphone. Es gibt keine Werbung, und die Analyse läuft nur, wenn Sie zustimmen."
+  ],
+  "sections": [
+    {
+      "id": "controller",
+      "h": "1. Verantwortlicher",
+      "p": [
+        "Verantwortlicher für die Datenverarbeitung in der App ist:"
+      ],
+      "controller": true,
+      "p2": [
+        "Sie können uns jederzeit per E-Mail oder über Telegram zum Datenschutz kontaktieren (siehe Abschnitt 13)."
+      ]
+    },
+    {
+      "id": "letters",
+      "h": "2. Analyse von Briefen und Dokumenten",
+      "p": [
+        "Wenn Sie einen Brief fotografieren oder einen Text eingeben, sendet die App das Bild bzw. den Text zusammen mit der von Ihnen gewählten Erklärungssprache über Firebase AI Logic (Vertex AI Gemini API), einen Dienst von Google, an die Gemini-Modelle von Google. Das Modell erstellt die Erklärung, die Schlüsselwörter und -sätze sowie den Antwortentwurf, die Sie in der App sehen. Vor dem Hochladen kodiert die App Fotos auf Ihrem Gerät neu und entfernt eingebettete Metadaten wie den Standort (EXIF/GPS).",
+        "Zweck: Bereitstellung der von Ihnen angeforderten Funktion. Rechtsgrundlage: Ihre Einwilligung, die die App vor der ersten Analyse einholt — Art. 6(1)(a) GDPR und, da Briefe besondere Kategorien personenbezogener Daten enthalten können (zum Beispiel Gesundheitsangaben), Ihre ausdrückliche Einwilligung nach Art. 9(2)(a) GDPR. Sie können Ihre Einwilligung jederzeit in den App-Einstellungen widerrufen („KI-Analyse von Briefen“); danach stehen die Briefanalyse und die Sprechübung nicht mehr zur Verfügung, während Ihre gespeicherten Phrasen weiterhin nutzbar bleiben.",
+        "Briefe enthalten häufig personenbezogene Daten — etwa Ihren Namen, Ihre Adresse, Aktenzeichen oder Angaben zu Leistungen oder zur Gesundheit. Bitte fotografieren Sie nur Dokumente, die Sie verwenden dürfen; Angaben, die für die Erklärung nicht erforderlich sind, können Sie abdecken.",
+        "Nach den Bedingungen von Google für diese Dienste werden die Inhalte zur Erstellung der Antwort verarbeitet und nicht zum Training der KI-Modelle von Google verwendet. Wir speichern die Fotos oder Texte Ihrer Briefe nicht auf unseren Servern. Google kann Daten gemäß seinen Bedingungen für eine begrenzte Zeit speichern, soweit dies für Sicherheit und Missbrauchsprävention erforderlich ist. Die KI ist angewiesen, in ihrer Antwort keine persönlichen Kennungen zu wiederholen; dies kann jedoch nicht in jedem Fall sichergestellt werden.",
+        "Verarbeitungsort: Die App nutzt den Dienst Vertex AI von Google, konfiguriert gemäß unseren Projekteinstellungen; je nach konfigurierter Region können Anfragen in Rechenzentren außerhalb der EU/des EWR verarbeitet werden (siehe Abschnitt 10)."
+      ]
+    },
+    {
+      "id": "device",
+      "h": "3. Auf Ihrem Gerät gespeicherte Daten",
+      "p": [
+        "Von Ihnen gespeicherte Briefe, deren Erklärungen, Fristen, Schlüsselphrasen, Ihr Wiederholungsfortschritt, das Tagesziel, die Serie (Streak) und Ihre Einstellungen werden lokal auf Ihrem Gerät gespeichert. Wir haben keinen Zugriff auf diese Daten. Sie werden entfernt, wenn Sie in der App „Alle meine Daten löschen“ verwenden oder die App deinstallieren. Die Gerätesicherung Ihres Betriebssystems kann je nach Geräteeinstellungen App-Daten enthalten."
+      ]
+    },
+    {
+      "id": "speech",
+      "h": "4. Sprechübung und Spracherkennung",
+      "p": [
+        "Für die Sprechübung nutzt die App den in das Betriebssystem Ihres Smartphones integrierten Spracherkennungsdienst (Apple unter iOS, Google unter Android). Je nach Gerät und Einstellungen kann die Sprache auf dem Gerät oder von Apple bzw. Google nach deren eigenen Datenschutzbestimmungen verarbeitet werden. Die App fragt vor der ersten Nutzung die Berechtigung für das Mikrofon ab; Sie können diese jederzeit in den Einstellungen Ihres Smartphones widerrufen.",
+        "Der erkannte Text Ihrer Antworten und der Gesprächskontext werden über Firebase AI Logic (siehe Abschnitt 2) an die Gemini-Modelle von Google gesendet, um die Antwort Ihres Gesprächspartners und Korrekturen zu erzeugen. Wir speichern keine Aufnahmen oder Transkripte auf unseren Servern. Rechtsgrundlage: Ihre Einwilligung nach Art. 6(1)(a) und Art. 9(2)(a) GDPR (dieselbe Einwilligung wie in Abschnitt 2); die Sprechübung steht erst zur Verfügung, nachdem Sie diese erteilt haben."
+      ]
+    },
+    {
+      "id": "reminders",
+      "h": "5. Erinnerungen und Benachrichtigungen",
+      "p": [
+        "Fristen- und Tageserinnerungen sind lokale Benachrichtigungen, die auf Ihrem Gerät erzeugt werden; ihr Inhalt wird nicht an uns übermittelt. Benachrichtigungen auf dem Sperrbildschirm zeigen nur einen allgemeinen Text, nicht den Inhalt Ihres Briefs. Die App versendet keine Marketing-Push-Nachrichten. Firebase Cloud Messaging ist in die App eingebunden, registriert Ihr Gerät aber nicht automatisch. Rechtsgrundlage: Art. 6(1)(b) GDPR und, soweit Ihre Erlaubnis erforderlich ist, Art. 6(1)(a) GDPR. Sie können Erinnerungen jederzeit in den App-Einstellungen oder in den Einstellungen Ihres Smartphones ausschalten."
+      ]
+    },
+    {
+      "id": "appcheck",
+      "h": "6. Missbrauchsprävention (Firebase App Check)",
+      "p": [
+        "Um unsere KI-Funktionen vor Missbrauch zu schützen — zum Beispiel vor automatisierten Anfragen, die nicht von der echten App stammen — nutzen wir Firebase App Check. Mithilfe der Attestierungsdienste der jeweiligen Plattform (zum Beispiel Play Integrity unter Android, App Attest oder DeviceCheck unter iOS) wird geprüft, dass Anfragen von einer unveränderten Kopie der App auf einem echten Gerät stammen. Dabei werden technische Geräte- und App-Informationen verarbeitet. Rechtsgrundlage: Art. 6(1)(f) GDPR; unser berechtigtes Interesse ist die Sicherheit und Verfügbarkeit des Dienstes sowie die Verhinderung von Missbrauch."
+      ]
+    },
+    {
+      "id": "analytics",
+      "h": "7. Analyse und Diagnose — nur mit Ihrer Einwilligung",
+      "p": [
+        "Wenn — und nur wenn — Sie in der App zustimmen, nutzen wir Google Analytics for Firebase, um zu verstehen, wie die App genutzt wird, und um Probleme zu erkennen, zum Beispiel welche Bildschirme genutzt werden, die App-Version, den Gerätetyp, die aus der IP-Adresse abgeleitete ungefähre Region und technische Fehlerinformationen. Diese Daten sind pseudonym (verknüpft mit einer zufälligen App-Instanz-Kennung, nicht mit Ihrem Namen). Die Analyse wird ohne Werbefunktionen eingesetzt, und wir verknüpfen sie nicht mit anderen Daten, um Sie zu identifizieren. „Alle meine Daten löschen“ setzt diese Kennung zurück.",
+        "Rechtsgrundlage: Art. 6(1)(a) GDPR (Einwilligung). Sie können Ihre Einwilligung jederzeit in den App-Einstellungen widerrufen; die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung bleibt davon unberührt. Ohne Einwilligung werden keine Analyse- oder Diagnosedaten erhoben."
+      ]
+    },
+    {
+      "id": "purchases",
+      "h": "8. Abonnements und Käufe",
+      "p": [
+        "Klarineo-Pro-Abonnements und eine gegebenenfalls vom Store angebotene kostenlose Testphase werden vollständig von Apple (App Store) oder Google (Google Play) abgewickelt. Wir erhalten weder Ihre Zahlungskarten- noch Ihre Bankdaten. Die App erhält vom Store lediglich die Information, ob ein Abonnement oder eine Testphase aktiv ist, damit die Pro-Funktionen freigeschaltet werden können. Rechtsgrundlage: Art. 6(1)(b) GDPR. Die Stores verarbeiten Ihren Kauf nach ihren eigenen Bedingungen und Datenschutzerklärungen."
+      ]
+    },
+    {
+      "id": "nocookies",
+      "h": "9. Was wir nicht tun",
+      "ul": [
+        "Keine Werbung und keine Werbekennungen.",
+        "Kein Tracking über andere Apps oder Websites hinweg.",
+        "Kein Verkauf und keine Vermietung Ihrer personenbezogenen Daten.",
+        "Für die Nutzung der App sind weder ein Konto noch ein Passwort oder eine E-Mail-Adresse erforderlich.",
+        "Keine Verwendung Ihrer Briefe zum Training von KI-Modellen."
+      ]
+    },
+    {
+      "id": "recipients",
+      "h": "10. Empfänger und internationale Übermittlungen",
+      "p": [
+        "Wir nutzen Dienste von Google (Firebase, Firebase AI Logic / Vertex AI, Firebase Remote Config für die App-Konfiguration, etwa die KI-Modellversion, Firebase Cloud Messaging, Firebase App Check und — mit Einwilligung — Google Analytics for Firebase) als Auftragsverarbeiter auf Grundlage von Auftragsverarbeitungsbedingungen. Für Nutzer in der EU/im EWR ist Vertragspartner in der Regel Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Daten können auch von Google LLC in den USA oder in anderen Ländern verarbeitet werden.",
+        "Für Übermittlungen in Länder außerhalb der EU/des EWR stützt sich Google, soweit anwendbar, auf das EU–US Data Privacy Framework sowie auf die Standard Contractual Clauses (Standardvertragsklauseln) der Europäischen Kommission. Apple und Google verarbeiten Daten für ihre App-Stores und Betriebssystemdienste außerdem als eigenständige Verantwortliche.",
+        "Wir geben Ihre Daten nicht an sonstige Dritte weiter, es sei denn, wir sind gesetzlich dazu verpflichtet.",
+        "Diese Website wird bei GitHub Pages (GitHub, Inc., USA) gehostet. Beim Besuch verarbeitet GitHub Ihre IP-Adresse und technische Anfragedaten in Server-Logs, um die Website sicher auszuliefern. Rechtsgrundlage: Art. 6(1)(f) GDPR (unser berechtigtes Interesse an einer sicheren, verfügbaren Website)."
+      ]
+    },
+    {
+      "id": "retention",
+      "h": "11. Speicherdauer",
+      "ul": [
+        "Briefe, Erklärungen, Phrasen und Lernfortschritt: werden nur auf Ihrem Gerät gespeichert, bis Sie sie löschen, „Alle meine Daten löschen“ verwenden oder die App deinstallieren.",
+        "Zur Analyse gesendete Inhalte: werden von Google zur Erstellung der Antwort verarbeitet und nicht von uns gespeichert; Google kann sie nach seinen Bedingungen für eine begrenzte Zeit zur Sicherheit und Missbrauchsprävention aufbewahren.",
+        "Benachrichtigungs-Token (nur falls Push-Nachrichten jemals aktiviert werden): bis Sie die App deinstallieren, „Alle meine Daten löschen“ verwenden oder das Token erneuert wird.",
+        "Analysedaten (nur mit Einwilligung): werden für einen begrenzten Zeitraum in Google Analytics for Firebase aufbewahrt und anschließend automatisch gelöscht.",
+        "E-Mails und Nachrichten, die Sie uns senden: so lange, wie es zur Beantwortung Ihrer Anfrage erforderlich ist und wie es gesetzlich vorgeschrieben ist."
+      ]
+    },
+    {
+      "id": "rights",
+      "h": "12. Ihre Rechte",
+      "p": [
+        "Nach der DSGVO haben Sie das Recht auf:"
+      ],
+      "ul": [
+        "Auskunft über die von uns zu Ihrer Person verarbeiteten personenbezogenen Daten (Art. 15 GDPR);",
+        "Berichtigung unrichtiger Daten (Art. 16 GDPR);",
+        "Löschung (Art. 17 GDPR) und Einschränkung der Verarbeitung (Art. 18 GDPR);",
+        "Datenübertragbarkeit (Art. 20 GDPR);",
+        "Widerspruch gegen eine auf berechtigten Interessen beruhende Verarbeitung (Art. 21 GDPR);",
+        "jederzeitigen Widerruf einer Einwilligung mit Wirkung für die Zukunft (Art. 7(3) GDPR);",
+        "Beschwerde bei einer Datenschutz-Aufsichtsbehörde, insbesondere in dem EU-Mitgliedstaat Ihres Wohnsitzes oder Arbeitsplatzes."
+      ],
+      "p2": [
+        "Da die App ohne Konto funktioniert und Ihre Inhalte auf Ihrem Gerät speichert, können wir Sie in der Regel nicht identifizieren und auf unserer Seite keine Daten zu Ihrer Person auffinden. Um alles zu löschen, was die App gespeichert hat, öffnen Sie die App-Einstellungen und wählen Sie „Alle meine Daten löschen“; deinstallieren Sie anschließend die App. Um Ihre Rechte auszuüben oder eine Frage zu stellen, kontaktieren Sie uns über die folgenden Angaben."
+      ]
+    },
+    {
+      "id": "contact",
+      "h": "13. Kontakt",
+      "contact": true
+    },
+    {
+      "id": "children",
+      "h": "14. Mindestalter",
+      "p": [
+        "Die App richtet sich an Personen ab 16 Jahren. Wir verarbeiten wissentlich keine Daten von Kindern unter 16 Jahren. Wenn Sie glauben, dass ein Kind die App genutzt hat, kontaktieren Sie uns bitte."
+      ]
+    },
+    {
+      "id": "changes",
+      "h": "15. Änderungen dieser Erklärung",
+      "p": [
+        "Wir aktualisieren diese Erklärung, wenn sich die App oder rechtliche Anforderungen ändern. Die aktuelle Fassung ist stets auf dieser Seite veröffentlicht. Zuletzt aktualisiert: 22. Oktober 2026."
+      ]
+    }
+  ]
+}
