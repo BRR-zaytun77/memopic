@@ -49,8 +49,8 @@ export const LEGAL = {
   company: 'TIYN ZAYTUN LLC',
   legalForm: 'Limited liability company (MChJ), Republic of Uzbekistan',
   address: "Omonariq ko'chasi 120, Omonariq MFY, Baliqchi tumani, Andijon viloyati, Uzbekistan",
-  director: 'Axrorbek Madaminovich Abdullayev',
-  regNo: 'TIN (STIR) 309938921',
+  director: 'Ahrorbek Abdullaev',
+  regNo: '1988236 (TIN / STIR: 309938921)',
   email: 'appnews.uz@gmail.com',
 };
 
