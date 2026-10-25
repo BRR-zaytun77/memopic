@@ -1,0 +1,147 @@
+{
+  "title": "Gizlilik politikası — Klarineo",
+  "description": "Klarineo uygulamasının verilerinizi nasıl işlediği: Google Gemini ile mektup analizi, cihazınızda tutulan veriler, isteğe bağlı analitik, GDPR haklarınız ve iletişim.",
+  "h1": "Klarineo uygulaması gizlilik politikası",
+  "intro": [
+    "Bu gizlilik politikası, Android ve iOS için Klarineo mobil uygulamasını (“Uygulama”) kullandığınızda hangi kişisel verilerin, hangi amaçlarla, hangi hukuki dayanakla işlendiğini ve hangi haklara sahip olduğunuzu açıklar. Bu politikanın yayımlandığı web sitesi çerez, analitik veya üçüncü taraf kaynakları kullanmaz (barındırma hakkında bkz. 10. bölüm).",
+    "Kısaca: hesap açmanız gerekmez. Mektuplarınızın fotoğrafları ve metinleri yalnızca açıklamanızı oluşturmak için Google'ın Gemini modeline gönderilir ve yapay zekâ modellerini eğitmek için kullanılmaz. Mektuplarınızı sunucularımızda saklamayız — kaydettiğiniz her şey telefonunuzda kalır. Reklam yoktur ve analitik yalnızca siz onay verirseniz çalışır."
+  ],
+  "sections": [
+    {
+      "id": "controller",
+      "h": "1. Veri sorumlusu",
+      "p": [
+        "Uygulamada veri işlemeden sorumlu veri sorumlusu:"
+      ],
+      "controller": true,
+      "p2": [
+        "Gizlilikle ilgili konularda bize istediğiniz zaman e-posta veya Telegram aracılığıyla ulaşabilirsiniz (bkz. 13. bölüm)."
+      ]
+    },
+    {
+      "id": "letters",
+      "h": "2. Mektupların ve belgelerin analizi",
+      "p": [
+        "Bir mektubun fotoğrafını çektiğinizde veya metin girdiğinizde, Uygulama görüntüyü veya metni seçtiğiniz açıklama diliyle birlikte, Google'ın bir hizmeti olan Firebase AI Logic (Vertex AI Gemini API) üzerinden Google'ın Gemini modellerine gönderir. Model, Uygulamada gördüğünüz açıklamayı, anahtar ifadeleri ve yanıt taslağını oluşturur. Yüklemeden önce Uygulama, fotoğrafları cihazınızda yeniden kodlar ve konum gibi gömülü meta verileri (EXIF/GPS) kaldırır.",
+        "Amaç: talep ettiğiniz işlevi sağlamak. Hukuki dayanak: Uygulamanın ilk analizden önce istediği onayınız — Art. 6(1)(a) GDPR ve mektuplar özel kategorilerde veriler (örneğin sağlık bilgileri) içerebileceğinden, Art. 9(2)(a) GDPR uyarınca açık rızanız. Onayınızı Uygulama ayarlarında (“Mektupların yapay zekâ analizi”) istediğiniz zaman geri çekebilirsiniz; bundan sonra mektup analizi ve konuşma pratiği kullanılamaz, kaydedilmiş ifadeleriniz ise kullanılabilir kalır.",
+        "Mektuplar çoğunlukla kişisel veriler içerir — örneğin adınız, adresiniz, dosya numaralarınız veya yardımlar ya da sağlıkla ilgili bilgiler. Lütfen yalnızca kullanma hakkınız olan belgelerin fotoğrafını çekin; açıklama için gerekli olmayan bilgileri kapatabilirsiniz.",
+        "Google'ın bu hizmetlere ilişkin şartlarına göre içerik, yanıtı oluşturmak için işlenir ve Google'ın yapay zekâ modellerini eğitmek için kullanılmaz. Mektuplarınızın fotoğraflarını veya metinlerini sunucularımızda saklamayız. Google, güvenlik ve kötüye kullanımın önlenmesi için gerekli olduğunda, şartlarına uygun olarak verileri sınırlı bir süre boyunca tutabilir. Yapay zekâya yanıtında kişisel tanımlayıcıları tekrarlamaması talimatı verilmiştir, ancak bu her durumda güvence altına alınamaz.",
+        "İşleme yeri: Uygulama, proje ayarlarımıza göre yapılandırılmış olan Google'ın Vertex AI hizmetini kullanır; yapılandırılan bölgeye bağlı olarak istekler AB/AEA dışındaki veri merkezlerinde işlenebilir (bkz. 10. bölüm)."
+      ]
+    },
+    {
+      "id": "device",
+      "h": "3. Cihazınızda saklanan veriler",
+      "p": [
+        "Kaydettiğiniz mektuplar, bunların açıklamaları, son tarihler, anahtar ifadeler, tekrar ilerlemeniz, günlük hedefiniz, seriniz ve ayarlarınız yerel olarak cihazınızda saklanır. Bu verilere erişimimiz yoktur. Uygulamada “Tüm verilerimi sil” seçeneğini kullandığınızda veya Uygulamayı kaldırdığınızda silinir. İşletim sisteminizin kendi cihaz yedeklemesi, cihaz ayarlarınıza bağlı olarak uygulama verilerini içerebilir."
+      ]
+    },
+    {
+      "id": "speech",
+      "h": "4. Konuşma pratiği ve konuşma tanıma",
+      "p": [
+        "Konuşma pratiği için Uygulama, telefonunuzun işletim sistemine yerleşik konuşma tanıma hizmetini kullanır (iOS'ta Apple, Android'de Google). Cihazınıza ve ayarlarınıza bağlı olarak konuşma cihaz üzerinde veya Apple ya da Google tarafından kendi gizlilik şartlarına göre işlenebilir. Uygulama ilk kullanımdan önce mikrofon izni ister; bu izni telefon ayarlarınızdan istediğiniz zaman geri çekebilirsiniz.",
+        "Yanıtlarınızın tanınan metni ve konuşma bağlamı, konuşma partnerinizin yanıtını ve düzeltmeleri oluşturmak için Firebase AI Logic aracılığıyla Google'ın Gemini modellerine gönderilir (bkz. 2. bölüm). Kayıtları veya dökümleri sunucularımızda saklamayız. Hukuki dayanak: Art. 6(1)(a) ve Art. 9(2)(a) GDPR uyarınca onayınız (2. bölümdeki ile aynı onay); konuşma pratiği yalnızca bu onayı verdikten sonra kullanılabilir."
+      ]
+    },
+    {
+      "id": "reminders",
+      "h": "5. Hatırlatıcılar ve bildirimler",
+      "p": [
+        "Son tarih ve günlük hatırlatıcılar, cihazınızda oluşturulan yerel bildirimlerdir; içerikleri bize gönderilmez. Kilit ekranındaki bildirimler mektubunuzun içeriğini değil, yalnızca genel bir metin gösterir. Uygulama pazarlama amaçlı anlık bildirim göndermez. Firebase Cloud Messaging Uygulamaya dahildir ancak cihazınızı otomatik olarak kaydetmez. Hukuki dayanak: Art. 6(1)(b) GDPR ve iznin gerekli olduğu durumlarda Art. 6(1)(a) GDPR. Hatırlatıcıları Uygulama ayarlarından veya telefon ayarlarınızdan istediğiniz zaman kapatabilirsiniz."
+      ]
+    },
+    {
+      "id": "appcheck",
+      "h": "6. Kötüye kullanımın önlenmesi (Firebase App Check)",
+      "p": [
+        "Yapay zekâ işlevlerimizi kötüye kullanıma karşı — örneğin gerçek Uygulamadan gelmeyen otomatik isteklere karşı — korumak için Firebase App Check kullanırız. Platformun doğrulama hizmetlerinin (örneğin Android'de Play Integrity, iOS'ta App Attest veya DeviceCheck) yardımıyla isteklerin gerçek bir cihazdaki değiştirilmemiş bir Uygulama kopyasından geldiğini kontrol eder. Bunun için teknik cihaz ve uygulama bilgileri işlenir. Hukuki dayanak: Art. 6(1)(f) GDPR; meşru menfaatimiz hizmetin güvenliği ve kullanılabilirliği ile kötüye kullanımın önlenmesidir."
+      ]
+    },
+    {
+      "id": "analytics",
+      "h": "7. Analitik ve tanılama — yalnızca onayınızla",
+      "p": [
+        "Yalnızca Uygulamada onay verirseniz, Uygulamanın nasıl kullanıldığını anlamak ve sorunları tespit etmek için Google Analytics for Firebase kullanırız; örneğin hangi ekranların kullanıldığı, uygulama sürümü, cihaz türü, IP adresinden türetilen yaklaşık bölge ve teknik hata bilgileri. Bu veriler takma adlıdır (adınıza değil, rastgele bir uygulama örneği tanımlayıcısına bağlıdır). Analitik, reklam özellikleri olmadan kullanılır ve sizi tanımlamak için başka verilerle birleştirmeyiz. “Tüm verilerimi sil” bu tanımlayıcıyı sıfırlar.",
+        "Hukuki dayanak: Art. 6(1)(a) GDPR (onay). Onayınızı Uygulama ayarlarında istediğiniz zaman geri çekebilirsiniz; bu, geri çekmeden önceki işlemenin hukuka uygunluğunu etkilemez. Onay olmadan hiçbir analitik veya tanılama verisi toplanmaz."
+      ]
+    },
+    {
+      "id": "purchases",
+      "h": "8. Abonelikler ve satın alımlar",
+      "p": [
+        "Klarineo Pro abonelikleri ve mağazanın sunduğu ücretsiz deneme süreleri tamamen Apple (App Store) veya Google (Google Play) tarafından yürütülür. Ödeme kartı veya banka bilgilerinizi almayız. Uygulama, Pro özelliklerinin açılabilmesi için mağazadan yalnızca bir aboneliğin veya deneme süresinin etkin olup olmadığına dair bilgi alır. Hukuki dayanak: Art. 6(1)(b) GDPR. Mağazalar satın alımınızı kendi şartları ve gizlilik politikaları uyarınca işler."
+      ]
+    },
+    {
+      "id": "nocookies",
+      "h": "9. Yapmadıklarımız",
+      "ul": [
+        "Reklam yoktur ve reklam tanımlayıcıları kullanılmaz.",
+        "Diğer uygulamalarda veya web sitelerinde izleme yapılmaz.",
+        "Kişisel verileriniz satılmaz veya kiralanmaz.",
+        "Uygulamayı kullanmak için hesap, parola veya e-posta adresi gerekmez.",
+        "Mektuplarınız yapay zekâ modellerini eğitmek için kullanılmaz."
+      ]
+    },
+    {
+      "id": "recipients",
+      "h": "10. Alıcılar ve uluslararası aktarımlar",
+      "p": [
+        "Google'ın hizmetlerini (Firebase, Firebase AI Logic / Vertex AI, yapay zekâ model sürümü gibi uygulama yapılandırması için Firebase Remote Config, Firebase Cloud Messaging, Firebase App Check ve — onayla — Google Analytics for Firebase) veri işleme şartları kapsamında veri işleyen olarak kullanırız. AB/AEA'daki kullanıcılar için sözleşme tarafı genellikle Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland'dır. Veriler ayrıca ABD'de veya diğer ülkelerde Google LLC tarafından da işlenebilir.",
+        "AB/AEA dışındaki ülkelere yapılan aktarımlar için Google, uygulanabildiği ölçüde EU–US Data Privacy Framework'e ve Avrupa Komisyonu'nun Standard Contractual Clauses'ına dayanır. Apple ve Google ayrıca uygulama mağazaları ve işletim sistemi hizmetleri için bağımsız veri sorumlusu olarak veri işler.",
+        "Yasal bir yükümlülüğümüz olmadıkça verilerinizi başka üçüncü taraflara aktarmayız.",
+        "Bu web sitesi GitHub Pages üzerinde barındırılır (GitHub, Inc., ABD). Siteyi ziyaret ettiğinizde GitHub, siteyi güvenli biçimde sunmak için IP adresinizi ve teknik istek verilerinizi sunucu günlüklerinde işler. Hukuki dayanak: Art. 6(1)(f) GDPR (güvenli ve erişilebilir bir web sitesine yönelik meşru menfaatimiz)."
+      ]
+    },
+    {
+      "id": "retention",
+      "h": "11. Saklama süresi",
+      "ul": [
+        "Mektuplar, açıklamalar, ifadeler ve öğrenme ilerlemesi: siz silene, “Tüm verilerimi sil” seçeneğini kullanana veya Uygulamayı kaldırana kadar yalnızca cihazınızda saklanır.",
+        "Analiz için gönderilen içerik: yanıtı oluşturmak için Google tarafından işlenir ve bizim tarafımızdan saklanmaz; Google, şartları uyarınca güvenlik ve kötüye kullanımın önlenmesi için bunu sınırlı bir süre boyunca tutabilir.",
+        "Bildirim belirteci (yalnızca anlık mesajlaşma ileride etkinleştirilirse): Uygulamayı kaldırana, “Tüm verilerimi sil” seçeneğini kullanana veya belirteç yenilenene kadar.",
+        "Analitik verileri (yalnızca onayla): Google Analytics for Firebase'de sınırlı bir süre boyunca tutulur ve ardından otomatik olarak silinir.",
+        "Bize gönderdiğiniz e-postalar ve mesajlar: talebinizi yanıtlamak için gerekli olduğu süre boyunca ve yasaların gerektirdiği ölçüde."
+      ]
+    },
+    {
+      "id": "rights",
+      "h": "12. Haklarınız",
+      "p": [
+        "GDPR uyarınca aşağıdaki haklara sahipsiniz:"
+      ],
+      "ul": [
+        "hakkınızda işlediğimiz kişisel verilere erişim (Art. 15 GDPR);",
+        "yanlış verilerin düzeltilmesi (Art. 16 GDPR);",
+        "silme (Art. 17 GDPR) ve işlemenin kısıtlanması (Art. 18 GDPR);",
+        "veri taşınabilirliği (Art. 20 GDPR);",
+        "meşru menfaatlere dayanan işlemeye itiraz (Art. 21 GDPR);",
+        "onayınızı istediğiniz zaman ileriye dönük etkiyle geri çekme (Art. 7(3) GDPR);",
+        "bir veri koruma denetim makamına, özellikle ikamet ettiğiniz veya çalıştığınız AB üye devletindeki makama şikâyette bulunma."
+      ],
+      "p2": [
+        "Uygulama hesap olmadan çalıştığından ve içeriğinizi cihazınızda sakladığından, genellikle sizi tanımlayamaz veya sistemlerimizde sizinle ilgili verileri bulamayız. Uygulamanın sakladığı her şeyi silmek için Uygulama ayarlarını açın, “Tüm verilerimi sil” seçeneğini seçin ve ardından Uygulamayı kaldırın. Haklarınızı kullanmak veya bir soru sormak için aşağıdaki bilgilerle bize ulaşın."
+      ]
+    },
+    {
+      "id": "contact",
+      "h": "13. İletişim",
+      "contact": true
+    },
+    {
+      "id": "children",
+      "h": "14. Asgari yaş",
+      "p": [
+        "Uygulama 16 yaş ve üzerindeki kişilere yöneliktir. 16 yaşın altındaki çocukların verilerini bilerek işlemeyiz. Bir çocuğun Uygulamayı kullandığını düşünüyorsanız lütfen bizimle iletişime geçin."
+      ]
+    },
+    {
+      "id": "changes",
+      "h": "15. Bu politikadaki değişiklikler",
+      "p": [
+        "Uygulama veya yasal gereklilikler değiştiğinde bu politikayı güncelleriz. Güncel sürüm her zaman bu sayfada yayımlanır. Son güncelleme: 22 Ekim 2026."
+      ]
+    }
+  ]
+}

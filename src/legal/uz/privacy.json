@@ -1,0 +1,147 @@
+{
+  "title": "Maxfiylik siyosati — Klarineo",
+  "description": "Klarineo ilovasi ma'lumotlaringizni qanday qayta ishlaydi: Google Gemini yordamida xatlarni tahlil qilish, qurilmangizda saqlanadigan ma'lumotlar, ixtiyoriy analitika, GDPR bo'yicha huquqlaringiz va aloqa.",
+  "h1": "Klarineo ilovasining maxfiylik siyosati",
+  "intro": [
+    "Ushbu maxfiylik siyosati Android va iOS uchun Klarineo mobil ilovasidan (“Ilova”) foydalanganingizda qaysi shaxsiy ma'lumotlar qayta ishlanishini, qanday maqsadlarda, qaysi huquqiy asosda va sizning qanday huquqlaringiz borligini tushuntiradi. Ushbu siyosat e'lon qilingan veb-sayt cookie fayllari, analitika yoki uchinchi tomon resurslaridan foydalanmaydi (hosting haqida 10-bo'limga qarang).",
+    "Qisqacha: hisob ochishingiz shart emas. Xatlaringizning suratlari va matnlari faqat tushuntirishingizni yaratish uchun Google'ning Gemini modeliga yuboriladi va sun'iy intellekt modellarini o'qitish uchun ishlatilmaydi. Xatlaringizni o'z serverlarimizda saqlamaymiz — saqlagan narsangiz telefoningizda qoladi. Reklama yo'q, analitika esa faqat siz rozilik bersangiz ishlaydi."
+  ],
+  "sections": [
+    {
+      "id": "controller",
+      "h": "1. Ma'lumotlarni qayta ishlash uchun mas'ul shaxs",
+      "p": [
+        "Ilovada ma'lumotlarni qayta ishlash uchun mas'ul shaxs:"
+      ],
+      "controller": true,
+      "p2": [
+        "Maxfiylik masalalari bo'yicha biz bilan istalgan vaqtda elektron pochta yoki Telegram orqali bog'lanishingiz mumkin (13-bo'limga qarang)."
+      ]
+    },
+    {
+      "id": "letters",
+      "h": "2. Xatlar va hujjatlarni tahlil qilish",
+      "p": [
+        "Xatni suratga olganingizda yoki matn kiritganingizda, Ilova rasm yoki matnni tanlagan tushuntirish tilingiz bilan birga Google xizmati bo'lgan Firebase AI Logic (Vertex AI Gemini API) orqali Google'ning Gemini modellariga yuboradi. Model Ilovada ko'radigan tushuntirish, muhim iboralar va javob loyihasini yaratadi. Yuklashdan oldin Ilova suratlarni qurilmangizda qayta kodlaydi va joylashuv kabi o'rnatilgan metama'lumotlarni (EXIF/GPS) olib tashlaydi.",
+        "Maqsad: siz so'ragan funksiyani taqdim etish. Huquqiy asos: Ilova birinchi tahlildan oldin so'raydigan roziligingiz — Art. 6(1)(a) GDPR va xatlarda maxsus toifadagi ma'lumotlar (masalan, sog'liq haqidagi ma'lumotlar) bo'lishi mumkinligi sababli, Art. 9(2)(a) GDPR bo'yicha aniq roziligingiz. Rozilikni istalgan vaqtda Ilova sozlamalarida (“Xatlarni sun'iy intellekt bilan tahlil qilish”) qaytarib olishingiz mumkin; shundan so'ng xatlarni tahlil qilish va gapirish mashqi mavjud bo'lmay qoladi, saqlangan iboralaringizdan esa foydalanish davom etadi.",
+        "Xatlarda ko'pincha shaxsiy ma'lumotlar bo'ladi — masalan, ismingiz, manzilingiz, ish raqamlari yoki nafaqalar yoki sog'liq haqidagi ma'lumotlar. Iltimos, faqat foydalanish huquqingiz bo'lgan hujjatlarni suratga oling; tushuntirish uchun kerak bo'lmagan ma'lumotlarni yopib qo'yishingiz mumkin.",
+        "Google'ning ushbu xizmatlar uchun shartlariga ko'ra, kontent javobni yaratish uchun qayta ishlanadi va Google'ning sun'iy intellekt modellarini o'qitish uchun ishlatilmaydi. Xatlaringizning suratlari yoki matnlarini o'z serverlarimizda saqlamaymiz. Google xavfsizlik va suiiste'molning oldini olish uchun zarur bo'lganda, o'z shartlariga muvofiq ma'lumotlarni cheklangan muddat saqlashi mumkin. Sun'iy intellektga javobida shaxsni aniqlovchi ma'lumotlarni takrorlamaslik buyurilgan, ammo buni har bir holatda ta'minlab bo'lmaydi.",
+        "Qayta ishlash joyi: Ilova Google'ning Vertex AI xizmatidan loyihamiz sozlamalariga muvofiq foydalanadi; sozlangan mintaqaga qarab so'rovlar EU/EEA tashqarisidagi ma'lumotlar markazlarida qayta ishlanishi mumkin (10-bo'limga qarang)."
+      ]
+    },
+    {
+      "id": "device",
+      "h": "3. Qurilmangizda saqlanadigan ma'lumotlar",
+      "p": [
+        "Saqlagan xatlaringiz, ularning tushuntirishlari, muddatlar, muhim iboralar, takrorlash jarayoningiz, kunlik maqsad, ketma-ket kunlar (streak) va sozlamalar qurilmangizda lokal saqlanadi. Bu ma'lumotlarga bizning kirishimiz yo'q. Ular Ilovadagi “Barcha ma'lumotlarimni o'chirish” funksiyasidan foydalanganingizda yoki Ilovani o'chirib tashlaganingizda o'chiriladi. Qurilma sozlamalaringizga qarab, operatsion tizimingizning o'z zaxira nusxasi Ilova ma'lumotlarini o'z ichiga olishi mumkin."
+      ]
+    },
+    {
+      "id": "speech",
+      "h": "4. Gapirish mashqi va nutqni aniqlash",
+      "p": [
+        "Gapirish mashqi uchun Ilova telefoningiz operatsion tizimiga o'rnatilgan nutqni aniqlash xizmatidan foydalanadi (iOS'da Apple, Android'da Google). Qurilmangiz va sozlamalaringizga qarab, nutq qurilmada yoki Apple yoki Google tomonidan ularning o'z maxfiylik shartlariga muvofiq qayta ishlanishi mumkin. Ilova birinchi foydalanishdan oldin mikrofon ruxsatini so'raydi; uni istalgan vaqtda telefon sozlamalarida qaytarib olishingiz mumkin.",
+        "Javoblaringizning aniqlangan matni va suhbat konteksti suhbatdoshingizning javobi va tuzatishlarni yaratish uchun Firebase AI Logic orqali Google'ning Gemini modellariga yuboriladi (2-bo'limga qarang). Yozuvlar yoki transkriptlarni o'z serverlarimizda saqlamaymiz. Huquqiy asos: Art. 6(1)(a) va Art. 9(2)(a) GDPR bo'yicha roziligingiz (2-bo'limdagi bilan bir xil rozilik); gapirish mashqi faqat rozilik berganingizdan keyin mavjud bo'ladi."
+      ]
+    },
+    {
+      "id": "reminders",
+      "h": "5. Eslatmalar va bildirishnomalar",
+      "p": [
+        "Muddat va kunlik eslatmalar qurilmangizda yaratiladigan lokal bildirishnomalardir; ularning mazmuni bizga yuborilmaydi. Qulflangan ekrandagi bildirishnomalar xatingiz mazmunini emas, faqat umumiy matnni ko'rsatadi. Ilova marketing push-xabarlarini yubormaydi. Firebase Cloud Messaging Ilovaga kiritilgan, ammo qurilmangizni avtomatik ro'yxatdan o'tkazmaydi. Huquqiy asos: Art. 6(1)(b) GDPR va sizning ruxsatingiz talab etiladigan hollarda Art. 6(1)(a) GDPR. Eslatmalarni istalgan vaqtda Ilova sozlamalarida yoki telefon sozlamalarida o'chirib qo'yishingiz mumkin."
+      ]
+    },
+    {
+      "id": "appcheck",
+      "h": "6. Suiiste'molning oldini olish (Firebase App Check)",
+      "p": [
+        "Sun'iy intellekt funksiyalarimizni noto'g'ri foydalanishdan — masalan, haqiqiy Ilovadan kelmaydigan avtomatlashtirilgan so'rovlardan — himoya qilish uchun Firebase App Check'dan foydalanamiz. U platformaning attestatsiya xizmatlari (masalan, Android'da Play Integrity, iOS'da App Attest yoki DeviceCheck) yordamida so'rovlar haqiqiy qurilmadagi o'zgartirilmagan Ilova nusxasidan kelayotganini tekshiradi. Buning uchun qurilma va ilovaning texnik ma'lumotlari qayta ishlanadi. Huquqiy asos: Art. 6(1)(f) GDPR; qonuniy manfaatimiz — xizmatning xavfsizligi va mavjudligi hamda suiiste'molning oldini olish."
+      ]
+    },
+    {
+      "id": "analytics",
+      "h": "7. Analitika va diagnostika — faqat roziligingiz bilan",
+      "p": [
+        "Faqat Ilovada rozilik bersangizgina, Ilovadan qanday foydalanilishini tushunish va muammolarni aniqlash uchun Google Analytics for Firebase'dan foydalanamiz, masalan, qaysi ekranlar ishlatilishi, ilova versiyasi, qurilma turi, IP-manzildan aniqlangan taxminiy mintaqa va texnik xato ma'lumotlari. Bu ma'lumotlar psevdonim holatida (ismingizga emas, tasodifiy ilova nusxasi identifikatoriga bog'langan). Analitika reklama funksiyalarisiz ishlatiladi va biz uni sizni aniqlash uchun boshqa ma'lumotlar bilan birlashtirmaymiz. “Barcha ma'lumotlarimni o'chirish” bu identifikatorni qayta o'rnatadi.",
+        "Huquqiy asos: Art. 6(1)(a) GDPR (rozilik). Roziligingizni istalgan vaqtda Ilova sozlamalarida qaytarib olishingiz mumkin; bu qaytarib olishdan oldingi qayta ishlashning qonuniyligiga ta'sir qilmaydi. Rozilik bo'lmasa, analitika yoki diagnostika ma'lumotlari yig'ilmaydi."
+      ]
+    },
+    {
+      "id": "purchases",
+      "h": "8. Obunalar va xaridlar",
+      "p": [
+        "Klarineo Pro obunalari va do'kon taklif qiladigan har qanday bepul sinov muddati to'liq Apple (App Store) yoki Google (Google Play) tomonidan boshqariladi. To'lov kartangiz yoki bank ma'lumotlaringizni biz olmaymiz. Ilova do'kondan faqat obuna yoki sinov muddati faolmi yoki yo'qmi, degan ma'lumotni oladi, shunda Pro funksiyalar ochilishi mumkin. Huquqiy asos: Art. 6(1)(b) GDPR. Do'konlar xaridingizni o'z shartlari va maxfiylik siyosatlariga muvofiq qayta ishlaydi."
+      ]
+    },
+    {
+      "id": "nocookies",
+      "h": "9. Biz nima qilmaymiz",
+      "ul": [
+        "Reklama yo'q va reklama identifikatorlari yo'q.",
+        "Boshqa ilovalar yoki veb-saytlar bo'ylab kuzatuv yo'q.",
+        "Shaxsiy ma'lumotlaringizni sotish yoki ijaraga berish yo'q.",
+        "Ilovadan foydalanish uchun hisob, parol yoki elektron pochta manzili talab qilinmaydi.",
+        "Xatlaringizdan sun'iy intellekt modellarini o'qitish uchun foydalanilmaydi."
+      ]
+    },
+    {
+      "id": "recipients",
+      "h": "10. Qabul qiluvchilar va xalqaro uzatishlar",
+      "p": [
+        "Biz Google xizmatlaridan (Firebase, Firebase AI Logic / Vertex AI, sun'iy intellekt modeli versiyasi kabi ilova konfiguratsiyasi uchun Firebase Remote Config, Firebase Cloud Messaging, Firebase App Check va — rozilik bilan — Google Analytics for Firebase) ma'lumotlarni qayta ishlash shartlari asosida qayta ishlovchi sifatida foydalanamiz. EU/EEA foydalanuvchilari uchun shartnoma tomoni odatda Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland hisoblanadi. Ma'lumotlar shuningdek AQShdagi yoki boshqa mamlakatlardagi Google LLC tomonidan qayta ishlanishi mumkin.",
+        "EU/EEA tashqarisidagi mamlakatlarga uzatishlar uchun Google, qo'llanilishi mumkin bo'lgan hollarda, EU–US Data Privacy Framework'ga va Yevropa Komissiyasining Standard Contractual Clauses'iga tayanadi. Apple va Google shuningdek o'z ilovalar do'konlari va operatsion tizim xizmatlari uchun mustaqil mas'ul shaxs sifatida ma'lumotlarni qayta ishlaydi.",
+        "Qonun bo'yicha majbur bo'lmasak, ma'lumotlaringizni boshqa uchinchi tomonlarga bermaymiz.",
+        "Ushbu veb-sayt GitHub Pages'da (GitHub, Inc., AQSh) joylashtirilgan. Saytga kirganingizda GitHub saytni xavfsiz yetkazib berish uchun IP-manzilingiz va texnik so'rov ma'lumotlarini server jurnallarida qayta ishlaydi. Huquqiy asos: Art. 6(1)(f) GDPR (xavfsiz va mavjud veb-saytga bo'lgan qonuniy manfaatimiz)."
+      ]
+    },
+    {
+      "id": "retention",
+      "h": "11. Saqlash muddati",
+      "ul": [
+        "Xatlar, tushuntirishlar, iboralar va o'rganish jarayoni: faqat qurilmangizda, siz ularni o'chirmaguningizcha, “Barcha ma'lumotlarimni o'chirish” funksiyasidan foydalanmaguningizcha yoki Ilovani o'chirib tashlamaguningizcha saqlanadi.",
+        "Tahlil uchun yuborilgan kontent: javobni yaratish uchun Google tomonidan qayta ishlanadi va biz tomonimizdan saqlanmaydi; Google uni o'z shartlariga muvofiq xavfsizlik va suiiste'molning oldini olish uchun cheklangan muddat saqlashi mumkin.",
+        "Bildirishnoma tokeni (faqat push-xabarlar qachondir yoqilsa): Ilovani o'chirib tashlaguningizcha, “Barcha ma'lumotlarimni o'chirish” funksiyasidan foydalanmaguningizcha yoki token yangilanmaguncha.",
+        "Analitika ma'lumotlari (faqat rozilik bilan): Google Analytics for Firebase'da cheklangan muddat saqlanadi, so'ngra avtomatik o'chiriladi.",
+        "Bizga yuborgan elektron xatlar va xabarlaringiz: so'rovingizga javob berish uchun zarur bo'lgan va qonun talab qiladigan muddat davomida."
+      ]
+    },
+    {
+      "id": "rights",
+      "h": "12. Sizning huquqlaringiz",
+      "p": [
+        "GDPR bo'yicha sizning quyidagi huquqlaringiz bor:"
+      ],
+      "ul": [
+        "biz qayta ishlayotgan shaxsiy ma'lumotlaringizga kirish (Art. 15 GDPR);",
+        "noto'g'ri ma'lumotlarni tuzatish (Art. 16 GDPR);",
+        "o'chirish (Art. 17 GDPR) va qayta ishlashni cheklash (Art. 18 GDPR);",
+        "ma'lumotlarni ko'chirish (Art. 20 GDPR);",
+        "qonuniy manfaatlarga asoslangan qayta ishlashga e'tiroz bildirish (Art. 21 GDPR);",
+        "roziligingizni istalgan vaqtda kelajak uchun kuchga ega bo'lgan tarzda qaytarib olish (Art. 7(3) GDPR);",
+        "ma'lumotlarni himoya qilish bo'yicha nazorat organiga, xususan yashash yoki ish joyingiz bo'lgan EU a'zo davlatidagi organga shikoyat qilish."
+      ],
+      "p2": [
+        "Ilova hisobsiz ishlagani va kontentingizni qurilmangizda saqlagani uchun, biz odatda sizni aniqlay olmaymiz va o'z tomonimizda siz haqingizdagi ma'lumotlarni topa olmaymiz. Ilova saqlagan hamma narsani o'chirish uchun Ilova sozlamalarini oching va “Barcha ma'lumotlarimni o'chirish”ni tanlang, so'ng Ilovani o'chirib tashlang. Huquqlaringizdan foydalanish yoki savol berish uchun quyidagi ma'lumotlar orqali biz bilan bog'laning."
+      ]
+    },
+    {
+      "id": "contact",
+      "h": "13. Aloqa",
+      "contact": true
+    },
+    {
+      "id": "children",
+      "h": "14. Minimal yosh",
+      "p": [
+        "Ilova 16 yosh va undan katta shaxslar uchun mo'ljallangan. Biz 16 yoshgacha bo'lgan bolalarning ma'lumotlarini bila turib qayta ishlamaymiz. Agar bola Ilovadan foydalangan deb hisoblasangiz, iltimos, biz bilan bog'laning."
+      ]
+    },
+    {
+      "id": "changes",
+      "h": "15. Ushbu siyosatga o'zgartirishlar",
+      "p": [
+        "Ilova yoki qonuniy talablar o'zgarganda ushbu siyosatni yangilaymiz. Joriy versiya doim shu sahifada e'lon qilinadi. Oxirgi yangilanish: 22 October 2026."
+      ]
+    }
+  ]
+}

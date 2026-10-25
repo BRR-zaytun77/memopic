@@ -1,0 +1,23 @@
+{
+  "title": "Yasal bildirim (Impressum) — Klarineo",
+  "description": "TIYN ZAYTUN LLC tarafından sunulan Klarineo uygulaması ve web sitesi için yasal bildirim (Impressum): şirket bilgileri ve iletişim.",
+  "h1": "Yasal bildirim (Impressum)",
+  "lead": "Klarineo uygulamasının ve bu web sitesinin sağlayıcısı hakkında bilgiler.",
+  "provider": "Sağlayıcı",
+  "labels": {
+    "company": "Şirket",
+    "legalForm": "Hukuki şekil",
+    "address": "Adres",
+    "director": "Genel müdür",
+    "regNo": "Sicil numarası",
+    "email": "E-posta"
+  },
+  "euRep": "AB temsilcisi (Art. 27 GDPR)",
+  "euRepInline": "Avrupa Birliği'ndeki temsilci (Art. 27 GDPR):",
+  "responsible": "İçerikten sorumlu",
+  "responsibleText": "adres yukarıdaki gibidir",
+  "dispute": "Tüketici uyuşmazlıklarının çözümü",
+  "disputeText": "Bir tüketici hakem kurulu önündeki uyuşmazlık çözüm prosedürlerine katılmaya ne istekliyiz ne de yükümlüyüz.",
+  "disclaimer": "Sorumluluk reddi",
+  "disclaimerText": "Genel bilgilerdir, hukuki danışmanlık değildir. Klarineo hiçbir Alman makamıyla bağlantılı değildir. Bu web sitesindeki rehberler özenle hazırlanmıştır ancak bireysel danışmanlığın yerini tutmaz. Resmi web sitelerine verilen bağlantılar, içeriklerinden kendi işletmecilerinin sorumlu olduğu sayfalara yönlendirir."
+}

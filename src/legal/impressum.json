@@ -1,0 +1,23 @@
+{
+  "title": "Legal notice (Impressum) — Klarineo",
+  "description": "Legal notice (Impressum) for the Klarineo app and website, provided by TIYN ZAYTUN LLC: company details and contact.",
+  "h1": "Legal notice (Impressum)",
+  "lead": "Information about the provider of the Klarineo app and this website.",
+  "provider": "Provider",
+  "labels": {
+    "company": "Company",
+    "legalForm": "Legal form",
+    "address": "Address",
+    "director": "Managing director",
+    "regNo": "Registration number",
+    "email": "Email"
+  },
+  "euRep": "EU representative (Art. 27 GDPR)",
+  "euRepInline": "Representative in the European Union (Art. 27 GDPR):",
+  "responsible": "Responsible for content",
+  "responsibleText": "address as above",
+  "dispute": "Consumer dispute resolution",
+  "disputeText": "We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
+  "disclaimer": "Disclaimer",
+  "disclaimerText": "General information, not legal advice. Klarineo is not affiliated with any German authority. The guides on this website are prepared with care but are not a substitute for individual advice. Links to official websites lead to content for which their operators are responsible."
+}

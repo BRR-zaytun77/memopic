@@ -25,8 +25,8 @@ const GUIDE = Object.fromEntries(GUIDES.map((s) => [s, { slug: s, ...read(`src/g
 const PRIVACY = read('src/legal/privacy.json');
 const TERMS = read('src/legal/terms.json');
 
-// Barcha tillar i18n (bosh sahifa + guide label'lari).
-const T = Object.fromEntries(LANGS.map((l) => [l.code, read(`src/i18n/${l.code}.json`)]));
+// Barcha tillar i18n (bosh sahifa + guide label'lari) + de (legal-only chrome).
+const T = Object.fromEntries([...LANGS.map((l) => l.code), 'de'].map((c) => [c, read(`src/i18n/${c}.json`)]));
 // Tarjima qilingan qo'llanmalar: src/guides/<til>/<slug>.json (+ _help.json).
 // Fayl yo'q bo'lsa — o'sha til shu qo'llanmani o'tkazib yuboradi (hreflang ham qo'shmaydi).
 const GUIDE_TR = { en: GUIDE };
@@ -44,6 +44,24 @@ const hasGuide = (l, s) => Boolean(GUIDE_TR[l.code] && GUIDE_TR[l.code][s]);
 const guideLangs = (s) => LANGS.filter((l) => hasGuide(l, s));
 const langGuides = (l) => GUIDES.filter((s) => hasGuide(l, s));
 const indexLangs = () => LANGS.filter((l) => l.code === 'en' || langGuides(l).length > 0);
+
+// Huquqiy sahifalar (privacy, terms, impressum) — EN + tarjimalar src/legal/<til>/.
+// Nemischa (de) — bosh sahifa tili emas, faqat huquqiy sahifalar uchun "legal-only" locale.
+const IMPRESSUM = read('src/legal/impressum.json');
+const DE = { code: 'de', hreflang: 'de', path: 'de', name: 'Deutsch', og: 'de_DE' };
+const LEGAL_LOCALES = [...LANGS, DE];
+const LEGAL_TR = { en: { privacy: PRIVACY, terms: TERMS, impressum: IMPRESSUM } };
+for (const l of LEGAL_LOCALES) {
+  if (l.code === 'en') continue;
+  const dir = `src/legal/${l.code}`;
+  if (!existsSync(join(ROOT, dir, 'privacy.json'))) continue;
+  LEGAL_TR[l.code] = {
+    privacy: read(`${dir}/privacy.json`),
+    terms: read(`${dir}/terms.json`),
+    impressum: read(`${dir}/impressum.json`),
+  };
+}
+const legalLangs = () => LEGAL_LOCALES.filter((l) => LEGAL_TR[l.code]);
 
 for (const f of ['assets/img/og-en.png', 'assets/img/icon-192.png', 'assets/img/favicon.svg']) {
   if (!existsSync(join(ROOT, f))) throw new Error(`${f} yo'q — avval: npm run images`);
@@ -80,6 +98,8 @@ const gp = (l, slug) => `${homePath(l)}guides/${slug}/`;
 /** Til bo'yicha qo'llanmalar ro'yxati yo'li, masalan `ru/guides/`. */
 const gIdx = (l) => `${homePath(l)}guides/`;
 const P = { guides: 'guides/', privacy: 'privacy-policy/', terms: 'terms/', impressum: 'impressum/' };
+/** Til bo'yicha huquqiy sahifa yo'li (key: privacy|terms|impressum), masalan `ru/terms/`. */
+const lp = (l, key) => `${homePath(l)}${P[key]}`;
 
 function assertKeys(ref, obj, path, file) {
   for (const k of Object.keys(ref)) {
@@ -160,8 +180,10 @@ ${(o.jsonld ?? []).map((j) => `<script type="application/ld+json">${JSON.stringi
 }
 
 /** `langHref(x)` — til almashtirgichdagi havola. */
-function nav(l, t, { onHome = false, langHref = (x) => url(homePath(x)) } = {}) {
-  const home = url(homePath(l));
+function nav(l, t, { onHome = false, langHref = (x) => url(homePath(x)), locales = LANGS } = {}) {
+  // Bosh sahifasi bo'lmagan locale (de — legal-only) uchun uy havolasi inglizchaga ketadi.
+  const inLangs = LANGS.some((x) => x.code === l.code);
+  const home = url(homePath(inLangs ? l : EN));
   const a = (id) => (onHome ? `#${id}` : `${home}#${id}`);
   const items = [
     [a('how'), t.nav.how],
@@ -170,7 +192,7 @@ function nav(l, t, { onHome = false, langHref = (x) => url(homePath(x)) } = {}) 
     [a('privacy'), t.nav.privacy],
     [a('faq'), t.nav.faq],
   ];
-  const langList = LANGS.map(
+  const langList = locales.map(
     (x) =>
       `<li><a href="${langHref(x)}" hreflang="${x.hreflang}" lang="${x.hreflang}"${x.code === l.code ? ' aria-current="true"' : ''}>${esc(x.name)}</a></li>`,
   ).join('');
@@ -204,7 +226,7 @@ function footer(l, t) {
 <footer class="foot">
   <div class="wrap foot-grid">
     <div class="foot-brand">
-      <a class="brand" href="${url(homePath(l))}">${logo()}<span>Klarineo</span></a>
+      <a class="brand" href="${url(homePath(LANGS.some((x) => x.code === l.code) ? l : EN))}">${logo()}<span>Klarineo</span></a>
       <p>${esc(t.footer.tagline)}</p>
     </div>
     <div>
@@ -218,9 +240,9 @@ function footer(l, t) {
     <div>
       <h2 class="foot-h">${esc(t.footer.legal)}</h2>
       <ul>
-        <li><a href="${url(P.privacy)}"${hl}>${esc(t.footer.privacy)}</a>${tag}</li>
-        <li><a href="${url(P.terms)}"${hl}>${esc(t.footer.terms)}</a>${tag}</li>
-        <li><a href="${url(P.impressum)}"${hl}>${esc(t.footer.impressum)}</a>${tag}</li>
+        <li><a href="${url(LEGAL_TR[l.code] ? lp(l, 'privacy') : lp(EN, 'privacy'))}"${LEGAL_TR[l.code] ? '' : hl}>${esc(t.footer.privacy)}</a>${LEGAL_TR[l.code] ? '' : tag}</li>
+        <li><a href="${url(LEGAL_TR[l.code] ? lp(l, 'terms') : lp(EN, 'terms'))}"${LEGAL_TR[l.code] ? '' : hl}>${esc(t.footer.terms)}</a>${LEGAL_TR[l.code] ? '' : tag}</li>
+        <li><a href="${url(LEGAL_TR[l.code] ? lp(l, 'impressum') : lp(EN, 'impressum'))}"${LEGAL_TR[l.code] ? '' : hl}>${esc(t.footer.impressum)}</a>${LEGAL_TR[l.code] ? '' : tag}</li>
       </ul>
     </div>
     <div>
@@ -622,30 +644,36 @@ function guidesIndex(l, t) {
 
 const legalFilled = (k) => String(LEGAL[k] ?? '').trim() !== '';
 
-function controllerHtml() {
+function controllerHtml(imp) {
+  const L = imp.labels;
   const lines = [
     `<strong>${esc(LEGAL.company)}</strong>`,
     legalFilled('legalForm') ? esc(LEGAL.legalForm) : '',
     legalFilled('address') ? esc(LEGAL.address).replaceAll('\n', '<br>') : '',
-    legalFilled('director') ? `Managing director: ${esc(LEGAL.director)}` : '',
-    `Email: <a href="mailto:${LEGAL.email}">${esc(LEGAL.email)}</a>`,
+    legalFilled('director') ? `${esc(L.director)}: ${esc(LEGAL.director)}` : '',
+    `${esc(L.email)}: <a href="mailto:${LEGAL.email}">${esc(LEGAL.email)}</a>`,
   ].filter(Boolean);
-  const rep = EU_REPRESENTATIVE.trim() ? `<p>Representative in the European Union (Art. 27 GDPR): ${esc(EU_REPRESENTATIVE)}</p>` : '';
+  const rep = EU_REPRESENTATIVE.trim() ? `<p>${esc(imp.euRepInline)} ${esc(EU_REPRESENTATIVE)}</p>` : '';
   return `<address>${lines.join('<br>')}</address>${rep}`;
 }
 
 const contactHtml = () =>
   `<address>${esc(LEGAL.company)}<br>Email: <a href="mailto:${LINKS.email}">${LINKS.email}</a><br>Telegram: <a href="${LINKS.telegram}" rel="noopener">${LINKS.telegramHandle}</a></address>`;
 
-function legalPage(doc, path, crumbName) {
-  const crumbs = [['Klarineo', ''], [crumbName, path]];
+function legalPage(l, key) {
+  const t = T[l.code];
+  const doc = LEGAL_TR[l.code][key];
+  const imp = LEGAL_TR[l.code].impressum;
+  const path = lp(l, key);
+  const crumbName = key === 'privacy' ? t.footer.privacy : t.footer.terms;
+  const crumbs = [['Klarineo', homePath(LANGS.some((x) => x.code === l.code) ? l : EN)], [crumbName, path]];
   const secs = doc.sections
     .map(
       (s) => `
     <section id="${s.id}" aria-labelledby="h-${s.id}">
       <h2 id="h-${s.id}">${esc(s.h)}</h2>
       ${(s.p ?? []).map((x) => `<p>${esc(x)}</p>`).join('\n      ')}
-      ${s.controller ? controllerHtml() : ''}
+      ${s.controller ? controllerHtml(imp) : ''}
       ${s.contact ? contactHtml() : ''}
       ${s.ul ? `<ul>${s.ul.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
       ${(s.p2 ?? []).map((x) => `<p>${esc(x)}</p>`).join('\n      ')}
@@ -657,7 +685,7 @@ function legalPage(doc, path, crumbName) {
   <div class="wrap">
     ${crumbsHtml(crumbs)}
     <h1>${esc(doc.h1)}</h1>
-    <div class="meta-line"><span>${icon('calendar')}Last updated: <time datetime="${UPDATED}">${UPDATED_HUMAN}</time></span></div>
+    <div class="meta-line"><span>${icon('calendar')}${esc(t.guide.lastReviewed)}: <time datetime="${UPDATED}">${UPDATED_HUMAN}</time></span></div>
   </div>
 </header>
 <div class="article">
@@ -668,52 +696,58 @@ function legalPage(doc, path, crumbName) {
     </div>
   </div>
 </div>`;
+  const alternates = legalLangs().map((x) => ({ l: x, path: lp(x, key) }));
   const jsonld = [
-    { '@context': 'https://schema.org', '@type': 'WebPage', name: doc.h1, url: abs(path), inLanguage: 'en', dateModified: UPDATED, isPartOf: { '@id': SITE_ID }, publisher: { '@id': ORG_ID } },
+    { '@context': 'https://schema.org', '@type': 'WebPage', name: doc.h1, url: abs(path), inLanguage: l.hreflang, dateModified: UPDATED, isPartOf: { '@id': SITE_ID }, publisher: { '@id': ORG_ID } },
     crumbsLd(crumbs),
   ];
-  return page(EN, en, { title: doc.title, desc: doc.description, ...enOnly(path), jsonld }, body);
+  const inLangs = LANGS.some((x) => x.code === l.code);
+  return page(l, t, { title: doc.title, desc: doc.description, path, alternates, xdef: lp(EN, key), jsonld, og: inLangs ? undefined : 'assets/img/og-en.png' }, body, { langHref: (x) => url(LEGAL_TR[x.code] ? lp(x, key) : homePath(x)), locales: legalLangs() });
 }
 
-function impressumPage() {
-  const path = P.impressum;
-  const crumbs = [['Klarineo', ''], ['Legal notice', path]];
+function impressumPage(l) {
+  const t = T[l.code];
+  const imp = LEGAL_TR[l.code].impressum;
+  const L = imp.labels;
+  const path = lp(l, 'impressum');
+  const crumbs = [['Klarineo', homePath(LANGS.some((x) => x.code === l.code) ? l : EN)], [t.footer.impressum, path]];
   const rows = [
-    ['Company / Firma', LEGAL.company],
-    ['Legal form / Rechtsform', LEGAL.legalForm],
-    ['Address / Anschrift', LEGAL.address],
-    ['Managing director / Geschäftsführer', LEGAL.director],
-    ['Registration number / Registernummer', LEGAL.regNo],
-    ['Email / E-Mail', LEGAL.email],
+    [L.company, LEGAL.company],
+    [L.legalForm, LEGAL.legalForm],
+    [L.address, LEGAL.address],
+    [L.director, LEGAL.director],
+    [L.regNo, LEGAL.regNo],
+    [L.email, LEGAL.email],
   ].filter(([, v]) => String(v ?? '').trim());
   const body = `
 <header class="page-head">
   <div class="wrap">
     ${crumbsHtml(crumbs)}
-    <h1>Legal notice (Impressum)</h1>
-    <p class="lead">Information about the provider of the Klarineo app and this website.</p>
+    <h1>${esc(imp.h1)}</h1>
+    <p class="lead">${esc(imp.lead)}</p>
   </div>
 </header>
 <div class="article">
   <div class="wrap">
     <div class="prose legal-doc">
-      <h2>Provider / Anbieter</h2>
+      <h2>${esc(imp.provider)}</h2>
       <dl>
-        ${rows.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${k.startsWith('Email') ? `<a href="mailto:${v}">${esc(v)}</a>` : esc(v).replaceAll('\n', '<br>')}</dd>`).join('\n        ')}
+        ${rows.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${k === L.email ? `<a href="mailto:${v}">${esc(v)}</a>` : esc(v).replaceAll('\n', '<br>')}</dd>`).join('\n        ')}
         <dt>Telegram</dt><dd><a href="${LINKS.telegram}" rel="noopener">${LINKS.telegramHandle}</a></dd>
       </dl>
-      ${EU_REPRESENTATIVE.trim() ? `<h2>EU representative (Art. 27 GDPR)</h2><p>${esc(EU_REPRESENTATIVE)}</p>` : ''}
-      ${legalFilled('director') ? `<h2>Responsible for content / Verantwortlich für den Inhalt</h2><p>${esc(LEGAL.director)}, address as above.</p>` : ''}
-      <h2>Consumer dispute resolution / Verbraucherstreitbeilegung</h2>
-      <p>We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board.</p>
-      <p lang="de">Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
-      <h2>Disclaimer</h2>
-      <p>${DISCLAIMER} The guides on this website are prepared with care but are not a substitute for individual advice. Links to official websites lead to content for which their operators are responsible.</p>
+      ${EU_REPRESENTATIVE.trim() ? `<h2>${esc(imp.euRep)}</h2><p>${esc(EU_REPRESENTATIVE)}</p>` : ''}
+      ${legalFilled('director') ? `<h2>${esc(imp.responsible)}</h2><p>${esc(LEGAL.director)}, ${esc(imp.responsibleText)}.</p>` : ''}
+      <h2>${esc(imp.dispute)}</h2>
+      <p>${esc(imp.disputeText)}</p>
+      <h2>${esc(imp.disclaimer)}</h2>
+      <p>${esc(imp.disclaimerText)}</p>
     </div>
   </div>
 </div>`;
+  const alternates = legalLangs().map((x) => ({ l: x, path: lp(x, 'impressum') }));
   const jsonld = [crumbsLd(crumbs), orgLd()];
-  return page(EN, en, { title: 'Legal notice (Impressum) — Klarineo', desc: 'Legal notice (Impressum) for the Klarineo app and website, provided by TIYN ZAYTUN LLC: company details and contact.', ...enOnly(path), jsonld }, body);
+  const inLangs = LANGS.some((x) => x.code === l.code);
+  return page(l, t, { title: imp.title, desc: imp.description, path, alternates, xdef: lp(EN, 'impressum'), jsonld, og: inLangs ? undefined : 'assets/img/og-en.png' }, body, { langHref: (x) => url(LEGAL_TR[x.code] ? lp(x, 'impressum') : homePath(x)), locales: legalLangs() });
 }
 
 function oldPrivacyRedirect() {
@@ -781,8 +815,9 @@ ${alts}
     const langs = guideLangs(s);
     for (const l of langs) urls.push(entry(gp(l, s), langs, (x) => gp(x, s)));
   }
-  // Huquqiy sahifalar (faqat EN)
-  for (const p of [P.privacy, P.terms, P.impressum]) urls.push(entry(p, [EN], () => p));
+  // Huquqiy sahifalar (tarjima bor tillar)
+  const ll = legalLangs();
+  for (const key of ['privacy', 'terms', 'impressum']) for (const l of ll) urls.push(entry(lp(l, key), ll, (x) => lp(x, key)));
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${urls.join('\n')}
@@ -906,7 +941,7 @@ function write(rel, content) {
   writeFileSync(p, content);
 }
 
-for (const l of LANGS) if (l.path) rmSync(join(ROOT, l.path), { recursive: true, force: true });
+for (const l of LEGAL_LOCALES) if (l.path) rmSync(join(ROOT, l.path), { recursive: true, force: true });
 for (const d of Object.values(P)) rmSync(join(ROOT, d), { recursive: true, force: true });
 
 const out = [];
@@ -925,10 +960,12 @@ for (const l of indexLangs()) {
   write(`${gIdx(l)}index.html`, guidesIndex(l, t));
   out.push(gIdx(l));
 }
-write(`${P.privacy}index.html`, legalPage(PRIVACY, P.privacy, 'Privacy policy'));
-write(`${P.terms}index.html`, legalPage(TERMS, P.terms, 'Terms of use'));
-write(`${P.impressum}index.html`, impressumPage());
-out.push(P.privacy, P.terms, P.impressum);
+for (const l of legalLangs()) {
+  write(`${lp(l, 'privacy')}index.html`, legalPage(l, 'privacy'));
+  write(`${lp(l, 'terms')}index.html`, legalPage(l, 'terms'));
+  write(`${lp(l, 'impressum')}index.html`, impressumPage(l));
+  out.push(lp(l, 'privacy'), lp(l, 'terms'), lp(l, 'impressum'));
+}
 write('privacy-policy.html', oldPrivacyRedirect());
 write('404.html', notFound());
 

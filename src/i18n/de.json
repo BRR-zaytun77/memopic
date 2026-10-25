@@ -1,0 +1,32 @@
+{
+  "_note": "Legal-only locale (Deutsch). Only meta.ogAlt, nav, footer and guide.lastReviewed are used — German has legal pages but no homepage or guides.",
+  "meta": {
+    "ogAlt": "Klarineo — deutsche Behördenbriefe verstehen"
+  },
+  "nav": {
+    "how": "So funktioniert's",
+    "features": "Funktionen",
+    "letters": "Briefe",
+    "privacy": "Datenschutz",
+    "faq": "FAQ",
+    "download": "App holen",
+    "language": "Sprache",
+    "menu": "Menü",
+    "skip": "Zum Inhalt springen"
+  },
+  "footer": {
+    "tagline": "Überlebens-Deutsch für Neuankömmlinge in Deutschland: Briefe verstehen, Fristen einhalten, sicher sprechen.",
+    "app": "App",
+    "legal": "Rechtliches",
+    "contact": "Kontakt",
+    "guides": "Ratgeber",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "impressum": "Impressum",
+    "disclaimer": "Klarineo bietet allgemeine Informationen, keine Rechtsberatung. Klarineo steht in keiner Verbindung zu einer deutschen Behörde.",
+    "englishOnly": "auf Englisch"
+  },
+  "guide": {
+    "lastReviewed": "Zuletzt aktualisiert"
+  }
+}
