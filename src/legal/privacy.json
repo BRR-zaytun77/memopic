@@ -1,9 +1,9 @@
 {
-  "title": "Privacy policy — MemoPic",
-  "description": "How the MemoPic app processes your data: letter analysis with Google Gemini, data kept on your device, optional analytics, your GDPR rights and contact.",
-  "h1": "Privacy policy for the MemoPic app",
+  "title": "Privacy policy — Klarineo",
+  "description": "How the Klarineo app processes your data: letter analysis with Google Gemini, data kept on your device, optional analytics, your GDPR rights and contact.",
+  "h1": "Privacy policy for the Klarineo app",
   "intro": [
-    "This privacy policy explains which personal data is processed when you use the MemoPic mobile app for Android and iOS (the “App”), for what purposes, on which legal basis, and what rights you have. The website on which this policy is published does not use cookies, analytics or third-party resources (see section 10 on hosting).",
+    "This privacy policy explains which personal data is processed when you use the Klarineo mobile app for Android and iOS (the “App”), for what purposes, on which legal basis, and what rights you have. The website on which this policy is published does not use cookies, analytics or third-party resources (see section 10 on hosting).",
     "In short: you do not need an account. Photos and texts of your letters are sent to Google's Gemini model only to create your explanation and are not used to train AI models. We do not store your letters on our servers — what you save stays on your phone. There are no ads, and analytics run only if you agree."
   ],
   "sections": [
@@ -70,7 +70,7 @@
       "id": "purchases",
       "h": "8. Subscriptions and purchases",
       "p": [
-        "MemoPic Pro subscriptions and any free trial offered by the store are handled entirely by Apple (App Store) or Google (Google Play). We do not receive your payment card or bank details. The App only receives information from the store about whether a subscription or trial is active, so that Pro features can be unlocked. Legal basis: Art. 6(1)(b) GDPR. The stores process your purchase under their own terms and privacy policies."
+        "Klarineo Pro subscriptions and any free trial offered by the store are handled entirely by Apple (App Store) or Google (Google Play). We do not receive your payment card or bank details. The App only receives information from the store about whether a subscription or trial is active, so that Pro features can be unlocked. Legal basis: Art. 6(1)(b) GDPR. The stores process your purchase under their own terms and privacy policies."
       ]
     },
     {

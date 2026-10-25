@@ -1,5 +1,5 @@
 {
-  "title": "Finanzamt Steuerbescheid explained — MemoPic",
+  "title": "Finanzamt Steuerbescheid explained — Klarineo",
   "description": "How to read a German tax assessment (Steuerbescheid) from the Finanzamt: refund or back payment, key terms, and the one-month deadline for an Einspruch.",
   "h1": "Steuerbescheid from the Finanzamt explained: refund, back payment and Einspruch",
   "kicker": "Finanzamt",
@@ -72,5 +72,5 @@
     { "label": "Federal Ministry of Finance (bundesfinanzministerium.de)", "url": "https://www.bundesfinanzministerium.de/" },
     { "label": "Fiscal Code (Abgabenordnung), § 355 — objection period", "url": "https://www.gesetze-im-internet.de/ao_1977/__355.html" }
   ],
-  "practice": "MemoPic can explain each line of your Steuerbescheid in your language and set a reminder for the objection deadline."
+  "practice": "Klarineo can explain each line of your Steuerbescheid in your language and set a reminder for the objection deadline."
 }

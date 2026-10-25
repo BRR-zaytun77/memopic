@@ -1,5 +1,5 @@
 {
-  "title": "Mahnung (payment reminder) explained — MemoPic",
+  "title": "Mahnung (payment reminder) explained — Klarineo",
   "description": "Received a Mahnung or an Inkasso letter in Germany? How reminders, collection agencies and the court Mahnbescheid work — and what to do before deadlines pass.",
   "h1": "Mahnung explained: payment reminders, Inkasso letters and the Mahnbescheid",
   "kicker": "Mahnung",
@@ -70,5 +70,5 @@
     { "label": "Official legal services register — check if an Inkasso company is registered", "url": "https://www.rechtsdienstleistungsregister.de/" },
     { "label": "German Code of Civil Procedure, § 692 (content of the Mahnbescheid)", "url": "https://www.gesetze-im-internet.de/zpo/__692.html" }
   ],
-  "practice": "MemoPic drafts a short, polite German letter — for example asking for a breakdown of the claim — which you check and send yourself."
+  "practice": "Klarineo drafts a short, polite German letter — for example asking for a breakdown of the claim — which you check and send yourself."
 }

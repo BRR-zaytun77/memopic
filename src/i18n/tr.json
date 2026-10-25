@@ -1,8 +1,8 @@
 {
   "meta": {
-    "homeTitle": "Almanca resmi mektupları anlayın — MemoPic",
-    "homeDesc": "Jobcenter, Finanzamt veya ev sahibinden gelen mektubu fotoğraflayın. MemoPic onu kendi dilinizde açıklar, son tarihi hatırlatır ve yanıtlamanıza yardım eder.",
-    "ogAlt": "MemoPic — Almanca mektupları kendi dilinizde anlayın"
+    "homeTitle": "Almanca resmi mektupları anlayın — Klarineo",
+    "homeDesc": "Jobcenter, Finanzamt veya ev sahibinden gelen mektubu fotoğraflayın. Klarineo onu kendi dilinizde açıklar, son tarihi hatırlatır ve yanıtlamanıza yardım eder.",
+    "ogAlt": "Klarineo — Almanca mektupları kendi dilinizde anlayın"
   },
   "nav": {
     "how": "Nasıl çalışır",
@@ -18,13 +18,13 @@
   "hero": {
     "kicker": "Almanya'da hayat için gerekli Almanca",
     "title": "Almanca mektupları anlayın — ve güvenle yanıtlayın",
-    "sub": "Jobcenter, Finanzamt, Ausländerbehörde veya ev sahibinizden gelen mektubun fotoğrafını çekin. MemoPic size kendi dilinizde bunun ne olduğunu, ne yapmanız gerektiğini ve son tarihi söyler — ardından yanıtınız için gereken Almancayı öğrenmenize yardım eder.",
+    "sub": "Jobcenter, Finanzamt, Ausländerbehörde veya ev sahibinizden gelen mektubun fotoğrafını çekin. Klarineo size kendi dilinizde bunun ne olduğunu, ne yapmanız gerektiğini ve son tarihi söyler — ardından yanıtınız için gereken Almancayı öğrenmenize yardım eder.",
     "android": "Android",
     "androidSub": "Google Play",
     "ios": "iPhone",
     "iosSub": "App Store",
-    "note": "Ücretsiz plan · MemoPic Pro · yeni abonelere ücretsiz deneme · Hesap gerekmez",
-    "mockLabel": "İllüstrasyon: MemoPic, Jobcenter'dan gelen kurgusal bir mektubu açıklıyor",
+    "note": "Ücretsiz plan · Klarineo Pro · yeni abonelere ücretsiz deneme · Hesap gerekmez",
+    "mockLabel": "İllüstrasyon: Klarineo, Jobcenter'dan gelen kurgusal bir mektubu açıklıyor",
     "mockCaption": "Kurgusal örnek mektuplu illüstrasyon"
   },
   "mock": {
@@ -53,7 +53,7 @@
       },
       {
         "title": "Son tarihi kaçırmayın",
-        "text": "Mektubu kaydedin; MemoPic tarihten önce telefonunuzda hatırlatır. Kaydedilen mektuplar cihazınızda kalır."
+        "text": "Mektubu kaydedin; Klarineo tarihten önce telefonunuzda hatırlatır. Kaydedilen mektuplar cihazınızda kalır."
       },
       {
         "title": "Arkasındaki Almancayı öğrenin",
@@ -64,7 +64,7 @@
   "features": {
     "kicker": "Özellikler",
     "title": "Almanca evrak işleri için ihtiyacınız olan her şey",
-    "sub": "MemoPic, Almanya'ya yeni gelenlerin yaşadığı gerçek durumlar için tasarlandı — ders kitabı diyalogları için değil.",
+    "sub": "Klarineo, Almanya'ya yeni gelenlerin yaşadığı gerçek durumlar için tasarlandı — ders kitabı diyalogları için değil.",
     "items": [
       {
         "icon": "letter",
@@ -104,7 +104,7 @@
   },
   "letters": {
     "kicker": "Açıkladığımız mektuplar",
-    "title": "MemoPic'in yardımcı olduğu tipik mektuplar",
+    "title": "Klarineo'in yardımcı olduğu tipik mektuplar",
     "sub": "En sık gelen mektuplar için ücretsiz rehberlerimizi okuyun: ne anlama geldikleri, olağan süreler ve ne yapmanız gerektiği.",
     "note": "Rehberler şimdilik İngilizce.",
     "more": "Rehberi oku",
@@ -144,7 +144,7 @@
       {
         "icon": "noads",
         "title": "Reklam yok",
-        "text": "MemoPic reklam göstermez ve verilerinizi satmaz."
+        "text": "Klarineo reklam göstermez ve verilerinizi satmaz."
       },
       {
         "icon": "chart",
@@ -159,24 +159,24 @@
     "title": "Sorular ve yanıtlar",
     "items": [
       {
-        "q": "MemoPic nedir?",
-        "a": "MemoPic, Almanya'ya yeni gelenler için bir mobil uygulamadır. Almanca bir mektubun fotoğrafını çekersiniz; uygulama kendi dilinizde bunun ne olduğunu, kimin gönderdiğini, ne yapmanız gerektiğini ve son tarihi açıklar. Almanca kibar bir yanıt önerir, son tarihi hatırlatır ve önemli ifadeleri kısa günlük derslere ve konuşma pratiğine dönüştürür."
+        "q": "Klarineo nedir?",
+        "a": "Klarineo, Almanya'ya yeni gelenler için bir mobil uygulamadır. Almanca bir mektubun fotoğrafını çekersiniz; uygulama kendi dilinizde bunun ne olduğunu, kimin gönderdiğini, ne yapmanız gerektiğini ve son tarihi açıklar. Almanca kibar bir yanıt önerir, son tarihi hatırlatır ve önemli ifadeleri kısa günlük derslere ve konuşma pratiğine dönüştürür."
       },
       {
-        "q": "MemoPic hangi mektupları açıklayabilir?",
+        "q": "Klarineo hangi mektupları açıklayabilir?",
         "a": "Jobcenter, Finanzamt, Ausländerbehörde, Bürgeramt, Beitragsservice (Rundfunkbeitrag), sağlık sigortanız (Krankenkasse) ve ev sahibinizden gelen tipik mektupların yanı sıra ödeme hatırlatmaları (Mahnung) ve Inkasso mektupları. Diğer günlük Almanca belgelerin fotoğrafını da çekebilirsiniz."
       },
       {
-        "q": "MemoPic hangi dilleri destekliyor?",
+        "q": "Klarineo hangi dilleri destekliyor?",
         "a": "Uygulama arayüzü İngilizce, Rusça, Ukraynaca, Türkçe, Arapça ve Özbekçe olarak sunulur. Mektuplarınızın açıklamaları çok daha fazla dilde alınabilir."
       },
       {
-        "q": "MemoPic ücretsiz mi?",
-        "a": "Evet, ücretsiz bir plan var. MemoPic Pro isteğe bağlı bir aboneliktir; mağaza sunduğunda yeni aboneler ücretsiz deneme alabilir. Fiyatlar ülkenize göre App Store veya Google Play'de gösterilir; aboneliği istediğiniz zaman mağaza hesabı ayarlarınızdan iptal edebilirsiniz."
+        "q": "Klarineo ücretsiz mi?",
+        "a": "Evet, ücretsiz bir plan var. Klarineo Pro isteğe bağlı bir aboneliktir; mağaza sunduğunda yeni aboneler ücretsiz deneme alabilir. Fiyatlar ülkenize göre App Store veya Google Play'de gösterilir; aboneliği istediğiniz zaman mağaza hesabı ayarlarınızdan iptal edebilirsiniz."
       },
       {
         "q": "Açıklamaya güvenebilir miyim?",
-        "a": "MemoPic yapay zekâ kullanır ve hata yapabilir. Özellikle isimleri, tutarları ve tarihleri her zaman orijinal mektuptan kontrol edin. MemoPic genel bilgi verir; hukuki veya vergi danışmanlığı değildir. Önemli konularda gönderenle ya da Migrationsberatung für erwachsene Zuwanderer (MBE) gibi ücretsiz bir danışma hizmetiyle iletişime geçin."
+        "a": "Klarineo yapay zekâ kullanır ve hata yapabilir. Özellikle isimleri, tutarları ve tarihleri her zaman orijinal mektuptan kontrol edin. Klarineo genel bilgi verir; hukuki veya vergi danışmanlığı değildir. Önemli konularda gönderenle ya da Migrationsberatung für erwachsene Zuwanderer (MBE) gibi ücretsiz bir danışma hizmetiyle iletişime geçin."
       },
       {
         "q": "Mektuplarımın fotoğraflarına ne oluyor?",
@@ -184,7 +184,7 @@
       },
       {
         "q": "Hesap açmam gerekiyor mu?",
-        "a": "Hayır. MemoPic'i kayıt olmadan, şifre olmadan ve bize e-posta adresinizi vermeden kullanabilirsiniz."
+        "a": "Hayır. Klarineo'i kayıt olmadan, şifre olmadan ve bize e-posta adresinizi vermeden kullanabilirsiniz."
       },
       {
         "q": "Konuşma pratiği nasıl çalışır?",
@@ -195,14 +195,14 @@
         "a": "Mektuplarınızdaki önemli ifadeler aralıklı tekrara eklenir; böylece onları tam unutmak üzereyken yeniden görürsünüz. Günlük hedef ve seri, devam etmenize yardımcı olur."
       },
       {
-        "q": "MemoPic'in Jobcenter veya diğer resmi dairelerle bir bağlantısı var mı?",
-        "a": "Hayır. MemoPic, TIYN ZAYTUN LLC'nin bağımsız bir uygulamasıdır ve hiçbir Alman resmi kurumu, sigorta şirketi ya da firmayla bağlantılı değildir."
+        "q": "Klarineo'in Jobcenter veya diğer resmi dairelerle bir bağlantısı var mı?",
+        "a": "Hayır. Klarineo, TIYN ZAYTUN LLC'nin bağımsız bir uygulamasıdır ve hiçbir Alman resmi kurumu, sigorta şirketi ya da firmayla bağlantılı değildir."
       }
     ]
   },
   "cta": {
     "title": "Bir sonraki mektup sizi korkutmayacak",
-    "text": "MemoPic'i yükleyin ve bir sonraki Almanca mektubunuzu dakikalar içinde anlayın."
+    "text": "Klarineo'i yükleyin ve bir sonraki Almanca mektubunuzu dakikalar içinde anlayın."
   },
   "footer": {
     "tagline": "Almanya'ya yeni gelenler için hayatta kalma Almancası: mektupları anlayın, süreleri kaçırmayın, güvenle konuşun.",
@@ -213,7 +213,7 @@
     "privacy": "Gizlilik politikası",
     "terms": "Kullanım koşulları",
     "impressum": "Künye (Impressum)",
-    "disclaimer": "MemoPic genel bilgi verir, hukuki danışmanlık değildir. MemoPic hiçbir Alman resmi kurumuyla bağlantılı değildir.",
+    "disclaimer": "Klarineo genel bilgi verir, hukuki danışmanlık değildir. Klarineo hiçbir Alman resmi kurumuyla bağlantılı değildir.",
     "englishOnly": "İngilizce"
   }
 }

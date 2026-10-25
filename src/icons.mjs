@@ -1,4 +1,4 @@
-// Inline SVG icons (24×24, stroke-based). Drawn for MemoPic — original artwork,
+// Inline SVG icons (24×24, stroke-based). Drawn for Klarineo — original artwork,
 // no third-party icon set. Paths with class="f" are filled.
 
 export const ICONS = {
