@@ -1,4 +1,4 @@
-# SEO, AI qidiruv va ASO — saytdan tashqari vazifalar (MemoPic)
+# SEO, AI qidiruv va ASO — saytdan tashqari vazifalar (Klarineo)
 
 Saytning o'zida qilingan ishlar (kod): 6 til (en — asosiy/x-default, ru, uk, tr, ar — RTL, uz)
 alohida URL + `hreflang`, canonical, `sitemap.xml` (hreflang alternatelari bilan), `robots.txt`
@@ -14,24 +14,25 @@ raqam bilan va sana ko'rsatib qo'shing.
 Qidiruvda 1-o'rin hech kim tomonidan kafolatlanmaydi — natija tashqi ishlarga va vaqtga
 (odatda 4–12 hafta) bog'liq.
 
-## 0. Muhim: sayt subpath'da (`/memopic/`)
+## 0. Domen va deploy: `klarineo.com` (host ildizi)
 
-- Qidiruv tizimlari va AI botlar `robots.txt` ni **faqat host ildizidan** o'qiydi:
-  `https://brr-zaytun77.github.io/robots.txt`. Bizning `/memopic/robots.txt` e'tiborga
-  olinmaydi (u faqat custom domain uchun tayyor turibdi).
-- Ildizdagi fayllar alohida repo'da: **`brr-zaytun77/brr-zaytun77.github.io`**. U yerda:
-  - `robots.txt` — hozirgi `memopic/robots.txt` ning nusxasi (yo'llarni o'zgartirmasdan
-    ishlaydi) va oxirida `Sitemap: https://brr-zaytun77.github.io/memopic/sitemap.xml`.
-    Agar u repo hali yo'q bo'lsa — robots.txt umuman bo'lmasa ham hamma narsa ochiq
-    hisoblanadi (bu ham normal).
-  - `llms.txt` — qisqa fayl: «MemoPic: https://brr-zaytun77.github.io/memopic/llms.txt»
-    havolasi bilan (yoki memopic/llms.txt nusxasi).
-- **Tavsiya: custom domain oling** (masalan `memopic.app` yoki `memopic.de` — mavjudligini
-  tekshiring). Afzalliklari: o'z robots.txt, Search Console'da «Domain» mulki, brend
-  ishonchi, keyin ko'chish shart emas. Ko'chirish: `src/site.mjs` → `SITE_URL` ni bir qatorda
-  o'zgartiring → `npm run build` → repo'ga `CNAME` fayli (domen nomi bilan) → GitHub
-  Settings → Pages → Custom domain → «Enforce HTTPS». Eski github.io manzili GitHub tomonidan
-  avtomatik yangi domenga yo'naltiriladi.
+Sayt endi **o'z custom domenida, host ildizida** joylashgan — `/memopic/` subpath YO'Q.
+`src/site.mjs` → `SITE_URL = 'https://klarineo.com/'`, `BASE` = `/`. Repo ildizida `CNAME`
+fayli (`klarineo.com`) bor. Subpath muammosi (robots.txt faqat host ildizidan o'qiladi)
+endi dolzarb emas: `https://klarineo.com/robots.txt`, `/sitemap.xml`, `/llms.txt` va
+IndexNow kalit fayli hammasi to'g'ridan-to'g'ri ildizda ishlaydi. Alohida
+`brr-zaytun77.github.io` repo'si endi KERAK EMAS.
+
+**Deploy qadamlari (bir marta):**
+1. DNS (domen registratoringizda): `klarineo.com` ni GitHub Pages'ga yo'naltiring —
+   apex uchun A yozuvlari `185.199.108.153`, `185.199.109.153`, `185.199.110.153`,
+   `185.199.111.153` (va/yoki AAAA), `www` uchun CNAME `brr-zaytun77.github.io`.
+2. GitHub → repo **Settings → Pages → Custom domain** = `klarineo.com` → saqlang →
+   DNS tekshiruvidan keyin **«Enforce HTTPS»** ni yoqing. `CNAME` fayli allaqachon repo'da,
+   build uni o'chirmaydi.
+3. Eski `https://brr-zaytun77.github.io/memopic/` manzillari GitHub tomonidan avtomatik
+   `klarineo.com` ga yo'naltiriladi — eski havolalar buzilmaydi.
+4. Domen o'zgarsa FAQAT `src/site.mjs` → `SITE_URL` ni o'zgartiring → `npm run build`.
 
 ## 1. Birinchi hafta (majburiy)
 
@@ -41,20 +42,21 @@ Qidiruvda 1-o'rin hech kim tomonidan kafolatlanmaydi — natija tashqi ishlarga 
    xizmat qiladi → odatda EI'dagi vakil (EU representative) tayinlash talab qilinadi. Bunday
    xizmatlar yillik obuna asosida ishlaydi. Tayinlangach — `EU_REPRESENTATIVE` ga yozing.
    Yurist bilan qisqa maslahat tavsiya etiladi (Impressum va GDPR uchun).
-3. **Google Search Console** (search.google.com/search-console): «URL prefix» mulki
-   `https://brr-zaytun77.github.io/memopic/` → tasdiqlash usuli «HTML file» (`google….html`
-   faylini repo ildiziga qo'ying — `npm run check` uni sahifa deb hisoblamaydi) → **Sitemaps**:
-   `https://brr-zaytun77.github.io/memopic/sitemap.xml`. «URL Inspection» bilan bosh sahifa va
-   `/memopic/guides/` ni «Request indexing».
+3. **Google Search Console** (search.google.com/search-console): endi **«Domain» mulki**
+   tavsiya etiladi — `klarineo.com` → DNS TXT yozuvi bilan tasdiqlang (butun domenni, barcha
+   tillarni va subdomenlarni qamrab oladi). Muqobil: «URL prefix» `https://klarineo.com/`.
+   Keyin **Sitemaps**: `https://klarineo.com/sitemap.xml`. «URL Inspection» bilan bosh sahifa
+   va `https://klarineo.com/guides/` ni «Request indexing».
 4. **Bing Webmaster Tools** (bing.com/webmasters): «Import from Google Search Console» yoki
    sitemap qo'lda. Bing indeksi ChatGPT qidiruvi va Copilot'ni oziqlantiradi. Har deploy'dan
-   keyin: `npm run indexnow` (kalit fayli `memopic/ff97d9d65c3a5979005c5233eaeffb81.txt`).
+   keyin: `npm run indexnow` (kalit fayli `https://klarineo.com/ff97d9d65c3a5979005c5233eaeffb81.txt`
+   — endi host ildizida, ishlaydi).
 5. **Yandex Webmaster** (webmaster.yandex.com): sayt qo'shish, sitemap — rus/ukrain/o'zbek
    tilli foydalanuvchilar uchun. Tasdiqlash fayli kerak bo'lsa — ayting, build'ga qo'shamiz.
 6. **Do'kon sahifalaridagi havolalar**:
-   - App Store Connect → «Marketing URL»: `https://brr-zaytun77.github.io/memopic/`,
-     «Support URL»: shu yoki `.../memopic/#faq`, «Privacy Policy URL»:
-     `https://brr-zaytun77.github.io/memopic/privacy-policy/`.
+   - App Store Connect → «Marketing URL»: `https://klarineo.com/`,
+     «Support URL»: shu yoki `https://klarineo.com/#faq`, «Privacy Policy URL»:
+     `https://klarineo.com/privacy-policy/`.
    - Play Console → Store settings → «Website» va «Privacy policy» — xuddi shular.
    - Eski `privacy-policy.html` manzili ishlayveradi (yangi sahifaga yo'naltiradi), lekin
      do'konlarda yangisiga almashtiring.
@@ -71,8 +73,8 @@ AI yordamchilar ilovani **mustaqil manbalar** tilga olgandagina ishonch bilan ta
   Reddit r/germany, r/AskAGerman — foydali qo'llanma havolasi bilan, spamsiz.
 - Integratsiya va maslahat markazlari (MBE, JMD) uchun bir sahifalik tushuntirish — ular
   ilovani tavsiya qilishi mumkin (hamkorlik so'rang, rasmiy aloqa da'vo qilmang).
-- **Wikidata** element: «MemoPic» (mobile application), developer TIYN ZAYTUN LLC,
-  official website, App Store / Play ID'lari.
+- **Wikidata** element: «Klarineo» (mobile application; ilgari «MemoPic»), developer
+  TIYN ZAYTUN LLC, official website `https://klarineo.com/`, App Store / Play ID'lari.
 - YouTube/TikTok: «Jobcenter xati keldi — nima qilish kerak» kabi qisqa videolar + sayt havolasi.
 - Do'konlarda sharhlarga javob bering — reyting va sharhlar AI javoblarida ko'p keltiriladi.
 
@@ -84,12 +86,12 @@ bor so'zni takrorlamang); Play Title ≤30, Short description ≤80. Raqobatchi 
 
 | Til | Name / Play Title (30) | Subtitle (30) |
 |---|---|---|
-| en | `MemoPic: German Letters Help` | `Understand & reply in German` |
-| de | `MemoPic: Behördenbriefe` | `Deutsche Post einfach erklärt` |
-| ru | `MemoPic: немецкие письма` | `Объяснит письмо и срок ответа` |
-| uk | `MemoPic: німецькі листи` | `Пояснить лист і строк` |
-| tr | `MemoPic: Almanca Mektuplar` | `Resmi mektupları anlayın` |
-| ar | `MemoPic: الرسائل الألمانية` | `افهم رسائل الدوائر الألمانية` |
+| en | `Klarineo: German Letters Help` | `Understand & reply in German` |
+| de | `Klarineo: Behördenbriefe` | `Deutsche Post einfach erklärt` |
+| ru | `Klarineo: немецкие письма` | `Объяснит письмо и срок ответа` |
+| uk | `Klarineo: німецькі листи` | `Пояснить лист і строк` |
+| tr | `Klarineo: Almanca Mektuplar` | `Resmi mektupları anlayın` |
+| ar | `Klarineo: الرسائل الألمانية` | `افهم رسائل الدوائر الألمانية` |
 
 App Store Keywords (100):
 - en: `jobcenter,finanzamt,auslaenderbehoerde,bureaucracy,translate,immigrant,expat,deadline,speak,vocab`
@@ -108,8 +110,9 @@ Google Play — Short description (80):
 - ar: `صوّر رسالة ألمانية: شرح بلغتك والموعد النهائي ورد مهذّب`
 
 Eslatmalar:
-- iOS URL'dagi eski slug (`memopic-learn-with-flashcards`) — ilova nomi o'zgarganda Apple
-  slug'ni o'zi yangilaydi; eski havolalar ishlayveradi. Saytdagi havola ID bo'yicha ishlaydi.
+- iOS URL'dagi eski slug (`memopic-learn-with-flashcards`) — ilova nomi Klarineo'ga
+  o'zgarganda Apple slug'ni o'zi yangilaydi; eski havolalar ishlayveradi. Saytdagi havola
+  ID bo'yicha ishlaydi (`id6756977971`).
 - Ilova interfeysida nemis tili yo'q bo'lsa ham, **de** lokalizatsiyasi Germaniya do'konida
   topilishni oshiradi (ko'p muhojirlar telefonni nemischa ishlatadi). Tavsifda ilova
   interfeysi tillarini aniq yozing.
