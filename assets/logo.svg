@@ -1,0 +1,27 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Klarineo">
+  <defs>
+    <linearGradient id="klTeal" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2E6A62"/>
+      <stop offset="1" stop-color="#1E4B45"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#klTeal)"/>
+  <!-- document -->
+  <g transform="translate(140 108)">
+    <rect x="0" y="0" width="200" height="268" rx="26" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="200" height="268" rx="26" fill="#FFFFFF"/>
+    <!-- folded corner -->
+    <path d="M150 0 L200 50 L160 50 Q150 50 150 40 Z" fill="#E4E9E6"/>
+    <!-- text lines -->
+    <rect x="34" y="58" width="104" height="16" rx="8" fill="#C27A4E"/>
+    <rect x="34" y="96" width="132" height="13" rx="6.5" fill="#CDD6D1"/>
+    <rect x="34" y="128" width="132" height="13" rx="6.5" fill="#CDD6D1"/>
+    <rect x="34" y="160" width="88" height="13" rx="6.5" fill="#CDD6D1"/>
+  </g>
+  <!-- check badge -->
+  <g transform="translate(300 268)">
+    <circle cx="56" cy="56" r="56" fill="#3C8A5E"/>
+    <circle cx="56" cy="56" r="56" fill="#3C8A5E" stroke="#FFFFFF" stroke-width="8"/>
+    <path d="M32 58 L48 74 L82 40" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

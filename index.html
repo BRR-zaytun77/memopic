@@ -4,170 +4,519 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <title>MemoPic - Master Languages Visually with AI Flashcards</title>
-    <meta name="title" content="MemoPic - Visual Language Learning & AI Flashcards">
-    <meta name="description" content="Accelerate your language learning with MemoPic. Use visual associations, smart quiz modes, and AI-powered translation to master vocabulary 3x faster.">
-    <meta name="keywords" content="language learning app, visual flashcards, AI vocabulary builder, MemoPic, learn English visually, smart repetition, language quiz">
+
+    <title>Klarineo — Understand any German letter in seconds</title>
+    <meta name="title" content="Klarineo — Understand any German letter in seconds">
+    <meta name="description" content="Scan an official German letter and get a clear explanation in your own language, the deadline, what to do next, and an AI-drafted reply. Jobcenter, Finanzamt, Ausländerbehörde and more. Private and GDPR-compliant.">
+    <meta name="keywords" content="German letter translator, understand German letters, Jobcenter letter help, Finanzamt letter, Ausländerbehörde, Frist deadline, migrant Germany app, Widerspruch, official mail Germany">
     <meta name="robots" content="index, follow">
-    <meta name="author" content="MemoPic Team">
+    <meta name="author" content="Klarineo">
+    <meta name="theme-color" content="#2E6A62">
+    <link rel="canonical" href="https://klarineo.com/">
+
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+    <link rel="apple-touch-icon" href="assets/logo.svg">
 
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://brr-zaytun77.github.io/memopic/">
-    <meta property="og:title" content="MemoPic - Master Languages Visually">
-    <meta property="og:description" content="The most effective way to learn vocabulary through visual associations and smart repetition.">
-    <meta property="og:image" content="https://brr-zaytun77.github.io/memopic/og-image.png">
+    <meta property="og:url" content="https://klarineo.com/">
+    <meta property="og:title" content="Klarineo — Understand any German letter in seconds">
+    <meta property="og:description" content="Scan an official German letter and get a clear explanation in your own language, the deadline, and an AI-drafted reply. Calm, private, GDPR-compliant.">
+    <meta property="og:image" content="https://klarineo.com/assets/og-image.png">
+    <meta property="og:site_name" content="Klarineo">
 
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="MemoPic - AI-Powered Visual Learning">
-    <meta property="twitter:description" content="Transform how you learn languages with AI-optimized quiz and translation modes.">
+    <meta property="twitter:title" content="Klarineo — Understand any German letter in seconds">
+    <meta property="twitter:description" content="Scan a German letter, understand it in your language, and know exactly what to do before the deadline.">
+    <meta property="twitter:image" content="https://klarineo.com/assets/og-image.png">
 
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
-      "name": "MemoPic",
+      "name": "Klarineo",
       "operatingSystem": "ANDROID, IOS",
-      "applicationCategory": "EducationApplication",
-      "description": "AI-powered language learning application using visual flashcards and smart repetition.",
+      "applicationCategory": "UtilitiesApplication",
+      "description": "Klarineo helps people in Germany understand official letters. Scan a letter to get a plain-language explanation in your own language, the extracted deadline, what to do next, an AI-drafted reply, a scam-shield warning, and German speaking practice. Available in English, Russian, Ukrainian, Turkish, Arabic and Uzbek.",
+      "url": "https://klarineo.com/",
       "offers": {
         "@type": "Offer",
         "price": "0",
-        "priceCurrency": "USD"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5.0",
-        "ratingCount": "150"
+        "priceCurrency": "EUR"
       }
     }
     </script>
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-    
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              teal:    { DEFAULT: '#2E6A62', dark: '#1E4B45' },
+              clay:    '#C27A4E',
+              'clay-tint': '#F6ECE4',
+              success: '#3C8A5E',
+              page:    '#F3F6F4',
+              ink:     '#26302E',
+              muted:   '#67746E',
+              hair:    '#E4E9E6',
+            },
+            fontFamily: {
+              sans: ['Nunito', 'system-ui', 'sans-serif'],
+            },
+            borderRadius: {
+              card: '20px',
+            },
+            boxShadow: {
+              soft: '0 10px 30px -12px rgba(30, 75, 69, 0.18)',
+              card: '0 6px 24px -10px rgba(30, 75, 69, 0.14)',
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
     <style>
-        body { font-family: 'Inter', sans-serif; }
-        .hero-gradient { background: radial-gradient(circle at 50% 50%, #eff6ff 0%, #ffffff 100%); }
-        .glass { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.3); }
+        body { font-family: 'Nunito', system-ui, sans-serif; }
+        .hero-wash {
+            background:
+              radial-gradient(1200px 500px at 80% -10%, rgba(46,106,98,0.10), transparent 60%),
+              radial-gradient(900px 500px at 0% 10%, rgba(194,122,78,0.08), transparent 55%);
+        }
+        /* ---- Phone mockup frame: screenshots drop in at assets/screenshots/*.png with zero layout change ---- */
+        .phone {
+            position: relative;
+            width: 100%;
+            max-width: 290px;
+            margin-inline: auto;
+            aspect-ratio: 1206 / 2622;
+            background: #0f1f1c;
+            border-radius: 44px;
+            padding: 10px;
+            box-shadow: 0 30px 60px -24px rgba(15,31,28,0.55), inset 0 0 0 2px rgba(255,255,255,0.06);
+        }
+        .phone__screen {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border-radius: 36px;
+            overflow: hidden;
+            background: #F3F6F4;
+        }
+        .phone__screen img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top center;
+        }
+        .phone__notch {
+            position: absolute;
+            top: 10px; left: 50%; transform: translateX(-50%);
+            width: 38%; height: 22px;
+            background: #0f1f1c;
+            border-radius: 0 0 16px 16px;
+            z-index: 2;
+        }
+        .fade-up { opacity: 0; transform: translateY(16px); transition: opacity .6s ease, transform .6s ease; }
+        .fade-up.in { opacity: 1; transform: none; }
     </style>
 </head>
-<body class="bg-white text-slate-900 overflow-x-hidden">
+<body class="bg-page text-ink antialiased overflow-x-hidden">
 
-    <nav class="fixed top-0 w-full z-50 glass border-b border-slate-100">
-        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-blue-500">
-                📸 MemoPic
+    <!-- ======================= HEADER ======================= -->
+    <header class="fixed top-0 inset-x-0 z-50 border-b border-hair/80 bg-page/85 backdrop-blur-md">
+        <div class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
+            <a href="#top" class="flex items-center gap-2.5">
+                <img src="assets/logo.svg" alt="Klarineo logo" class="w-9 h-9 rounded-xl">
+                <span class="text-xl font-extrabold tracking-tight text-ink">Klarineo</span>
             </a>
-            <div class="hidden md:flex gap-8 font-semibold text-slate-600">
-                <a href="#features" class="hover:text-indigo-600 transition">Features</a>
-                <a href="#how-it-works" class="hover:text-indigo-600 transition">How it Works</a>
-                <a href="https://t.me/inquiryuz" class="hover:text-indigo-600 transition">Community</a>
-            </div>
-            <a href="#download" class="bg-indigo-600 text-white px-6 py-2.5 rounded-full font-bold hover:bg-indigo-700 transition shadow-lg shadow-indigo-200">
-                Download
+            <nav class="hidden md:flex items-center gap-8 text-[15px] font-bold text-muted">
+                <a href="#how" class="hover:text-teal transition">How it works</a>
+                <a href="#features" class="hover:text-teal transition">Features</a>
+                <a href="#privacy" class="hover:text-teal transition">Privacy</a>
+                <a href="#faq" class="hover:text-teal transition">FAQ</a>
+            </nav>
+            <a href="#download" class="inline-flex items-center gap-2 bg-teal text-white px-5 py-2.5 rounded-full font-extrabold text-sm shadow-soft hover:bg-teal-dark transition">
+                Get the app
             </a>
         </div>
-    </nav>
+    </header>
 
-    <section class="pt-32 pb-20 px-6 hero-gradient relative">
-        <div class="max-w-5xl mx-auto text-center">
-            <span class="inline-block py-1 px-4 rounded-full bg-indigo-50 text-indigo-600 font-bold text-sm mb-6 animate-bounce">
-                🚀 AI-Powered Learning
-            </span>
-            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-8">
-                Master Languages <br>
-                <span class="text-indigo-600">Through Vision.</span>
-            </h1>
-            <p class="text-xl text-slate-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-                Transform your vocabulary journey with visual associations, smart quiz modes, and AI-optimized tools. Learn 3x faster by linking images to words.
-            </p>
-            <div id="download" class="flex flex-col sm:flex-row justify-center gap-6">
-                <a href="#" class="flex items-center justify-center gap-3 bg-black text-white px-8 py-4 rounded-2xl hover:scale-105 transition shadow-2xl">
-                    <span class="text-2xl">🤖</span>
-                    <div class="text-left leading-tight">
-                        <p class="text-xs opacity-70 uppercase font-bold">Get it on</p>
-                        <p class="text-lg font-bold">Google Play</p>
-                    </div>
-                </a>
-                <a href="#" class="flex items-center justify-center gap-3 bg-indigo-600 text-white px-8 py-4 rounded-2xl hover:scale-105 transition shadow-2xl shadow-indigo-300">
-                    <span class="text-2xl">🍎</span>
-                    <div class="text-left leading-tight">
-                        <p class="text-xs opacity-70 uppercase font-bold">Download on the</p>
-                        <p class="text-lg font-bold">App Store</p>
-                    </div>
-                </a>
+    <!-- ======================= HERO ======================= -->
+    <section id="top" class="hero-wash pt-28 pb-16 md:pt-36 md:pb-24 px-5">
+        <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-14 items-center">
+            <div class="text-center lg:text-left">
+                <span class="inline-flex items-center gap-2 py-1.5 px-3.5 rounded-full bg-white text-teal-dark font-extrabold text-xs shadow-card border border-hair mb-6">
+                    <span class="w-2 h-2 rounded-full bg-success"></span>
+                    Calm help with official German mail
+                </span>
+                <h1 class="text-4xl md:text-6xl font-black tracking-tight leading-[1.05] mb-6">
+                    Understand any German letter
+                    <span class="text-teal">in seconds.</span>
+                </h1>
+                <p class="text-lg md:text-xl text-muted leading-relaxed max-w-xl mx-auto lg:mx-0 mb-9">
+                    Scan a letter from the Jobcenter, Finanzamt or Ausländerbehörde and get a clear
+                    explanation <strong class="text-ink font-extrabold">in your own language</strong> — plus the
+                    deadline, what to do next, and a reply you can send.
+                </p>
+
+                <div id="download" class="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
+                    <span class="inline-flex items-center justify-center gap-3 bg-ink text-white px-6 py-3.5 rounded-2xl shadow-soft opacity-95">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.365 1.43c0 1.14-.42 2.2-1.12 2.98-.76.86-2 .99-2.96.92-.1-1.1.43-2.24 1.1-2.97.76-.82 2.07-1.42 2.98-1.44.05.17.0.34.0.51zM20.9 17.1c-.5 1.16-.74 1.68-1.39 2.71-.9 1.43-2.18 3.21-3.76 3.22-1.4.01-1.76-.92-3.66-.9-1.9.01-2.3.92-3.7.91-1.58-.01-2.79-1.62-3.69-3.05C1.6 16.5 1.33 11.9 3.2 9.44c.98-1.29 2.53-2.1 4-2.1 1.5 0 2.44.93 3.68.93 1.2 0 1.93-.93 3.66-.93 1.31 0 2.7.71 3.69 1.95-3.24 1.78-2.71 6.4.97 7.81z"/></svg>
+                        <span class="text-left leading-tight">
+                            <span class="block text-[11px] uppercase tracking-wide opacity-70 font-bold">Coming soon</span>
+                            <span class="block text-base font-extrabold">App Store</span>
+                        </span>
+                    </span>
+                    <span class="inline-flex items-center justify-center gap-3 bg-ink text-white px-6 py-3.5 rounded-2xl shadow-soft opacity-95">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.6 2.2 13 11.6l-9.4 9.4A1.7 1.7 0 0 1 3 20V3.9c0-.65.24-1.25.6-1.7zm11.2 10.8 2.6 2.6-3.3 1.9-2-2.5 2.7-2zm0-2.8L12.1 12 4.9 4.8l9.9 5.4zm0 5.6 2.6-1.5 2.5 1.4c.9.5.9 1.8 0 2.3l-2.5 1.4-2.6-1.5 1.3-1.3-1.3-1.2z"/></svg>
+                        <span class="text-left leading-tight">
+                            <span class="block text-[11px] uppercase tracking-wide opacity-70 font-bold">Coming soon</span>
+                            <span class="block text-base font-extrabold">Google Play</span>
+                        </span>
+                    </span>
+                </div>
+                <p class="text-sm text-muted mt-4 font-semibold">Free to start · No ads · Your letters stay private</p>
             </div>
-        </div>
-    </section>
 
-    <section id="features" class="py-24 px-6">
-        <div class="max-w-7xl mx-auto">
-            <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold mb-4">Why MemoPic?</h2>
-                <p class="text-slate-500 max-w-xl mx-auto">Combining traditional science with modern AI to build your permanent memory.</p>
-            </div>
-            
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-indigo-200 transition">
-                    <div class="w-14 h-14 bg-indigo-600 text-white flex items-center justify-center rounded-2xl text-2xl mb-6">📸</div>
-                    <h3 class="text-xl font-bold mb-3 text-slate-900">Visual Mastery</h3>
-                    <p class="text-slate-600 leading-relaxed">Attach real-world photos to your flashcards. Our brain remembers images 60,000 times faster than text.</p>
-                </div>
-
-                <div class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-indigo-200 transition">
-                    <div class="w-14 h-14 bg-blue-500 text-white flex items-center justify-center rounded-2xl text-2xl mb-6">🧠</div>
-                    <h3 class="text-xl font-bold mb-3 text-slate-900">AI-Optimized Quiz</h3>
-                    <p class="text-slate-600 leading-relaxed">Smart algorithms identify your weak points and adapt quiz frequency to ensure long-term retention.</p>
-                </div>
-
-                <div class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-indigo-200 transition">
-                    <div class="w-14 h-14 bg-pink-500 text-white flex items-center justify-center rounded-2xl text-2xl mb-6">☁️</div>
-                    <h3 class="text-xl font-bold mb-3 text-slate-900">Cloud Sync</h3>
-                    <p class="text-slate-600 leading-relaxed">Your progress is always safe. Study on your phone, tablet, or laptop seamlessly across devices.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-20 px-6 bg-slate-900 text-white rounded-[3rem] mx-6">
-        <div class="max-w-5xl mx-auto text-center">
-            <h2 class="text-3xl md:text-5xl font-bold mb-12">Coming Soon: AI Mode</h2>
-            <div class="grid md:grid-cols-2 gap-12 text-left">
-                <div class="flex gap-4">
-                    <div class="text-indigo-400 font-bold text-xl">01</div>
-                    <div>
-                        <h4 class="font-bold text-xl mb-2 italic">AI Entry Mode</h4>
-                        <p class="text-slate-400">Scan any text, and let MemoPic automatically generate visual flashcards for you.</p>
-                    </div>
-                </div>
-                <div class="flex gap-4">
-                    <div class="text-indigo-400 font-bold text-xl">02</div>
-                    <div>
-                        <h4 class="font-bold text-xl mb-2 italic">AI Translation Mode</h4>
-                        <p class="text-slate-400">Context-aware translations that explain not just the word, but how to use it in real life.</p>
+            <div class="relative">
+                <div class="phone fade-up">
+                    <span class="phone__notch"></span>
+                    <div class="phone__screen">
+                        <img src="assets/screenshots/today.png" alt="Klarineo Today screen showing letters that need action and their deadlines" loading="eager" width="1206" height="2622">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="pt-24 pb-12 px-6">
-        <div class="max-w-7xl mx-auto border-t border-slate-100 pt-12">
-            <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+    <!-- ======================= TRUST STRIP ======================= -->
+    <section class="px-5">
+        <div class="max-w-6xl mx-auto bg-white rounded-card shadow-card border border-hair px-6 py-5">
+            <ul class="grid grid-cols-2 md:grid-cols-4 gap-y-4 gap-x-6 text-center">
+                <li class="flex flex-col items-center gap-1">
+                    <span class="text-xl font-black text-teal">6</span>
+                    <span class="text-sm font-bold text-muted">Languages</span>
+                </li>
+                <li class="flex flex-col items-center gap-1">
+                    <span class="text-xl font-black text-teal">Private</span>
+                    <span class="text-sm font-bold text-muted">by design</span>
+                </li>
+                <li class="flex flex-col items-center gap-1">
+                    <span class="text-xl font-black text-teal">No ads</span>
+                    <span class="text-sm font-bold text-muted">ever</span>
+                </li>
+                <li class="flex flex-col items-center gap-1">
+                    <span class="text-xl font-black text-teal">GDPR</span>
+                    <span class="text-sm font-bold text-muted">compliant</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ======================= HOW IT WORKS ======================= -->
+    <section id="how" class="py-20 md:py-28 px-5">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <p class="text-teal font-extrabold uppercase tracking-wide text-sm mb-3">How it works</p>
+                <h2 class="text-3xl md:text-4xl font-black tracking-tight mb-4">From intimidating to handled in three steps</h2>
+                <p class="text-muted text-lg">No German skills required. Point your camera and Klarineo does the rest.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Scan -->
+                <div class="bg-white rounded-card p-7 shadow-card border border-hair fade-up">
+                    <div class="w-12 h-12 rounded-2xl bg-teal/10 text-teal flex items-center justify-center mb-5">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2"/><rect x="7" y="8" width="10" height="8" rx="1.5"/></svg>
+                    </div>
+                    <div class="text-sm font-extrabold text-clay mb-1">Step 1</div>
+                    <h3 class="text-xl font-extrabold mb-2">Scan the letter</h3>
+                    <p class="text-muted leading-relaxed">Take a photo or import a PDF. Klarineo reads the whole page, including the official German wording.</p>
+                </div>
+                <!-- Understand -->
+                <div class="bg-white rounded-card p-7 shadow-card border border-hair fade-up">
+                    <div class="w-12 h-12 rounded-2xl bg-teal/10 text-teal flex items-center justify-center mb-5">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0-3.6 10.8c.5.4.8 1 .8 1.6V17h5.6v-1.6c0-.6.3-1.2.8-1.6A6 6 0 0 0 12 3z"/><path d="M9 21h6M10 17v4M14 17v4"/></svg>
+                    </div>
+                    <div class="text-sm font-extrabold text-clay mb-1">Step 2</div>
+                    <h3 class="text-xl font-extrabold mb-2">Understand it</h3>
+                    <p class="text-muted leading-relaxed">Get a plain-language explanation in your language, the deadline, and exactly what the sender wants from you.</p>
+                </div>
+                <!-- Act -->
+                <div class="bg-white rounded-card p-7 shadow-card border border-hair fade-up">
+                    <div class="w-12 h-12 rounded-2xl bg-teal/10 text-teal flex items-center justify-center mb-5">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                    </div>
+                    <div class="text-sm font-extrabold text-clay mb-1">Step 3</div>
+                    <h3 class="text-xl font-extrabold mb-2">Act with confidence</h3>
+                    <p class="text-muted leading-relaxed">Draft a reply, save the deadline to your calendar, or practise the phone call — before time runs out.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= FEATURES ======================= -->
+    <section id="features" class="py-8 md:py-12 px-5">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <p class="text-teal font-extrabold uppercase tracking-wide text-sm mb-3">Everything you need</p>
+                <h2 class="text-3xl md:text-4xl font-black tracking-tight mb-4">Built for real German bureaucracy</h2>
+                <p class="text-muted text-lg">Every feature exists to turn a stressful envelope into a clear next step.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <article class="bg-white rounded-card p-7 shadow-card border border-hair">
+                    <div class="w-12 h-12 rounded-2xl bg-teal/10 text-teal flex items-center justify-center mb-5">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h10M4 18h7"/></svg>
+                    </div>
+                    <h3 class="text-lg font-extrabold mb-2">Plain-language explanation</h3>
+                    <p class="text-muted leading-relaxed">Dense legal German becomes a few clear sentences you actually understand.</p>
+                </article>
+
+                <article class="bg-white rounded-card p-7 shadow-card border border-hair">
+                    <div class="w-12 h-12 rounded-2xl bg-clay-tint text-clay flex items-center justify-center mb-5">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/><path d="M12 14v3M12 17l2 .01"/></svg>
+                    </div>
+                    <h3 class="text-lg font-extrabold mb-2">Deadlines &amp; reminders</h3>
+                    <p class="text-muted leading-relaxed">Klarineo finds the Frist, explains it, and helps you add it to your calendar so nothing slips.</p>
+                </article>
+
+                <article class="bg-white rounded-card p-7 shadow-card border border-hair">
+                    <div class="w-12 h-12 rounded-2xl bg-teal/10 text-teal flex items-center justify-center mb-5">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8M8 13h5"/></svg>
+                    </div>
+                    <h3 class="text-lg font-extrabold mb-2">AI reply drafts</h3>
+                    <p class="text-muted leading-relaxed">Need a Widerspruch or to reschedule an appointment? Get a polite, correct German draft to review and send.</p>
+                </article>
+
+                <article class="bg-white rounded-card p-7 shadow-card border border-hair">
+                    <div class="w-12 h-12 rounded-2xl bg-teal/10 text-teal flex items-center justify-center mb-5">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 8.3 8 11 4.6-2.7 8-6 8-11V5l-8-3z"/><path d="M9 12l2 2 4-4"/></svg>
+                    </div>
+                    <h3 class="text-lg font-extrabold mb-2">Scam shield</h3>
+                    <p class="text-muted leading-relaxed">Suspicious invoices and fake demands get flagged, so you don't pay what you don't owe.</p>
+                </article>
+
+                <article class="bg-white rounded-card p-7 shadow-card border border-hair">
+                    <div class="w-12 h-12 rounded-2xl bg-clay-tint text-clay flex items-center justify-center mb-5">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10a7 7 0 0 1-14 0M12 19v3"/></svg>
+                    </div>
+                    <h3 class="text-lg font-extrabold mb-2">Speaking practice</h3>
+                    <p class="text-muted leading-relaxed">Roleplay the phone call to the Jobcenter before you dial, so you walk in prepared and calm.</p>
+                </article>
+
+                <article class="bg-white rounded-card p-7 shadow-card border border-hair">
+                    <div class="w-12 h-12 rounded-2xl bg-teal/10 text-teal flex items-center justify-center mb-5">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18"/></svg>
+                    </div>
+                    <h3 class="text-lg font-extrabold mb-2">Your language</h3>
+                    <p class="text-muted leading-relaxed">English, Russian, Ukrainian, Turkish, Arabic (right-to-left) and Uzbek — switch any time.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= SCREENSHOT GALLERY ======================= -->
+    <section class="py-20 md:py-28 px-5">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <p class="text-teal font-extrabold uppercase tracking-wide text-sm mb-3">A closer look</p>
+                <h2 class="text-3xl md:text-4xl font-black tracking-tight mb-4">Clear, calm, and quietly reassuring</h2>
+                <p class="text-muted text-lg">Designed to lower your stress the moment you open it.</p>
+            </div>
+
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+                <figure>
+                    <div class="phone"><span class="phone__notch"></span><div class="phone__screen">
+                        <img src="assets/screenshots/today.png" alt="Today screen listing letters that need action with their deadlines" loading="lazy" width="1206" height="2622">
+                    </div></div>
+                    <figcaption class="text-center text-sm font-bold text-muted mt-4">Your week, at a glance</figcaption>
+                </figure>
+                <figure>
+                    <div class="phone"><span class="phone__notch"></span><div class="phone__screen">
+                        <img src="assets/screenshots/letter.png" alt="Letter detail screen with a plain-language summary and the extracted deadline" loading="lazy" width="1206" height="2622">
+                    </div></div>
+                    <figcaption class="text-center text-sm font-bold text-muted mt-4">Understand every line</figcaption>
+                </figure>
+                <figure>
+                    <div class="phone"><span class="phone__notch"></span><div class="phone__screen">
+                        <img src="assets/screenshots/practice.png" alt="Speaking practice screen roleplaying a phone call to the Jobcenter" loading="lazy" width="1206" height="2622">
+                    </div></div>
+                    <figcaption class="text-center text-sm font-bold text-muted mt-4">Practise the call</figcaption>
+                </figure>
+                <figure>
+                    <div class="phone"><span class="phone__notch"></span><div class="phone__screen">
+                        <img src="assets/screenshots/paywall.png" alt="Klarineo Plus subscription screen listing included features" loading="lazy" width="1206" height="2622">
+                    </div></div>
+                    <figcaption class="text-center text-sm font-bold text-muted mt-4">Everything, unlocked</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= PRIVACY / TRUST ======================= -->
+    <section id="privacy" class="px-5">
+        <div class="max-w-6xl mx-auto bg-teal rounded-[32px] text-white overflow-hidden shadow-soft">
+            <div class="grid lg:grid-cols-2 gap-10 p-9 md:p-14 items-center">
                 <div>
-                    <a href="#" class="text-2xl font-bold text-indigo-600 mb-2 block text-center md:text-left">MemoPic</a>
-                    <p class="text-slate-400 text-sm">&copy; 2026 MemoPic. Empowering learners worldwide.</p>
+                    <p class="text-white/70 font-extrabold uppercase tracking-wide text-sm mb-3">Built on trust</p>
+                    <h2 class="text-3xl md:text-4xl font-black tracking-tight mb-5 leading-tight">Your letters are private. Full stop.</h2>
+                    <p class="text-white/85 text-lg leading-relaxed mb-8">
+                        Official mail is personal. Klarineo is built to respect that — so you can get help
+                        without worrying about where your information goes.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex gap-3">
+                            <span class="shrink-0 w-6 h-6 rounded-full bg-success flex items-center justify-center mt-0.5">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            </span>
+                            <span class="text-white/90"><strong class="text-white font-extrabold">GDPR-compliant</strong> and processed on EU infrastructure.</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="shrink-0 w-6 h-6 rounded-full bg-success flex items-center justify-center mt-0.5">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            </span>
+                            <span class="text-white/90"><strong class="text-white font-extrabold">Your letters are not used to train AI models.</strong></span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="shrink-0 w-6 h-6 rounded-full bg-success flex items-center justify-center mt-0.5">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            </span>
+                            <span class="text-white/90"><strong class="text-white font-extrabold">No ads and no ad tracking</strong> — you are the user, not the product.</span>
+                        </li>
+                    </ul>
                 </div>
-                <nav class="flex flex-wrap justify-center gap-8 font-medium text-slate-500">
-                    <a href="privacy-policy.html" class="hover:text-indigo-600 transition">Privacy Policy</a>
-                    <a href="mailto:appnews.uz@gmail.com" class="hover:text-indigo-600 transition">Support</a>
-                    <a href="app-ads.txt" class="hover:text-indigo-600 transition">App-Ads.txt</a>
-                    <a href="https://t.me/inquiryuz" class="hover:text-indigo-600 transition">Telegram</a>
-                </nav>
+                <div class="lg:justify-self-end w-full max-w-sm">
+                    <div class="bg-white/10 border border-white/15 rounded-card p-7 backdrop-blur-sm">
+                        <div class="flex items-center gap-3 mb-5">
+                            <span class="w-11 h-11 rounded-2xl bg-white/15 flex items-center justify-center">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 8.3 8 11 4.6-2.7 8-6 8-11V5l-8-3z"/></svg>
+                            </span>
+                            <span class="font-extrabold text-lg">Privacy-first by design</span>
+                        </div>
+                        <p class="text-white/80 leading-relaxed text-[15px]">
+                            You stay in control of what you scan. Read the full details in our
+                            <a href="privacy-policy.html" class="underline font-extrabold text-white hover:text-white/80">Privacy Policy</a>.
+                        </p>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
+
+    <!-- ======================= FAQ ======================= -->
+    <section id="faq" class="py-20 md:py-28 px-5">
+        <div class="max-w-3xl mx-auto">
+            <div class="text-center mb-12">
+                <p class="text-teal font-extrabold uppercase tracking-wide text-sm mb-3">Questions</p>
+                <h2 class="text-3xl md:text-4xl font-black tracking-tight">Good to know</h2>
+            </div>
+            <div class="space-y-3">
+                <details class="group bg-white rounded-card border border-hair shadow-card overflow-hidden" open>
+                    <summary class="flex items-center justify-between cursor-pointer list-none px-6 py-5 font-extrabold">
+                        Which letters does Klarineo understand?
+                        <span class="text-teal transition group-open:rotate-45 text-2xl leading-none">+</span>
+                    </summary>
+                    <div class="px-6 pb-6 -mt-1 text-muted leading-relaxed">
+                        Letters from the Jobcenter, Finanzamt, Ausländerbehörde, Krankenkasse, Rundfunkbeitrag,
+                        insurers and more — including reminders (Mahnung) and official notices. If it came in a
+                        German envelope, Klarineo is built to help you make sense of it.
+                    </div>
+                </details>
+                <details class="group bg-white rounded-card border border-hair shadow-card overflow-hidden">
+                    <summary class="flex items-center justify-between cursor-pointer list-none px-6 py-5 font-extrabold">
+                        Do I need to speak German?
+                        <span class="text-teal transition group-open:rotate-45 text-2xl leading-none">+</span>
+                    </summary>
+                    <div class="px-6 pb-6 -mt-1 text-muted leading-relaxed">
+                        No. Klarineo explains the letter in your own language and can draft the German reply for
+                        you to review. It works in English, Russian, Ukrainian, Turkish, Arabic and Uzbek.
+                    </div>
+                </details>
+                <details class="group bg-white rounded-card border border-hair shadow-card overflow-hidden">
+                    <summary class="flex items-center justify-between cursor-pointer list-none px-6 py-5 font-extrabold">
+                        Is my information kept private?
+                        <span class="text-teal transition group-open:rotate-45 text-2xl leading-none">+</span>
+                    </summary>
+                    <div class="px-6 pb-6 -mt-1 text-muted leading-relaxed">
+                        Yes. Klarineo is GDPR-compliant, processes data on EU infrastructure, and does not use
+                        your letters to train AI models. There are no ads and no ad tracking. See our
+                        <a href="privacy-policy.html" class="text-teal font-extrabold underline">Privacy Policy</a> for the details.
+                    </div>
+                </details>
+                <details class="group bg-white rounded-card border border-hair shadow-card overflow-hidden">
+                    <summary class="flex items-center justify-between cursor-pointer list-none px-6 py-5 font-extrabold">
+                        Is Klarineo legal advice?
+                        <span class="text-teal transition group-open:rotate-45 text-2xl leading-none">+</span>
+                    </summary>
+                    <div class="px-6 pb-6 -mt-1 text-muted leading-relaxed">
+                        No. Klarineo helps you understand your mail and prepare a response, but it is not a
+                        lawyer and does not provide legal advice. For binding decisions, consult a qualified
+                        professional.
+                    </div>
+                </details>
+                <details class="group bg-white rounded-card border border-hair shadow-card overflow-hidden">
+                    <summary class="flex items-center justify-between cursor-pointer list-none px-6 py-5 font-extrabold">
+                        When can I download it?
+                        <span class="text-teal transition group-open:rotate-45 text-2xl leading-none">+</span>
+                    </summary>
+                    <div class="px-6 pb-6 -mt-1 text-muted leading-relaxed">
+                        Klarineo is launching soon on the App Store and Google Play. This page will link to the
+                        apps the moment they're live.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= FINAL CTA ======================= -->
+    <section class="px-5 pb-20">
+        <div class="max-w-5xl mx-auto bg-white rounded-[32px] shadow-soft border border-hair px-8 py-14 text-center">
+            <h2 class="text-3xl md:text-4xl font-black tracking-tight mb-4">Stop dreading the mailbox.</h2>
+            <p class="text-muted text-lg max-w-xl mx-auto mb-9">
+                Understand that German letter, know your deadline, and handle it with confidence — in the language you think in.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                <span class="inline-flex items-center justify-center gap-3 bg-teal text-white px-7 py-3.5 rounded-2xl shadow-soft font-extrabold">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.365 1.43c0 1.14-.42 2.2-1.12 2.98-.76.86-2 .99-2.96.92-.1-1.1.43-2.24 1.1-2.97.76-.82 2.07-1.42 2.98-1.44.05.17.0.34.0.51zM20.9 17.1c-.5 1.16-.74 1.68-1.39 2.71-.9 1.43-2.18 3.21-3.76 3.22-1.4.01-1.76-.92-3.66-.9-1.9.01-2.3.92-3.7.91-1.58-.01-2.79-1.62-3.69-3.05C1.6 16.5 1.33 11.9 3.2 9.44c.98-1.29 2.53-2.1 4-2.1 1.5 0 2.44.93 3.68.93 1.2 0 1.93-.93 3.66-.93 1.31 0 2.7.71 3.69 1.95-3.24 1.78-2.71 6.4.97 7.81z"/></svg>
+                    App Store — coming soon
+                </span>
+                <span class="inline-flex items-center justify-center gap-3 bg-teal text-white px-7 py-3.5 rounded-2xl shadow-soft font-extrabold">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.6 2.2 13 11.6l-9.4 9.4A1.7 1.7 0 0 1 3 20V3.9c0-.65.24-1.25.6-1.7z"/></svg>
+                    Google Play — coming soon
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= FOOTER ======================= -->
+    <footer class="border-t border-hair px-5 py-12">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-2.5">
+                <img src="assets/logo.svg" alt="Klarineo logo" class="w-8 h-8 rounded-lg">
+                <div class="text-center md:text-left">
+                    <span class="font-extrabold text-ink">Klarineo</span>
+                    <p class="text-muted text-sm">&copy; 2026 Klarineo · <a href="https://klarineo.com" class="hover:text-teal">klarineo.com</a></p>
+                </div>
+            </div>
+            <nav class="flex flex-wrap justify-center gap-x-7 gap-y-2 font-bold text-sm text-muted">
+                <a href="privacy-policy.html" class="hover:text-teal transition">Privacy Policy</a>
+                <a href="#" class="hover:text-teal transition">Impressum</a>
+                <a href="mailto:appnews.uz@gmail.com" class="hover:text-teal transition">Support</a>
+            </nav>
         </div>
     </footer>
 
+    <script>
+        // gentle reveal on scroll
+        const io = new IntersectionObserver((entries) => {
+            entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+        }, { threshold: 0.12 });
+        document.querySelectorAll('.fade-up').forEach((el) => io.observe(el));
+    </script>
 </body>
 </html>

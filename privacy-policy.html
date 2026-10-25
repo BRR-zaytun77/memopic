@@ -1,98 +1,176 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - MemoPic</title>
-    
-    <meta name="description" content="Official Privacy Policy for MemoPic. Learn how we handle your data, advertising identifiers, and analytics to provide a better language learning experience.">
+    <title>Privacy Policy — Klarineo</title>
+
+    <meta name="description" content="Privacy Policy for Klarineo. Learn what data we process when you scan official German letters, how we keep it private, our GDPR commitments, and your rights.">
     <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#2E6A62">
+    <link rel="canonical" href="https://klarineo.com/privacy-policy.html">
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
 
     <script src="https://cdn.tailwindcss.com"></script>
-    
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-    </style>
+    <script>
+      tailwind.config = {
+        theme: { extend: {
+          colors: { teal:{DEFAULT:'#2E6A62',dark:'#1E4B45'}, clay:'#C27A4E', success:'#3C8A5E', page:'#F3F6F4', ink:'#26302E', muted:'#67746E', hair:'#E4E9E6' },
+          fontFamily: { sans: ['Nunito','system-ui','sans-serif'] },
+        } },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <style> body { font-family: 'Nunito', system-ui, sans-serif; } </style>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased">
+<body class="bg-page text-ink antialiased">
 
-    <nav class="bg-white border-b border-slate-200">
-        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="index.html" class="font-bold text-indigo-600 text-xl">📸 MemoPic</a>
-            <a href="index.html" class="text-slate-600 hover:text-indigo-600 font-medium transition">Back to Home</a>
+    <nav class="bg-page/90 backdrop-blur-md border-b border-hair sticky top-0 z-40">
+        <div class="max-w-3xl mx-auto px-5 py-3.5 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-2.5">
+                <img src="assets/logo.svg" alt="Klarineo logo" class="w-8 h-8 rounded-lg">
+                <span class="font-extrabold text-ink text-lg">Klarineo</span>
+            </a>
+            <a href="index.html" class="text-muted hover:text-teal font-bold text-sm transition">← Back to home</a>
         </div>
     </nav>
 
-    <main class="max-w-4xl mx-auto px-6 py-12 bg-white my-10 shadow-sm rounded-xl border border-slate-200">
-        
-        <header class="mb-10">
-            <h1 class="text-3xl font-extrabold text-slate-900 mb-2">Privacy Policy for MemoPic</h1>
-            <p class="text-slate-500 italic">Last updated: January 1, 2026</p>
-        </header>
+    <main class="max-w-3xl mx-auto px-5 py-10">
+        <div class="bg-white rounded-[20px] border border-hair shadow-sm p-7 md:p-12">
 
-        <section class="prose prose-slate max-w-none space-y-8 text-lg leading-relaxed">
-            
-            <p>
-                This Privacy Policy describes our policies and procedures on the collection, use, and disclosure of your information when you use the MemoPic mobile application.
-            </p>
-
-            <div>
-                <h2 class="text-2xl font-bold text-slate-900 mb-4">1. Information Collection and Use</h2>
-                <p class="mb-4">MemoPic is designed to provide a minimalist and effective language learning experience. To provide and improve the Service, we collect:</p>
-                <ul class="list-disc pl-6 space-y-2">
-                    <li><strong>Device Identifiers:</strong> We use Apple's Identifier for Advertisers (IDFA) and Google Advertising ID (AAID) to provide personalized advertisement experiences.</li>
-                    <li><strong>Device Information:</strong> Information about your mobile device (model, OS version) to ensure app stability.</li>
-                    <li><strong>Usage Data:</strong> Statistics on how you interact with flashcards to improve our learning algorithms.</li>
-                </ul>
-            </div>
-
-            <div>
-                <h2 class="text-2xl font-bold text-slate-900 mb-4">2. Advertising and Tracking</h2>
-                <p class="mb-4">We use third-party services that may collect information used to identify you:</p>
-                <ul class="list-disc pl-6 space-y-2">
-                    <li><strong>Google AdMob:</strong> Our app displays advertisements. Google may use device identifiers to serve personalized ads based on your interests.</li>
-                    <li><strong>App Tracking Transparency (iOS):</strong> On iOS devices, we will request your permission to track your activity across other apps and websites for advertising purposes. You can opt-out at any time via device settings.</li>
-                </ul>
-            </div>
-
-            <div>
-                <h2 class="text-2xl font-bold text-slate-900 mb-4">3. Firebase and Analytics</h2>
-                <p class="mb-4">We use Google Firebase for the following purposes:</p>
-                <ul class="list-disc pl-6 space-y-2">
-                    <li><strong>Firebase Cloud Messaging (FCM):</strong> To send study reminders and updates.</li>
-                    <li><strong>Firebase Analytics:</strong> To understand how users interact with the app. Firebase automatically collects certain information, such as unique device IDs and usage patterns.</li>
-                </ul>
-            </div>
-
-            <div>
-                <h2 class="text-2xl font-bold text-slate-900 mb-4">4. Local Data Storage</h2>
-                <p>
-                    Your learning progress, custom flashcards, and language preferences (English, Russian, Uzbek, etc.) are stored locally on your device. This data is not linked to your personal identity in our current version as we do not require user registration.
+            <header class="mb-10 pb-8 border-b border-hair">
+                <h1 class="text-3xl md:text-4xl font-black text-ink mb-3">Privacy Policy</h1>
+                <p class="text-muted font-semibold">Last updated: 25 October 2026</p>
+                <p class="mt-5 text-muted leading-relaxed">
+                    This Privacy Policy explains what information Klarineo (“we”, “us”) processes when you use
+                    the Klarineo mobile application, why we process it, and the choices and rights you have. We built
+                    Klarineo to help you understand official German letters — and to do so while respecting your privacy.
                 </p>
-            </div>
+            </header>
 
-            <div>
-                <h2 class="text-2xl font-bold text-slate-900 mb-4">5. Children's Privacy</h2>
-                <p>
-                    MemoPic does not address anyone under the age of 4. We do not knowingly collect personally identifiable information from children.
-                </p>
-            </div>
+            <div class="space-y-9 text-[17px] leading-relaxed">
 
-            <div>
-                <h2 class="text-2xl font-bold text-slate-900 mb-4">6. Contact Us</h2>
-                <p class="mb-4">If you have any questions about this Privacy Policy, you can contact us at:</p>
-                <ul class="list-none space-y-2">
-                    <li>📧 <strong>Email:</strong> <a href="mailto:appnews.uz@gmail.com" class="text-indigo-600 hover:underline">appnews.uz@gmail.com</a></li>
-                    <li>📱 <strong>Telegram:</strong> <a href="https://t.me/inquiryuz" class="text-indigo-600 hover:underline">@inquiryuz</a></li>
-                </ul>
-            </div>
+                <section>
+                    <h2 class="text-xl font-extrabold text-ink mb-3">1. Our privacy principles</h2>
+                    <ul class="list-disc pl-6 space-y-2 text-ink/90">
+                        <li>We process the data we need to provide the service, and not more.</li>
+                        <li><strong>We do not show ads and we do not use advertising trackers.</strong></li>
+                        <li><strong>We do not use the content of your letters to train AI models.</strong></li>
+                        <li>We process data on infrastructure located in the European Union.</li>
+                    </ul>
+                </section>
 
-        </section>
+                <section>
+                    <h2 class="text-xl font-extrabold text-ink mb-3">2. Information we process</h2>
+                    <p class="mb-4 text-ink/90">To provide and improve the service, we process the following:</p>
+                    <ul class="list-disc pl-6 space-y-2 text-ink/90">
+                        <li><strong>Letters you scan:</strong> images or PDFs you submit and the text extracted from them. This content is processed to generate the explanation, extract the deadline, prepare a reply draft, and provide related features you request.</li>
+                        <li><strong>Language and app preferences:</strong> such as your chosen interface language, so the app works the way you expect.</li>
+                        <li><strong>Device &amp; technical information:</strong> basic information such as device model and operating system version, used to keep the app stable and secure.</li>
+                        <li><strong>Usage information:</strong> limited, privacy-respecting information about how features are used, to help us improve the app. This is not used for advertising.</li>
+                    </ul>
+                    <p class="mt-4 text-ink/90">You decide what you scan. Please avoid submitting documents that contain information you do not wish to process.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-xl font-extrabold text-ink mb-3">3. How we use your information</h2>
+                    <ul class="list-disc pl-6 space-y-2 text-ink/90">
+                        <li>To explain your letter in your language and extract the relevant deadline (Frist).</li>
+                        <li>To prepare reply drafts, reminders, and speaking-practice sessions you request.</li>
+                        <li>To warn you about potentially fraudulent or suspicious mail (scam shield).</li>
+                        <li>To maintain, secure, and improve the service.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="text-xl font-extrabold text-ink mb-3">4. AI processing and service providers</h2>
+                    <p class="mb-4 text-ink/90">
+                        Generating explanations and drafts involves automated (AI) processing of the text from your
+                        letter. To do this we may use trusted service providers who process data on our behalf as
+                        processors under data-processing agreements and applicable EU data-protection law.
+                    </p>
+                    <ul class="list-disc pl-6 space-y-2 text-ink/90">
+                        <li>Processing takes place on infrastructure located in the European Union.</li>
+                        <li>The content of your letters is <strong>not used to train AI models.</strong></li>
+                        <li>We do not sell your personal data, and we do not share it for advertising.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="text-xl font-extrabold text-ink mb-3">5. Data retention</h2>
+                    <p class="text-ink/90">
+                        We keep your information only for as long as needed to provide the service and for the purposes
+                        described in this policy, after which it is deleted or anonymised. Where the app stores your
+                        documents and history on your device, you can remove them from within the app.
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-xl font-extrabold text-ink mb-3">6. Your rights (GDPR)</h2>
+                    <p class="mb-4 text-ink/90">If you are in the European Union, you have the right to:</p>
+                    <ul class="list-disc pl-6 space-y-2 text-ink/90">
+                        <li>access the personal data we hold about you;</li>
+                        <li>request correction of inaccurate data;</li>
+                        <li>request deletion of your data (“right to be forgotten”);</li>
+                        <li>request a copy of your data in a portable format;</li>
+                        <li>object to or restrict certain processing; and</li>
+                        <li>lodge a complaint with your local data-protection authority.</li>
+                    </ul>
+                    <p class="mt-4 text-ink/90">To exercise any of these rights, contact us using the details below.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-xl font-extrabold text-ink mb-3">7. Data security</h2>
+                    <p class="text-ink/90">
+                        We use appropriate technical and organisational measures to protect your information,
+                        including encryption in transit. No method of transmission or storage is completely secure,
+                        but we work to protect your data and to limit access to it.
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-xl font-extrabold text-ink mb-3">8. Children's privacy</h2>
+                    <p class="text-ink/90">
+                        Klarineo is intended for adults dealing with official correspondence and is not directed at
+                        children. We do not knowingly collect personal data from children.
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-xl font-extrabold text-ink mb-3">9. Not legal advice</h2>
+                    <p class="text-ink/90">
+                        Klarineo helps you understand your mail and prepare responses. It does not provide legal advice
+                        and is not a substitute for a qualified professional. For binding decisions, please consult a
+                        lawyer or the relevant authority.
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-xl font-extrabold text-ink mb-3">10. Changes to this policy</h2>
+                    <p class="text-ink/90">
+                        We may update this Privacy Policy from time to time. We will revise the “Last updated” date
+                        above and, where appropriate, notify you in the app.
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-xl font-extrabold text-ink mb-3">11. Contact us</h2>
+                    <p class="mb-4 text-ink/90">If you have questions about this policy or your data, contact us:</p>
+                    <ul class="space-y-2 text-ink/90">
+                        <li><strong>Email:</strong> <a href="mailto:appnews.uz@gmail.com" class="text-teal font-bold hover:underline">appnews.uz@gmail.com</a></li>
+                        <li><strong>Telegram:</strong> <a href="https://t.me/inquiryuz" class="text-teal font-bold hover:underline">@inquiryuz</a></li>
+                    </ul>
+                </section>
+
+            </div>
+        </div>
+
+        <footer class="text-center py-10 text-muted text-sm">
+            <p>&copy; 2026 Klarineo · <a href="https://klarineo.com" class="hover:text-teal">klarineo.com</a></p>
+        </footer>
     </main>
-
-    <footer class="text-center pb-12 text-slate-500 text-sm">
-        <p>&copy; 2026 MemoPic. All rights reserved.</p>
-    </footer>
 
 </body>
 </html>
