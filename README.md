@@ -11,7 +11,6 @@ Static site hosted on GitHub Pages at **https://klarineo.com**.
 
 - `index.html` — landing page
 - `privacy-policy.html` — privacy policy
-- `app-ads.txt` — legacy AdMob declaration (Klarineo has no ads; can likely be removed)
 - `assets/logo.svg` — Klarineo logo (also used as favicon)
 - `assets/og-image.png` — social share image
 - `assets/screenshots/` — app screenshots: `today.png`, `letter.png`, `practice.png`, `paywall.png`
