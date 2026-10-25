@@ -37,8 +37,8 @@ export const LINKS = {
   appStore: 'https://apps.apple.com/us/app/memopic-learn-with-flashcards/id6756977971',
   appStoreId: '6756977971',
   email: 'appnews.uz@gmail.com',
-  telegram: 'https://t.me/inquiryuz',
-  telegramHandle: '@inquiryuz',
+  telegram: 'https://t.me/klarineo_support_bot',
+  telegramHandle: '@klarineo_support_bot',
 };
 
 /**
@@ -49,8 +49,8 @@ export const LEGAL = {
   company: 'TIYN ZAYTUN LLC',
   legalForm: 'Limited liability company (MChJ), Republic of Uzbekistan',
   address: "Omonariq ko'chasi 120, Omonariq MFY, Baliqchi tumani, Andijon viloyati, Uzbekistan",
-  director: 'Axrorbek Madaminovich Abdullayev',
-  regNo: 'TIN (STIR) 309938921',
+  director: 'Ahrorbek Abdullaev',
+  regNo: '1988236 (TIN / STIR: 309938921)',
   email: 'appnews.uz@gmail.com',
 };
 
