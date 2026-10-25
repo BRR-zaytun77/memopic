@@ -1,0 +1,47 @@
+{
+  "mbe": {
+    "name": "Migrationsberatung für erwachsene Zuwanderer (MBE) (yetişkin göçmenler için göç danışmanlığı)",
+    "text": "27 yaş ve üzeri göçmenler için ücretsiz ve gizli danışmanlık. Federal devlet desteğiyle refah kuruluşları tarafından sunulur. Danışmanlar mektupları anlamanıza, formları doldurmanıza ve kurumlarla iletişim kurmanıza yardımcı olur. Size yakın bir ofisi BAMF-NAvI aramasıyla bulabilirsiniz.",
+    "url": "https://bamf-navi.bamf.de/"
+  },
+  "jmd": {
+    "name": "Jugendmigrationsdienste (JMD) (gençlik göç hizmetleri)",
+    "text": "Göç geçmişi olan gençler için, genellikle 12 ile 27 yaş arasında, ücretsiz danışmanlık — okul, meslek eğitimi, iş ve kurumlarla ilişkiler konusunda.",
+    "url": "https://www.jugendmigrationsdienste.de/"
+  },
+  "vz": {
+    "name": "Verbraucherzentrale (tüketici danışma merkezi)",
+    "text": "Tüketici danışma merkezleri her eyalette bulunur. Faturalar, sözleşmeler, ödeme hatırlatmaları ve Inkasso mektuplarında yardımcı olurlar. Bazı bilgiler ücretsizdir; bireysel danışmanlık için küçük bir ücret istenebilir.",
+    "url": "https://www.verbraucherzentrale.de/"
+  },
+  "mieterverein": {
+    "name": "Mieterverein (kiracılar derneği)",
+    "text": "Yerel kiracı dernekleri, üyelik ücreti karşılığında üyelerine kira, yan gider faturaları ve fesih (Kündigung) konularında hukuki danışmanlık verir. Birçoğu Deutscher Mieterbund üyesidir.",
+    "url": "https://www.mieterbund.de/"
+  },
+  "lohnsteuer": {
+    "name": "Lohnsteuerhilfeverein (gelir vergisi yardım derneği)",
+    "text": "Üyelik esasına dayanan dernekler; çalışanlara, emeklilere ve bazı diğer gruplara gelir vergisi beyannamesinde ve itirazlarda — yasanın izin verdiği sınırlar içinde — yardımcı olabilir. Serbest meslek gelirleri konusunda danışmanlık veremezler.",
+    "url": ""
+  },
+  "schuldner": {
+    "name": "Schuldnerberatung (borç danışmanlığı)",
+    "text": "Belediyeler ve refah kuruluşları tarafından işletilen tanınmış borç danışmanlık hizmetleri genellikle ücretsizdir. Taleplerin doğruluğunu kontrol etmenize, alacaklılarla görüşmenize ve geri ödeme planı yapmanıza yardımcı olurlar.",
+    "url": ""
+  },
+  "beratungshilfe": {
+    "name": "Beratungshilfe (hukuki danışmanlık yardımı)",
+    "text": "Geliriniz düşükse, yerel Amtsgericht'e (asliye mahkemesi) başvurarak Beratungshilfeschein alabilirsiniz. Bununla bir avukat, küçük bir sabit ücret karşılığında size danışmanlık verebilir.",
+    "url": ""
+  },
+  "upd": {
+    "name": "Unabhängige Patientenberatung Deutschland (UPD) (Almanya Bağımsız Hasta Danışmanlığı)",
+    "text": "Hastalar ve sigortalılar için sağlık sigortası ve hasta hakları konusunda bağımsız ve ücretsiz danışmanlık.",
+    "url": "https://www.patientenberatung.de/"
+  },
+  "fluechtling": {
+    "name": "Mülteci ve iltica danışmanlığı",
+    "text": "Devam eden bir iltica davanız veya insani nedenlerle verilmiş bir oturma izniniz varsa, yerel mülteci danışmanlık hizmetleri (çoğunlukla refah kuruluşları veya mülteci konseyleri tarafından işletilir) yardımcı olabilir — genellikle ücretsizdir.",
+    "url": ""
+  }
+}

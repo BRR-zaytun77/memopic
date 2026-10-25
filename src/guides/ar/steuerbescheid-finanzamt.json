@@ -1,0 +1,76 @@
+{
+  "title": "شرح Steuerbescheid من Finanzamt — Klarineo",
+  "description": "كيف تقرأ الإشعار الضريبي الألماني (Steuerbescheid) من Finanzamt: استرداد أو دفعة إضافية، والمصطلحات الأساسية، ومهلة الشهر الواحد لتقديم Einspruch.",
+  "h1": "شرح Steuerbescheid من Finanzamt: الاسترداد والدفعة الإضافية وEinspruch",
+  "kicker": "Finanzamt",
+  "summary": "الـ Steuerbescheid هو القرار الرسمي الصادر عن Finanzamt (مصلحة الضرائب) بشأن ضريبتك. يبيّن ما إذا كنت ستسترد مبلغًا (Erstattung) أم عليك دفع المزيد (Nachzahlung). قارنه بإقرارك الضريبي. وإذا رأيت أنه خاطئ، يمكنك تقديم Einspruch خلال شهر واحد، علمًا بأن Einspruch وحده لا يوقف استحقاق الدفع.",
+  "sections": [
+    {
+      "h": "ما هو Steuerbescheid؟",
+      "p": [
+        "بعد أن تقدّم إقرارًا ضريبيًا (Steuererklärung)، مثل إقرار ضريبة الدخل (Einkommensteuererklärung)، يفحصه Finanzamt (مصلحة الضرائب) ويرسل لك قرارًا هو Steuerbescheid. وفي حالة ضريبة الدخل يسمى Einkommensteuerbescheid. وقد يصلك بالبريد، أو إلكترونيًا إذا كنت تستخدم ELSTER.",
+        "تعرض الصفحة الأولى أهم نتيجة: مبلغ الضريبة المحدد (festgesetzt)، وما دفعته فعلًا (مثلًا عبر ضريبة الأجور التي خصمها صاحب العمل)، والفرق، وهو إما استرداد (Erstattung) أو دفعة إضافية (Nachzahlung) مع تاريخ استحقاق."
+      ]
+    },
+    {
+      "h": "كيف تقرؤه",
+      "ul": [
+        "Steuernummer: رقمك الضريبي لدى هذا Finanzamt. اذكره في كل رسالة. وهو يختلف عن رقم التعريف الضريبي الشخصي (Steuer-ID، من 11 رقمًا).",
+        "Festsetzung: الضريبة المحددة عن السنة.",
+        "Abrechnung: حساب ما دُفع بالفعل وما تبقى.",
+        "Erläuterungen: التوضيحات، اقرأها بعناية. هنا يبيّن Finanzamt أين خالف إقرارك، مثلًا إذا لم يقبل بعض التكاليف.",
+        "Vorbehalt der Nachprüfung أو vorläufig: يمكن تغيير القرار (أو أجزاء منه) لاحقًا.",
+        "Vorauszahlungen: دفعات مقدمة قد يحددها Finanzamt للأرباع القادمة.",
+        "Rechtsbehelfsbelehrung: معلومات عن كيفية الاعتراض وإلى متى."
+      ]
+    },
+    {
+      "h": "مهلة Einspruch",
+      "p": [
+        "إذا لم توافق على القرار، يمكنك تقديم Einspruch (اعتراض) خلال شهر واحد من إبلاغك بالقرار (Bekanntgabe). وتُعتبر الرسالة المرسلة بالبريد عمومًا مُسلَّمة في اليوم الرابع بعد إرسالها بالبريد؛ والقاعدة الدقيقة مشروحة في Rechtsbehelfsbelehrung. وتقديم Einspruch مجاني. يمكنك تقديمه كتابيًا أو إلكترونيًا عبر ELSTER. اذكر رقمك الضريبي والأسباب، أو قل إنك سترسل الأسباب لاحقًا.",
+        "مهم: Einspruch وحده لا يؤجل الدفعة الإضافية. وإذا كنت لا تريد دفع مبلغ متنازع عليه بعد، فعليك أن تتقدم بطلب منفصل لـ Aussetzung der Vollziehung (إيقاف التنفيذ). انتبه إلى تاريخ الاستحقاق (fällig am) في الصفحة الأولى لتجنب غرامات التأخير."
+      ]
+    },
+    {
+      "h": "إذا احتجت وقتًا أطول للدفع",
+      "p": [
+        "إذا كانت الدفعة الإضافية صحيحة لكنك لا تستطيع دفعها دفعة واحدة، فتواصل مع Finanzamt قبل تاريخ الاستحقاق واطلب Stundung (تأجيلًا) أو Ratenzahlung (تقسيطًا). اشرح وضعك باختصار."
+      ]
+    }
+  ],
+  "terms": [
+    ["Steuerbescheid", "إشعار تقدير الضريبة"],
+    ["Steuererklärung", "الإقرار الضريبي"],
+    ["Erstattung", "استرداد"],
+    ["Nachzahlung", "دفعة إضافية"],
+    ["festgesetzt", "محدَّد / مُقدَّر"],
+    ["Steuernummer", "الرقم الضريبي (لدى مصلحة الضرائب)"],
+    ["Steuer-ID", "رقم التعريف الضريبي الشخصي"],
+    ["Erläuterungen", "توضيحات"],
+    ["Einspruch", "اعتراض"],
+    ["Bekanntgabe", "التبليغ (التسليم المعتبر)"],
+    ["Aussetzung der Vollziehung", "إيقاف التنفيذ"],
+    ["fällig am", "تاريخ الاستحقاق"]
+  ],
+  "steps": [
+    { "name": "قارنه بإقرارك الضريبي", "text": "تحقق من الدخل والتكاليف والبيانات الشخصية. اقرأ Erläuterungen لترى ما الذي غيّره Finanzamt." },
+    { "name": "دوّن المهل", "text": "مهلة الاعتراض البالغة شهرًا واحدًا، وتاريخ استحقاق الدفعة الإضافية." },
+    { "name": "قدّم Einspruch إذا كان هناك خطأ", "text": "كتابيًا أو عبر ELSTER، مع رقمك الضريبي والأسباب. احتفظ بنسخة." },
+    { "name": "ادفع أو رتّب الدفع", "text": "ادفع الدفعة الإضافية في تاريخ الاستحقاق، أو اطلب مسبقًا التأجيل أو التقسيط." },
+    { "name": "اطلب المساعدة إذا كان الأمر معقدًا", "text": "يمكن لجمعية مساعدة في ضريبة الدخل أو لمستشار ضريبي أن يفحص القرار." }
+  ],
+  "phrases": [
+    ["Hiermit lege ich Einspruch gegen den Einkommensteuerbescheid für … vom … ein.", "أقدّم بهذا اعتراضًا على إشعار ضريبة الدخل لعام … المؤرخ في …."],
+    ["Steuernummer: …", "الرقم الضريبي: …"],
+    ["Die Begründung reiche ich nach.", "سأرسل الأسباب لاحقًا."],
+    ["Ich beantrage die Aussetzung der Vollziehung.", "أتقدم بطلب إيقاف التنفيذ."],
+    ["Ich bitte um Ratenzahlung.", "أطلب الدفع بالتقسيط."]
+  ],
+  "help": ["lohnsteuer", "mbe"],
+  "sources": [
+    { "label": "ELSTER — البوابة الإلكترونية الرسمية للإدارة الضريبية", "url": "https://www.elster.de/" },
+    { "label": "وزارة المالية الاتحادية (bundesfinanzministerium.de)", "url": "https://www.bundesfinanzministerium.de/" },
+    { "label": "قانون الضرائب (Abgabenordnung)، § 355 — مهلة الاعتراض", "url": "https://www.gesetze-im-internet.de/ao_1977/__355.html" }
+  ],
+  "practice": "يستطيع Klarineo أن يشرح لك كل سطر في Steuerbescheid بلغتك وأن يضبط تذكيرًا بمهلة الاعتراض."
+}

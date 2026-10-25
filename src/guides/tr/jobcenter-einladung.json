@@ -1,0 +1,83 @@
+{
+  "title": "Jobcenter Einladung mektubu açıklandı — Klarineo",
+  "description": "Jobcenter'dan Einladung mı aldınız? Davetin ne anlama geldiği, randevunun neden önemli olduğu, yanınızda ne götürmeniz gerektiği ve Almanca nazikçe nasıl erteleyeceğiniz.",
+  "h1": "Jobcenter'dan gelen mektup (Einladung): ne anlama gelir ve ne yapmalısınız",
+  "kicker": "Jobcenter",
+  "summary": "Jobcenter'dan gelen Einladung (davet), kişisel bir randevuya resmi davettir. Temel gelir desteği alıyorsanız, genellikle randevuya gitmek zorundasınız. Tarihi, saati ve odayı not edin, mektupta yazılı belgeleri hazırlayın ve önemli bir nedenle gelemeyecekseniz randevudan önce Jobcenter ile iletişime geçin.",
+  "sections": [
+    {
+      "h": "Bu mektup nedir?",
+      "p": [
+        "Jobcenter'lar, Alman Sosyal Güvenlik Yasası'nın II. Kitabı (SGB II) kapsamında iş arayanlar için temel gelir desteğini yürütür. Bu yardım Bürgergeld olarak biliniyordu; 1 Temmuz 2026'dan itibaren reform edildi ve artık Grundsicherung olarak adlandırılıyor. Mektubunuzda hangi ad kullanılırsa kullanılsın, Einladung (davet) sizden kişisel bir görüşmeye gelmenizi ister — genellikle kişisel danışmanınızla (persönliche Ansprechpartnerin / persönlicher Ansprechpartner) veya bir uzman ekiple.",
+        "Görüşmenin tipik nedenleri şunlardır: iş arama veya meslek eğitiminiz, mevcut durumunuz, bir iş teklifi, bir dil veya entegrasyon kursu ya da başvurunuz için eksik belgeler. Amaç genellikle mektubun üst kısmında yazılıdır, örneğin „Ich möchte mit Ihnen über Ihre berufliche Situation sprechen“ (Sizinle mesleki durumunuz hakkında konuşmak istiyorum)."
+      ]
+    },
+    {
+      "h": "Randevu neden önemli?",
+      "p": [
+        "Randevulara katılmak, yardım alan kişi olarak yükümlülüklerinizin bir parçasıdır (Meldepflicht). Mektupta Rechtsfolgenbelehrung adlı bir bölüm bulunur — yasal sonuçların açıklaması. Önemli bir neden (wichtiger Grund) olmadan katılmazsanız neler olabileceğini anlatır: yardımınız azaltılabilir. Bu kesintilere ilişkin kurallar Temmuz 2026'daki reformla sıkılaştırıldı; bu nedenle bu bölümü dikkatle okuyun ve her daveti ciddiye alın.",
+        "Önemli bir neden, örneğin randevuya gelmenizi imkânsız kılan bir hastalık, aynı saatte bir iş görüşmesi ya da ailevi bir acil durum olabilir. Normal bir hastalık raporu, randevuya gelemediğinizin kanıtı olarak her zaman kabul edilmez — Jobcenter'ınıza hangi belgeyi istediklerini sorun."
+      ]
+    },
+    {
+      "h": "Mektupta genellikle neler bulunur?",
+      "ul": [
+        "Tarih (Datum), saat (Uhrzeit) ve yer: adres, kat (Etage) ve oda (Zimmer).",
+        "Müşteri numaranız (Kundennummer) ve çoğu zaman hane numaranız (Nummer der Bedarfsgemeinschaft) — Jobcenter ile her iletişime geçtiğinizde bunları belirtin.",
+        "Görüşeceğiniz kişinin adı ile sorular için bir telefon numarası veya e-posta adresi.",
+        "Yanınızda getirmeniz gereken belgelerin listesi (Unterlagen), örneğin kimlik, maaş bordroları, banka hesap dökümleri, kira sözleşmesi veya sertifikalar.",
+        "Bazen görüşmeyi telefonla veya görüntülü yapma seçeneği — mümkünse bu açıkça belirtilir.",
+        "Sonda Rechtsfolgenbelehrung (yasal sonuçlar)."
+      ]
+    },
+    {
+      "h": "Gelemeyecekseniz",
+      "p": [
+        "Jobcenter ile mümkün olan en erken zamanda iletişime geçin — randevudan önce, sonra değil. Mektuptaki numarayı arayın, Jobcenter'ınız kullanıyorsa çevrimiçi portal (jobcenter.digital) üzerinden yazın ya da müşteri numaranızla kısa bir mektup veya e-posta gönderin. Nedeni açıklayın, kanıt ekleyin ve yeni bir randevu (neuer Termin) isteyin. Gönderdiğinizin bir kopyasını veya ekran görüntüsünü saklayın."
+      ]
+    },
+    {
+      "h": "Bir karara katılmıyorsanız",
+      "p": [
+        "Bir davet kendi başına genellikle para ile ilgili bir karar değildir. Daha sonra bir karar (Bescheid) alırsanız — örneğin yardımınızın kesilmesi hakkında — genellikle kararı aldıktan sonra bir ay içinde itiraz (Widerspruch) edebilirsiniz. Kesin süre ve adres, o kararın Rechtsbehelfsbelehrung bölümünde yazılıdır. Mektubunuzu kontrol edin."
+      ]
+    }
+  ],
+  "terms": [
+    ["Einladung", "davet (randevuya)"],
+    ["Termin", "randevu"],
+    ["persönliche Ansprechpartnerin / persönlicher Ansprechpartner", "kişisel danışmanınız"],
+    ["Kundennummer", "müşteri numarası"],
+    ["Unterlagen", "belgeler"],
+    ["Meldepflicht", "randevuya gitme / bildirme yükümlülüğü"],
+    ["wichtiger Grund", "önemli (geçerli) neden"],
+    ["Rechtsfolgenbelehrung", "yasal sonuçlar hakkında bilgilendirme"],
+    ["Leistungsminderung", "yardımın kesilmesi"],
+    ["Bescheid", "resmi karar"],
+    ["Widerspruch", "itiraz (bir karara karşı)"],
+    ["Fahrkosten", "yol masrafları"]
+  ],
+  "steps": [
+    { "name": "Tarihi, saati ve yeri kontrol edin", "text": "Randevuyu takviminize yazın veya bir hatırlatıcı kurun. Adresi, katı ve odayı kontrol edin." },
+    { "name": "Amacı ve belge listesini okuyun", "text": "Mektupta geçen tüm belgeleri, ayrıca kimliğinizi ve mektubun kendisini hazırlayın." },
+    { "name": "Rechtsfolgenbelehrung'u okuyun", "text": "Katılmazsanız neler olacağını anlayın. Anlaşılmayan bir şey varsa bir danışmanlık hizmetine sorun." },
+    { "name": "Gelemeyecekseniz Jobcenter ile erkenden iletişime geçin", "text": "Önemli nedeni açıklayın, kanıt gönderin ve yeni bir randevu isteyin. Bir kopya saklayın." },
+    { "name": "Yol masraflarını sorun", "text": "Randevuya gidiş masraflarınızın karşılanıp karşılanamayacağını Jobcenter'a sorabilirsiniz." },
+    { "name": "Görüşme sırasında not alın", "text": "Neler üzerinde anlaşıldığını yazın ve imzalamanız istenen her belgenin bir kopyasını isteyin." }
+  ],
+  "phrases": [
+    ["Ich bestätige den Termin am … um … Uhr.", "… tarihinde saat …'daki randevuyu onaylıyorum."],
+    ["Leider kann ich den Termin am … nicht wahrnehmen, weil …", "Maalesef … tarihindeki randevuya katılamıyorum, çünkü …"],
+    ["Bitte geben Sie mir einen neuen Termin.", "Lütfen bana yeni bir randevu verin."],
+    ["Meine Kundennummer lautet …", "Müşteri numaram …"],
+    ["Eine Bescheinigung lege ich bei.", "Bir belgeyi ekte gönderiyorum."],
+    ["Können Sie das bitte langsamer wiederholen?", "Bunu lütfen daha yavaş tekrarlayabilir misiniz?"],
+    ["Ich brauche einen Dolmetscher.", "Bir tercümana ihtiyacım var."]
+  ],
+  "help": ["mbe", "jmd"],
+  "sources": [
+    { "label": "Federal İstihdam Ajansı (arbeitsagentur.de) — temel gelir desteği ve Jobcenter bilgileri", "url": "https://www.arbeitsagentur.de/" },
+    { "label": "Ortak Jobcenter'ların Jobcenter portalı (jobcenter-ge.de)", "url": "https://www.jobcenter-ge.de/" }
+  ],
+  "practice": "Klarineo'da aramadan önce yapay zekâ partnerinizle „Ich möchte meinen Termin verschieben“ (Randevumu ertelemek istiyorum) telefon görüşmesini prova edebilirsiniz."
+}

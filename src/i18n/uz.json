@@ -215,5 +215,30 @@
     "impressum": "Huquqiy ma'lumotlar (Impressum)",
     "disclaimer": "Klarineo umumiy ma'lumot beradi, yuridik maslahat emas. Klarineo hech qanday nemis davlat idorasi bilan bog'liq emas.",
     "englishOnly": "ingliz tilida"
+  },
+  "guide": {
+    "crumb": "Qo'llanmalar",
+    "lastReviewed": "Oxirgi tekshiruv",
+    "minRead": "daq o'qish",
+    "inShort": "Qisqacha",
+    "keyWords": "Muhim nemischa so'zlar",
+    "german": "Nemischa",
+    "meaning": "Ma'nosi",
+    "whatToDo": "Nima qilish kerak",
+    "phrases": "Foydali nemischa iboralar",
+    "help": "Bepul yoki arzon yordamni qayerdan olish mumkin",
+    "sources": "Rasmiy manbalar",
+    "ctaTitle": "Shunga o'xshash xat keldimi?",
+    "ctaText": "Klarineo bilan suratga oling. O'z tilingizda izoh, eslatma sifatida muddat, o'rganish uchun muhim iboralar va nemischa muloyim javob qoralamasini olasiz.",
+    "disclaimer": "Umumiy ma'lumot, yuridik maslahat emas. Klarineo hech bir nemis idorasi bilan bog'liq emas.",
+    "disclaimerTail": "Qonunlar va tartiblar o'zgaradi, xatingizda boshqa qoidalar yoki muddatlar bo'lishi mumkin — doimo xatning o'zini va rasmiy manbani tekshiring.",
+    "asideTitle": "O'z xatingizni tushuning",
+    "asideText": "Klarineo bilan suratga oling: o'z tilingizda izoh, eslatma sifatida muddat va nemischa muloyim javob qoralamasi.",
+    "moreGuides": "Boshqa qo'llanmalar",
+    "allGuides": "Barcha qo'llanmalar",
+    "indexH1": "Nemis xatlari tushunarli: yangi kelganlar uchun bepul qo'llanmalar",
+    "indexLead": "Nemis idoralari, sug'urta kompaniyalari va uy egalaridan keladigan tipik xatlar nimani anglatadi, odatdagi muddatlar, foydali iboralar va bepul yordamni qayerdan olish mumkin.",
+    "indexTitle": "Nemis xatlari tushunarli: bepul qo'llanmalar — Klarineo",
+    "indexDesc": "Tipik nemis xatlari bo'yicha bepul qo'llanmalar: Jobcenter, Finanzamt, Ausländerbehörde, Rundfunkbeitrag, Mahnung, uy egasi xatlari va yo'l jarimalari."
   }
 }

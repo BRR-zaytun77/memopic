@@ -1,0 +1,76 @@
+{
+  "title": "Nebenkostenabrechnung tushuntirildi — Klarineo",
+  "description": "Germaniyada kommunal xarajatlar hisobotini (Nebenkostenabrechnung) qanday o'qish kerak: qo'shimcha to'lov yoki kredit, 12 oylik qoidalar, kvitansiyalarni tekshirish, uy egasiga javob berish.",
+  "h1": "Nebenkostenabrechnung tushuntirildi: yillik kommunal xarajatlar hisoboti",
+  "kicker": "Vermieter",
+  "summary": "Yilda bir marta uy egangiz ijara haqi bilan birga oldindan to'lagan ekspluatatsiya xarajatlaringizni (Betriebskosten) hisob-kitob qiladi. Natija — qo'shimcha to'lov (Nachzahlung) yoki kredit (Guthaben). Hisobotni va kvitansiyalarni tekshirish huquqingiz bor. Umumiy qoida bo'yicha, uy egasi uni hisob davri tugaganidan keyin 12 oy ichida yuborishi shart, siz esa uni olganingizdan keyin e'tiroz bildirish uchun 12 oyga egasiz.",
+  "sections": [
+    {
+      "h": "Nebenkostenabrechnung nima?",
+      "p": [
+        "Germaniyadagi ko'pchilik ijara shartnomalarida siz asosiy ijara haqini (Kaltmiete yoki Grundmiete) va ekspluatatsiya xarajatlari uchun oylik avans to'lovini (Nebenkostenvorauszahlung yoki Betriebskostenvorauszahlung) to'laysiz. Bu xarajatlarga, masalan, isitish, suv, chiqindi yig'ish, zinapoyani tozalash, qorovul, bog', ko'chmas mulk solig'i va bino sug'urtasi kiradi — lekin faqat shartnomangiz uy egasiga ularni o'tkazishga ruxsat bersa.",
+        "Yilda bir marta uy egasi oldindan to'laganingizni haqiqiy xarajatlar bilan solishtiradi: Nebenkostenabrechnung yoki Betriebskostenabrechnung (kommunal yoki ekspluatatsiya xarajatlari hisoboti). Isitish va issiq suv ko'pincha alohida o'lchov kompaniyasi tomonidan hisoblanadi va alohida sahifa sifatida ko'rinadi (Heizkostenabrechnung)."
+      ]
+    },
+    {
+      "h": "Uni qanday o'qish kerak",
+      "ul": [
+        "Abrechnungszeitraum: hisob davri, odatda o'n ikki oy (masalan, taqvim yili).",
+        "Gesamtkosten: har bir xarajat turi bo'yicha butun bino uchun umumiy xarajatlar.",
+        "Umlageschlüssel yoki Verteilerschlüssel: xarajatlar kvartiralar o'rtasida qanday taqsimlanadi — masalan, maydon (Wohnfläche), odamlar soni yoki iste'mol (Verbrauch) bo'yicha.",
+        "Ihr Anteil: har bir xarajatdagi sizning ulushingiz.",
+        "Vorauszahlungen: davr mobaynida siz allaqachon to'lagan summa.",
+        "Nachzahlung yoki Guthaben: farq — siz qo'shimcha to'laysiz yoki pul qaytarib olasiz.",
+        "Ko'pincha: bundan buyon yangi oylik avans to'lovlari (Anpassung der Vorauszahlungen)."
+      ]
+    },
+    {
+      "h": "Muhim qoidalar va muddatlar",
+      "p": [
+        "Germaniya Fuqarolik kodeksiga (§ 556 BGB) ko'ra, uy egasi hisobotni hisob davri tugaganidan keyin 12 oy ichida yetkazishi shart. U kechroq kelsa, uy egasi odatda qo'shimcha to'lovni talab qila olmaydi — kechikish uy egasining aybi bo'lmasa. Sizning foydangizga bo'lgan kredit baribir to'lanishi kerak.",
+        "Siz, ijarachi sifatida, hisobotni olganingizdan keyin e'tirozlar (Einwände) bildirish uchun odatda 12 oyga egasiz. Shuningdek, asl kvitansiyalar va hisob-fakturalarni ko'rib chiqish huquqingiz bor (Belegeinsicht). To'lashdan oldin tekshirish maqsadga muvofiq — lekin xatda ko'rsatilgan to'lov sanasiga shunchaki e'tibor bermang; rozi bo'lmasangiz, uy egasiga yozma ravishda ayting."
+      ]
+    },
+    {
+      "h": "Ijtimoiy nafaqa olsangiz",
+      "p": [
+        "Agar Jobcenterdan bazaviy daromad ta'minoti yoki ijtimoiy yordam olsangiz, hisobotni olishingiz bilan nusxasini Jobcenter yoki Sozialamt'ga yuboring. Isitish va ekspluatatsiya xarajatlari bo'yicha qo'shimcha to'lovlar ma'lum shartlarda turar joy xarajatlari (Kosten der Unterkunft und Heizung) doirasida qoplanishi mumkin. Kredit ham xabar qilinishi kerak bo'lishi mumkin."
+      ]
+    }
+  ],
+  "terms": [
+    ["Nebenkosten / Betriebskosten", "kommunal / ekspluatatsiya xarajatlari"],
+    ["Abrechnung", "hisobot / hisob-kitob"],
+    ["Abrechnungszeitraum", "hisob davri"],
+    ["Vorauszahlung", "avans to'lov"],
+    ["Nachzahlung", "qo'shimcha to'lov"],
+    ["Guthaben", "kredit (ortiqcha to'langan summa)"],
+    ["Umlageschlüssel", "xarajatlarni taqsimlash mezoni"],
+    ["Wohnfläche", "yashash maydoni"],
+    ["Heizkosten", "isitish xarajatlari"],
+    ["Belegeinsicht", "kvitansiyalarni ko'rib chiqish"],
+    ["Einwand / Widerspruch", "e'tiroz"],
+    ["Vermieter / Hausverwaltung", "uy egasi / uy boshqaruvi"]
+  ],
+  "steps": [
+    { "name": "Sanalarni tekshiring", "text": "Qaysi hisob davri va hisobotni qachon oldingiz? U davr tugaganidan keyin 12 oy ichidami?" },
+    { "name": "Shartnomangiz bilan solishtiring", "text": "Ko'rsatilgan barcha xarajatlarga ijara shartnomangiz ruxsat beradimi? Yashash maydoni to'g'rimi?" },
+    { "name": "Avans to'lovlaringizni tekshiring", "text": "Ko'rsatilgan avans to'lovlari siz haqiqatan to'laganingizga mos keladimi?" },
+    { "name": "Biror narsa noto'g'ri ko'rinsa, kvitansiyalarni so'rang", "text": "Belegeinsicht'ni yozma ravishda so'rang va qaysi bandlarni tekshirmoqchi ekaningizni tushuntiring." },
+    { "name": "To'lang yoki yozma ravishda e'tiroz bildiring", "text": "Qo'shimcha to'lovni to'lang yoki e'tirozlaringizni yozma ravishda tushuntiring. Nusxalarni saqlang." },
+    { "name": "Tegishli bo'lsa, Jobcenter yoki Sozialamt'ni xabardor qiling", "text": "Nafaqa olsangiz, hisobotni darhol ularga yuboring." }
+  ],
+  "phrases": [
+    ["Ich bitte um Einsicht in die Belege zur Betriebskostenabrechnung für …", "… uchun ekspluatatsiya xarajatlari hisoboti kvitansiyalarini ko'rib chiqishga ruxsat so'rayman."],
+    ["Gegen die Abrechnung erhebe ich folgende Einwände: …", "Hisobotga quyidagi e'tirozlarim bor: …"],
+    ["Die Wohnfläche in der Abrechnung stimmt nicht.", "Hisobotdagi yashash maydoni noto'g'ri."],
+    ["Bitte überweisen Sie das Guthaben auf mein Konto: …", "Iltimos, kreditni mening hisobimga o'tkazing: …"],
+    ["Ich bitte um Ratenzahlung der Nachzahlung.", "Qo'shimcha to'lovni bo'lib to'lashga ruxsat so'rayman."]
+  ],
+  "help": ["mieterverein", "vz", "mbe"],
+  "sources": [
+    { "label": "Germaniya Fuqarolik kodeksi, § 556 — ekspluatatsiya xarajatlari bo'yicha kelishuvlar va muddatlar", "url": "https://www.gesetze-im-internet.de/bgb/__556.html" },
+    { "label": "Deutscher Mieterbund (mieterbund.de) — ijarachilar uyushmalari", "url": "https://www.mieterbund.de/" }
+  ],
+  "practice": "Klarineo hisobotning har bir qatorini tushuntirib berishi va kvitansiyalarni ko'rib chiqish uchun odobli so'rov loyihasini tayyorlashi mumkin, siz uni tekshirib, o'zingiz yuborasiz."
+}

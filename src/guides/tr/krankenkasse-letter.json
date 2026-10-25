@@ -1,0 +1,75 @@
+{
+  "title": "Krankenkasse mektubu açıklandı — Klarineo",
+  "description": "Alman sağlık sigortanızdan (Krankenkasse) mektup mu geldi? Yaygın mektuplar — anketler, primler, prim borçları, sağlık kartı fotoğrafı — ve nasıl cevap verileceği.",
+  "h1": "Krankenkasse'den gelen mektup: sağlık sigortası mektupları ne anlama gelir",
+  "kicker": "Krankenkasse",
+  "summary": "Almanya'da sağlık sigortası zorunludur ve Krankenkasse'niz (yasal sağlık sigortası kurumu) size düzenli olarak yazar: anketler, prim bildirimleri, sağlık kartınız için fotoğraf talepleri, değişikliklerle ilgili bilgiler. Çoğu mektup sizden belirli bir tarihe kadar bilgi veya belge göndermenizi ister. Zamanında cevap verin — eksik bilgi daha yüksek primlere veya teminat boşluklarına yol açabilir.",
+  "sections": [
+    {
+      "h": "Size kim yazıyor?",
+      "p": [
+        "Almanya'daki çoğu kişi yasal bir sağlık sigortası kurumuna (gesetzliche Krankenkasse) sigortalıdır. Krankenkasse doktor, hastane ve birçok ilacın masraflarını öder ve primleri (Beiträge) toplar. Çalışansanız, işvereniniz primleri genellikle maaşınızla birlikte öder; serbest çalışıyorsanız, öğrenciyseniz, isteğe bağlı sigortalıysanız veya geliriniz yoksa, kendiniz ödeyebilirsiniz.",
+        "Her mektup sigorta numaranızı (Krankenversichertennummer veya Versichertennummer) içerir. Cevap verirken bunu belirtin."
+      ]
+    },
+    {
+      "h": "Yaygın mektup türleri",
+      "ul": [
+        "Fragebogen zur Familienversicherung: aile üyelerinin (eş, çocuklar) ücretsiz sigortalı kalıp kalamayacağını kontrol eden bir anket. Sigorta kurumu onların gelirini sorar.",
+        "Elektronik sağlık kartınız (elektronische Gesundheitskarte, eGK) için fotoğraf (Lichtbild) talebi.",
+        "Mitgliedsbescheinigung: üyelik belgesi — örneğin işvereniniz, üniversiteniz veya Ausländerbehörde için.",
+        "Beitragsbescheid: kendiniz ödediğiniz primlere ilişkin, çoğunlukla gelirinize dayanan bir karar. Bir vergi tarhiyat bildirimi gibi gelir kanıtı (Einkommensnachweis) göndermeniz istenebilir.",
+        "Daha yüksek bir Zusatzbeitrag (ek prim) hakkında bilgi. Sigorta kurumunuz bunu artırdığında, genellikle başka bir sigorta kurumuna geçmek için özel bir hakkınız vardır (Sonderkündigungsrecht) — mektup sizi bu konuda bilgilendirmek zorundadır.",
+        "Beitragsrückstand / Mahnung: prim borcunuz var. Borçlar gecikme zamlarına ve bazı durumlarda ödeyene kadar sınırlı yardımlara yol açabilir.",
+        "Uzun süre çalışamıyorsanız hastalık ödeneği (Krankengeld) hakkında mektuplar.",
+        "Elektronik hasta dosyası (elektronische Patientenakte, ePA) hakkında bilgi. İstemiyorsanız itiraz edebilirsiniz (widersprechen)."
+      ]
+    },
+    {
+      "h": "Süreler ve kararlar",
+      "p": [
+        "Anketler ve talepler genellikle cevap vermeniz gereken bir tarih belirtir. Daha fazla zamana ihtiyacınız varsa, tarihten önce isteyin. Bir Bescheid (karar) — örneğin primler veya hastalık ödeneği hakkında — bir Rechtsbehelfsbelehrung ile birlikte gelir. Genel kural olarak, aldıktan sonra bir ay içinde Widerspruch (itiraz) edebilirsiniz. Kesin süre için mektubunuza bakın."
+      ]
+    },
+    {
+      "h": "Prim borcunuz varsa",
+      "p": [
+        "Beklemeyin. Krankenkasse'nizle iletişime geçin, durumunuzu açıklayın ve taksit (Ratenzahlung) veya erteleme (Stundung) isteyin. Geliriniz düştüyse kanıt gönderin — priminiz yeniden hesaplanabilir. Birden fazla borcunuz varsa borç danışmanlık hizmetleri yardımcı olabilir."
+      ]
+    }
+  ],
+  "terms": [
+    ["Krankenkasse", "yasal sağlık sigortası kurumu"],
+    ["Krankenversichertennummer", "sağlık sigortası numarası"],
+    ["Beitrag / Zusatzbeitrag", "prim / ek prim"],
+    ["Familienversicherung", "ücretsiz aile sigortası"],
+    ["Fragebogen", "anket formu"],
+    ["Mitgliedsbescheinigung", "üyelik belgesi"],
+    ["Einkommensnachweis", "gelir kanıtı"],
+    ["Beitragsrückstand", "prim borcu"],
+    ["Krankengeld", "sigorta kurumundan hastalık ödeneği"],
+    ["Arbeitsunfähigkeit", "çalışamama durumu"],
+    ["elektronische Gesundheitskarte (eGK)", "sağlık sigortası kartı"],
+    ["Sonderkündigungsrecht", "sözleşmeyi feshetme / geçiş için özel hak"]
+  ],
+  "steps": [
+    { "name": "Mektubun ne istediğini öğrenin", "text": "Bilgi, bir belge, bir fotoğraf, bir ödeme — ve hangi tarihe kadar." },
+    { "name": "Belgeleri toplayın", "text": "Örneğin maaş bordroları, bir vergi tarhiyat bildirimi, bir öğrenci belgesi veya bir fotoğraf." },
+    { "name": "Zamanında cevap verin", "text": "Sigorta kurumunun çevrimiçi portalını veya uygulamasını kullanın ya da sigorta numaranızla posta yoluyla cevap verin. Kopyaları saklayın." },
+    { "name": "Gerekirse daha fazla süre isteyin", "text": "Son tarihten önce yazın ve belgeleri ne zaman gönderebileceğinizi belirtin." },
+    { "name": "Kararları kontrol edin", "text": "Bir Bescheid'a katılmıyorsanız, mektupta belirtilen süre içinde Widerspruch edin." }
+  ],
+  "phrases": [
+    ["Meine Versichertennummer lautet …", "Sigorta numaram …"],
+    ["Anbei sende ich Ihnen den ausgefüllten Fragebogen.", "Ekte doldurulmuş anket formunu gönderiyorum."],
+    ["Ich benötige eine Mitgliedsbescheinigung.", "Bir üyelik belgesine ihtiyacım var."],
+    ["Bitte gewähren Sie mir eine Fristverlängerung bis zum …", "Lütfen bana … tarihine kadar süre uzatımı verin."],
+    ["Ich bitte um Ratenzahlung für den Beitragsrückstand.", "Prim borcu için taksitle ödeme talep ediyorum."]
+  ],
+  "help": ["upd", "mbe", "schuldner"],
+  "sources": [
+    { "label": "Federal Sağlık Bakanlığı (bundesgesundheitsministerium.de) — yasal sağlık sigortası", "url": "https://www.bundesgesundheitsministerium.de/" },
+    { "label": "Unabhängige Patientenberatung Deutschland — ücretsiz danışmanlık", "url": "https://www.patientenberatung.de/" }
+  ],
+  "practice": "Klarineo, Krankenkasse mektubunuzu kendi dilinizde açıklar ve örneğin daha fazla süre istemek için kısa bir cevap yazmanıza yardımcı olur."
+}

@@ -1,0 +1,71 @@
+{
+  "title": "Bußgeldbescheid ve Anhörung açıklandı — Klarineo",
+  "description": "Almanya'da trafik cezası mektubu mu aldınız? Verwarnung, Anhörungsbogen, Zeugenfragebogen ve Bußgeldbescheid arasındaki fark — ve iki haftalık Einspruch süresi.",
+  "h1": "Bußgeldbescheid ve Anhörung: Alman trafik cezası mektupları açıklandı",
+  "kicker": "Bußgeldstelle",
+  "summary": "Almanya'da trafik kabahatleri aşamalı olarak işlenir. Küçük kabahatler için bir uyarı cezası (Verwarnungsgeld) alabilirsiniz. Diğerleri için önce bir dinleme formu (Anhörungsbogen) veya tanık formu (Zeugenfragebogen), ardından muhtemelen resmi bir ceza bildirimi (Bußgeldbescheid) alırsınız. Bir Bußgeldbescheid'a karşı tebliğden sonra iki hafta içinde Einspruch (itiraz) edebilirsiniz.",
+  "sections": [
+    {
+      "h": "Bu mektupları kim gönderiyor?",
+      "p": [
+        "Trafik cezalarını, kabahatin işlendiği şehrin, ilçenin veya polis makamının ceza dairesi (Bußgeldstelle) verir — örneğin hız ihlali, park etme veya kırmızı ışıkta geçme için. Mektup, biliniyorsa sürücüye, aksi halde genellikle aracın kayıtlı sahibine (Halter) gönderilir."
+      ]
+    },
+    {
+      "h": "Farklı mektuplar",
+      "ul": [
+        "Verwarnung mit Verwarnungsgeld: küçük kabahatler için küçük bir cezayla uyarı. Belirtilen süre içinde öderseniz konu genellikle kapanır. Ödemezseniz makam resmi ceza işlemlerini başlatabilir.",
+        "Anhörungsbogen: dinleme formu. Bir kabahatle suçlanırsınız ve görüş bildirebilirsiniz. Doğru kişisel bilgileri (Angaben zur Person) vermelisiniz, ancak suçlamanın kendisi hakkında görüş bildirmek zorunda değilsiniz.",
+        "Zeugenfragebogen: başka biri aracı kullanmış olabilirse araç sahibine gönderilen tanık formu. Yakın akrabalar tanıklıktan kaçınma hakkına (Zeugnisverweigerungsrecht) sahip olabilir — form genellikle bunu açıklar.",
+        "Bußgeldbescheid: resmi ceza bildirimi. Kabahati, cezayı, ücretleri ve masrafları, muhtemelen puanları veya sürüş yasağını belirtir. Resmi olarak tebliğ edilir, çoğunlukla tebliğ tarihinin yazılı olduğu sarı bir zarfta gelir."
+      ]
+    },
+    {
+      "h": "İki haftalık süre",
+      "p": [
+        "Bir Bußgeldbescheid'a karşı, tebliğden (Zustellung) sonra iki hafta içinde Einspruch (itiraz) edebilirsiniz — Kabahatler Kanunu'nun (OWiG) § 67'si. İtiraz yazılı olarak yapılmalı veya makamda tutanağa geçirilmelidir. İtiraz etmezseniz bildirim kesinleşir ve ödemeniz gerekir. Zarftaki tebliğ tarihini not edin.",
+        "Daha yüksek cezalar ayrıca Flensburg'daki sürüş ehliyeti sicilinde (Fahreignungsregister) puan getirebilir; bu sicili Federal Karayolu Taşımacılığı Dairesi (Kraftfahrt-Bundesamt) tutar. Ağır kabahatler sürüş yasağına (Fahrverbot) yol açabilir."
+      ]
+    },
+    {
+      "h": "Sahte cezalara dikkat edin",
+      "p": [
+        "Bir bağlantı üzerinden trafik cezası ödemenizi isteyen e-postalara veya kısa mesajlara karşı dikkatli olun. Resmi Alman ceza mektupları normalde posta ile gelir ve makamın adını, bir dosya numarasını (Aktenzeichen) ve bir kamu makamının banka bilgilerini içerir. Şüphe halinde, mesajdaki bilgileri değil, kendi bulduğunuz iletişim bilgilerini kullanarak makamla iletişime geçin."
+      ]
+    }
+  ],
+  "terms": [
+    ["Bußgeldstelle", "ceza dairesi"],
+    ["Verwarnungsgeld", "uyarı cezası (küçük kabahatler)"],
+    ["Anhörungsbogen", "dinleme formu"],
+    ["Zeugenfragebogen", "tanık formu"],
+    ["Bußgeldbescheid", "resmi ceza bildirimi"],
+    ["Halter / Fahrer", "araç sahibi / sürücü"],
+    ["Ordnungswidrigkeit", "idari kabahat"],
+    ["Zustellung", "resmi tebligat"],
+    ["Einspruch", "itiraz"],
+    ["Aktenzeichen", "dosya numarası"],
+    ["Fahrverbot", "sürüş yasağı"],
+    ["Punkte in Flensburg", "ceza puanları"]
+  ],
+  "steps": [
+    { "name": "Mektubun türünü belirleyin", "text": "Uyarı, dinleme formu, tanık formu veya Bußgeldbescheid — bir sonraki adım buna bağlıdır." },
+    { "name": "Tarihi not edin", "text": "Bir Bußgeldbescheid için sarı zarftaki tebliğ tarihini yazın. İki haftalık süre o zaman başlar." },
+    { "name": "Ayrıntıları kontrol edin", "text": "Tarih, saat, yer, araç ve fotoğraf. Gerçekten sürücü siz miydiniz?" },
+    { "name": "Karar verin: ödeyin veya itiraz edin", "text": "Her şey doğruysa belirtilen tarihe kadar ödeyin. Değilse, tercihen danışmanlık aldıktan sonra zamanında Einspruch edin." },
+    { "name": "Puanlar veya sürüş yasağı için danışmanlık alın", "text": "Trafik hukukunda uzmanlaşmış bir avukat davayı kontrol edebilir. Hukuki koruma sigortanız olup olmadığını sorun." }
+  ],
+  "phrases": [
+    ["Aktenzeichen: …", "Dosya numarası: …"],
+    ["Hiermit lege ich Einspruch gegen den Bußgeldbescheid vom … ein.", "… tarihli ceza bildirimine itiraz ediyorum."],
+    ["Ich bitte um Akteneinsicht.", "Dosyayı incelemek istiyorum."],
+    ["Zur Sache mache ich keine Angaben.", "Konu hakkında açıklama yapmayacağım."],
+    ["Ich habe das Fahrzeug zu diesem Zeitpunkt nicht gefahren.", "O sırada aracı ben kullanmıyordum."]
+  ],
+  "help": ["beratungshilfe", "vz"],
+  "sources": [
+    { "label": "Kabahatler Kanunu (OWiG), § 67 — itirazın şekli ve süresi", "url": "https://www.gesetze-im-internet.de/owig_1968/__67.html" },
+    { "label": "Federal Karayolu Taşımacılığı Dairesi (kba.de) — sürüş ehliyeti sicili", "url": "https://www.kba.de/" }
+  ],
+  "practice": "Klarineo, hangi tür trafik mektubu aldığınızı açıklar, süreyi gösterir ve hatırlatıcılarınıza ekler."
+}

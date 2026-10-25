@@ -1,0 +1,74 @@
+{
+  "title": "Ausländerbehörde randevu mektubu açıklandı — Klarineo",
+  "description": "Ausländerbehörde'den Termin mektubu mu aldınız? Ne anlama geldiği, hangi belgelerin götürüleceği, Fiktionsbescheinigung ve Almanca nazikçe nasıl erteleyeceğiniz.",
+  "h1": "Ausländerbehörde randevu mektubu (Termin): ne anlama gelir ve nasıl hazırlanılır",
+  "kicker": "Ausländerbehörde",
+  "summary": "Ausländerbehörde'den (yabancılar dairesi) bir Termin hakkında gelen mektup, sizi bir randevuya davet eder — çoğunlukla bir oturma izni için başvurmak, uzatmak veya teslim almak için. Listedeki tüm belgeleri getirin, zamanında gelin ve katılamayacaksanız daireyle önceden iletişime geçin. Mevcut izninizin süresi dolmadan uzatma için başvurun.",
+  "sections": [
+    {
+      "h": "Bu mektubu kim gönderiyor?",
+      "p": [
+        "Ausländerbehörde, AB vatandaşı olmayanların oturma işlerinden sorumlu yerel yabancılar dairesidir. Adı şehirden şehire değişir — örneğin Ausländeramt, Amt für Migration, Welcome Center veya Berlin'de Landesamt für Einwanderung (LEA). İltica işlemlerini yerel Ausländerbehörde değil, Federal Göç ve Mülteciler Dairesi (BAMF) yürütür.",
+        "Bir randevu mektubu, bir Einladung (davet), aldığınız randevunun bir Terminbestätigung'u (randevu onayı) ya da belgeleri teslim etmek, parmak izi vermek veya elektronik oturma izninizi (elektronischer Aufenthaltstitel, eAT) teslim almak için şahsen gelme talebi (Vorsprache) olabilir."
+      ]
+    },
+    {
+      "h": "Mektupta genellikle neler bulunur?",
+      "ul": [
+        "Tarih, saat, adres ve oda — ve çoğu zaman bir dosya numarası (Aktenzeichen). Her yazışmanızda belirtin.",
+        "Amaç, örneğin Aufenthaltserlaubnis'inizin (oturma izni) Verlängerung'u (uzatma), ilk izin veya eAT kartının teslimi.",
+        "Gerekli belgelerin listesi (Unterlagen). Tipik olarak: geçerli pasaport, biyometrik fotoğraf, mevcut oturma izni, başvuru formu, sağlık sigortası kanıtı, gelir kanıtı (iş sözleşmesi, maaş bordroları) ve kira sözleşmeniz veya Meldebescheinigung.",
+        "Ücretler (Gebühren) ve nasıl ödeneceği hakkında bilgi.",
+        "Bazen belgeleri göndermeniz gereken bir son tarih."
+      ]
+    },
+    {
+      "h": "Fiktionsbescheinigung: izniniz işlem sırasında sona erecekse",
+      "p": [
+        "Mevcut oturma izninizin süresi dolmadan uzatma için başvurursanız, daire karar verirken oturma statünüz genellikle devam eder. Bunu kanıtlamak için daire bir Fiktionsbescheinigung (geçici belge) düzenleyebilir. Bu yüzden zamanında başvurmak çok önemlidir. İzninizin yakında sona ereceğini fark eder ve randevunuz yoksa, hemen daireye yazılı olarak başvurun ve başvurduğunuzun kanıtını saklayın."
+      ]
+    },
+    {
+      "h": "Özel dikkat gerektiren mektuplar",
+      "p": [
+        "Bazı mektuplar bir davetten fazlasıdır: Anhörung (dinleme), dairenin aleyhinize bir karar düşündüğü ve önce görüş bildirme fırsatı verdiği anlamına gelir. Bir Bescheid (karar) yasal başvuru süresiyle birlikte gelebilir. Yabancılar hukukunda bazı süreler bir aydan kısa olabilir — Rechtsbehelfsbelehrung'u dikkatle okuyun ve bir danışmanlık hizmetinden veya avukattan hızla destek alın."
+      ]
+    }
+  ],
+  "terms": [
+    ["Ausländerbehörde", "yabancılar dairesi"],
+    ["Termin / Vorsprache", "randevu / şahsen başvuru"],
+    ["Aufenthaltstitel", "oturma belgesi (genel terim)"],
+    ["Aufenthaltserlaubnis", "oturma izni"],
+    ["Niederlassungserlaubnis", "yerleşim izni (süresiz oturma izni)"],
+    ["elektronischer Aufenthaltstitel (eAT)", "oturma izni kartı"],
+    ["Verlängerung", "uzatma"],
+    ["Fiktionsbescheinigung", "başvurunuz işlemdeyken verilen geçici belge"],
+    ["Aktenzeichen", "dosya numarası"],
+    ["Gebühr", "ücret"],
+    ["Anhörung", "dinleme (karardan önce görüş bildirme fırsatı)"],
+    ["Mitwirkungspflicht", "iş birliği yükümlülüğü"]
+  ],
+  "steps": [
+    { "name": "Tarihi, yeri ve dosya numarasını kontrol edin", "text": "Randevuyu takviminize, birkaç gün öncesine bir hatırlatıcıyla ekleyin." },
+    { "name": "Listedeki tüm belgeleri toplayın", "text": "Asılları ve kopyaları getirin. Pasaportunuzun geçerli olduğundan emin olun." },
+    { "name": "İzninizin bitiş tarihini kontrol edin", "text": "Süresi dolmadan uzatma için başvurun ve başvurunuzun kanıtını saklayın." },
+    { "name": "Gerekirse erkenden erteleyin", "text": "Randevudan önce daireye yazın, dosya numaranızı belirtin ve yeni bir tarih isteyin." },
+    { "name": "Dinleme (Anhörung) ve olumsuz kararlar için danışmanlık alın", "text": "Hızlıca bir danışmanlık hizmetiyle veya avukatla iletişime geçin — süreler kısa olabilir." }
+  ],
+  "phrases": [
+    ["Ich habe einen Termin um … Uhr. Mein Aktenzeichen ist …", "Saat …'da randevum var. Dosya numaram …"],
+    ["Ich möchte meine Aufenthaltserlaubnis verlängern.", "Oturma iznimi uzatmak istiyorum."],
+    ["Mein Aufenthaltstitel läuft am … ab.", "Oturma belgemin süresi … tarihinde doluyor."],
+    ["Leider kann ich den Termin nicht wahrnehmen. Bitte nennen Sie mir einen neuen Termin.", "Maalesef randevuya katılamıyorum. Lütfen bana yeni bir tarih verin."],
+    ["Welche Unterlagen fehlen noch?", "Hangi belgeler hâlâ eksik?"],
+    ["Könnte ich bitte eine Fiktionsbescheinigung bekommen?", "Lütfen bir Fiktionsbescheinigung alabilir miyim?"]
+  ],
+  "help": ["mbe", "jmd", "fluechtling", "beratungshilfe"],
+  "sources": [
+    { "label": "Federal Göç ve Mülteciler Dairesi (bamf.de)", "url": "https://www.bamf.de/" },
+    { "label": "Oturma Kanunu (AufenthG), § 81 — oturma belgesi başvurusu", "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__81.html" },
+    { "label": "Make it in Germany — vize ve oturma hakkında resmi portal", "url": "https://www.make-it-in-germany.com/" }
+  ],
+  "practice": "Klarineo'nun konuşma alıştırmasıyla Ausländerbehörde'deki randevuyu prova edebilirsiniz — neden orada olduğunuzu açıklamayı ve hangi belgelerin eksik olduğunu sormayı."
+}

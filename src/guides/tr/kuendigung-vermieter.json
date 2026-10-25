@@ -1,0 +1,76 @@
+{
+  "title": "Ev sahibinden Kündigung açıklandı — Klarineo",
+  "description": "Almanya'da ev sahibinizden Kündigung (fesih) mi aldınız? Şekil kuralları, ihbar süreleri, nedenler, zorluk itirazı ve neden hızla danışmanlık almanız gerektiği.",
+  "h1": "Ev sahibinden Kündigung: bir fesih mektubu ne anlama gelir",
+  "kicker": "Vermieter",
+  "summary": "Kündigung, kira sözleşmenizi sona erdiren bir bildirimdir. Almanya'da konut kiracıları iyi korunur: fesih yazılı ve imzalı olmalıdır, ev sahibinin genellikle yasal olarak tanınan bir nedene ihtiyacı vardır ve yasal ihbar süreleri geçerlidir. Fesih geçersizse belirtilen günde taşınmak zorunda değilsiniz — ancak hızlı davranmalısınız. Hemen bir kiracılar derneğinden veya bir avukattan danışmanlık alın.",
+  "sections": [
+    {
+      "h": "Şekil: yazılı ve imzalı",
+      "p": [
+        "Ev sahibinin bir konut kira sözleşmesini feshi, elle atılmış imzayla yazılı şekilde yapılmalıdır (§ 568 BGB). E-posta, kısa mesaj veya mesajlaşma uygulamasıyla yapılan fesih genellikle geçerli değildir. Mektup fesih nedenlerini belirtmelidir. Kimin imzaladığını kontrol edin: ev sahibi, birden fazla ev sahibi varsa hepsi veya yetkili bir mülk yöneticisi."
+      ]
+    },
+    {
+      "h": "Olağan fesih: neden ve ihbar süresi",
+      "p": [
+        "Standart bir kira sözleşmesinin olağan feshi (ordentliche Kündigung) için ev sahibinin meşru bir menfaati (berechtigtes Interesse, § 573 BGB) olmalıdır. Yaygın nedenler kişisel ihtiyaç (Eigenbedarf — ev sahibi veya bir aile üyesi dairede oturmak ister) veya kiracının sözleşmeyi önemli ölçüde ihlal etmesidir. Yeni bir kiracıdan daha yüksek kira almak geçerli bir neden değildir.",
+        "Ev sahipleri için yasal ihbar süresi, dairede ne kadar süredir oturduğunuza bağlıdır (§ 573c BGB): genellikle üç ay; beş yıl sonra altı ay; sekiz yıl sonra dokuz ay. Bildirimin o ay için geçerli olması, ayın en geç üçüncü iş gününe kadar size ulaşmış olmasına bağlıdır."
+      ]
+    },
+    {
+      "h": "İhbarsız fesih",
+      "p": [
+        "Fristlose Kündigung (ihbarsız fesih) yalnızca ciddi nedenlerle mümkündür, örneğin önemli kira borcu. Kira borcu durumlarında, borcun tamamını belirli bir süre içinde ödemek bazı durumlarda böyle bir feshi geçersiz kılabilir — kurallar karmaşıktır, bu yüzden hemen danışmanlık alın. Yardım alıyorsanız, kira borcunun karşılanıp karşılanamayacağını Jobcenter'ınıza veya Sozialamt'a sorun."
+      ]
+    },
+    {
+      "h": "Zorluk itirazı",
+      "p": [
+        "Fesih geçerli olsa bile, taşınmak sizin veya ailenizin için haklı gösterilemeyecek bir zorluk (Härte) anlamına geliyorsa itiraz edebilirsiniz — örneğin ciddi hastalık, ileri yaş, hamilelik veya uygun yedek konut bulunmaması nedeniyle (§ 574 BGB). İtiraz (Widerspruch) yazılı olmalı ve genellikle kira ilişkisinin bitiminden en geç iki ay önce ev sahibine ulaşmalıdır."
+      ]
+    },
+    {
+      "h": "Ev sahibinin yapamayacakları",
+      "p": [
+        "Ev sahibi sizi çıkarmaya zorlamak için kilitleri öylece değiştiremez, eşyalarınızı çıkaramaz veya suyu ya da elektriği kesemez. Taşınmazsanız, ev sahibi mahkemede tahliye davası (Räumungsklage) açmak zorundadır. Yalnızca bir mahkeme kararı tahliyeye izin verir. Mahkeme mektuplarına her zaman hemen cevap vermek gerekir — yardım alın."
+      ]
+    }
+  ],
+  "terms": [
+    ["Kündigung", "fesih (bildirim)"],
+    ["Mietvertrag", "kira sözleşmesi"],
+    ["Schriftform", "yazılı şekil (imzalı)"],
+    ["ordentliche / fristlose Kündigung", "olağan fesih / ihbarsız fesih"],
+    ["Kündigungsfrist", "ihbar süresi"],
+    ["Eigenbedarf", "ev sahibinin kişisel ihtiyacı"],
+    ["berechtigtes Interesse", "meşru menfaat"],
+    ["Mietrückstand", "kira borcu"],
+    ["Härte / Härtefall", "zorluk / zor durum"],
+    ["Widerspruch", "itiraz"],
+    ["Räumungsklage", "tahliye davası"],
+    ["Mieterverein", "kiracılar derneği"]
+  ],
+  "steps": [
+    { "name": "Mektubu aldığınız tarihi not edin", "text": "Zarfı saklayın. Mektupta belirtilen bitiş tarihini yazın." },
+    { "name": "Şekli ve nedenleri kontrol edin", "text": "Kâğıt üzerinde imzalanmış mı? Nedenler belirtilmiş mi? Size hangi ihbar süresi geçerli?" },
+    { "name": "Hemen danışmanlık alın", "text": "Bir kiracılar derneğiyle veya bir avukatla iletişime geçin. Geliriniz düşükse Beratungshilfe'yi sorun." },
+    { "name": "Hızla bir şey imzalamayın", "text": "Danışmanlık almadan bir fesih sözleşmesi (Aufhebungsvertrag) veya onay belgesi imzalamayın." },
+    { "name": "Yazılı olarak cevap verin", "text": "Cevabınızı, itirazınızı veya zorluk durumunuzu yazılı olarak bildirin ve gönderdiğinizin kanıtını saklayın." }
+  ],
+  "phrases": [
+    ["Ich habe Ihre Kündigung vom … am … erhalten.", "… tarihli feshinizi … tarihinde aldım."],
+    ["Ich widerspreche der Kündigung.", "Feshe itiraz ediyorum."],
+    ["Bitte teilen Sie mir die Gründe für die Kündigung ausführlich mit.", "Lütfen fesih nedenlerini bana ayrıntılı olarak bildirin."],
+    ["Ich berufe mich auf einen Härtefall gemäß § 574 BGB.", "BGB § 574 uyarınca bir zorluk durumuna dayanıyorum."],
+    ["Ich lasse die Kündigung rechtlich prüfen.", "Feshi hukuki olarak kontrol ettiriyorum."]
+  ],
+  "help": ["mieterverein", "beratungshilfe", "mbe"],
+  "sources": [
+    { "label": "Alman Medeni Kanunu, § 568 — feshin şekli", "url": "https://www.gesetze-im-internet.de/bgb/__568.html" },
+    { "label": "Alman Medeni Kanunu, § 573c — ihbar süreleri", "url": "https://www.gesetze-im-internet.de/bgb/__573c.html" },
+    { "label": "Alman Medeni Kanunu, § 574b — zorluk itirazının şekli ve süresi", "url": "https://www.gesetze-im-internet.de/bgb/__574b.html" },
+    { "label": "Deutscher Mieterbund (mieterbund.de)", "url": "https://www.mieterbund.de/" }
+  ],
+  "practice": "Klarineo mektubu anlamanıza ve kiracılar derneğindeki görüşmeye hazırlanmanıza yardımcı olur — ancak bir Kündigung için her zaman kişisel danışmanlık alın."
+}

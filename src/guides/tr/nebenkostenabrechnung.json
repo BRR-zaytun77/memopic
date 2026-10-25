@@ -1,0 +1,76 @@
+{
+  "title": "Nebenkostenabrechnung açıklandı — Klarineo",
+  "description": "Alman yan gider hesabı (Nebenkostenabrechnung) nasıl okunur: ek ödeme veya alacak, 12 aylık kurallar, belgelerin kontrolü ve ev sahibine cevap verme.",
+  "h1": "Nebenkostenabrechnung açıklandı: yıllık yan gider hesabınız",
+  "kicker": "Vermieter",
+  "summary": "Ev sahibiniz yılda bir kez, kiranızla birlikte peşin ödediğiniz işletme giderlerini (Betriebskosten) mahsuplaştırır. Sonuç ya bir ek ödeme (Nachzahlung) ya da bir alacaktır (Guthaben). Hesabı ve belgeleri kontrol etme hakkınız vardır. Genel kural olarak ev sahibi hesabı dönem sonundan itibaren 12 ay içinde göndermelidir ve siz de aldıktan sonra itirazlarınızı bildirmek için 12 ayınız vardır.",
+  "sections": [
+    {
+      "h": "Nebenkostenabrechnung nedir?",
+      "p": [
+        "Almanya'daki çoğu kira sözleşmesinde temel kirayı (Kaltmiete veya Grundmiete) ve ayrıca işletme giderleri için aylık bir peşin ödeme (Nebenkostenvorauszahlung veya Betriebskostenvorauszahlung) ödersiniz. Bu giderler örneğin ısıtma, su, çöp toplama, merdiven temizliği, kapıcı, bahçe, emlak vergisi ve bina sigortasını kapsar — ancak yalnızca sözleşmeniz ev sahibinin bunları yansıtmasına izin veriyorsa.",
+        "Ev sahibi yılda bir kez peşin ödediğiniz tutarı gerçek giderlerle karşılaştırır: Nebenkostenabrechnung veya Betriebskostenabrechnung (yan gider veya işletme gideri hesabı). Isıtma ve sıcak su çoğu zaman ayrı bir ölçüm şirketi tarafından faturalandırılır ve ayrı bir sayfa olarak görünür (Heizkostenabrechnung)."
+      ]
+    },
+    {
+      "h": "Nasıl okunur?",
+      "ul": [
+        "Abrechnungszeitraum: fatura dönemi, genellikle on iki ay (örneğin bir takvim yılı).",
+        "Gesamtkosten: her gider türü için tüm binanın toplam giderleri.",
+        "Umlageschlüssel veya Verteilerschlüssel: giderlerin daireler arasında nasıl paylaştırıldığı — örneğin kullanım alanına (Wohnfläche), kişi sayısına veya tüketime (Verbrauch) göre.",
+        "Ihr Anteil: her giderdeki payınız.",
+        "Vorauszahlungen: dönem boyunca zaten ödedikleriniz.",
+        "Nachzahlung veya Guthaben: fark — ya ek ödeme yaparsınız ya da paranız iade edilir.",
+        "Çoğu zaman: bundan sonraki yeni aylık peşin ödemeler (Anpassung der Vorauszahlungen)."
+      ]
+    },
+    {
+      "h": "Önemli kurallar ve süreler",
+      "p": [
+        "Alman Medeni Kanunu'na (§ 556 BGB) göre ev sahibi, hesabı genellikle fatura döneminin bitiminden sonraki 12 ay içinde teslim etmek zorundadır. Daha geç gelirse, ev sahibi — gecikme kendi kusuru değilse — genellikle artık ek ödeme talep edemez. Lehinize olan bir alacak yine de ödenmelidir.",
+        "Siz kiracı olarak, hesabı aldıktan sonra genellikle itirazlarınızı (Einwände) bildirmek için 12 ayınız vardır. Ayrıca asıl belgelere ve faturalara bakma hakkınız da vardır (Belegeinsicht). Ödemeden önce kontrol etmek mantıklıdır — ancak mektupta belirtilen ödeme tarihini öylece göz ardı etmeyin; katılmıyorsanız bunu ev sahibine yazılı olarak bildirin."
+      ]
+    },
+    {
+      "h": "Sosyal yardım alıyorsanız",
+      "p": [
+        "Jobcenter'dan temel gelir desteği veya sosyal yardım alıyorsanız, hesabı alır almaz bir kopyasını Jobcenter'ınıza veya Sozialamt'a gönderin. Isıtma ve işletme giderleri için ek ödemeler, belirli koşullarda konut giderlerinin (Kosten der Unterkunft und Heizung) bir parçası olarak karşılanabilir. Bir alacağın da bildirilmesi gerekebilir."
+      ]
+    }
+  ],
+  "terms": [
+    ["Nebenkosten / Betriebskosten", "yan giderler / işletme giderleri"],
+    ["Abrechnung", "hesap / mahsuplaşma"],
+    ["Abrechnungszeitraum", "fatura dönemi"],
+    ["Vorauszahlung", "peşin ödeme"],
+    ["Nachzahlung", "ek ödeme"],
+    ["Guthaben", "alacak"],
+    ["Umlageschlüssel", "gider paylaştırma anahtarı"],
+    ["Wohnfläche", "kullanım alanı"],
+    ["Heizkosten", "ısıtma giderleri"],
+    ["Belegeinsicht", "belgelerin incelenmesi"],
+    ["Einwand / Widerspruch", "itiraz"],
+    ["Vermieter / Hausverwaltung", "ev sahibi / mülk yönetimi"]
+  ],
+  "steps": [
+    { "name": "Tarihleri kontrol edin", "text": "Hangi fatura dönemi ve hesabı ne zaman aldınız? Dönemin bitiminden sonraki 12 ay içinde mi?" },
+    { "name": "Sözleşmenizle karşılaştırın", "text": "Listelenen tüm giderlere kira sözleşmeniz izin veriyor mu? Kullanım alanı doğru mu?" },
+    { "name": "Peşin ödemelerinizi kontrol edin", "text": "Listelenen peşin ödemeler gerçekte ödediklerinizle uyuşuyor mu?" },
+    { "name": "Bir şey yanlış görünüyorsa belgeleri isteyin", "text": "Belegeinsicht'ı yazılı olarak talep edin ve hangi kalemleri kontrol etmek istediğinizi belirtin." },
+    { "name": "Ödeyin veya yazılı olarak itiraz edin", "text": "Ek ödemeyi ödeyin ya da itirazlarınızı yazılı olarak açıklayın. Kopyaları saklayın." },
+    { "name": "İlgiliyse Jobcenter'a veya Sozialamt'a bildirin", "text": "Yardım alıyorsanız hesabı vakit kaybetmeden onlara gönderin." }
+  ],
+  "phrases": [
+    ["Ich bitte um Einsicht in die Belege zur Betriebskostenabrechnung für …", "… dönemine ait işletme gideri hesabının belgelerini incelemek istiyorum."],
+    ["Gegen die Abrechnung erhebe ich folgende Einwände: …", "Hesaba şu itirazlarım var: …"],
+    ["Die Wohnfläche in der Abrechnung stimmt nicht.", "Hesaptaki kullanım alanı doğru değil."],
+    ["Bitte überweisen Sie das Guthaben auf mein Konto: …", "Lütfen alacağı şu hesabıma aktarın: …"],
+    ["Ich bitte um Ratenzahlung der Nachzahlung.", "Ek ödemenin taksitle ödenmesini talep ediyorum."]
+  ],
+  "help": ["mieterverein", "vz", "mbe"],
+  "sources": [
+    { "label": "Alman Medeni Kanunu, § 556 — işletme giderleri ve süreler hakkında anlaşmalar", "url": "https://www.gesetze-im-internet.de/bgb/__556.html" },
+    { "label": "Deutscher Mieterbund (mieterbund.de) — kiracı dernekleri", "url": "https://www.mieterbund.de/" }
+  ],
+  "practice": "Klarineo, hesabın her satırını açıklayabilir ve belgeleri incelemek için kibar bir talep taslağı hazırlayabilir; siz kontrol edip kendiniz gönderirsiniz."
+}

@@ -1,0 +1,71 @@
+{
+  "title": "Bußgeldbescheid va Anhörung tushuntirildi — Klarineo",
+  "description": "Germaniyada yo'l harakati jarimasi xati keldimi? Verwarnung, Anhörungsbogen, Zeugenfragebogen va Bußgeldbescheid o'rtasidagi farq — va Einspruch uchun ikki haftalik muddat.",
+  "h1": "Bußgeldbescheid va Anhörung: Germaniyadagi yo'l harakati jarimasi xatlari tushuntirildi",
+  "kicker": "Bußgeldstelle",
+  "summary": "Germaniyada yo'l harakati qoidabuzarliklari bosqichma-bosqich ko'riladi. Kichik qoidabuzarliklar uchun ogohlantiruvchi jarima (Verwarnungsgeld) olishingiz mumkin. Boshqalari uchun avval eshitish blankasi (Anhörungsbogen) yoki guvoh blankasi (Zeugenfragebogen), keyin esa ehtimol rasmiy jarima qarori (Bußgeldbescheid) olasiz. Bußgeldbescheid'ga qarshi yetkazilganidan keyin ikki hafta ichida Einspruch bildirishingiz mumkin.",
+  "sections": [
+    {
+      "h": "Bu xatlarni kim yuboradi?",
+      "p": [
+        "Yo'l harakati jarimalarini qoidabuzarlik sodir bo'lgan shahar, tuman yoki politsiya organining jarima idorasi (Bußgeldstelle) chiqaradi — masalan, tezlikni oshirish, to'xtash joyi yoki qizil chiroqdan o'tish uchun. Xat ma'lum bo'lsa haydovchining nomiga, aks holda odatda avtomobilning ro'yxatdagi egasi (Halter) nomiga yoziladi."
+      ]
+    },
+    {
+      "h": "Turli xatlar",
+      "ul": [
+        "Verwarnung mit Verwarnungsgeld: kichik qoidabuzarliklar uchun kichik jarimali ogohlantirish. Ko'rsatilgan muddat ichida to'lasangiz, masala odatda yopiladi. To'lamasangiz, organ rasmiy jarima jarayonini boshlashi mumkin.",
+        "Anhörungsbogen: eshitish blankasi. Sizga qoidabuzarlik ayblanadi va siz fikr bildirishingiz mumkin. Shaxsiy ma'lumotlarni to'g'ri ko'rsatishingiz kerak (Angaben zur Person), lekin ayblovning o'ziga izoh berishingiz shart emas.",
+        "Zeugenfragebogen: boshqa kishi haydagan bo'lishi mumkin bo'lsa, avtomobil egasiga yuboriladigan guvoh blankasi. Yaqin qarindoshlar guvohlik berishdan bosh tortish huquqiga (Zeugnisverweigerungsrecht) ega bo'lishi mumkin — blanka odatda buni tushuntiradi.",
+        "Bußgeldbescheid: rasmiy jarima qarori. Unda qoidabuzarlik, jarima, yig'imlar va xarajatlar, ehtimol ballar yoki haydash taqiqi ko'rsatiladi. U rasmiy tarzda yetkaziladi, ko'pincha yetkazish sanasi yozilgan sariq konvertda."
+      ]
+    },
+    {
+      "h": "Ikki haftalik muddat",
+      "p": [
+        "Bußgeldbescheid'ga qarshi yetkazilganidan (Zustellung) keyin ikki hafta ichida Einspruch (e'tiroz) bildirishingiz mumkin — Ma'muriy huquqbuzarliklar to'g'risidagi qonunning (OWiG) § 67. E'tiroz yozma ravishda yoki organda bayonnoma tuzish orqali bildirilishi kerak. E'tiroz bildirmasangiz, qaror qat'iy bo'ladi va to'lashingiz kerak. Konvertdagi yetkazish sanasini yozib oling.",
+        "Yuqoriroq jarimalar Flensburgdagi haydash layoqati reyestrida (Fahreignungsregister) ballar ham keltirib chiqarishi mumkin, uni Federal avtotransport idorasi (Kraftfahrt-Bundesamt) yuritadi. Jiddiy qoidabuzarliklar haydash taqiqiga (Fahrverbot) olib kelishi mumkin."
+      ]
+    },
+    {
+      "h": "Soxta jarimalardan ehtiyot bo'ling",
+      "p": [
+        "Havola orqali yo'l harakati jarimasini to'lashni so'raydigan elektron xat yoki SMS'larga ehtiyot bo'ling. Germaniyaning rasmiy jarima xatlari odatda pochta orqali keladi va organ nomini, ish raqamini (Aktenzeichen) hamda davlat organining bank rekvizitlarini ko'rsatadi. Shubha bo'lsa, xabardagi emas, o'zingiz topgan aloqa ma'lumotlari orqali organ bilan bog'laning."
+      ]
+    }
+  ],
+  "terms": [
+    ["Bußgeldstelle", "jarima idorasi"],
+    ["Verwarnungsgeld", "ogohlantiruvchi jarima (kichik qoidabuzarliklar uchun)"],
+    ["Anhörungsbogen", "eshitish blankasi"],
+    ["Zeugenfragebogen", "guvoh blankasi"],
+    ["Bußgeldbescheid", "rasmiy jarima qarori"],
+    ["Halter / Fahrer", "avtomobil egasi / haydovchi"],
+    ["Ordnungswidrigkeit", "ma'muriy huquqbuzarlik"],
+    ["Zustellung", "rasmiy yetkazish"],
+    ["Einspruch", "e'tiroz"],
+    ["Aktenzeichen", "ish raqami"],
+    ["Fahrverbot", "haydash taqiqi"],
+    ["Punkte in Flensburg", "jarima ballari"]
+  ],
+  "steps": [
+    { "name": "Xat turini aniqlang", "text": "Ogohlantirish, eshitish blankasi, guvoh blankasi yoki Bußgeldbescheid — keyingi qadam shunga bog'liq." },
+    { "name": "Sanani yozib oling", "text": "Bußgeldbescheid uchun sariq konvertdagi yetkazish sanasini yozib qo'ying. Ikki haftalik muddat o'sha paytdan boshlanadi." },
+    { "name": "Tafsilotlarni tekshiring", "text": "Sana, vaqt, joy, avtomobil va surat. Haqiqatan ham haydovchi siz edingizmi?" },
+    { "name": "Qaror qiling: to'lash yoki e'tiroz bildirish", "text": "Hammasi to'g'ri bo'lsa, ko'rsatilgan sanagacha to'lang. Aks holda, ideal holda maslahatdan so'ng, Einspruch'ni o'z vaqtida bildiring." },
+    { "name": "Ballar yoki haydash taqiqi bo'lsa, maslahat oling", "text": "Yo'l harakati huquqi bo'yicha mutaxassis advokat ishni tekshirishi mumkin. Huquqiy xarajatlar sug'urtangiz bor-yo'qligini so'rang." }
+  ],
+  "phrases": [
+    ["Aktenzeichen: …", "Ish raqami: …"],
+    ["Hiermit lege ich Einspruch gegen den Bußgeldbescheid vom … ein.", "Shu orqali … sanasidagi jarima qaroriga e'tiroz bildiraman."],
+    ["Ich bitte um Akteneinsicht.", "Ish materiallari bilan tanishishga ruxsat so'rayman."],
+    ["Zur Sache mache ich keine Angaben.", "Masalaning mohiyati bo'yicha izoh bermayman."],
+    ["Ich habe das Fahrzeug zu diesem Zeitpunkt nicht gefahren.", "O'sha paytda avtomobilni men haydamaganman."]
+  ],
+  "help": ["beratungshilfe", "vz"],
+  "sources": [
+    { "label": "Ma'muriy huquqbuzarliklar to'g'risidagi qonun (OWiG), § 67 — e'tiroz shakli va muddati", "url": "https://www.gesetze-im-internet.de/owig_1968/__67.html" },
+    { "label": "Federal avtotransport idorasi (kba.de) — haydash layoqati reyestri", "url": "https://www.kba.de/" }
+  ],
+  "practice": "Klarineo qaysi turdagi yo'l harakati xati olganingizni tushuntiradi, muddatni ko'rsatadi va uni eslatmalaringizga qo'shadi."
+}

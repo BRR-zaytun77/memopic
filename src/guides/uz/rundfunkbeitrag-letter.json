@@ -1,0 +1,73 @@
+{
+  "title": "Rundfunkbeitrag xati tushuntirildi — Klarineo",
+  "description": "ARD ZDF Deutschlandradio Beitragsservice'dan xat keldimi? Rundfunkbeitrag nima, kim to'laydi, imtiyozlar, umumiy kvartiralar va o'z vaqtida qanday javob berish kerak.",
+  "h1": "Rundfunkbeitrag xati tushuntirildi: Beitragsservice sizdan nima istaydi",
+  "kicker": "Rundfunkbeitrag",
+  "summary": "Rundfunkbeitrag — Germaniyada jamoat radiosi va televideniyesini moliyalashtiradigan eshittirish badali. Har bir uy-joy (Wohnung) uchun bitta badal to'lanadi, u yerda necha kishi yashashidan yoki televizoringiz bor-yo'qligidan qat'i nazar. Manzilingizni ro'yxatdan o'tkazganingizdan keyin Beitragsservice odatda sizga yozadi. Javob bering — ro'yxatdan o'ting, uyingizda kim allaqachon to'layotganini ayting yoki huquqingiz bo'lsa, imtiyoz uchun ariza bering.",
+  "sections": [
+    {
+      "h": "Bu xatni kim yuboradi?",
+      "p": [
+        "Xat Kyolndagi ARD ZDF Deutschlandradio Beitragsservice'dan keladi, u jamoat teleradiokompaniyalari nomidan badalni yig'adi. Bu Eshittirish badali bo'yicha davlatlararo shartnomaga (Rundfunkbeitragsstaatsvertrag) asoslangan qonuniy majburiyat — reklama xati ham, shunchaki e'tibor bermaslik mumkin bo'lgan obuna ham emas.",
+        "Manzilingizni Bürgeramt'da ro'yxatdan o'tkazganingizda (Anmeldung), ro'yxatga olish idorasi ma'lumotlaringizni Beitragsservice'ga uzatadi. Shuning uchun ko'plab yangi kelganlar ko'chib kirgandan bir necha hafta o'tib xat oladi."
+      ]
+    },
+    {
+      "h": "Asosiy qoida: har bir uy-joyga bitta badal",
+      "p": [
+        "Badal Wohnung (kvartira yoki uy) uchun olinadi — har bir kishi yoki har bir qurilma uchun emas. Agar yolg'iz yashasangiz, o'zingiz to'laysiz. Turmush o'rtog'ingiz, oilangiz yoki xonadosh (WG) bilan yashasangiz, uyda faqat bir kishi to'lashi kerak — qolganlar Beitragsservice'ga allaqachon to'layotgan kishining badal raqamini (Beitragsnummer) aytishi mumkin.",
+        "Miqdor federal yerlar belgilagan qat'iy oylik summa; odatda har uch oyda to'lanadi. Joriy miqdorni eski maqolalarga tayanmasdan rasmiy veb-saytdan tekshiring."
+      ]
+    },
+    {
+      "h": "Olishingiz mumkin bo'lgan odatiy xatlar",
+      "ul": [
+        "Ro'yxatdan o'tishingizni (anmelden) yoki uyingiz uchun allaqachon kimdir to'layotganini aytishingizni so'raydigan birinchi xat.",
+        "Beitragsnummer'ingiz va to'lov sanalari ko'rsatilgan tasdiqnoma.",
+        "To'lov yetishmasa, to'lov eslatmasi (Zahlungserinnerung).",
+        "Festsetzungsbescheid — to'lanmagan summani belgilovchi rasmiy qaror, odatda kechikish jarimasi (Säumniszuschlag) bilan. Odatda uni olganingizdan keyin bir oy ichida Widerspruch bildirishingiz mumkin; muddat xatda yozilgan bo'ladi.",
+        "To'lanmagan summalar qolsa, ish majburiy undirishga (Vollstreckung) topshirilishi mumkin. Bu darajaga yetkazmang — erta javob bering."
+      ]
+    },
+    {
+      "h": "Imtiyoz va kamaytirish",
+      "p": [
+        "Ayrim ijtimoiy nafaqalarni oluvchilar imtiyozga (Befreiung) ariza berishi mumkin — masalan Jobcenterdan bazaviy daromad ta'minoti oluvchilar, ijtimoiy yordam (Sozialhilfe) oluvchilar yoki ota-onasi bilan yashamaydigan BAföG oluvchilar. Ba'zi nogironligi bo'lgan shaxslar kamaytirilgan badalga (Ermäßigung) ariza berishi mumkin. Imtiyoz avtomatik emas: ariza berib, isbotni, masalan nafaqa qaroringiz nusxasini yuborishingiz kerak. Blanklar rundfunkbeitrag.de saytida.",
+        "Ko'chib ketsangiz, chet elga ketsangiz yoki allaqachon to'layotgan kishining uyiga ko'chib kirsangiz, onlayn ro'yxatdan chiqishingiz yoki ma'lumotlaringizni o'zgartirishingiz mumkin (Abmeldung / Änderung)."
+      ]
+    }
+  ],
+  "terms": [
+    ["Rundfunkbeitrag", "eshittirish badali"],
+    ["Beitragsservice", "badalni yig'adigan idora"],
+    ["Beitragsnummer", "badal raqami"],
+    ["Wohnung", "uy-joy / kvartira"],
+    ["anmelden / abmelden", "ro'yxatdan o'tish / ro'yxatdan chiqish"],
+    ["Befreiung", "imtiyoz (ozod qilish)"],
+    ["Ermäßigung", "kamaytirish"],
+    ["Zahlungserinnerung", "to'lov eslatmasi"],
+    ["Festsetzungsbescheid", "qarz summasini belgilovchi rasmiy qaror"],
+    ["Säumniszuschlag", "kechikish jarimasi"],
+    ["Vollstreckung", "majburiy undirish"],
+    ["Lastschrift", "to'g'ridan-to'g'ri debetlash (avtomatik to'lov)"]
+  ],
+  "steps": [
+    { "name": "Uyingizda kimdir allaqachon to'layotganini tekshiring", "text": "Xonadoshlaringiz yoki turmush o'rtog'ingizdan Beitragsnummer'ini so'rang. Agar ular to'lasa, buni xabar qiling — shunda ikki marta to'lamaysiz." },
+    { "name": "O'zingiz to'lasangiz, ro'yxatdan o'ting", "text": "Onlayn yoki javob blankasi orqali ro'yxatdan o'ting. Sizga Beitragsnummer beriladi." },
+    { "name": "Imtiyozga haqingiz borligini tekshiring", "text": "Ayrim ijtimoiy nafaqalarni olsangiz, Befreiung uchun ariza bering va nafaqa qaroringizni ilova qiling." },
+    { "name": "To'lovni sozlang", "text": "To'g'ridan-to'g'ri debetlash (Lastschrift) o'tkazib yuborilgan to'lovlar va jarimalardan saqlanishga yordam beradi." },
+    { "name": "Har bir xatni saqlang", "text": "Beitragsnummer'ingizni yozib qo'ying — har bir o'zgartirish va har bir javob uchun u kerak bo'ladi." }
+  ],
+  "phrases": [
+    ["Für meine Wohnung zahlt bereits …, Beitragsnummer …", "Mening uy-joyim uchun allaqachon … to'laydi, badal raqami …"],
+    ["Ich beantrage die Befreiung vom Rundfunkbeitrag.", "Rundfunkbeitrag'dan ozod qilishni so'rab ariza beraman."],
+    ["Den Bescheid füge ich als Kopie bei.", "Qarorning nusxasini ilova qilyapman."],
+    ["Ich bin am … umgezogen.", "Men … kuni ko'chib o'tdim."],
+    ["Bitte bestätigen Sie mir die Änderung schriftlich.", "Iltimos, o'zgarishni menga yozma ravishda tasdiqlang."]
+  ],
+  "help": ["vz", "mbe"],
+  "sources": [
+    { "label": "Beitragsservice rasmiy veb-sayti (rundfunkbeitrag.de) — miqdor, blanklar, imtiyozlar", "url": "https://www.rundfunkbeitrag.de/" }
+  ],
+  "practice": "Klarineo'da xatni saqlang — javob sanasi haqida eslatma olasiz — va umumiy kvartirangiz uchun „Für meine Wohnung zahlt bereits …“ iborasini o'rganing."
+}

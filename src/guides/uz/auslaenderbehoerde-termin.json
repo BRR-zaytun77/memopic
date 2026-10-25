@@ -1,0 +1,74 @@
+{
+  "title": "Ausländerbehörde uchrashuv xati tushuntirildi — Klarineo",
+  "description": "Ausländerbehördedan Termin xati oldingizmi? U nimani anglatadi, qaysi hujjatlarni olib borish kerak, Fiktionsbescheinigung va uchrashuvni nemischa odob bilan qanday ko'chirish mumkin.",
+  "h1": "Ausländerbehörde uchrashuv xati (Termin): nimani anglatadi va qanday tayyorlanish kerak",
+  "kicker": "Ausländerbehörde",
+  "summary": "Ausländerbehörde (immigratsiya idorasi)dan Termin haqidagi xat sizni uchrashuvga chaqiradi — ko'pincha yashash ruxsatnomasiga ariza berish, uni uzaytirish yoki olish uchun. Ro'yxatdagi barcha hujjatlarni olib boring, vaqtida keling va kela olmasangiz, idora bilan oldindan bog'laning. Joriy ruxsatnomangiz muddati tugashidan oldin uzaytirishga ariza bering.",
+  "sections": [
+    {
+      "h": "Bu xatni kim yuboradi?",
+      "p": [
+        "Ausländerbehörde — Yevropa Ittifoqiga a'zo bo'lmagan davlat fuqarolarining yashash masalalari uchun mas'ul mahalliy immigratsiya idorasi. Uning nomi shaharga qarab farq qiladi — masalan, Ausländeramt, Amt für Migration, Welcome Center yoki Berlinda Landesamt für Einwanderung (LEA). Boshpana jarayonlarining o'zini mahalliy Ausländerbehörde emas, Federal migratsiya va qochqinlar idorasi (BAMF) yuritadi.",
+        "Uchrashuv xati Einladung (taklifnoma), siz band qilgan uchrashuvning Terminbestätigung'i (tasdig'i) yoki hujjatlarni topshirish, barmoq izlarini berish yoki elektron yashash ruxsatnomangizni (elektronischer Aufenthaltstitel, eAT) olish uchun shaxsan kelish talabi (Vorsprache) bo'lishi mumkin."
+      ]
+    },
+    {
+      "h": "Xatda odatda nimalar bo'ladi",
+      "ul": [
+        "Sana, vaqt, manzil va xona — va ko'pincha ish raqami (Aktenzeichen). Yozganingizda uni ko'rsating.",
+        "Maqsad, masalan Aufenthaltserlaubnis'ingizni (yashash ruxsatnomasi) Verlängerung (uzaytirish), birinchi ruxsatnoma yoki eAT kartasini topshirish.",
+        "Talab qilinadigan hujjatlar ro'yxati (Unterlagen). Odatiy: amaldagi pasport, biometrik surat, joriy yashash ruxsatnomasi, ariza blankasi, sog'liq sug'urtasi isboti, daromad isboti (mehnat shartnomasi, ish haqi varaqalari) va ijara shartnomangiz yoki Meldebescheinigung.",
+        "To'lovlar (Gebühren) va ularni qanday to'lash haqida ma'lumot.",
+        "Ba'zan hujjatlarni yuborishingiz kerak bo'lgan muddat."
+      ]
+    },
+    {
+      "h": "Fiktionsbescheinigung: ruxsatnoma jarayon davomida tugasa",
+      "p": [
+        "Joriy yashash ruxsatnomangiz tugashidan oldin uzaytirishga ariza bersangiz, idora qaror qabul qilguncha yashash maqomingiz odatda davom etadi. Buni isbotlash uchun idora Fiktionsbescheinigung (vaqtinchalik guvohnoma) berishi mumkin. Shuning uchun o'z vaqtida ariza berish juda muhim. Ruxsatnomangiz yaqinda tugashini va uchrashuvingiz yo'qligini payqasangiz, darhol idora bilan yozma ravishda bog'laning va ariza berganingiz isbotini saqlang."
+      ]
+    },
+    {
+      "h": "Alohida e'tibor talab qiladigan xatlar",
+      "p": [
+        "Ba'zi xatlar taklifnomadan ko'proq: Anhörung (eshitish) idora sizga qarshi qaror ko'rib chiqayotganini va avval fikr bildirish imkonini berayotganini anglatadi. Bescheid (qaror) huquqiy himoya vositalari uchun muddat bilan kelishi mumkin. Immigratsiya masalalarida ba'zi muddatlar bir oydan qisqaroq bo'lishi mumkin — Rechtsbehelfsbelehrung'ni diqqat bilan o'qing va maslahat xizmati yoki advokatdan tezda maslahat oling."
+      ]
+    }
+  ],
+  "terms": [
+    ["Ausländerbehörde", "immigratsiya idorasi"],
+    ["Termin / Vorsprache", "uchrashuv / shaxsan kelish"],
+    ["Aufenthaltstitel", "yashash huquqi hujjati (umumiy atama)"],
+    ["Aufenthaltserlaubnis", "yashash ruxsatnomasi"],
+    ["Niederlassungserlaubnis", "doimiy yashash ruxsatnomasi"],
+    ["elektronischer Aufenthaltstitel (eAT)", "yashash ruxsatnomasi kartasi"],
+    ["Verlängerung", "uzaytirish"],
+    ["Fiktionsbescheinigung", "arizangiz ko'rib chiqilayotgan vaqtdagi vaqtinchalik guvohnoma"],
+    ["Aktenzeichen", "ish raqami"],
+    ["Gebühr", "to'lov (yig'im)"],
+    ["Anhörung", "eshitish (qarordan oldin fikr bildirish imkoni)"],
+    ["Mitwirkungspflicht", "hamkorlik qilish majburiyati"]
+  ],
+  "steps": [
+    { "name": "Sana, joy va ish raqamini tekshiring", "text": "Uchrashuvni taqvimingizga bir necha kun oldin eslatma bilan yozib qo'ying." },
+    { "name": "Ro'yxatdagi barcha hujjatlarni yig'ing", "text": "Asl nusxalar va nusxalarni olib boring. Pasportingiz amal qilishiga ishonch hosil qiling." },
+    { "name": "Ruxsatnomangiz tugash sanasini tekshiring", "text": "Muddat tugashidan oldin uzaytirishga ariza bering va arizangiz isbotini saqlang." },
+    { "name": "Zarur bo'lsa, erta ko'chiring", "text": "Uchrashuvdan oldin idoraga yozing, ish raqamingizni ko'rsating va yangi sana so'rang." },
+    { "name": "Eshitish va salbiy qarorlar bo'yicha maslahat oling", "text": "Maslahat xizmati yoki advokatga tezda murojaat qiling — muddatlar qisqa bo'lishi mumkin." }
+  ],
+  "phrases": [
+    ["Ich habe einen Termin um … Uhr. Mein Aktenzeichen ist …", "Mening soat … da uchrashuvim bor. Ish raqamim …"],
+    ["Ich möchte meine Aufenthaltserlaubnis verlängern.", "Yashash ruxsatnomamni uzaytirmoqchiman."],
+    ["Mein Aufenthaltstitel läuft am … ab.", "Yashash ruxsatnomamning muddati … kuni tugaydi."],
+    ["Leider kann ich den Termin nicht wahrnehmen. Bitte nennen Sie mir einen neuen Termin.", "Afsuski, uchrashuvga kela olmayman. Iltimos, menga yangi sanani ayting."],
+    ["Welche Unterlagen fehlen noch?", "Yana qaysi hujjatlar yetishmayapti?"],
+    ["Könnte ich bitte eine Fiktionsbescheinigung bekommen?", "Iltimos, Fiktionsbescheinigung ola olamanmi?"]
+  ],
+  "help": ["mbe", "jmd", "fluechtling", "beratungshilfe"],
+  "sources": [
+    { "label": "Federal migratsiya va qochqinlar idorasi (bamf.de)", "url": "https://www.bamf.de/" },
+    { "label": "Yashash to'g'risidagi qonun (Aufenthaltsgesetz), § 81 — yashash huquqi hujjati uchun ariza", "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__81.html" },
+    { "label": "Make it in Germany — viza va yashash bo'yicha rasmiy portal", "url": "https://www.make-it-in-germany.com/" }
+  ],
+  "practice": "Klarineo'ning so'zlashuv mashqi yordamida Ausländerbehörde'dagi uchrashuvni mashq qilishingiz mumkin — nega kelganingizni tushuntirish va qaysi hujjatlar yetishmasligini so'rash."
+}
