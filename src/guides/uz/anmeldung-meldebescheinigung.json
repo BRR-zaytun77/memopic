@@ -1,0 +1,80 @@
+{
+  "title": "Anmeldung va Meldebescheinigung tushuntirildi — Klarineo",
+  "description": "Germaniyada manzilni ro'yxatdan o'tkazish (Anmeldung) qanday ishlaydi: ikki haftalik qoida, uy egasining tasdig'i, Bürgeramt'ga nimalarni olib borish kerak va Meldebescheinigung.",
+  "h1": "Anmeldung va Meldebescheinigung: Germaniyada manzilingizni ro'yxatdan o'tkazish",
+  "kicker": "Bürgeramt",
+  "summary": "Germaniyada kvartiraga ko'chib kirganingizda, ikki hafta ichida manzilingizni ro'yxatga olish idorasida (Bürgeramt, Einwohnermeldeamt yoki Bürgerbüro) ro'yxatdan o'tkazishingiz shart. Sizga pasport yoki shaxsni tasdiqlovchi hujjat va uy egangizdan tasdiq (Wohnungsgeberbestätigung) kerak. Siz ro'yxatdan o'tganlik guvohnomasini (Meldebescheinigung) olasiz, u boshqa ko'plab ishlar uchun kerak bo'ladi.",
+  "sections": [
+    {
+      "h": "Anmeldung nima?",
+      "p": [
+        "Anmeldung — yashash manzilingizni mahalliy ro'yxatga olish organida (Meldebehörde) ro'yxatdan o'tkazish. Federal ro'yxatga olish qonuniga (Bundesmeldegesetz) ko'ra, Germaniyada uyga ko'chib kirgan har bir kishi ko'chib kirgandan keyin ikki hafta ichida ro'yxatdan o'tishi shart. Idora shaharga qarab turlicha ataladi: Bürgeramt, Bürgerbüro, Einwohnermeldeamt yoki Bürgerservice.",
+        "Ro'yxatdan o'tish — muhim birinchi qadam: ko'plab bank hisoblarini ochish, Ausländerbehörde, oilaviy nafaqalar, ish beruvchingiz va boshqalar uchun sizga Meldebescheinigung (ro'yxatdan o'tganlik guvohnomasi) kerak. Germaniyada birinchi marta ro'yxatdan o'tganingizdan keyin Federal markaziy soliq idorasi (Bundeszentralamt für Steuern) soliq identifikatsiya raqamingizni (Steuer-ID) pochta orqali yuboradi."
+      ]
+    },
+    {
+      "h": "Nimalarni olib borish kerak",
+      "ul": [
+        "Pasportingiz yoki milliy shaxsni tasdiqlovchi kartangiz (va ro'yxatdan o'tkazayotgan oila a'zolarining hujjatlari).",
+        "Wohnungsgeberbestätigung — uy egangiz yoki sizga uyni bergan shaxsdan ko'chib kirganingiz haqida tasdiq. Uy egasi buni taqdim etishga qonuniy majbur.",
+        "Agar shahringiz oldindan to'ldirishni so'rasa, ro'yxatdan o'tish blankasi (Anmeldeformular).",
+        "Oila a'zolari uchun: nikoh yoki tug'ilganlik haqidagi guvohnoma kabi hujjatlar so'ralishi mumkin — ba'zan rasmiy tarjima bilan. Shahringiz veb-saytini tekshiring.",
+        "Agar onlayn band qilgan bo'lsangiz, uchrashuv tasdig'i (Terminbestätigung)."
+      ]
+    },
+    {
+      "h": "Uchrashuvlar va xatlar",
+      "p": [
+        "Ko'p shaharlarda uchrashuvni (Termin) onlayn band qilish kerak. Odatda Terminbestätigung (uchrashuv tasdig'i) va ba'zan band qilish raqami (Vorgangsnummer) bilan elektron xat yoki xat olasiz. Ikki hafta ichida uchrashuv ololmasangiz, urinishlaringiz isbotini saqlang — ko'p idoralar bu vaziyatni tushunadi, ammo qoidalar shaharlar o'rtasida farq qiladi.",
+        "Uchrashuvda Meldebescheinigung'ni olasiz, odatda joyida chop etiladi. Ketishdan oldin ismlar, tug'ilgan sana va manzil to'g'ri yozilganini tekshiring."
+      ]
+    },
+    {
+      "h": "Ko'pincha keyin keladigan xatlar",
+      "ul": [
+        "Bundeszentralamt für Steuern'dan Steuer-ID'ingiz — bu xatni ehtiyot qilib saqlang.",
+        "Eshittirish badali (Rundfunkbeitrag) haqida Beitragsservice'dan xat.",
+        "Germaniya ichida ko'chib o'tsangiz, yangi manzilda ro'yxatdan o'tasiz (Ummeldung). Germaniyadan ketsangiz, ro'yxatdan chiqasiz (Abmeldung)."
+      ]
+    },
+    {
+      "h": "O'z vaqtida ro'yxatdan o'tmaslik",
+      "p": [
+        "Kechikib ro'yxatdan o'tish ma'muriy huquqbuzarlik hisoblanadi va jarimaga olib kelishi mumkin. Muhimi, ro'yxatdan o'tmasangiz boshqa muhim ishlarda ham qiyinchilikka duch kelishingiz mumkin. Uy egangizning tasdig'i qo'lingizga tushishi bilan uchrashuvni band qiling."
+      ]
+    }
+  ],
+  "terms": [
+    ["Anmeldung", "ro'yxatdan o'tish (manzilingizni)"],
+    ["Ummeldung / Abmeldung", "manzilni o'zgartirish / ro'yxatdan chiqish"],
+    ["Meldebescheinigung", "ro'yxatdan o'tganlik guvohnomasi"],
+    ["Meldebehörde / Bürgeramt", "ro'yxatga olish idorasi"],
+    ["Wohnungsgeberbestätigung", "uy egasining ko'chib kirganlik tasdig'i"],
+    ["Einzugsdatum", "ko'chib kirgan sana"],
+    ["Termin / Terminbestätigung", "uchrashuv / uchrashuv tasdig'i"],
+    ["Reisepass / Personalausweis", "pasport / shaxsni tasdiqlovchi karta"],
+    ["Hauptwohnung / Nebenwohnung", "asosiy turar joy / qo'shimcha turar joy"],
+    ["Steuer-ID", "soliq identifikatsiya raqami"]
+  ],
+  "steps": [
+    { "name": "Wohnungsgeberbestätigung oling", "text": "Ko'chib kirishingiz bilan uy egangizdan tasdiq so'rang." },
+    { "name": "Uchrashuv band qiling", "text": "Shahringizning onlayn band qilish tizimidan foydalaning yoki idoraga qo'ng'iroq qiling. Tasdiqni saqlab qo'ying." },
+    { "name": "Hujjatlarni tayyorlang", "text": "Pasport yoki shaxsni tasdiqlovchi hujjat, uy egasining tasdig'i, blanka va oila a'zolari uchun hujjatlar." },
+    { "name": "Boring va guvohnomani tekshiring", "text": "Meldebescheinigung'dagi barcha ma'lumotlar to'g'riligiga ishonch hosil qiling." },
+    { "name": "Keyin keladigan xatlarni saqlang", "text": "Ayniqsa Steuer-ID xatini — u ish va soliqlar uchun kerak bo'ladi." }
+  ],
+  "phrases": [
+    ["Ich möchte meinen Wohnsitz anmelden.", "Yashash manzilimni ro'yxatdan o'tkazmoqchiman."],
+    ["Ich bin am … eingezogen.", "Men … kuni ko'chib kirdim."],
+    ["Hier ist die Wohnungsgeberbestätigung.", "Mana uy egasining tasdig'i."],
+    ["Ich habe leider keinen früheren Termin bekommen.", "Afsuski, ertaroq uchrashuv ololmadim."],
+    ["Könnten Sie mir bitte eine Meldebescheinigung ausdrucken?", "Iltimos, menga ro'yxatdan o'tganlik guvohnomasini chop etib bera olasizmi?"]
+  ],
+  "help": ["mbe", "jmd"],
+  "sources": [
+    { "label": "Misol: Berlin xizmat portali — kvartirani ro'yxatdan o'tkazish (service.berlin.de)", "url": "https://service.berlin.de/dienstleistung/120686/" },
+    { "label": "Federal ro'yxatga olish qonuni, § 17 — ro'yxatdan o'tish majburiyati", "url": "https://www.gesetze-im-internet.de/bmg/__17.html" },
+    { "label": "Make it in Germany — xalqaro mutaxassislar uchun rasmiy portal", "url": "https://www.make-it-in-germany.com/" }
+  ],
+  "practice": "Uchrashuvingizdan oldin Klarineo'ning so'zlashuv mashqida Bürgeramt'dagi qisqa suhbatni mashq qiling."
+}

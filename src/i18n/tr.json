@@ -215,5 +215,30 @@
     "impressum": "Künye (Impressum)",
     "disclaimer": "Klarineo genel bilgi verir, hukuki danışmanlık değildir. Klarineo hiçbir Alman resmi kurumuyla bağlantılı değildir.",
     "englishOnly": "İngilizce"
+  },
+  "guide": {
+    "crumb": "Rehberler",
+    "lastReviewed": "Son güncelleme",
+    "minRead": "dk okuma",
+    "inShort": "Kısaca",
+    "keyWords": "Önemli Almanca kelimeler",
+    "german": "Almanca",
+    "meaning": "Anlamı",
+    "whatToDo": "Ne yapmalı",
+    "phrases": "Faydalı Almanca cümleler",
+    "help": "Ücretsiz veya uygun fiyatlı yardımı nereden alırsınız",
+    "sources": "Resmi kaynaklar",
+    "ctaTitle": "Benzer bir mektup mu aldınız?",
+    "ctaText": "Klarineo ile fotoğrafını çekin. Kendi dilinizde bir açıklama, hatırlatma olarak son tarih, öğrenmeniz için önemli cümleler ve Almanca nazik bir yanıt taslağı alırsınız.",
+    "disclaimer": "Genel bilgi, hukuki tavsiye değildir. Klarineo herhangi bir Alman makamıyla bağlantılı değildir.",
+    "disclaimerTail": "Yasalar ve prosedürler değişir, mektubunuzda farklı kurallar veya süreler olabilir — her zaman mektubun kendisini ve resmi kaynağı kontrol edin.",
+    "asideTitle": "Kendi mektubunuzu anlayın",
+    "asideText": "Klarineo ile fotoğrafını çekin: kendi dilinizde açıklama, hatırlatma olarak son tarih ve Almanca nazik bir yanıt taslağı.",
+    "moreGuides": "Diğer rehberler",
+    "allGuides": "Tüm rehberler",
+    "indexH1": "Alman mektupları anlaşılır: yeni gelenler için ücretsiz rehberler",
+    "indexLead": "Alman makamlarından, sigortalardan ve ev sahiplerinden gelen tipik mektupların anlamı, tipik son tarihler, faydalı cümleler ve ücretsiz yardımı nereden bulacağınız.",
+    "indexTitle": "Alman mektupları anlaşılır: ücretsiz rehberler — Klarineo",
+    "indexDesc": "Tipik Alman mektupları için ücretsiz rehberler: Jobcenter, Finanzamt, Ausländerbehörde, Rundfunkbeitrag, Mahnung, ev sahibi mektupları ve trafik cezaları."
   }
 }

@@ -1,0 +1,73 @@
+{
+  "title": "Rundfunkbeitrag mektubu açıklandı — Klarineo",
+  "description": "ARD ZDF Deutschlandradio Beitragsservice'ten mektup mu aldınız? Rundfunkbeitrag nedir, kim öder, muafiyetler, ortak daireler ve zamanında nasıl cevap verilir.",
+  "h1": "Rundfunkbeitrag mektubu açıklandı: Beitragsservice sizden ne istiyor?",
+  "kicker": "Rundfunkbeitrag",
+  "summary": "Rundfunkbeitrag (yayın katkı payı), Almanya'daki kamu radyo ve televizyonunu finanse eden katkı payıdır. Evde kaç kişi yaşadığına veya televizyonunuz olup olmadığına bakılmaksızın, her konut (Wohnung) için bir katkı payı ödenir. Adresinizi kaydettirdikten sonra Beitragsservice genellikle size yazar. Cevap verin — ya kaydolun, evinizde kimin zaten ödediğini bildirin ya da hak ediyorsanız muafiyet için başvurun.",
+  "sections": [
+    {
+      "h": "Bu mektubu kim gönderiyor?",
+      "p": [
+        "Mektup, kamu yayın kuruluşları adına katkı payını toplayan, Köln'deki ARD ZDF Deutschlandradio Beitragsservice'ten gelir. Bu, Yayın Katkı Payı Eyaletler Arası Sözleşmesi'ne (Rundfunkbeitragsstaatsvertrag) dayanan yasal bir yükümlülüktür — bir reklam mektubu değildir ve göz ardı edebileceğiniz bir abonelik de değildir.",
+        "Adresinizi Bürgeramt'ta kaydettirdiğinizde (Anmeldung), kayıt dairesi bilgilerinizi Beitragsservice'e iletir. Bu nedenle birçok yeni gelen, taşındıktan birkaç hafta sonra bir mektup alır."
+      ]
+    },
+    {
+      "h": "Temel kural: her konut için bir katkı payı",
+      "p": [
+        "Katkı payı, kişi başına veya cihaz başına değil, Wohnung (daire veya ev) başına alınır. Yalnız yaşıyorsanız siz ödersiniz. Partner, aile veya ev arkadaşlarıyla (WG) yaşıyorsanız, evde yalnızca bir kişinin ödemesi yeterlidir — diğerleri, zaten ödeyen kişinin katkı payı numarasını (Beitragsnummer) Beitragsservice'e bildirebilir.",
+        "Tutar, federal eyaletlerce belirlenen sabit bir aylık meblağdır; genellikle üç ayda bir ödenir. Güncel tutarı eski makalelere güvenmek yerine resmi web sitesinden kontrol edin."
+      ]
+    },
+    {
+      "h": "Alabileceğiniz tipik mektuplar",
+      "ul": [
+        "Kaydolmanızı (anmelden) veya konutunuz için başka birinin zaten ödeyip ödemediğini bildirmenizi isteyen ilk mektup.",
+        "Beitragsnummer'ınızı ve ödeme tarihlerini içeren bir onay.",
+        "Bir ödeme eksikse bir ödeme hatırlatması (Zahlungserinnerung).",
+        "Festsetzungsbescheid — ödenmemiş tutarı belirleyen resmi karar; genellikle gecikme zammıyla (Säumniszuschlag) birlikte gelir. Genellikle aldıktan sonra bir ay içinde Widerspruch (itiraz) edebilirsiniz; süre mektupta yazılıdır.",
+        "Ödenmemiş tutarlar kalırsa dosya icraya (Vollstreckung) devredilebilir. Buraya kadar gelmesine izin vermeyin — erkenden cevap verin."
+      ]
+    },
+    {
+      "h": "Muafiyet ve indirim",
+      "p": [
+        "Belirli sosyal yardımları alanlar muafiyet (Befreiung) için başvurabilir — örneğin Jobcenter'dan temel gelir desteği alanlar, sosyal yardım (Sozialhilfe) alanlar veya ailesiyle yaşamayan BAföG alıcıları. Engelli bazı kişiler indirimli katkı payı (Ermäßigung) için başvurabilir. Muafiyet otomatik değildir: başvurmanız ve yardım kararınızın bir kopyası gibi bir kanıt göndermeniz gerekir. Formlar rundfunkbeitrag.de adresinde bulunur.",
+        "Taşınırsanız, yurt dışına giderseniz veya zaten ödeyen biriyle birlikte yaşamaya başlarsanız, kaydınızı silebilir veya bilgilerinizi değiştirebilirsiniz (Abmeldung / Änderung) — çevrimiçi olarak."
+      ]
+    }
+  ],
+  "terms": [
+    ["Rundfunkbeitrag", "yayın katkı payı"],
+    ["Beitragsservice", "katkı payını toplayan kurum"],
+    ["Beitragsnummer", "katkı payı numarası"],
+    ["Wohnung", "konut / daire"],
+    ["anmelden / abmelden", "kaydolmak / kaydı sildirmek"],
+    ["Befreiung", "muafiyet"],
+    ["Ermäßigung", "indirim"],
+    ["Zahlungserinnerung", "ödeme hatırlatması"],
+    ["Festsetzungsbescheid", "borç tutarını belirleyen resmi karar"],
+    ["Säumniszuschlag", "gecikme zammı"],
+    ["Vollstreckung", "icra"],
+    ["Lastschrift", "otomatik ödeme (banka talimatı)"]
+  ],
+  "steps": [
+    { "name": "Evinizde zaten birinin ödeyip ödemediğini kontrol edin", "text": "Ev arkadaşlarınıza veya partnerinize Beitragsnummer'larını sorun. Onlar ödüyorsa bunu bildirin — böylece iki kez ödemezsiniz." },
+    { "name": "Ödeyecek kişi sizseniz kaydolun", "text": "Çevrimiçi veya cevap formuyla kaydolun. Bir Beitragsnummer alacaksınız." },
+    { "name": "Muafiyet hakkınız olup olmadığını kontrol edin", "text": "Belirli sosyal yardımlar alıyorsanız Befreiung için başvurun ve yardım kararınızı ekleyin." },
+    { "name": "Ödemeyi ayarlayın", "text": "Otomatik ödeme (Lastschrift), kaçırılan ödemeleri ve gecikme zamlarını önlemenize yardımcı olur." },
+    { "name": "Her mektubu saklayın", "text": "Beitragsnummer'ınızı not edin — her değişiklik ve her cevap için gerekecek." }
+  ],
+  "phrases": [
+    ["Für meine Wohnung zahlt bereits …, Beitragsnummer …", "Konutum için zaten … ödüyor, katkı payı numarası …"],
+    ["Ich beantrage die Befreiung vom Rundfunkbeitrag.", "Yayın katkı payından muafiyet için başvuruyorum."],
+    ["Den Bescheid füge ich als Kopie bei.", "Kararın bir kopyasını ekliyorum."],
+    ["Ich bin am … umgezogen.", "… tarihinde taşındım."],
+    ["Bitte bestätigen Sie mir die Änderung schriftlich.", "Lütfen değişikliği bana yazılı olarak onaylayın."]
+  ],
+  "help": ["vz", "mbe"],
+  "sources": [
+    { "label": "Beitragsservice'in resmi web sitesi (rundfunkbeitrag.de) — tutar, formlar, muafiyetler", "url": "https://www.rundfunkbeitrag.de/" }
+  ],
+  "practice": "Klarineo'da mektubu kaydederek cevap tarihi için hatırlatma alın ve ortak daireniz için „Für meine Wohnung zahlt bereits …“ cümlesini öğrenin."
+}

@@ -215,5 +215,30 @@
     "impressum": "Legal notice (Impressum)",
     "disclaimer": "Klarineo provides general information, not legal advice. Klarineo is not affiliated with any German authority.",
     "englishOnly": "in English"
+  },
+  "guide": {
+    "crumb": "Guides",
+    "lastReviewed": "Last reviewed",
+    "minRead": "min read",
+    "inShort": "In short",
+    "keyWords": "Key German words",
+    "german": "German",
+    "meaning": "Meaning",
+    "whatToDo": "What to do",
+    "phrases": "Useful German phrases",
+    "help": "Where to get free or low-cost help",
+    "sources": "Official sources",
+    "ctaTitle": "Got a letter like this?",
+    "ctaText": "Take a photo with Klarineo. You get an explanation in your language, the deadline as a reminder, the key phrases to learn and a polite reply draft in German.",
+    "disclaimer": "General information, not legal advice. Klarineo is not affiliated with any German authority.",
+    "disclaimerTail": "Laws and procedures change, and your letter may contain different rules or deadlines — always check the letter itself and the official source.",
+    "asideTitle": "Understand your own letter",
+    "asideText": "Photograph it with Klarineo: get an explanation in your language, the deadline as a reminder and a polite German reply draft.",
+    "moreGuides": "More guides",
+    "allGuides": "All guides",
+    "indexH1": "German letters explained: free guides for newcomers",
+    "indexLead": "What common letters from German authorities, insurers and landlords mean, typical deadlines, useful phrases and where to get free help.",
+    "indexTitle": "German letters explained: free guides — Klarineo",
+    "indexDesc": "Free guides to common German letters: Jobcenter, Finanzamt, Ausländerbehörde, Rundfunkbeitrag, Mahnung, landlord letters and traffic fines."
   }
 }

@@ -1,0 +1,76 @@
+{
+  "title": "Uy egasidan Kündigung tushuntirildi — Klarineo",
+  "description": "Germaniyada uy egangizdan Kündigung (shartnomani bekor qilish) oldingizmi? Shakl qoidalari, ogohlantirish muddatlari, sabablar, og'ir ahvol bo'yicha e'tiroz va nega tezda maslahat olish kerak.",
+  "h1": "Uy egasidan Kündigung: bekor qilish xati nimani anglatadi",
+  "kicker": "Vermieter",
+  "summary": "Kündigung — ijara shartnomangizni bekor qilish haqidagi xabarnoma. Germaniyada turar joy kvartiralari ijarachilari yaxshi himoyalangan: bekor qilish yozma va imzolangan bo'lishi kerak, uy egasiga odatda qonuniy tan olingan sabab kerak va qonuniy ogohlantirish muddatlari amal qiladi. Bekor qilish haqiqiy bo'lmasa, ko'rsatilgan kuni ko'chib chiqishingiz shart emas — lekin tezda harakat qilishingiz kerak. Darhol ijarachilar uyushmasi yoki advokatdan maslahat oling.",
+  "sections": [
+    {
+      "h": "Shakl: yozma va imzolangan",
+      "p": [
+        "Uy egasining turar joy ijarasini bekor qilishi qo'lda imzolangan yozma shaklda bo'lishi kerak (§ 568 BGB). Elektron xat, SMS yoki messenjer orqali bekor qilish odatda haqiqiy emas. Xatda bekor qilish sabablari ko'rsatilgan bo'lishi kerak. Kim imzolaganini tekshiring: uy egasi, bir nechta bo'lsa barcha uy egalari yoki vakolatli ko'chmas mulk boshqaruvchisi."
+      ]
+    },
+    {
+      "h": "Oddiy bekor qilish: sabab va ogohlantirish muddati",
+      "p": [
+        "Standart ijara shartnomasini oddiy bekor qilish (ordentliche Kündigung) uchun uy egasiga qonuniy manfaat (berechtigtes Interesse, § 573 BGB) kerak. Odatiy sabablar: shaxsiy ehtiyoj (Eigenbedarf — uy egasi yoki uning oila a'zosi kvartirada yashamoqchi) yoki ijarachining shartnomani jiddiy buzishi. Yangi ijarachidan yuqoriroq ijara haqi olish — haqiqiy sabab emas.",
+        "Uy egalari uchun qonuniy ogohlantirish muddati kvartirada qancha vaqt yashaganingizga bog'liq (§ 573c BGB): odatda uch oy; besh yildan keyin olti oy; sakkiz yildan keyin to'qqiz oy. Xabarnoma o'sha oy uchun hisoblanishi uchun oyning uchinchi ish kunidan kechiktirmay sizga yetib kelishi kerak."
+      ]
+    },
+    {
+      "h": "Ogohlantirishsiz bekor qilish",
+      "p": [
+        "Fristlose Kündigung (ogohlantirishsiz bekor qilish) faqat jiddiy sabablar bilan mumkin, masalan katta ijara qarzi. Ijara qarzi holatlarida to'liq qarzni ma'lum muddat ichida to'lash ba'zi hollarda bunday bekor qilishni haqiqiy bo'lmagan qilib qo'yishi mumkin — qoidalar murakkab, shuning uchun darhol maslahat oling. Nafaqa olsangiz, Jobcenter yoki Sozialamt'dan ijara qarzi qoplanishi mumkinligini so'rang."
+      ]
+    },
+    {
+      "h": "Og'ir ahvol bo'yicha e'tiroz",
+      "p": [
+        "Bekor qilish haqiqiy bo'lsa ham, ko'chib chiqish siz yoki oilangiz uchun asossiz og'ir ahvol (Härte) degani bo'lsa, unga e'tiroz bildirishingiz mumkin — masalan, og'ir kasallik, keksalik, homiladorlik yoki mos almashtiruvchi uy-joy yo'qligi sababli (§ 574 BGB). E'tiroz (Widerspruch) yozma bo'lishi va odatda ijara tugashidan kamida ikki oy oldin uy egasiga yetib borishi kerak."
+      ]
+    },
+    {
+      "h": "Uy egasi nima qila olmaydi",
+      "p": [
+        "Uy egasi sizni chiqarib yuborish uchun shunchaki qulflarni almashtira, narsalaringizni olib chiqib keta yoki suv yoki elektrni o'chira olmaydi. Ko'chib chiqmasangiz, uy egasi sudga chiqarib yuborish da'vosi (Räumungsklage) bilan murojaat qilishi kerak. Faqat sud qarori chiqarib yuborishga ruxsat beradi. Sud xatlariga har doim zudlik bilan javob berish kerak — yordam oling."
+      ]
+    }
+  ],
+  "terms": [
+    ["Kündigung", "bekor qilish (xabarnoma)"],
+    ["Mietvertrag", "ijara shartnomasi"],
+    ["Schriftform", "yozma shakl (imzolangan)"],
+    ["ordentliche / fristlose Kündigung", "oddiy / ogohlantirishsiz bekor qilish"],
+    ["Kündigungsfrist", "ogohlantirish muddati"],
+    ["Eigenbedarf", "uy egasining shaxsiy ehtiyoji"],
+    ["berechtigtes Interesse", "qonuniy manfaat"],
+    ["Mietrückstand", "ijara qarzi"],
+    ["Härte / Härtefall", "og'ir ahvol"],
+    ["Widerspruch", "e'tiroz"],
+    ["Räumungsklage", "chiqarib yuborish bo'yicha sud da'vosi"],
+    ["Mieterverein", "ijarachilar uyushmasi"]
+  ],
+  "steps": [
+    { "name": "Xatni olgan sanangizni yozib oling", "text": "Konvertni saqlang. Xatda ko'rsatilgan tugash sanasini yozib qo'ying." },
+    { "name": "Shakl va sabablarni tekshiring", "text": "U qog'ozda imzolanganmi? Sabablar ko'rsatilganmi? Sizga qaysi ogohlantirish muddati amal qiladi?" },
+    { "name": "Darhol maslahat oling", "text": "Ijarachilar uyushmasi yoki advokatga murojaat qiling. Daromadingiz past bo'lsa, Beratungshilfe haqida so'rang." },
+    { "name": "Hech narsani shoshilib imzolamang", "text": "Maslahat olmasdan bekor qilish kelishuvini (Aufhebungsvertrag) yoki tasdiqnomani imzolamang." },
+    { "name": "Yozma ravishda javob bering", "text": "Javob bering, e'tiroz bildiring yoki og'ir ahvolni yozma ravishda ko'rsating va yuborilganlik isbotini saqlang." }
+  ],
+  "phrases": [
+    ["Ich habe Ihre Kündigung vom … am … erhalten.", "… dagi bekor qilish xatingizni … kuni oldim."],
+    ["Ich widerspreche der Kündigung.", "Bekor qilishga e'tiroz bildiraman."],
+    ["Bitte teilen Sie mir die Gründe für die Kündigung ausführlich mit.", "Iltimos, bekor qilish sabablarini batafsil tushuntiring."],
+    ["Ich berufe mich auf einen Härtefall gemäß § 574 BGB.", "Fuqarolik kodeksining § 574 ga muvofiq og'ir ahvolga tayanaman."],
+    ["Ich lasse die Kündigung rechtlich prüfen.", "Bekor qilishni huquqiy jihatdan tekshirtiryapman."]
+  ],
+  "help": ["mieterverein", "beratungshilfe", "mbe"],
+  "sources": [
+    { "label": "Germaniya Fuqarolik kodeksi, § 568 — bekor qilish shakli", "url": "https://www.gesetze-im-internet.de/bgb/__568.html" },
+    { "label": "Germaniya Fuqarolik kodeksi, § 573c — ogohlantirish muddatlari", "url": "https://www.gesetze-im-internet.de/bgb/__573c.html" },
+    { "label": "Germaniya Fuqarolik kodeksi, § 574b — og'ir ahvol bo'yicha e'tiroz shakli va muddati", "url": "https://www.gesetze-im-internet.de/bgb/__574b.html" },
+    { "label": "Deutscher Mieterbund (mieterbund.de)", "url": "https://www.mieterbund.de/" }
+  ],
+  "practice": "Klarineo xatni tushunishingizga va ijarachilar uyushmasidagi suhbatga tayyorlanishingizga yordam beradi — lekin Kündigung bo'yicha doim shaxsiy maslahat oling."
+}

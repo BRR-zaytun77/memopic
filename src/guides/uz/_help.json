@@ -1,0 +1,47 @@
+{
+  "mbe": {
+    "name": "Migrationsberatung für erwachsene Zuwanderer (MBE) — kattalar uchun migratsiya bo'yicha maslahat",
+    "text": "27 yosh va undan katta muhojirlar uchun bepul va maxfiy maslahat. U federal mablag' hisobidan farovonlik tashkilotlari tomonidan taklif etiladi. Maslahatchilar xatlarni tushunishga, blanklarni to'ldirishga va idoralar bilan bog'lanishga yordam beradi. O'zingizga yaqin ofisni BAMF-NAvI qidiruvi orqali toping.",
+    "url": "https://bamf-navi.bamf.de/"
+  },
+  "jmd": {
+    "name": "Jugendmigrationsdienste (JMD) — yoshlar uchun migratsiya xizmatlari",
+    "text": "Migratsiya kelib chiqishiga ega yoshlar (odatda 12 yoshdan 27 yoshgacha) uchun bepul maslahat: maktab, kasbiy ta'lim, ish va idoralar bilan muomala masalalarida.",
+    "url": "https://www.jugendmigrationsdienste.de/"
+  },
+  "vz": {
+    "name": "Verbraucherzentrale (iste'molchilar maslahat markazi)",
+    "text": "Iste'molchilar maslahat markazlari har bir federal yerda mavjud. Ular hisob-fakturalar, shartnomalar, to'lov eslatmalari va Inkasso xatlari bo'yicha yordam beradi. Ba'zi ma'lumotlar bepul; shaxsiy maslahat uchun kichik haq olinishi mumkin.",
+    "url": "https://www.verbraucherzentrale.de/"
+  },
+  "mieterverein": {
+    "name": "Mieterverein (ijarachilar uyushmasi)",
+    "text": "Mahalliy ijarachilar uyushmalari a'zolik badali evaziga o'z a'zolariga ijara haqi, kommunal to'lovlar hisobi va shartnomani bekor qilish (Kündigung) bo'yicha huquqiy maslahat beradi. Ko'pchiligi Deutscher Mieterbund a'zosidir.",
+    "url": "https://www.mieterbund.de/"
+  },
+  "lohnsteuer": {
+    "name": "Lohnsteuerhilfeverein (daromad solig'i bo'yicha yordam uyushmasi)",
+    "text": "A'zolikka asoslangan uyushmalar xodimlarga, pensionerlarga va ba'zi boshqa guruhlarga daromad solig'i deklaratsiyasi va e'tirozlar (Widerspruch) bo'yicha qonun belgilagan doirada yordam berishi mumkin. Ular yakka tartibdagi tadbirkorlikdan olingan daromad bo'yicha maslahat bera olmaydi.",
+    "url": ""
+  },
+  "schuldner": {
+    "name": "Schuldnerberatung (qarzlar bo'yicha maslahat)",
+    "text": "Munitsipalitetlar va farovonlik tashkilotlari yuritadigan rasmiy tan olingan qarz maslahat xizmatlari odatda bepul. Ular talablarni tekshirishga, kreditorlar bilan gaplashishga va to'lov rejasini tuzishga yordam beradi.",
+    "url": ""
+  },
+  "beratungshilfe": {
+    "name": "Beratungshilfe (huquqiy maslahat yordami)",
+    "text": "Daromadingiz past bo'lsa, o'zingizning Amtsgericht (tuman sudi)ingizda Beratungshilfeschein uchun ariza berishingiz mumkin. U bilan advokat sizga kichik belgilangan haq evaziga maslahat bera oladi.",
+    "url": ""
+  },
+  "upd": {
+    "name": "Unabhängige Patientenberatung Deutschland (UPD) — Germaniyada mustaqil bemorlar maslahati",
+    "text": "Bemorlar va sug'urtalanganlar uchun kasallik sug'urtasi va bemor huquqlari bo'yicha mustaqil, bepul maslahat.",
+    "url": "https://www.patientenberatung.de/"
+  },
+  "fluechtling": {
+    "name": "Qochqinlar va boshpana so'rovchilar bo'yicha maslahat",
+    "text": "Agar boshpana ishingiz bo'lsa yoki insonparvarlik asosida yashash ruxsatnomangiz bo'lsa, mahalliy qochqinlar maslahat xizmatlari (ko'pincha farovonlik tashkilotlari yoki qochqinlar kengashlari yuritadi) yordam bera oladi — odatda bepul.",
+    "url": ""
+  }
+}

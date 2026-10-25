@@ -25,6 +25,26 @@ const GUIDE = Object.fromEntries(GUIDES.map((s) => [s, { slug: s, ...read(`src/g
 const PRIVACY = read('src/legal/privacy.json');
 const TERMS = read('src/legal/terms.json');
 
+// Barcha tillar i18n (bosh sahifa + guide label'lari).
+const T = Object.fromEntries(LANGS.map((l) => [l.code, read(`src/i18n/${l.code}.json`)]));
+// Tarjima qilingan qo'llanmalar: src/guides/<til>/<slug>.json (+ _help.json).
+// Fayl yo'q bo'lsa — o'sha til shu qo'llanmani o'tkazib yuboradi (hreflang ham qo'shmaydi).
+const GUIDE_TR = { en: GUIDE };
+const HELP_TR = { en: HELP };
+for (const l of LANGS) {
+  if (l.code === 'en') continue;
+  const dir = `src/guides/${l.code}`;
+  if (!existsSync(join(ROOT, dir, '_help.json'))) continue;
+  HELP_TR[l.code] = read(`${dir}/_help.json`);
+  const g = {};
+  for (const s of GUIDES) if (existsSync(join(ROOT, dir, `${s}.json`))) g[s] = { slug: s, ...read(`${dir}/${s}.json`) };
+  GUIDE_TR[l.code] = g;
+}
+const hasGuide = (l, s) => Boolean(GUIDE_TR[l.code] && GUIDE_TR[l.code][s]);
+const guideLangs = (s) => LANGS.filter((l) => hasGuide(l, s));
+const langGuides = (l) => GUIDES.filter((s) => hasGuide(l, s));
+const indexLangs = () => LANGS.filter((l) => l.code === 'en' || langGuides(l).length > 0);
+
 for (const f of ['assets/img/og-en.png', 'assets/img/icon-192.png', 'assets/img/favicon.svg']) {
   if (!existsSync(join(ROOT, f))) throw new Error(`${f} yo'q — avval: npm run images`);
 }
@@ -40,12 +60,25 @@ const ASSET_V = createHash('sha1')
 const esc = (s) =>
   String(s ?? '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 
+/** Meta description uchun ≤n belgi (so'z chegarasida kesib, … qo'shadi). To'liq matn JSON-LD'da qoladi. */
+const clip = (s, n = 160) => {
+  s = String(s ?? '').trim();
+  if (s.length <= n) return s;
+  const cut = s.slice(0, n - 1);
+  const sp = cut.lastIndexOf(' ');
+  return (sp > n - 40 ? cut.slice(0, sp) : cut).replace(/[\s.,;:!?…—-]+$/u, '') + '…';
+};
+
 /** Sayt ichidagi yo'l (BASE bilan), masalan `ru/` → `/memopic/ru/`. */
 const url = (p = '') => BASE + p;
 /** To'liq URL. */
 const abs = (p = '') => ORIGIN + url(p);
 const homePath = (l) => (l.path ? `${l.path}/` : '');
 const guidePath = (slug) => `guides/${slug}/`;
+/** Til bo'yicha qo'llanma yo'li, masalan `ru/guides/<slug>/`. */
+const gp = (l, slug) => `${homePath(l)}guides/${slug}/`;
+/** Til bo'yicha qo'llanmalar ro'yxati yo'li, masalan `ru/guides/`. */
+const gIdx = (l) => `${homePath(l)}guides/`;
 const P = { guides: 'guides/', privacy: 'privacy-policy/', terms: 'terms/', impressum: 'impressum/' };
 
 function assertKeys(ref, obj, path, file) {
@@ -96,7 +129,7 @@ function head(l, o) {
 <meta http-equiv="Content-Security-Policy" content="${CSP}">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>${esc(o.title)}</title>
-<meta name="description" content="${esc(o.desc)}">
+<meta name="description" content="${esc(clip(o.desc))}">
 ${o.robots ? `<meta name="robots" content="${o.robots}">` : '<meta name="robots" content="index, follow, max-image-preview:large">'}
 ${o.path != null ? `<link rel="canonical" href="${abs(o.path)}">` : ''}
 ${alt}
@@ -113,7 +146,7 @@ ${o.xdef != null ? `<link rel="alternate" hreflang="x-default" href="${abs(o.xde
 <meta property="og:site_name" content="Klarineo">
 <meta property="og:locale" content="${l.og}">
 <meta property="og:title" content="${esc(o.title)}">
-<meta property="og:description" content="${esc(o.desc)}">
+<meta property="og:description" content="${esc(clip(o.desc))}">
 ${o.path != null ? `<meta property="og:url" content="${abs(o.path)}">` : ''}
 <meta property="og:image" content="${abs(og)}">
 <meta property="og:image:width" content="1200">
@@ -179,7 +212,7 @@ function footer(l, t) {
       <ul>
         <li><a href="${LINKS.playStore}" rel="noopener">Google Play</a></li>
         <li><a href="${LINKS.appStore}" rel="noopener">App Store</a></li>
-        <li><a href="${url(P.guides)}"${hl}>${esc(t.footer.guides)}</a>${tag}</li>
+        <li><a href="${url(langGuides(l).length ? gIdx(l) : gIdx(EN))}"${langGuides(l).length ? '' : hl}>${esc(t.footer.guides)}</a>${langGuides(l).length ? '' : tag}</li>
       </ul>
     </div>
     <div>
@@ -366,10 +399,10 @@ function homePage(l, t) {
     <h2 class="h2">${esc(t.letters.title)}</h2>
     <p class="sub">${esc(t.letters.sub)}</p>
     <ul class="letter-grid">
-      ${GUIDES.map((s) => `<li><a class="letter-card" href="${url(guidePath(s))}"${hl}><span class="env">${icon('letter')}</span><span><b>${esc(t.letters.items[s])}</b><small>${esc(t.letters.more)} ${icon('arrow', 'ic flip')}</small></span></a></li>`).join('\n      ')}
+      ${GUIDES.map((s) => { const h = hasGuide(l, s); const href = url(h ? gp(l, s) : gp(EN, s)); const ihl = h ? '' : ' hreflang="en"'; return `<li><a class="letter-card" href="${href}"${ihl}><span class="env">${icon('letter')}</span><span><b>${esc(t.letters.items[s])}</b><small>${esc(t.letters.more)} ${icon('arrow', 'ic flip')}</small></span></a></li>`; }).join('\n      ')}
     </ul>
     ${t.letters.note ? `<p class="note">${esc(t.letters.note)}</p>` : ''}
-    <p><a class="btn btn-ghost" href="${url(P.guides)}"${hl}>${icon('book')}${esc(t.letters.all)}</a></p>
+    <p><a class="btn btn-ghost" href="${url(langGuides(l).length ? gIdx(l) : gIdx(EN))}"${langGuides(l).length ? '' : hl}>${icon('book')}${esc(t.letters.all)}</a></p>
   </div>
 </section>
 
@@ -425,32 +458,34 @@ function homePage(l, t) {
 const enOnly = (p) => ({ alternates: [{ l: EN, path: p }], xdef: p, path: p });
 const toEnHome = () => url('');
 
-function storeAside(cur) {
+function storeAside(l, t, cur) {
+  const g = t.guide;
   return `
-  <aside class="aside" aria-label="Klarineo app">
+  <aside class="aside" aria-label="Klarineo">
     <div class="aside-card">
-      <h2>Understand your own letter</h2>
-      <p>Photograph it with Klarineo: get an explanation in your language, the deadline as a reminder and a polite German reply draft.</p>
-      ${stores(en)}
+      <h2>${esc(g.asideTitle)}</h2>
+      <p>${esc(g.asideText)}</p>
+      ${stores(t)}
     </div>
     <div class="aside-card">
-      <h2>More guides</h2>
-      <ul>${GUIDES.filter((s) => s !== cur).slice(0, 6).map((s) => `<li><a href="${url(guidePath(s))}">${esc(en.letters.items[s])}</a></li>`).join('')}</ul>
-      <p><a href="${url(P.guides)}">All guides</a></p>
+      <h2>${esc(g.moreGuides)}</h2>
+      <ul>${langGuides(l).filter((s) => s !== cur).slice(0, 6).map((s) => `<li><a href="${url(gp(l, s))}">${esc(t.letters.items[s])}</a></li>`).join('')}</ul>
+      <p><a href="${url(gIdx(l))}">${esc(g.allGuides)}</a></p>
     </div>
   </aside>`;
 }
 
 const DISCLAIMER = 'General information, not legal advice. Klarineo is not affiliated with any German authority.';
 
-function words(g) {
-  const parts = [g.summary, ...g.sections.flatMap((s) => [s.h, ...(s.p ?? []), ...(s.ul ?? [])]), ...g.terms.flat(), ...g.steps.flatMap((s) => [s.name, s.text]), ...g.phrases.flat(), g.practice, ...g.help.map((h) => HELP[h].text)];
+function words(g, help) {
+  const parts = [g.summary, ...g.sections.flatMap((s) => [s.h, ...(s.p ?? []), ...(s.ul ?? [])]), ...g.terms.flat(), ...g.steps.flatMap((s) => [s.name, s.text]), ...g.phrases.flat(), g.practice, ...g.help.map((h) => help[h].text)];
   return parts.join(' ').split(/\s+/).filter(Boolean).length;
 }
 
-function guidePage(g) {
-  const path = guidePath(g.slug);
-  const crumbs = [['Klarineo', ''], ['Guides', P.guides], [g.kicker, path]];
+function guidePage(l, t, g, help) {
+  const G = t.guide;
+  const path = gp(l, g.slug);
+  const crumbs = [['Klarineo', homePath(l)], [G.crumb, gIdx(l)], [g.kicker, path]];
   const sections = g.sections
     .map(
       (s) => `
@@ -459,10 +494,10 @@ function guidePage(g) {
       ${s.ul ? `<ul>${s.ul.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}`,
     )
     .join('');
-  const help = g.help
+  const helpHtml = g.help
     .map((k) => {
-      const h = HELP[k];
-      if (!h) throw new Error(`${g.slug}: help «${k}» yo'q`);
+      const h = help[k];
+      if (!h) throw new Error(`${g.slug} (${l.code}): help «${k}» yo'q`);
       return `<li><b>${h.url ? `<a href="${h.url}" rel="noopener">${esc(h.name)}</a>` : esc(h.name)}</b>${esc(h.text)}</li>`;
     })
     .join('');
@@ -472,35 +507,35 @@ function guidePage(g) {
     ${crumbsHtml(crumbs)}
     <p class="kicker">${icon('letter')}${esc(g.kicker)}</p>
     <h1>${esc(g.h1)}</h1>
-    <div class="meta-line"><span>${icon('calendar')}Last reviewed: <time datetime="${UPDATED}">${UPDATED_HUMAN}</time></span><span>${icon('book')}${Math.max(3, Math.round(words(g) / 200))} min read</span></div>
+    <div class="meta-line"><span>${icon('calendar')}${esc(G.lastReviewed)}: <time datetime="${UPDATED}">${UPDATED_HUMAN}</time></span><span>${icon('book')}${Math.max(3, Math.round(words(g, help) / 200))} ${esc(G.minRead)}</span></div>
   </div>
 </header>
 <div class="article">
   <div class="wrap article-in">
     <article class="prose">
-      <div class="tldr"><b>In short</b><p>${esc(g.summary)}</p></div>
+      <div class="tldr"><b>${esc(G.inShort)}</b><p>${esc(g.summary)}</p></div>
       ${sections}
-      <h2>Key German words</h2>
-      <table class="terms"><thead><tr><th scope="col">German</th><th scope="col">Meaning</th></tr></thead><tbody>
+      <h2>${esc(G.keyWords)}</h2>
+      <table class="terms"><thead><tr><th scope="col">${esc(G.german)}</th><th scope="col">${esc(G.meaning)}</th></tr></thead><tbody>
         ${g.terms.map(([de, m]) => `<tr><td lang="de">${esc(de)}</td><td>${esc(m)}</td></tr>`).join('\n        ')}
       </tbody></table>
-      <h2>What to do</h2>
+      <h2>${esc(G.whatToDo)}</h2>
       <ol class="todo">${g.steps.map((s) => `<li><b>${esc(s.name)}</b><span>${esc(s.text)}</span></li>`).join('')}</ol>
-      <h2>Useful German phrases</h2>
+      <h2>${esc(G.phrases)}</h2>
       <ul class="phrases">${g.phrases.map(([de, m]) => `<li><q lang="de">${esc(de)}</q><span>${esc(m)}</span></li>`).join('')}</ul>
       <div class="practice">${icon('mic')}<p>${esc(g.practice)}</p></div>
-      <h2>Where to get free or low-cost help</h2>
-      <ul class="help-list">${help}</ul>
-      <h2>Official sources</h2>
+      <h2>${esc(G.help)}</h2>
+      <ul class="help-list">${helpHtml}</ul>
+      <h2>${esc(G.sources)}</h2>
       <ul class="sources">${g.sources.map((s) => `<li><a href="${s.url}" rel="noopener">${esc(s.label)}</a></li>`).join('')}</ul>
       <div class="guide-cta">
-        <h2>Got a letter like this?</h2>
-        <p>Take a photo with Klarineo. You get an explanation in your language, the deadline as a reminder, the key phrases to learn and a polite reply draft in German.</p>
-        ${stores(en)}
+        <h2>${esc(G.ctaTitle)}</h2>
+        <p>${esc(G.ctaText)}</p>
+        ${stores(t)}
       </div>
-      <div class="disclaimer">${icon('info')}<p><strong>${DISCLAIMER}</strong> Laws and procedures change, and your letter may contain different rules or deadlines — always check the letter itself and the official source. Last reviewed: ${UPDATED_HUMAN}.</p></div>
+      <div class="disclaimer">${icon('info')}<p><strong>${esc(G.disclaimer)}</strong> ${esc(G.disclaimerTail)} ${esc(G.lastReviewed)}: ${UPDATED_HUMAN}.</p></div>
     </article>
-    ${storeAside(g.slug)}
+    ${storeAside(l, t, g.slug)}
   </div>
 </div>`;
   const jsonld = [
@@ -509,72 +544,77 @@ function guidePage(g) {
       '@type': 'Article',
       headline: g.h1.length > 110 ? g.title.replace(/ — Klarineo$/, '') : g.h1,
       description: g.description,
-      inLanguage: 'en',
+      inLanguage: l.hreflang,
       datePublished: UPDATED,
       dateModified: UPDATED,
       author: { '@id': ORG_ID },
       publisher: { '@id': ORG_ID },
       mainEntityOfPage: abs(path),
-      image: abs('assets/img/og-en.png'),
+      image: abs(`assets/img/og-${l.code}.png`),
       about: { '@type': 'Thing', name: g.kicker },
       isPartOf: { '@id': SITE_ID },
     },
     {
       '@context': 'https://schema.org',
       '@type': 'HowTo',
-      name: `What to do: ${g.h1.split(':')[0]}`,
-      inLanguage: 'en',
+      name: `${G.whatToDo}: ${g.h1.split(':')[0]}`,
+      inLanguage: l.hreflang,
       step: g.steps.map((s, i) => ({ '@type': 'HowToStep', position: i + 1, name: s.name, text: s.text })),
     },
     crumbsLd(crumbs),
     orgLd(),
   ];
-  return page(EN, en, { title: g.title, desc: g.description, ...enOnly(path), type: 'article', jsonld }, body, { langHref: (x) => url(homePath(x)) });
+  const alternates = guideLangs(g.slug).map((x) => ({ l: x, path: gp(x, g.slug) }));
+  return page(l, t, { title: g.title, desc: g.description, path, alternates, xdef: gp(EN, g.slug), type: 'article', jsonld }, body, { langHref: (x) => url(hasGuide(x, g.slug) ? gp(x, g.slug) : homePath(x)) });
 }
 
-function guidesIndex() {
-  const path = P.guides;
-  const crumbs = [['Klarineo', ''], ['Guides', path]];
+function guidesIndex(l, t) {
+  const G = t.guide;
+  const path = gIdx(l);
+  const crumbs = [['Klarineo', homePath(l)], [G.crumb, path]];
+  const slugs = langGuides(l);
   const body = `
 <header class="page-head">
   <div class="wrap">
     ${crumbsHtml(crumbs)}
-    <p class="kicker">${icon('book')}Guides</p>
-    <h1>German letters explained: free guides for newcomers</h1>
-    <p class="lead">What common letters from German authorities, insurers and landlords mean, typical deadlines, useful phrases and where to get free help. Last reviewed: ${UPDATED_HUMAN}.</p>
+    <p class="kicker">${icon('book')}${esc(G.crumb)}</p>
+    <h1>${esc(G.indexH1)}</h1>
+    <p class="lead">${esc(G.indexLead)} ${esc(G.lastReviewed)}: ${UPDATED_HUMAN}.</p>
   </div>
 </header>
 <section>
   <div class="wrap">
     <ul class="guides-list">
-      ${GUIDES.map((s) => {
-        const g = GUIDE[s];
-        return `<li><a href="${url(guidePath(s))}"><span class="tag">${esc(g.kicker)}</span><h2>${esc(g.h1)}</h2><p>${esc(g.description)}</p></a></li>`;
+      ${slugs.map((s) => {
+        const g = GUIDE_TR[l.code][s];
+        return `<li><a href="${url(gp(l, s))}"><span class="tag">${esc(g.kicker)}</span><h2>${esc(g.h1)}</h2><p>${esc(g.description)}</p></a></li>`;
       }).join('\n      ')}
     </ul>
-    <div class="disclaimer">${icon('info')}<p>${DISCLAIMER}</p></div>
+    <div class="disclaimer">${icon('info')}<p>${esc(G.disclaimer)}</p></div>
   </div>
 </section>`;
+  const alternates = indexLangs().map((x) => ({ l: x, path: gIdx(x) }));
   const jsonld = [
     {
       '@context': 'https://schema.org',
       '@type': 'CollectionPage',
-      name: 'German letters explained — Klarineo guides',
+      name: G.indexTitle,
       url: abs(path),
-      inLanguage: 'en',
+      inLanguage: l.hreflang,
       isPartOf: { '@id': SITE_ID },
       mainEntity: {
         '@type': 'ItemList',
-        itemListElement: GUIDES.map((s, i) => ({ '@type': 'ListItem', position: i + 1, url: abs(guidePath(s)), name: GUIDE[s].h1 })),
+        itemListElement: slugs.map((s, i) => ({ '@type': 'ListItem', position: i + 1, url: abs(gp(l, s)), name: GUIDE_TR[l.code][s].h1 })),
       },
     },
     crumbsLd(crumbs),
   ];
   return page(
-    EN,
-    en,
-    { title: 'German letters explained: free guides — Klarineo', desc: 'Free English guides to common German letters: Jobcenter, Finanzamt, Ausländerbehörde, Rundfunkbeitrag, Mahnung, landlord letters and traffic fines.', ...enOnly(path), jsonld },
+    l,
+    t,
+    { title: G.indexTitle, desc: G.indexDesc, path, alternates, xdef: gIdx(EN), jsonld },
     body,
+    { langHref: (x) => url(x.code === 'en' || langGuides(x).length ? gIdx(x) : homePath(x)) },
   );
 }
 
@@ -717,26 +757,35 @@ function notFound() {
 
 // --- sitemap, robots, llms.txt, manifest ------------------------------------
 
-function sitemap(enOnlyPaths) {
-  const home = LANGS.map(
-    (l) => `  <url>
-    <loc>${abs(homePath(l))}</loc>
+function sitemap() {
+  // Ko'p tilli URL to'plami: bir URL + o'sha sahifaning barcha tildagi hreflang alternatelari.
+  const entry = (loc, langs, pathOf) => {
+    const alts = langs
+      .map((x) => `    <xhtml:link rel="alternate" hreflang="${x.hreflang}" href="${abs(pathOf(x))}"/>`)
+      .join('\n');
+    return `  <url>
+    <loc>${abs(loc)}</loc>
     <lastmod>${UPDATED}</lastmod>
-${LANGS.map((x) => `    <xhtml:link rel="alternate" hreflang="${x.hreflang}" href="${abs(homePath(x))}"/>`).join('\n')}
-    <xhtml:link rel="alternate" hreflang="x-default" href="${abs(homePath(EN))}"/>
-  </url>`,
-  );
-  const rest = enOnlyPaths.map(
-    (p) => `  <url>
-    <loc>${abs(p)}</loc>
-    <lastmod>${UPDATED}</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="${abs(p)}"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="${abs(p)}"/>
-  </url>`,
-  );
+${alts}
+    <xhtml:link rel="alternate" hreflang="x-default" href="${abs(pathOf(EN))}"/>
+  </url>`;
+  };
+  const urls = [];
+  // Bosh sahifalar (barcha til)
+  for (const l of LANGS) urls.push(entry(homePath(l), LANGS, (x) => homePath(x)));
+  // Qo'llanmalar ro'yxati (tarjima bor tillar)
+  const idx = indexLangs();
+  for (const l of idx) urls.push(entry(gIdx(l), idx, (x) => gIdx(x)));
+  // Har bir qo'llanma — mavjud tillari bo'yicha
+  for (const s of GUIDES) {
+    const langs = guideLangs(s);
+    for (const l of langs) urls.push(entry(gp(l, s), langs, (x) => gp(x, s)));
+  }
+  // Huquqiy sahifalar (faqat EN)
+  for (const p of [P.privacy, P.terms, P.impressum]) urls.push(entry(p, [EN], () => p));
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-${[...home, ...rest].join('\n')}
+${urls.join('\n')}
 </urlset>
 `;
 }
@@ -862,25 +911,28 @@ for (const d of Object.values(P)) rmSync(join(ROOT, d), { recursive: true, force
 
 const out = [];
 for (const l of LANGS) {
-  const t = read(`src/i18n/${l.code}.json`);
+  const t = T[l.code];
   assertKeys(en, t, '', `src/i18n/${l.code}.json`);
   write(`${homePath(l)}index.html`, homePage(l, t));
   out.push(homePath(l) || '/');
 }
-for (const s of GUIDES) {
-  write(`${guidePath(s)}index.html`, guidePage(GUIDE[s]));
-  out.push(guidePath(s));
+for (const l of indexLangs()) {
+  const t = T[l.code];
+  for (const s of langGuides(l)) {
+    write(`${gp(l, s)}index.html`, guidePage(l, t, GUIDE_TR[l.code][s], HELP_TR[l.code]));
+    out.push(gp(l, s));
+  }
+  write(`${gIdx(l)}index.html`, guidesIndex(l, t));
+  out.push(gIdx(l));
 }
-write(`${P.guides}index.html`, guidesIndex());
 write(`${P.privacy}index.html`, legalPage(PRIVACY, P.privacy, 'Privacy policy'));
 write(`${P.terms}index.html`, legalPage(TERMS, P.terms, 'Terms of use'));
 write(`${P.impressum}index.html`, impressumPage());
-out.push(P.guides, P.privacy, P.terms, P.impressum);
+out.push(P.privacy, P.terms, P.impressum);
 write('privacy-policy.html', oldPrivacyRedirect());
 write('404.html', notFound());
 
-const enOnlyPaths = [P.guides, ...GUIDES.map(guidePath), P.privacy, P.terms, P.impressum];
-write('sitemap.xml', sitemap(enOnlyPaths));
+write('sitemap.xml', sitemap());
 write('robots.txt', robots());
 write('llms.txt', llmsTxt());
 write('llms-full.txt', llmsFull());
@@ -888,5 +940,7 @@ write('site.webmanifest', manifest());
 write(`${INDEXNOW_KEY}.txt`, `${INDEXNOW_KEY}\n`);
 write('.nojekyll', '');
 
+const trLangs = LANGS.filter((l) => l.code !== 'en' && langGuides(l).length);
+const trCount = trLangs.reduce((n, l) => n + langGuides(l).length, 0);
 console.log(`✓ ${out.length} sahifa + 404, privacy-policy.html, sitemap.xml, robots.txt, llms.txt, llms-full.txt`);
-console.log(`  qo'llanmalar (so'z soni): ${GUIDES.map((s) => `${s}=${words(GUIDE[s])}`).join(', ')}`);
+console.log(`  qo'llanmalar: EN ${GUIDES.length} + tarjima ${trCount} (${trLangs.map((l) => l.code).join(', ')})`);

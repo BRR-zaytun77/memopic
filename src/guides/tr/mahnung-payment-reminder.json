@@ -1,0 +1,74 @@
+{
+  "title": "Mahnung (ödeme hatırlatması) açıklandı — Klarineo",
+  "description": "Almanya'da Mahnung veya Inkasso mektubu mu aldınız? Hatırlatmalar, tahsilat şirketleri ve mahkeme Mahnbescheid'ı nasıl işler — ve süreler dolmadan önce ne yapmalısınız.",
+  "h1": "Mahnung açıklandı: ödeme hatırlatmaları, Inkasso mektupları ve Mahnbescheid",
+  "kicker": "Mahnung",
+  "summary": "Mahnung, bir ödemenin gecikmiş olduğunu bildiren hatırlatmadır. Göz ardı etmeyin: talebin doğru olup olmadığını kontrol edin, sonra ödeyin, taksit planı isteyin veya yazılı olarak itiraz edin. Mahkemeden gelen bir Mahnbescheid konusunda özellikle dikkatli olun — genellikle cevap vermek için yalnızca iki haftanız vardır.",
+  "sections": [
+    {
+      "h": "Mahnung nedir?",
+      "p": [
+        "Mahnung (hatırlatma), bir fatura zamanında ödenmediğinde gönderilir — örneğin bir telefon sözleşmesi, çevrimiçi sipariş, elektrik, spor salonu veya doktor faturası için. İlk mektup genellikle Zahlungserinnerung (ödeme hatırlatması) olarak adlandırılır. Sonraki mektuplarda 1. Mahnung, 2. Mahnung veya letzte Mahnung (son hatırlatma) yazabilir. Şirket hatırlatma ücretleri (Mahngebühren) ve gecikme faizi (Verzugszinsen) ekleyebilir.",
+        "Bir hatırlatma, parayı borçlu olduğunuz anlamına otomatik olarak gelmez. Hatalar olur: ödeme zaten yapılmış olabilir, sözleşme iptal edilmiş olabilir ya da tutar yanlış olabilir. Ödemeden önce kontrol edin — ama hızlı davranın."
+      ]
+    },
+    {
+      "h": "Inkasso: tahsilat şirketi yazdığında",
+      "p": [
+        "Bir fatura ödenmemiş kalırsa, şirket talebi bir tahsilat şirketine (Inkassounternehmen veya Inkassobüro) devredebilir. Inkasso mektupları çoğu zaman tehditkâr görünür, ancak bir Inkasso şirketi kendi başına mallarınıza veya maaşınıza el koyamaz — bunun için bir mahkeme kararı gerekir.",
+        "Almanya'daki meşru tahsilat şirketlerinin kayıtlı olması gerekir. Bunu resmi hukuki hizmetler sicilinden (Rechtsdienstleistungsregister) kontrol edebilirsiniz. Bir bağlantı üzerinden ödeme yapmanızı isteyen e-posta veya kısa mesajlara dikkat edin — sahte Inkasso mesajları yaygındır. Asıl alacaklıyı veya talebi tanımıyorsanız, kontrol etmeden ödeme yapmayın."
+      ]
+    },
+    {
+      "h": "Mahnbescheid: mahkemeden gelen mektup",
+      "p": [
+        "Alacaklı, gerichtliches Mahnverfahren'de (mahkeme ihtar usulü) bir mahkemeden Mahnbescheid (mahkeme ödeme emri) talep edebilir. Resmi tebligat olarak gelir, çoğunlukla sarı bir zarfta ve bir Amtsgericht'ten (asliye mahkemesi) gelir. Mahkeme talebin haklı olup olmadığını kontrol etmez.",
+        "Harekete geçmeniz gereken an budur: tebliğden sonra iki hafta içinde, yanında gelen formu kullanarak Widerspruch (itiraz) edebilirsiniz. Hiçbir şey yapmazsanız alacaklı bir Vollstreckungsbescheid (icra emri) alabilir. Buna karşı yine genellikle iki hafta içinde Einspruch (itiraz) edebilirsiniz. Bundan sonra icra memuru (Gerichtsvollzieher) aracılığıyla icra mümkün hale gelir."
+      ]
+    },
+    {
+      "h": "Seçenekleriniz",
+      "ul": [
+        "Talep doğruysa: tutarı ödeyin veya yazılı olarak taksit planı (Ratenzahlung) isteyin.",
+        "Talep yanlışsa: yazılı olarak itiraz edin, nedenini açıklayın ve kanıt ekleyin (örneğin bir banka hesap dökümü veya iptal onayı).",
+        "Emin değilseniz: ödeme yapmadan veya bir şey imzalamadan önce bir tüketici danışma merkezine veya borç danışmanlığına sorun.",
+        "Birden fazla borcunuz varsa: ücretsiz borç danışmanlığı (Schuldnerberatung) bir plan yapmanıza yardımcı olabilir."
+      ]
+    }
+  ],
+  "terms": [
+    ["Rechnung", "fatura"],
+    ["Zahlungserinnerung", "ödeme hatırlatması"],
+    ["Mahnung / letzte Mahnung", "hatırlatma / son hatırlatma"],
+    ["Mahngebühren", "hatırlatma ücretleri"],
+    ["Verzugszinsen", "gecikme faizi"],
+    ["Forderung", "talep (borçlu olunan para)"],
+    ["Gläubiger", "alacaklı"],
+    ["Inkassounternehmen", "tahsilat şirketi"],
+    ["Ratenzahlung", "taksitle ödeme"],
+    ["Mahnbescheid", "mahkeme ödeme emri"],
+    ["Widerspruch / Einspruch", "itiraz"],
+    ["Vollstreckungsbescheid", "icra emri"]
+  ],
+  "steps": [
+    { "name": "Asıl faturayı bulun", "text": "Hatırlatmayı fatura, sözleşmeniz ve banka hesap dökümlerinizle karşılaştırın." },
+    { "name": "Kimin yazdığını kontrol edin", "text": "Şirketin kendisi mi, kayıtlı bir tahsilat şirketi mi yoksa bir mahkeme mi? Inkasso şirketlerini resmi sicilden kontrol edin." },
+    { "name": "Yazılı olarak cevap verin", "text": "Ödeyin, taksit isteyin veya itiraz edin — her zaman yazılı olarak, müşteri veya dosya numaranızla. Kopyaları saklayın." },
+    { "name": "Mahnbescheid'a iki hafta içinde tepki verin", "text": "Bir mahkeme ödeme emrine katılmıyorsanız, itiraz formunu zamanında geri gönderin." },
+    { "name": "Erkenden yardım alın", "text": "Tüketici danışma merkezleri ve borç danışmanlık hizmetleri talebi sizinle birlikte kontrol edebilir." }
+  ],
+  "phrases": [
+    ["Die Rechnung habe ich am … bezahlt. Einen Nachweis füge ich bei.", "Faturayı … tarihinde ödedim. Kanıtı ekliyorum."],
+    ["Ich widerspreche der Forderung, weil …", "Talebe itiraz ediyorum, çünkü …"],
+    ["Bitte senden Sie mir eine Aufstellung der Forderung.", "Lütfen bana talebin dökümünü gönderin."],
+    ["Ich bitte um Ratenzahlung in Höhe von … Euro monatlich.", "Aylık … euro tutarında taksitle ödeme talep ediyorum."],
+    ["Den Vertrag habe ich am … gekündigt.", "Sözleşmeyi … tarihinde feshettim."]
+  ],
+  "help": ["vz", "schuldner", "mbe"],
+  "sources": [
+    { "label": "Tüketici danışma merkezleri (verbraucherzentrale.de) — Inkasso ve hatırlatmalar", "url": "https://www.verbraucherzentrale.de/" },
+    { "label": "Resmi hukuki hizmetler sicili — bir Inkasso şirketinin kayıtlı olup olmadığını kontrol edin", "url": "https://www.rechtsdienstleistungsregister.de/" },
+    { "label": "Alman Medeni Usul Kanunu (ZPO), § 692 (Mahnbescheid'ın içeriği)", "url": "https://www.gesetze-im-internet.de/zpo/__692.html" }
+  ],
+  "practice": "Klarineo, talebin dökümünü istemek gibi kısa ve kibar bir Almanca mektup taslağı hazırlar; siz kontrol edip kendiniz gönderirsiniz."
+}

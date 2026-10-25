@@ -1,0 +1,74 @@
+{
+  "title": "Mahnung (to'lov eslatmasi) tushuntirildi — Klarineo",
+  "description": "Germaniyada Mahnung yoki Inkasso xati oldingizmi? Eslatmalar, undiruv agentliklari va sudning Mahnbescheid'i qanday ishlaydi — va muddatlar o'tmasdan nima qilish kerak.",
+  "h1": "Mahnung tushuntirildi: to'lov eslatmalari, Inkasso xatlari va Mahnbescheid",
+  "kicker": "Mahnung",
+  "summary": "Mahnung — to'lov muddati o'tib ketgani haqida eslatma. E'tibor bermang demang: talab to'g'riligini tekshiring, so'ng to'lang, bo'lib to'lash rejasini so'rang yoki yozma ravishda e'tiroz bildiring. Sudning Mahnbescheid'iga ayniqsa ehtiyot bo'ling — javob berish uchun odatda atigi ikki haftangiz bor.",
+  "sections": [
+    {
+      "h": "Mahnung nima?",
+      "p": [
+        "Mahnung (eslatma) hisob o'z vaqtida to'lanmaganda yuboriladi — masalan, telefon shartnomasi, onlayn buyurtma, elektr energiyasi, sport zali yoki shifokor hisobi uchun. Birinchi xat ko'pincha Zahlungserinnerung (to'lov eslatmasi) deb ataladi. Keyingi xatlarda 1. Mahnung, 2. Mahnung yoki letzte Mahnung (oxirgi eslatma) deb yozilishi mumkin. Kompaniya eslatma to'lovlari (Mahngebühren) va kechikish foizlarini (Verzugszinsen) qo'shishi mumkin.",
+        "Eslatma sizda qarz borligini avtomatik anglatmaydi. Xatolar bo'ladi: to'lov allaqachon qilingan, shartnoma bekor qilingan yoki summa noto'g'ri. To'lashdan oldin tekshiring — lekin tez harakat qiling."
+      ]
+    },
+    {
+      "h": "Inkasso: undiruv agentligi yozganda",
+      "p": [
+        "Agar hisob to'lanmay qolsa, kompaniya talabni undiruv agentligiga (Inkassounternehmen yoki Inkassobüro) topshirishi mumkin. Inkasso xatlari ko'pincha qo'rqituvchi eshitiladi, ammo Inkasso kompaniyasi o'zi mol-mulkingiz yoki ish haqingizni xatlay olmaydi — buning uchun sud qarori kerak.",
+        "Germaniyadagi qonuniy undiruv agentliklari ro'yxatdan o'tgan bo'lishi shart. Buni rasmiy huquqiy xizmatlar reyestrida (Rechtsdienstleistungsregister) tekshirish mumkin. Havola orqali to'lashni so'raydigan elektron xat yoki SMS'larga ehtiyot bo'ling — soxta Inkasso xabarlari tez-tez uchraydi. Asl kreditorni yoki talabni tanimasangiz, tekshirmasdan to'lamang."
+      ]
+    },
+    {
+      "h": "Mahnbescheid: sudning xati",
+      "p": [
+        "Kreditor sudga gerichtliches Mahnverfahren (sud orqali qarz undirish tartibi) doirasida Mahnbescheid (sudning to'lov buyrug'i) uchun ariza berishi mumkin. U rasmiy yetkazib berish orqali, ko'pincha sariq konvertda keladi va Amtsgericht (tuman sudi)dan bo'ladi. Sud talab asosli yoki asosli emasligini tekshirmaydi.",
+        "Aynan shu paytda harakat qilish kerak: yetkazilganidan keyin ikki hafta ichida u bilan birga kelgan blanka orqali Widerspruch (e'tiroz) bildirishingiz mumkin. Hech narsa qilmasangiz, kreditor Vollstreckungsbescheid (majburiy undirish buyrug'i) olishi mumkin. Unga qarshi Einspruch (e'tiroz) bildirishingiz mumkin, yana odatda ikki hafta ichida. Shundan so'ng sud ijrochisi (Gerichtsvollzieher) orqali majburiy undirish mumkin bo'lib qoladi."
+      ]
+    },
+    {
+      "h": "Imkoniyatlaringiz",
+      "ul": [
+        "Talab to'g'ri: summani to'lang yoki yozma ravishda bo'lib to'lash rejasini (Ratenzahlung) so'rang.",
+        "Talab noto'g'ri: yozma ravishda e'tiroz bildiring, sababini tushuntiring va isbotni ilova qiling (masalan, bank ko'chirmasi yoki bekor qilish tasdig'i).",
+        "Ishonchingiz komil emas: to'lashdan yoki biror narsani imzolashdan oldin iste'molchilar maslahat markazi yoki qarzlar bo'yicha maslahat xizmatiga murojaat qiling.",
+        "Bir nechta qarzingiz bor: bepul qarz maslahati (Schuldnerberatung) reja tuzishga yordam beradi."
+      ]
+    }
+  ],
+  "terms": [
+    ["Rechnung", "hisob-faktura / hisob"],
+    ["Zahlungserinnerung", "to'lov eslatmasi"],
+    ["Mahnung / letzte Mahnung", "eslatma / oxirgi eslatma"],
+    ["Mahngebühren", "eslatma to'lovlari"],
+    ["Verzugszinsen", "kechikish foizlari"],
+    ["Forderung", "talab (to'lanishi kerak bo'lgan pul)"],
+    ["Gläubiger", "kreditor"],
+    ["Inkassounternehmen", "undiruv agentligi"],
+    ["Ratenzahlung", "bo'lib to'lash"],
+    ["Mahnbescheid", "sudning to'lov buyrug'i"],
+    ["Widerspruch / Einspruch", "e'tiroz"],
+    ["Vollstreckungsbescheid", "majburiy undirish buyrug'i"]
+  ],
+  "steps": [
+    { "name": "Asl hisobni toping", "text": "Eslatmani hisob-faktura, shartnomangiz va bank ko'chirmalaringiz bilan solishtiring." },
+    { "name": "Kim yozayotganini tekshiring", "text": "Bu kompaniyaning o'zimi, ro'yxatdan o'tgan undiruv agentligimi yoki sudmi? Inkasso kompaniyalarini rasmiy reyestrda tekshiring." },
+    { "name": "Yozma ravishda javob bering", "text": "To'lang, bo'lib to'lashni so'rang yoki e'tiroz bildiring — doim yozma ravishda, mijoz yoki ish raqamingiz bilan. Nusxalarni saqlang." },
+    { "name": "Mahnbescheid'ga ikki hafta ichida javob bering", "text": "Sudning to'lov buyrug'iga rozi bo'lmasangiz, e'tiroz blankasini o'z vaqtida qaytaring." },
+    { "name": "Yordamni erta oling", "text": "Iste'molchilar maslahat markazlari va qarz maslahat xizmatlari talabni siz bilan birga tekshirib berishi mumkin." }
+  ],
+  "phrases": [
+    ["Die Rechnung habe ich am … bezahlt. Einen Nachweis füge ich bei.", "Hisobni … kuni to'laganman. Isbotni ilova qilyapman."],
+    ["Ich widerspreche der Forderung, weil …", "Talabga e'tiroz bildiraman, chunki …"],
+    ["Bitte senden Sie mir eine Aufstellung der Forderung.", "Iltimos, talabning batafsil hisobini yuboring."],
+    ["Ich bitte um Ratenzahlung in Höhe von … Euro monatlich.", "Oyiga … yevrodan bo'lib to'lashga ruxsat so'rayman."],
+    ["Den Vertrag habe ich am … gekündigt.", "Shartnomani … kuni bekor qilganman."]
+  ],
+  "help": ["vz", "schuldner", "mbe"],
+  "sources": [
+    { "label": "Iste'molchilar maslahat markazlari (verbraucherzentrale.de) — Inkasso va eslatmalar", "url": "https://www.verbraucherzentrale.de/" },
+    { "label": "Rasmiy huquqiy xizmatlar reyestri — Inkasso kompaniyasi ro'yxatdan o'tganini tekshiring", "url": "https://www.rechtsdienstleistungsregister.de/" },
+    { "label": "Germaniya Fuqarolik protsessual kodeksi, § 692 (Mahnbescheid mazmuni)", "url": "https://www.gesetze-im-internet.de/zpo/__692.html" }
+  ],
+  "practice": "Klarineo qisqa, odobli nemischa xat tayyorlab beradi — masalan, talabning batafsil hisobini so'rab — siz uni tekshirib, o'zingiz yuborasiz."
+}

@@ -1,0 +1,76 @@
+{
+  "title": "Finanzamt Steuerbescheid açıklandı — Klarineo",
+  "description": "Finanzamt'tan gelen Alman vergi tarhiyat bildirimi (Steuerbescheid) nasıl okunur: iade veya ek ödeme, önemli terimler ve Einspruch için bir aylık süre.",
+  "h1": "Finanzamt'tan Steuerbescheid açıklandı: iade, ek ödeme ve Einspruch",
+  "kicker": "Finanzamt",
+  "summary": "Steuerbescheid, Finanzamt'ın verginiz hakkındaki resmi kararıdır. Para iadesi alıp almayacağınızı (Erstattung) veya daha fazla ödemeniz gerekip gerekmediğini (Nachzahlung) gösterir. Vergi beyannamenizle karşılaştırın. Yanlış olduğunu düşünüyorsanız bir ay içinde Einspruch (itiraz) edebilirsiniz — ve Einspruch tek başına bir ödemenin muaccel olmasını durdurmaz.",
+  "sections": [
+    {
+      "h": "Steuerbescheid nedir?",
+      "p": [
+        "Bir vergi beyannamesi (Steuererklärung) verdikten sonra — örneğin gelir vergisi beyannamesi (Einkommensteuererklärung) — Finanzamt (vergi dairesi) bunu inceler ve size bir karar gönderir: Steuerbescheid. Gelir vergisi için buna Einkommensteuerbescheid denir. Posta ile veya ELSTER kullanıyorsanız elektronik olarak gelebilir.",
+        "İlk sayfa en önemli sonucu gösterir: belirlenen (festgesetzt) vergi tutarı, zaten ödediğiniz tutar (örneğin işvereninizin kestiği maaş vergisi yoluyla) ve aradaki fark — ya bir iade (Erstattung) ya da vade tarihi olan bir ek ödeme (Nachzahlung)."
+      ]
+    },
+    {
+      "h": "Nasıl okunur?",
+      "ul": [
+        "Steuernummer: bu Finanzamt'taki vergi numaranız. Her mektupta belirtin. Kişisel vergi kimlik numaranızdan (Steuer-ID, 11 haneli) farklıdır.",
+        "Festsetzung: yıl için belirlenen vergi.",
+        "Abrechnung: zaten ödenenlerin ve kalanların hesaplanması.",
+        "Erläuterungen: açıklamalar — dikkatle okuyun. Finanzamt burada beyannamenizden nerede ayrıldığını belirtir, örneğin bazı giderleri kabul etmediyse.",
+        "Vorbehalt der Nachprüfung veya vorläufig: karar (veya bir kısmı) daha sonra yine de değiştirilebilir.",
+        "Vorauszahlungen: Finanzamt'ın önümüzdeki çeyrekler için belirleyebileceği peşin ödemeler.",
+        "Rechtsbehelfsbelehrung: nasıl ve ne zamana kadar itiraz edebileceğinize dair bilgi."
+      ]
+    },
+    {
+      "h": "Einspruch için süre",
+      "p": [
+        "Karara katılmıyorsanız, kararın size bildirilmesinden (Bekanntgabe) sonra bir ay içinde Einspruch (itiraz) edebilirsiniz. Posta ile gönderilen bir mektup genellikle postaya verildikten sonraki dördüncü günde tebliğ edilmiş sayılır — kesin kural Rechtsbehelfsbelehrung'da açıklanır. Einspruch ücretsizdir. Yazılı olarak veya ELSTER üzerinden elektronik olarak yapabilirsiniz. Vergi numaranızı ve gerekçelerinizi belirtin ya da gerekçeleri daha sonra göndereceğinizi söyleyin.",
+        "Önemli: Einspruch tek başına bir ek ödemeyi ertelemez. İtiraz edilen bir tutarı henüz ödemek istemiyorsanız, ayrıca Aussetzung der Vollziehung (icranın durdurulması) için başvurmanız gerekir. Gecikme zamlarından kaçınmak için ilk sayfadaki vade tarihine (fällig am) dikkat edin."
+      ]
+    },
+    {
+      "h": "Ödemek için daha fazla zamana ihtiyacınız varsa",
+      "p": [
+        "Bir ek ödeme doğruysa ancak hepsini bir seferde ödeyemiyorsanız, vade tarihinden önce Finanzamt ile iletişime geçin ve Stundung (erteleme) veya Ratenzahlung (taksit) isteyin. Durumunuzu kısaca açıklayın."
+      ]
+    }
+  ],
+  "terms": [
+    ["Steuerbescheid", "vergi tarhiyat bildirimi"],
+    ["Steuererklärung", "vergi beyannamesi"],
+    ["Erstattung", "iade"],
+    ["Nachzahlung", "ek ödeme"],
+    ["festgesetzt", "belirlenen / tarh edilen"],
+    ["Steuernummer", "vergi numarası (vergi dairesindeki)"],
+    ["Steuer-ID", "kişisel vergi kimlik numarası"],
+    ["Erläuterungen", "açıklamalar"],
+    ["Einspruch", "itiraz"],
+    ["Bekanntgabe", "bildirim (tebliğ edilmiş sayılma)"],
+    ["Aussetzung der Vollziehung", "icranın durdurulması"],
+    ["fällig am", "vade tarihi"]
+  ],
+  "steps": [
+    { "name": "Vergi beyannamenizle karşılaştırın", "text": "Gelirleri, giderleri ve kişisel bilgileri kontrol edin. Finanzamt'ın neyi değiştirdiğini görmek için Erläuterungen'i okuyun." },
+    { "name": "Süreleri not edin", "text": "Bir aylık itiraz süresi ve bir ek ödemenin vade tarihi." },
+    { "name": "Bir şey yanlışsa Einspruch edin", "text": "Yazılı olarak veya ELSTER üzerinden, vergi numaranız ve gerekçelerinizle. Bir kopya saklayın." },
+    { "name": "Ödeyin veya ödemeyi düzenleyin", "text": "Ek ödemeyi vade tarihine kadar ödeyin ya da önceden erteleme veya taksit isteyin." },
+    { "name": "Karmaşıksa yardım alın", "text": "Bir gelir vergisi yardım derneği veya mali müşavir kararı kontrol edebilir." }
+  ],
+  "phrases": [
+    ["Hiermit lege ich Einspruch gegen den Einkommensteuerbescheid für … vom … ein.", "… tarihli, … yılına ait gelir vergisi tarhiyat bildirimine itiraz ediyorum."],
+    ["Steuernummer: …", "Vergi numarası: …"],
+    ["Die Begründung reiche ich nach.", "Gerekçeyi daha sonra sunacağım."],
+    ["Ich beantrage die Aussetzung der Vollziehung.", "İcranın durdurulması için başvuruyorum."],
+    ["Ich bitte um Ratenzahlung.", "Taksitle ödeme talep ediyorum."]
+  ],
+  "help": ["lohnsteuer", "mbe"],
+  "sources": [
+    { "label": "ELSTER — vergi idaresinin resmi çevrimiçi portalı", "url": "https://www.elster.de/" },
+    { "label": "Federal Maliye Bakanlığı (bundesfinanzministerium.de)", "url": "https://www.bundesfinanzministerium.de/" },
+    { "label": "Vergi Usul Kanunu (Abgabenordnung), § 355 — itiraz süresi", "url": "https://www.gesetze-im-internet.de/ao_1977/__355.html" }
+  ],
+  "practice": "Klarineo, Steuerbescheid'ınızın her satırını kendi dilinizde açıklayabilir ve itiraz süresi için bir hatırlatıcı kurabilir."
+}

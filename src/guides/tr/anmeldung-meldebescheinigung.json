@@ -1,0 +1,80 @@
+{
+  "title": "Anmeldung ve Meldebescheinigung açıklandı — Klarineo",
+  "description": "Almanya'da adres kaydı (Anmeldung) nasıl işler: iki hafta kuralı, ev sahibi onayı, Bürgeramt'a neler götürülmeli ve Meldebescheinigung.",
+  "h1": "Anmeldung ve Meldebescheinigung: Almanya'da adresinizi kaydettirmek",
+  "kicker": "Bürgeramt",
+  "summary": "Almanya'da bir daireye taşındığınızda, iki hafta içinde adresinizi kayıt dairesinde (Bürgeramt, Einwohnermeldeamt veya Bürgerbüro) kaydettirmeniz gerekir. Pasaportunuz veya kimliğiniz ile ev sahibinizden bir onay (Wohnungsgeberbestätigung) gerekir. Birçok başka işlem için ihtiyaç duyacağınız bir kayıt belgesi (Meldebescheinigung) alırsınız.",
+  "sections": [
+    {
+      "h": "Anmeldung nedir?",
+      "p": [
+        "Anmeldung, ikamet adresinizin yerel kayıt makamına (Meldebehörde) kaydedilmesidir. Federal Kayıt Kanunu'na (Bundesmeldegesetz) göre, Almanya'da bir konuta taşınan herkes taşındıktan sonra iki hafta içinde kaydolmak zorundadır. Dairenin adı şehre göre değişir: Bürgeramt, Bürgerbüro, Einwohnermeldeamt veya Bürgerservice.",
+        "Kayıt, önemli bir ilk adımdır: birçok banka hesabı açmak, Ausländerbehörde, aile yardımları, işvereniniz ve daha fazlası için Meldebescheinigung'a (kayıt belgesi) ihtiyacınız olur. Almanya'daki ilk kaydınızdan sonra Federal Merkezi Vergi Dairesi (Bundeszentralamt für Steuern) vergi kimlik numaranızı (Steuer-ID) postayla gönderir."
+      ]
+    },
+    {
+      "h": "Yanınızda ne götürmelisiniz?",
+      "ul": [
+        "Pasaportunuz veya ulusal kimlik kartınız (ve kaydettirdiğiniz aile üyelerininkiler).",
+        "Wohnungsgeberbestätigung — ev sahibinizden veya evi size veren kişiden, eve taşındığınıza dair bir onay. Ev sahibinin bunu vermesi yasal zorunluluktur.",
+        "Şehriniz önceden doldurmanızı istiyorsa kayıt formu (Anmeldeformular).",
+        "Aile üyeleri için: evlilik veya doğum belgesi gibi belgeler istenebilir — bazen resmi tercümeyle birlikte. Şehrinizin web sitesine bakın.",
+        "Çevrimiçi randevu aldıysanız randevu onayınız (Terminbestätigung)."
+      ]
+    },
+    {
+      "h": "Randevular ve mektuplar",
+      "p": [
+        "Birçok şehirde çevrimiçi randevu (Termin) almanız gerekir. Genellikle bir Terminbestätigung (randevu onayı) içeren bir e-posta veya mektup alırsınız, bazen de bir rezervasyon numarası (Vorgangsnummer). İki hafta içinde randevu bulamazsanız, denemelerinizin kanıtını saklayın — birçok daire bu durumu anlayışla karşılar, ancak kurallar şehirden şehire farklıdır.",
+        "Randevuda Meldebescheinigung'u alırsınız; genellikle yerinde yazdırılır. Ayrılmadan önce isimlerin, doğum tarihinin ve adresin doğru yazıldığını kontrol edin."
+      ]
+    },
+    {
+      "h": "Sıklıkla ardından gelen mektuplar",
+      "ul": [
+        "Bundeszentralamt für Steuern'dan Steuer-ID'niz — bu mektubu güvenli bir yerde saklayın.",
+        "Beitragsservice'ten yayın katkı payı (Rundfunkbeitrag) hakkında bir mektup.",
+        "Almanya içinde taşınırsanız yeni adreste kaydolursunuz (Ummeldung). Almanya'dan ayrılırsanız kaydınızı sildirirsiniz (Abmeldung)."
+      ]
+    },
+    {
+      "h": "Zamanında kaydolmamak",
+      "p": [
+        "Geç kayıt bir idari kabahattir ve para cezasına yol açabilir. Daha da önemlisi, kayıt olmadan diğer önemli adımlarda tıkanabilirsiniz. Ev sahibinizin onayına sahip olur olmaz randevuyu alın."
+      ]
+    }
+  ],
+  "terms": [
+    ["Anmeldung", "kayıt (adresinizin)"],
+    ["Ummeldung / Abmeldung", "adres değişikliği / kaydın silinmesi"],
+    ["Meldebescheinigung", "kayıt belgesi"],
+    ["Meldebehörde / Bürgeramt", "kayıt dairesi"],
+    ["Wohnungsgeberbestätigung", "ev sahibinin eve taşındığınıza dair onayı"],
+    ["Einzugsdatum", "taşınma tarihi"],
+    ["Termin / Terminbestätigung", "randevu / randevu onayı"],
+    ["Reisepass / Personalausweis", "pasaport / kimlik kartı"],
+    ["Hauptwohnung / Nebenwohnung", "asıl ikametgâh / ikinci ikametgâh"],
+    ["Steuer-ID", "vergi kimlik numarası"]
+  ],
+  "steps": [
+    { "name": "Wohnungsgeberbestätigung'u alın", "text": "Taşınır taşınmaz ev sahibinizden onayı isteyin." },
+    { "name": "Randevu alın", "text": "Şehrinizin çevrimiçi rezervasyonunu kullanın veya daireyi arayın. Onayı kaydedin." },
+    { "name": "Belgeleri hazırlayın", "text": "Pasaport veya kimlik, ev sahibi onayı, form ve aile üyeleri için belgeler." },
+    { "name": "Randevuya gidin ve belgeyi kontrol edin", "text": "Meldebescheinigung üzerindeki tüm bilgilerin doğru olduğundan emin olun." },
+    { "name": "Ardından gelen mektupları saklayın", "text": "Özellikle Steuer-ID mektubunu — iş ve vergi işlemleri için gerekecek." }
+  ],
+  "phrases": [
+    ["Ich möchte meinen Wohnsitz anmelden.", "İkametgâhımı kaydettirmek istiyorum."],
+    ["Ich bin am … eingezogen.", "… tarihinde taşındım."],
+    ["Hier ist die Wohnungsgeberbestätigung.", "İşte ev sahibinin onayı."],
+    ["Ich habe leider keinen früheren Termin bekommen.", "Maalesef daha erken bir randevu alamadım."],
+    ["Könnten Sie mir bitte eine Meldebescheinigung ausdrucken?", "Bana lütfen bir kayıt belgesi (Meldebescheinigung) yazdırabilir misiniz?"]
+  ],
+  "help": ["mbe", "jmd"],
+  "sources": [
+    { "label": "Örnek: Berlin hizmet portalı — bir dairenin kaydı (service.berlin.de)", "url": "https://service.berlin.de/dienstleistung/120686/" },
+    { "label": "Federal Kayıt Kanunu, § 17 — kayıt yükümlülüğü", "url": "https://www.gesetze-im-internet.de/bmg/__17.html" },
+    { "label": "Make it in Germany — uluslararası uzmanlar için resmi portal", "url": "https://www.make-it-in-germany.com/" }
+  ],
+  "practice": "Randevunuzdan önce Bürgeramt'taki kısa konuşmayı Klarineo'nun konuşma alıştırmasıyla prova edin."
+}

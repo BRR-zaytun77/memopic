@@ -1,0 +1,76 @@
+{
+  "title": "Finanzamtdan Steuerbescheid tushuntirildi — Klarineo",
+  "description": "Finanzamtdan kelgan Germaniya soliq hisob-kitobi (Steuerbescheid)ni qanday o'qish kerak: qaytarilgan pul yoki qo'shimcha to'lov, asosiy atamalar va Einspruch uchun bir oylik muddat.",
+  "h1": "Finanzamtdan Steuerbescheid tushuntirildi: qaytarish, qo'shimcha to'lov va Einspruch",
+  "kicker": "Finanzamt",
+  "summary": "Steuerbescheid — Finanzamtning sizning solig'ingiz bo'yicha rasmiy qarori. U pul qaytarib olishingizni (Erstattung) yoki ko'proq to'lashingiz kerakligini (Nachzahlung) ko'rsatadi. Uni soliq deklaratsiyangiz bilan solishtiring. Noto'g'ri deb hisoblasangiz, bir oy ichida Einspruch bildirishingiz mumkin — va Einspruch o'z-o'zidan to'lov muddatini to'xtatib qo'ymaydi.",
+  "sections": [
+    {
+      "h": "Steuerbescheid nima?",
+      "p": [
+        "Soliq deklaratsiyasini (Steuererklärung) — masalan, daromad solig'i deklaratsiyasini (Einkommensteuererklärung) — topshirganingizdan so'ng Finanzamt (soliq idorasi) uni tekshiradi va sizga qaror yuboradi: Steuerbescheid. Daromad solig'i uchun u Einkommensteuerbescheid deb ataladi. U pochta orqali yoki ELSTER'dan foydalansangiz, elektron tarzda kelishi mumkin.",
+        "Birinchi sahifada eng muhim natija ko'rsatiladi: belgilangan (festgesetzt) soliq summasi, siz allaqachon qancha to'lagansiz (masalan, ish beruvchi ushlab qolgan ish haqi solig'i orqali) va farq — qaytariladigan pul (Erstattung) yoki to'lov muddati ko'rsatilgan qo'shimcha to'lov (Nachzahlung)."
+      ]
+    },
+    {
+      "h": "Uni qanday o'qish kerak",
+      "ul": [
+        "Steuernummer: shu Finanzamtdagi soliq raqamingiz. Har bir xatda uni ko'rsating. U shaxsiy soliq identifikatsiya raqamingizdan (Steuer-ID, 11 xonali) farq qiladi.",
+        "Festsetzung: yil uchun belgilangan soliq.",
+        "Abrechnung: nima to'langani va nima qolganining hisob-kitobi.",
+        "Erläuterungen: tushuntirishlar — ularni diqqat bilan o'qing. Bu yerda Finanzamt deklaratsiyangizdan qayerda chetga chiqqanini aytadi, masalan ayrim xarajatlarni qabul qilmagan bo'lsa.",
+        "Vorbehalt der Nachprüfung yoki vorläufig: qaror (yoki uning qismlari) keyinroq hali ham o'zgartirilishi mumkin.",
+        "Vorauszahlungen: Finanzamt kelgusi choraklar uchun belgilashi mumkin bo'lgan avans to'lovlari.",
+        "Rechtsbehelfsbelehrung: qanday va qachongacha e'tiroz bildirish mumkinligi haqida ma'lumot."
+      ]
+    },
+    {
+      "h": "Einspruch uchun muddat",
+      "p": [
+        "Qaror bilan rozi bo'lmasangiz, qaror sizga ma'lum qilinganidan (Bekanntgabe) keyin bir oy ichida Einspruch (e'tiroz) bildirishingiz mumkin. Pochta orqali yuborilgan xat odatda yuborilganidan keyingi to'rtinchi kuni yetkazilgan hisoblanadi — aniq qoida Rechtsbehelfsbelehrung'da tushuntirilgan. Einspruch bepul. Uni yozma ravishda yoki ELSTER orqali elektron tarzda topshirishingiz mumkin. Soliq raqamingiz va sabablarni ko'rsating yoki sabablarni keyinroq yuborishingizni ayting.",
+        "Muhim: Einspruch o'z-o'zidan qo'shimcha to'lovni kechiktirmaydi. Bahsli summani hozircha to'lamoqchi bo'lmasangiz, Aussetzung der Vollziehung (majburiy ijroni to'xtatib turish) uchun alohida ariza berishingiz kerak. Kechikish jarimalaridan qochish uchun birinchi sahifadagi to'lov muddatiga (fällig am) e'tibor bering."
+      ]
+    },
+    {
+      "h": "To'lash uchun ko'proq vaqt kerak bo'lsa",
+      "p": [
+        "Agar qo'shimcha to'lov to'g'ri bo'lsa-yu, uni bir yo'la to'lay olmasangiz, to'lov muddatidan oldin Finanzamt bilan bog'lanib, Stundung (muddatni cho'zish) yoki Ratenzahlung (bo'lib to'lash) so'rang. Vaziyatingizni qisqacha tushuntiring."
+      ]
+    }
+  ],
+  "terms": [
+    ["Steuerbescheid", "soliq hisob-kitobi to'g'risidagi qaror"],
+    ["Steuererklärung", "soliq deklaratsiyasi"],
+    ["Erstattung", "pulni qaytarish"],
+    ["Nachzahlung", "qo'shimcha to'lov"],
+    ["festgesetzt", "belgilangan / hisoblangan"],
+    ["Steuernummer", "soliq raqami (soliq idorasida)"],
+    ["Steuer-ID", "shaxsiy soliq identifikatsiya raqami"],
+    ["Erläuterungen", "tushuntirishlar"],
+    ["Einspruch", "e'tiroz"],
+    ["Bekanntgabe", "ma'lum qilish (yetkazilgan deb hisoblash)"],
+    ["Aussetzung der Vollziehung", "majburiy ijroni to'xtatib turish"],
+    ["fällig am", "to'lov muddati"]
+  ],
+  "steps": [
+    { "name": "Uni soliq deklaratsiyangiz bilan solishtiring", "text": "Daromad, xarajatlar va shaxsiy ma'lumotlarni tekshiring. Finanzamt nimani o'zgartirganini ko'rish uchun Erläuterungen'ni o'qing." },
+    { "name": "Muddatlarni yozib oling", "text": "Bir oylik e'tiroz muddati va qo'shimcha to'lovning to'lov muddati." },
+    { "name": "Biror narsa noto'g'ri bo'lsa, Einspruch bildiring", "text": "Yozma ravishda yoki ELSTER orqali, soliq raqamingiz va sabablar bilan. Nusxasini saqlang." },
+    { "name": "To'lang yoki to'lovni kelishing", "text": "Qo'shimcha to'lovni muddatigacha to'lang yoki oldindan muddatni cho'zish yoxud bo'lib to'lashni so'rang." },
+    { "name": "Murakkab bo'lsa, yordam oling", "text": "Daromad solig'i bo'yicha yordam uyushmasi yoki soliq maslahatchisi qarorni tekshirib berishi mumkin." }
+  ],
+  "phrases": [
+    ["Hiermit lege ich Einspruch gegen den Einkommensteuerbescheid für … vom … ein.", "Shu orqali … yil uchun … sanasidagi daromad solig'i qaroriga e'tiroz bildiraman."],
+    ["Steuernummer: …", "Soliq raqami: …"],
+    ["Die Begründung reiche ich nach.", "Sabablarni keyinroq taqdim etaman."],
+    ["Ich beantrage die Aussetzung der Vollziehung.", "Majburiy ijroni to'xtatib turishni so'rab ariza beraman."],
+    ["Ich bitte um Ratenzahlung.", "Bo'lib to'lashga ruxsat so'rayman."]
+  ],
+  "help": ["lohnsteuer", "mbe"],
+  "sources": [
+    { "label": "ELSTER — soliq boshqaruvining rasmiy onlayn portali", "url": "https://www.elster.de/" },
+    { "label": "Federal Moliya vazirligi (bundesfinanzministerium.de)", "url": "https://www.bundesfinanzministerium.de/" },
+    { "label": "Soliq kodeksi (Abgabenordnung), § 355 — e'tiroz muddati", "url": "https://www.gesetze-im-internet.de/ao_1977/__355.html" }
+  ],
+  "practice": "Klarineo Steuerbescheid'ingizning har bir qatorini sizning tilingizda tushuntirib berishi va e'tiroz muddati uchun eslatma o'rnatishi mumkin."
+}

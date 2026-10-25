@@ -1,0 +1,75 @@
+{
+  "title": "Krankenkasse xati tushuntirildi — Klarineo",
+  "description": "Germaniyadagi sog'liq sug'urtangiz (Krankenkasse)dan xat keldimi? Odatiy xatlar — so'rovnomalar, badallar, qarzdorlik, sug'urta kartasi uchun surat — va ularga qanday javob berish kerak.",
+  "h1": "Krankenkasse'dan xat: sog'liq sug'urtasi xatlari nimani anglatadi",
+  "kicker": "Krankenkasse",
+  "summary": "Germaniyada sog'liq sug'urtasi majburiy va Krankenkasse'ngiz (qonuniy sog'liq sug'urtasi kompaniyasi) sizga muntazam yozadi: so'rovnomalar, badal bildirishnomalari, sug'urta kartasi uchun surat so'rovi, o'zgarishlar haqida ma'lumot. Aksariyat xatlar ma'lum sanagacha ma'lumot yoki hujjat yuborishni so'raydi. O'z vaqtida javob bering — yetishmayotgan ma'lumot yuqoriroq badallarga yoki sug'urta qoplamasida bo'shliqlarga olib kelishi mumkin.",
+  "sections": [
+    {
+      "h": "Sizga kim yozadi?",
+      "p": [
+        "Germaniyada ko'pchilik qonuniy sog'liq sug'urtasi kompaniyasida (gesetzliche Krankenkasse) sug'urtalangan. Krankenkasse shifokorlar, kasalxona va ko'plab dori-darmonlar xarajatini to'laydi va badallarni (Beiträge) yig'adi. Agar ishlasangiz, ish beruvchi odatda badallarni ish haqingiz bilan birga to'laydi; yakka tartibdagi tadbirkor, talaba, ixtiyoriy sug'urtalangan bo'lsangiz yoki daromadingiz bo'lmasa, o'zingiz to'lashingiz mumkin.",
+        "Har bir xatda sug'urta raqamingiz (Krankenversichertennummer yoki Versichertennummer) bo'ladi. Javob berganingizda uni ko'rsating."
+      ]
+    },
+    {
+      "h": "Xatlarning odatiy turlari",
+      "ul": [
+        "Fragebogen zur Familienversicherung: oila a'zolari (turmush o'rtog'i, bolalar) bepul sug'urtalangan holda qola olishini tekshirish uchun so'rovnoma. Sug'urtachi ularning daromadi haqida so'raydi.",
+        "Elektron sog'liq kartangiz (elektronische Gesundheitskarte, eGK) uchun surat (Lichtbild) so'rovi.",
+        "Mitgliedsbescheinigung: a'zolik guvohnomasi — masalan ish beruvchingiz, universitet yoki Ausländerbehörde uchun.",
+        "Beitragsbescheid: o'zingiz to'laydigan badallar haqidagi qaror, ko'pincha daromadingizga asoslanadi. Sizdan daromad isbotini (Einkommensnachweis), masalan soliq hisob-kitobini yuborish so'ralishi mumkin.",
+        "Yuqoriroq Zusatzbeitrag (qo'shimcha badal) haqida ma'lumot. Sug'urtachingiz uni oshirganda, odatda boshqa sug'urtachiga o'tish bo'yicha maxsus huquqingiz bo'ladi (Sonderkündigungsrecht) — xat sizga bu haqda aytishi shart.",
+        "Beitragsrückstand / Mahnung: sizda badal qarzi bor. Qarzdorlik jarimalarga va ba'zi hollarda to'laguningizcha xizmatlarning cheklanishiga olib kelishi mumkin.",
+        "Uzoq vaqt ishlay olmasangiz, kasallik nafaqasi (Krankengeld) haqidagi xatlar.",
+        "Elektron bemor yozuvi (elektronische Patientenakte, ePA) haqida ma'lumot. Agar xohlamasangiz, e'tiroz bildirishingiz (widersprechen) mumkin."
+      ]
+    },
+    {
+      "h": "Muddatlar va qarorlar",
+      "p": [
+        "So'rovnomalar va so'rovlarda odatda javob berishingiz kerak bo'lgan sana ko'rsatiladi. Ko'proq vaqt kerak bo'lsa, sanadan oldin so'rang. Bescheid (qaror) — masalan, badallar yoki kasallik nafaqasi haqida — Rechtsbehelfsbelehrung bilan keladi. Umumiy qoida bo'yicha, uni olganingizdan keyin bir oy ichida Widerspruch bildirishingiz mumkin. Aniq muddat uchun xatingizni tekshiring."
+      ]
+    },
+    {
+      "h": "Badal qarzingiz bo'lsa",
+      "p": [
+        "Kutmang. Krankenkasse'ngiz bilan bog'laning, vaziyatingizni tushuntiring va bo'lib to'lashni (Ratenzahlung) yoki muddatni cho'zishni (Stundung) so'rang. Daromadingiz kamaygan bo'lsa, isbotni yuboring — badalingiz qayta hisoblanishi mumkin. Bir nechta qarzingiz bo'lsa, qarz maslahat xizmatlari yordam bera oladi."
+      ]
+    }
+  ],
+  "terms": [
+    ["Krankenkasse", "qonuniy sog'liq sug'urtasi kompaniyasi"],
+    ["Krankenversichertennummer", "sog'liq sug'urtasi raqami"],
+    ["Beitrag / Zusatzbeitrag", "badal / qo'shimcha badal"],
+    ["Familienversicherung", "bepul oilaviy sug'urta"],
+    ["Fragebogen", "so'rovnoma"],
+    ["Mitgliedsbescheinigung", "a'zolik guvohnomasi"],
+    ["Einkommensnachweis", "daromad isboti"],
+    ["Beitragsrückstand", "badal qarzdorligi"],
+    ["Krankengeld", "sug'urtachidan kasallik nafaqasi"],
+    ["Arbeitsunfähigkeit", "ishga layoqatsizlik"],
+    ["elektronische Gesundheitskarte (eGK)", "sog'liq sug'urtasi kartasi"],
+    ["Sonderkündigungsrecht", "bekor qilish / o'tishning maxsus huquqi"]
+  ],
+  "steps": [
+    { "name": "Xat nima so'rayotganini aniqlang", "text": "Ma'lumot, hujjat, surat, to'lov — va qaysi sanagacha." },
+    { "name": "Hujjatlarni yig'ing", "text": "Masalan ish haqi varaqalari, soliq hisob-kitobi, talaba guvohnomasi yoki surat." },
+    { "name": "O'z vaqtida javob bering", "text": "Sug'urtachining onlayn portali yoki ilovasidan foydalaning yoki sug'urta raqamingiz bilan pochta orqali javob bering. Nusxalarni saqlang." },
+    { "name": "Zarur bo'lsa, ko'proq vaqt so'rang", "text": "Muddatdan oldin yozing va hujjatlarni qachon yubora olishingizni ayting." },
+    { "name": "Qarorlarni tekshiring", "text": "Bescheid bilan rozi bo'lmasangiz, xatda ko'rsatilgan muddat ichida Widerspruch bildiring." }
+  ],
+  "phrases": [
+    ["Meine Versichertennummer lautet …", "Mening sug'urta raqamim …"],
+    ["Anbei sende ich Ihnen den ausgefüllten Fragebogen.", "Ilova qilib to'ldirilgan so'rovnomani yuboryapman."],
+    ["Ich benötige eine Mitgliedsbescheinigung.", "Menga a'zolik guvohnomasi kerak."],
+    ["Bitte gewähren Sie mir eine Fristverlängerung bis zum …", "Iltimos, muddatni … gacha uzaytirib bering."],
+    ["Ich bitte um Ratenzahlung für den Beitragsrückstand.", "Badal qarzdorligini bo'lib to'lashga ruxsat so'rayman."]
+  ],
+  "help": ["upd", "mbe", "schuldner"],
+  "sources": [
+    { "label": "Federal Sog'liqni saqlash vazirligi (bundesgesundheitsministerium.de) — qonuniy sog'liq sug'urtasi", "url": "https://www.bundesgesundheitsministerium.de/" },
+    { "label": "Unabhängige Patientenberatung Deutschland — bepul maslahat", "url": "https://www.patientenberatung.de/" }
+  ],
+  "practice": "Klarineo Krankenkasse xatingizni sizning tilingizda tushuntiradi va qisqa javob yozishga yordam beradi, masalan ko'proq vaqt so'rash uchun."
+}

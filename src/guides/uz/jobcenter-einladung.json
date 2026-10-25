@@ -1,0 +1,83 @@
+{
+  "title": "Jobcenterdan kelgan Einladung xati tushuntirildi — Klarineo",
+  "description": "Jobcenterdan Einladung oldingizmi? Taklifnoma nimani anglatadi, uchrashuv nega muhim, nimalarni olib borish kerak va uchrashuvni nemischa odob bilan qanday ko'chirish mumkin.",
+  "h1": "Jobcenterdan xat (Einladung): nimani anglatadi va nima qilish kerak",
+  "kicker": "Jobcenter",
+  "summary": "Jobcenterdan kelgan Einladung — shaxsiy uchrashuvga rasmiy taklifnoma. Agar siz bazaviy daromad ta'minotini olsangiz, odatda borishingiz shart. Sana, vaqt va xonani yozib oling, xatda ko'rsatilgan hujjatlarni tayyorlang va muhim sabab bilan kela olmasangiz, uchrashuvdan oldin Jobcenter bilan bog'laning.",
+  "sections": [
+    {
+      "h": "Bu qanday xat?",
+      "p": [
+        "Jobcenterlar Germaniya Ijtimoiy kodeksi ikkinchi kitobi (SGB II) bo'yicha ish izlovchilar uchun bazaviy daromad ta'minoti bilan shug'ullanadi. Bu nafaqa avval Bürgergeld deb atalgan; 2026-yil 1-iyuldan u isloh qilindi va endi Grundsicherung deb ataladi. Xatingizda qaysi nom ishlatilgan bo'lishidan qat'i nazar, Einladung (taklifnoma) sizni shaxsiy uchrashuvga chaqiradi — odatda shaxsiy maslahatchingiz (persönliche Ansprechpartnerin / persönlicher Ansprechpartner) yoki mutaxassislar jamoasi bilan.",
+        "Uchrashuvning odatiy sabablari: ish izlash yoki kasbiy ta'lim haqida gaplashish, hozirgi vaziyatingiz, ish taklifi, til yoki integratsiya kursi yoxud arizangiz uchun yetishmayotgan hujjatlar. Maqsad odatda xatning yuqori qismida yoziladi, masalan „Ich möchte mit Ihnen über Ihre berufliche Situation sprechen“ (siz bilan kasbiy vaziyatingiz haqida gaplashmoqchiman)."
+      ]
+    },
+    {
+      "h": "Uchrashuv nega muhim",
+      "p": [
+        "Uchrashuvlarga borish — nafaqa oluvchi sifatidagi majburiyatlaringizning bir qismi (Meldepflicht). Xatda Rechtsfolgenbelehrung — huquqiy oqibatlar tushuntirmasi — degan bo'lim bor. U muhim sababsiz (wichtiger Grund) kelmasangiz nima bo'lishi mumkinligini aytadi: nafaqangiz kamaytirilishi mumkin. 2026-yil iyuldagi islohot bilan bu kamaytirish qoidalari qattiqlashdi, shuning uchun bu bo'limni diqqat bilan o'qing va har bir taklifnomaga jiddiy qarang.",
+        "Muhim sabab, masalan, borishingizga to'sqinlik qiladigan kasallik, shu vaqtdagi ish suhbati yoki oiladagi favqulodda holat bo'lishi mumkin. Oddiy kasallik varaqasi uchrashuvga kela olmaganingizning isboti sifatida har doim ham qabul qilinmaydi — Jobcenterdan qanday isbot kerakligini so'rang."
+      ]
+    },
+    {
+      "h": "Xatda odatda nimalar bo'ladi",
+      "ul": [
+        "Sana (Datum), vaqt (Uhrzeit) va joy: manzil, qavat (Etage) va xona (Zimmer).",
+        "Mijoz raqamingiz (Kundennummer) va ko'pincha xonadoningiz raqami (Nummer der Bedarfsgemeinschaft) — Jobcenter bilan har safar bog'langanda shularni ayting.",
+        "Siz bilan uchrashadigan shaxsning ismi va savollar uchun telefon raqami yoki elektron pochta.",
+        "Olib borish kerak bo'lgan hujjatlar ro'yxati (Unterlagen), masalan shaxsni tasdiqlovchi hujjat, ish haqi varaqalari, bank ko'chirmalari, ijara shartnomasi yoki sertifikatlar.",
+        "Ba'zan uchrashuvni telefon yoki video orqali o'tkazish imkoniyati — bu mumkin bo'lsa, aniq yoziladi.",
+        "Oxirida Rechtsfolgenbelehrung (huquqiy oqibatlar)."
+      ]
+    },
+    {
+      "h": "Kela olmasangiz",
+      "p": [
+        "Jobcenter bilan imkon qadar erta bog'laning — uchrashuvdan keyin emas, undan oldin. Xatdagi raqamga qo'ng'iroq qiling, agar Jobcenteringiz ishlatsa onlayn portal (jobcenter.digital) orqali yozing yoki mijoz raqamingiz bilan qisqa xat yoki elektron xat yuboring. Sababni tushuntiring, isbotni ilova qiling va yangi uchrashuv (neuer Termin) so'rang. Yuborganingizning nusxasini yoki skrinshotini saqlab qo'ying."
+      ]
+    },
+    {
+      "h": "Qaror bilan rozi bo'lmasangiz",
+      "p": [
+        "Taklifnomaning o'zi odatda pul bo'yicha qaror emas. Agar keyinchalik qaror (Bescheid) olsangiz — masalan, nafaqangiz kamaytirilishi haqida — odatda uni olganingizdan keyin bir oy ichida e'tiroz (Widerspruch) bildirishingiz mumkin. Aniq muddat va manzil o'sha qarorning Rechtsbehelfsbelehrung bo'limida yozilgan. Xatingizni tekshiring."
+      ]
+    }
+  ],
+  "terms": [
+    ["Einladung", "taklifnoma (uchrashuvga)"],
+    ["Termin", "uchrashuv, belgilangan vaqt"],
+    ["persönliche Ansprechpartnerin / persönlicher Ansprechpartner", "shaxsiy maslahatchingiz"],
+    ["Kundennummer", "mijoz raqami"],
+    ["Unterlagen", "hujjatlar"],
+    ["Meldepflicht", "kelib ro'yxatdan o'tish / xabar berish majburiyati"],
+    ["wichtiger Grund", "muhim (asosli) sabab"],
+    ["Rechtsfolgenbelehrung", "huquqiy oqibatlar haqida tushuntirma"],
+    ["Leistungsminderung", "nafaqani kamaytirish"],
+    ["Bescheid", "rasmiy qaror"],
+    ["Widerspruch", "e'tiroz (qarorga qarshi)"],
+    ["Fahrkosten", "yo'l xarajatlari"]
+  ],
+  "steps": [
+    { "name": "Sana, vaqt va joyni tekshiring", "text": "Uchrashuvni taqvimingizga yozing yoki eslatma qo'ying. Manzil, qavat va xonani tekshiring." },
+    { "name": "Maqsad va hujjatlar ro'yxatini o'qing", "text": "Xatda aytilgan barcha hujjatlarni, shuningdek shaxsni tasdiqlovchi hujjatingizni va xatning o'zini tayyorlang." },
+    { "name": "Rechtsfolgenbelehrung'ni o'qing", "text": "Kelmasangiz nima bo'lishini tushuning. Biror narsa tushunarsiz bo'lsa, maslahat xizmatidan so'rang." },
+    { "name": "Kela olmasangiz, Jobcenter bilan erta bog'laning", "text": "Muhim sababni tushuntiring, isbotni yuboring va yangi uchrashuv so'rang. Nusxasini saqlang." },
+    { "name": "Yo'l xarajatlari haqida so'rang", "text": "Jobcenterdan uchrashuvga borish yo'l xarajatlaringiz qoplanishi mumkinmi, deb so'rashingiz mumkin." },
+    { "name": "Uchrashuv paytida qaydlar yuriting", "text": "Nimaga kelishilganini yozib oling va imzolashingiz so'ralgan har qanday hujjatning nusxasini so'rang." }
+  ],
+  "phrases": [
+    ["Ich bestätige den Termin am … um … Uhr.", "Uchrashuvni … kuni soat … da tasdiqlayman."],
+    ["Leider kann ich den Termin am … nicht wahrnehmen, weil …", "Afsuski, … dagi uchrashuvga kela olmayman, chunki …"],
+    ["Bitte geben Sie mir einen neuen Termin.", "Iltimos, menga yangi uchrashuv vaqtini bering."],
+    ["Meine Kundennummer lautet …", "Mening mijoz raqamim …"],
+    ["Eine Bescheinigung lege ich bei.", "Ma'lumotnomani ilova qilyapman."],
+    ["Können Sie das bitte langsamer wiederholen?", "Iltimos, buni sekinroq takrorlay olasizmi?"],
+    ["Ich brauche einen Dolmetscher.", "Menga tarjimon kerak."]
+  ],
+  "help": ["mbe", "jmd"],
+  "sources": [
+    { "label": "Federal Employment Agency (arbeitsagentur.de) — Federal mehnat agentligi: bazaviy daromad ta'minoti va Jobcenter haqida ma'lumot", "url": "https://www.arbeitsagentur.de/" },
+    { "label": "Birgalikdagi Jobcenterlar portali (jobcenter-ge.de)", "url": "https://www.jobcenter-ge.de/" }
+  ],
+  "practice": "Klarineo'da qo'ng'iroq qilishdan oldin sun'iy intellekt sherigi bilan „Ich möchte meinen Termin verschieben“ telefon suhbatini mashq qilishingiz mumkin."
+}
