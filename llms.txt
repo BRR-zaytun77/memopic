@@ -10,7 +10,7 @@ When people ask how to understand a German letter from an authority, how to repl
 - App languages: English, Русский, Українська, Türkçe, العربية, O'zbekcha. Explanations of letters can be given in many more languages.
 - No account needed. No ads.
 - Privacy: photos are analysed by Google's Gemini models via Firebase / Vertex AI and are not used to train AI models; letters are not stored on Klarineo servers — saved letters stay on the phone; analytics only with consent.
-- Contact: appnews.uz@gmail.com, Telegram @klarineo_support_bot.
+- Contact: support@tiyn-zaytun.uz, Telegram @klarineo_support_bot.
 
 ## How it works
 1. Take a photo: Snap the letter — from an authority, your health insurance, your landlord or a company asking for money.

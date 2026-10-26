@@ -36,7 +36,7 @@ export const LINKS = {
   playStore: 'https://play.google.com/store/apps/details?id=uz.tiynzaytun.memopic.one',
   appStore: 'https://apps.apple.com/us/app/memopic-learn-with-flashcards/id6756977971',
   appStoreId: '6756977971',
-  email: 'appnews.uz@gmail.com',
+  email: 'support@tiyn-zaytun.uz',
   telegram: 'https://t.me/klarineo_support_bot',
   telegramHandle: '@klarineo_support_bot',
 };
@@ -51,7 +51,7 @@ export const LEGAL = {
   address: "Omonariq ko'chasi 120, Omonariq MFY, Baliqchi tumani, Andijon viloyati, Uzbekistan",
   director: 'Ahrorbek Abdullaev',
   regNo: '1988236 (TIN / STIR: 309938921)',
-  email: 'appnews.uz@gmail.com',
+  email: 'support@tiyn-zaytun.uz',
 };
 
 /**
