@@ -51,7 +51,7 @@ export const LEGAL = {
   address: "Omonariq ko'chasi 120, Omonariq MFY, Baliqchi tumani, Andijon viloyati, Uzbekistan",
   director: 'Ahrorbek Abdullaev',
   regNo: '1988236 (TIN / STIR: 309938921)',
-  email: 'appnews.uz@gmail.com',
+  email: 'support@tiyn-zaytun.uz',
 };
 
 /**
