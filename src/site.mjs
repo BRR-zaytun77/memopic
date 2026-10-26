@@ -59,7 +59,7 @@ export const LEGAL = {
  * kompaniya EI foydalanuvchilariga xizmat ko'rsatsa, EI vakili tayinlashi kerak
  * bo'lishi mumkin. Tayinlangach: 'Firma, manzil, email'.
  */
-export const EU_REPRESENTATIVE = '';
+export const EU_REPRESENTATIVE = 'Elmurod Jabborov, Schiller Straße 2, 73547 Lorch, Deutschland · support@tiyn-zaytun.uz';
 
 /** Qo'llanmalar tartibi (src/guides/<slug>.json). */
 export const GUIDES = [

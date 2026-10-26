@@ -12,8 +12,8 @@
     "regNo": "Registernummer",
     "email": "E-Mail"
   },
-  "euRep": "Vertreter in der EU (Art. 27 GDPR)",
-  "euRepInline": "Vertreter in der Europäischen Union (Art. 27 GDPR):",
+  "euRep": "Vertreter nach Art. 27 DSGVO",
+  "euRepInline": "Vertreter nach Art. 27 DSGVO:",
   "responsible": "Verantwortlich für den Inhalt",
   "responsibleText": "Anschrift wie oben",
   "dispute": "Verbraucherstreitbeilegung",
